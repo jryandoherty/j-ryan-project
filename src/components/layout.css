@@ -598,6 +598,8 @@ pre tt:after {
   }
 }
 
+
+
 .brick {
   background: radial-gradient(circle, rgba(240, 109, 6, 0.14), transparent), url("/img/images/graffiti_new_01.png") right bottom no-repeat, url("https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp") center center no-repeat #211e18;
   background-size: cover, 1600px, cover;
@@ -610,6 +612,7 @@ pre tt:after {
   justify-content: center;
   /*mix-blend-mode: hard-light;*/
   /* end brick nav */
+    height:100vh;
 }
 @media (max-width: 768px) {
   .brick {

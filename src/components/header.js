@@ -1,16 +1,12 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-
+import Stickers from "./stickers"
 
 const Header = ({ siteTitle }) => (
   <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.43rem`,
-      height: `100vh`,
-    }}
+    className="brick"
   >
-  <section className="brick">
+
 
   <div className="container-fluid">
       <div className="col-lg-6 intro">
@@ -19,11 +15,11 @@ const Header = ({ siteTitle }) => (
       </div>
 
       <div className="col-lg-6">
-
+        <Stickers></Stickers>
       </div>
   </div>
 
-  </section>
+
   </header>
 )
 

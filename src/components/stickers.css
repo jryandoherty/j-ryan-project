@@ -1,0 +1,113 @@
+/* Navigation */
+.logo {
+  width: 200px;
+  display: block;
+}
+
+.recentWork {
+  width: 175px;
+  height: 175px;
+  z-index: 700;
+  margin: 10px 0 0 0;
+  position: relative;
+  float: right;
+  transform: rotate(0deg);
+
+}
+.recentWork:hover {
+  transform: rotate(10deg);
+  transition: 0.3s ease-in all;
+}
+.recentWork svg #sticker4 {
+  fill: #824A14;
+}
+.recentWork svg:hover #sticker4 {
+  fill: #a25d1a;
+}
+
+.branding {
+  width: 125px;
+  height: 125px;
+  margin: 105px -10px 0 -50px;
+  z-index: 600;
+  position: relative;
+  float: right;
+  transform: rotate(0deg);
+}
+.branding:hover {
+  transform: rotate(15deg);
+  transition: 0.3s ease-in all;
+}
+.branding svg #sticker3 {
+  fill: #A79A34;
+}
+.branding svg:hover #sticker3 {
+  fill: #C4B01E;
+}
+
+.contact {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0 0 -88px;
+  z-index: 900;
+  position: relative;
+  float: right;
+  transform: rotate(0deg);
+
+}
+.contact:hover {
+  transform: rotate(15deg);
+}
+.contact svg #sticker2 {
+  fill: #fec800;
+}
+.contact svg:hover #sticker2 {
+  fill: #FFE800;
+}
+
+.about {
+  width: 120px;
+  height: 120px;
+  margin: 50px 0 0 -37px;
+  z-index: 800;
+  position: relative;
+  cursor: pointer;
+  float: right;
+
+  /*&:hover {
+
+  	-webkit-animation: spin 0.6s ease-out both;
+  					animation: spin 0.6s ease-out both;
+
+  }*/
+}
+.about svg #sticker1 {
+  fill: #35311C;
+}
+.about svg:hover #sticker1 {
+  fill: #524d21;
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar-brand {
+  padding-top: 100px;
+  height: auto;
+  width: 330px;
+}
+
+.crumbs {
+  text-align: right;
+  font-size: 0.95em;
+  padding: 0 14px 12px 0;
+  margin: 20px 0 0 0;
+  /*a:nth-child(2){
+  	display:none;
+  }*/
+}
+
+.text {
+  fill:#fff;
+}
