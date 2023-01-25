@@ -1,0 +1,600 @@
+@import "files/colors";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color:$black;
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png')no-repeat 185px 94px/600px $cream;
+
+
+
+	@media (max-width: 768px) {
+		background:$cream;
+	}
+	/*scroll-behavior: smooth;*/
+	/*image-rendering: -webkit-optimize-contrast;*/
+}
+
+
+h1, h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 2.2em;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+}
+
+p.browsehappy{
+	padding:50px 0 0 10px;
+}
+
+.divider {
+	width:100%;
+	height:6px;
+}
+
+.brick {
+
+	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png') center bottom no-repeat,
+	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
+	background-size:  cover,80%,cover;
+	overflow:hidden;
+	color:$white;
+	position:relative;
+	height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+  /*mix-blend-mode: hard-light;*/
+	@media(max-width:768px) {
+		background-size: cover, 900px, cover;
+	}
+
+
+	h1 {
+		font-size:4em;
+
+		@media(max-width:768px) {
+			font-size:3.3em;
+			transition: all .5s ease-out;
+		}
+
+		@media(max-width:568px) {
+			font-size:2.75em;
+			transition: all .5s ease-out;
+		}
+
+	}
+
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+		font-size:1em;
+		padding-left:108px;
+		padding-bottom:10px;
+		/*border-bottom:1px solid $white;*/
+		letter-spacing: .18em;
+		/*line-height: .2;*/
+		margin-top:-7px;
+
+
+		@media(max-width:768px) {
+			padding-left: 88px;
+			font-size: 0.88em;
+			letter-spacing: .13em;
+			transition: all .5s ease-out;
+		}
+
+		@media(max-width:568px) {
+			padding-left:71px;
+			font-size: .8em;
+			letter-spacing: .11em;
+			transition: all .5s ease-out;
+		}
+	}
+
+	a {
+		color:white;
+		text-decoration: none;
+
+	}
+
+
+	nav {
+		padding:0;
+		background:none;
+
+		ul {
+			float:none
+		}
+
+		.navbar-right {
+			float:left!important;
+			margin-left:40px;
+
+		}
+		.navbar-collapse {
+			padding-left:0!important;
+		}
+		.nav > li > a {
+			padding: 20px 20px 0 0;
+			&:hover{
+				background:none;
+			}
+
+		}
+	} /* end brick nav */
+
+.container-fluid {
+	display: flex;
+	align-items: center;
+
+	@media(max-width:768px) {
+		flex-direction: column;
+	}
+}
+
+.col-lg-6 {
+	width:auto;
+}
+
+.logo {
+	min-width:400px;
+	@media(max-width:768px) {
+		min-width:auto;
+	}
+	img {
+		width:320px;
+		@media(max-width:768px) {
+			width:270px;
+		}
+	}
+
+}
+
+.intro {
+	
+}
+
+}   /* end brick section */
+
+.about-section {
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png') center top no-repeat;
+	background-size: 80%;
+	padding:12% 5%;
+	@media(max-width:768px) {
+		background-size: 900px;
+	}
+
+	h1 {
+		margin-top:0;
+	}
+
+	img {
+		width:100%;
+		max-width:520px;
+		height:auto;
+		margin: 0 auto;
+		display:block;
+	}
+
+	.bio {
+		padding:0 0 4% 0;
+		font-size:1.5em;
+		@media (max-width:500px){
+			font-size: 1em;
+		}
+	}
+
+	div:nth-child(2){
+		background-size: 600px;
+	}
+} /* end about section */
+
+
+.portfolio {
+	/*background: #ded6cc;*/
+	background: $portfolioPink;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -1px 3px 1px;
+
+.divider {
+	margin-bottom:-14px;
+}
+
+.scroll {
+
+	white-space: nowrap;
+	overflow-x: scroll;
+	webkit-overflow-scrolling: touch;
+	scrollbar-width:none; /* firefox */
+	-ms-overflow-style: none;  /* IE 10+ */
+	padding: 4px 0;
+	text-align: center;
+
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	background:$gray;
+
+  &::-webkit-scrollbar {
+    background: transparent; /* Chrome/Safari/Webkit */
+    width: 0px;
+		height:0px;
+	}
+
+	@media (max-width: 850px){
+		&::-webkit-scrollbar-thumb{
+			background:#757575;
+			border-radius: 20px;
+			height:3px;
+		}
+
+		&::-webkit-scrollbar {
+			background: $gray; /* Chrome/Safari/Webkit */
+			width:auto;
+			height:auto;
+
+		}
+			scrollbar-width:auto; /* firefox */
+			-ms-overflow-style:auto;  /* IE 10+ */
+	}
+
+
+}/* end scroll classes */
+
+.btn {
+	width: 15.00%;
+	text-transform: uppercase;
+	min-width:130px;
+	border-radius: 17px;
+	margin:10px 3px;
+	/*height:50px;
+	padding:12px;*/
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+
+	&:hover{
+		filter: brightness(1.2);
+	}
+
+	&:nth-child(1){
+		background:$sienna;
+	}
+
+	&:nth-child(2){
+		background:$siennaLight;
+	}
+
+	&:nth-child(3){
+		background:$green;
+	}
+
+	&:nth-child(4){
+		background:$greenLight;
+	}
+
+	&:nth-child(5){
+		background:$yellowDark;
+		color:$gray;
+	}
+
+	&:nth-child(6){
+		background:$yellow;
+		color:$gray;
+	}
+
+} /* end button */
+
+} /* end portfolio section */
+
+.nav-tabs {
+	border-bottom:none;
+}
+
+.nav-tabs a.active {
+  color: $altblack;
+	background:$portfolioPink!important;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px inset, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px inset;
+	border-bottom: none;
+	/*padding: 17px 0 17px 0;
+	height: 62px;
+	box-shadow: none!important;*/
+	/*transform: scale(1, 1.5);*/
+	transition:  height .5s linear;
+
+	&:first-child {
+		border-left:none;
+	}
+	&:hover {
+		filter: brightness(1);
+	}
+}
+
+.tab-pane.active {
+	/*border-top:2px solid $blackGreen;
+	background:$creamDark!important;
+	margin-top:-3px;*/
+	transition:  margin .5s linear;
+}
+
+
+.thumbnails {
+	padding:5%;
+	text-align: center;
+
+	h2 {
+		margin:0 auto 40px;
+		@media (max-width:768px){
+			margin:30px auto 40px;
+		}
+	}
+
+	a {
+    margin:10px 13px;
+		display: inline-block;
+
+		/*	&:nth-child(3n) {
+			width:240px;
+			height:auto;
+		}
+
+			&:nth-child(2n) {
+			width:300px;
+			height:auto;
+		}*/
+	}
+
+
+	img {
+		width:240px;
+		min-height:100px;
+    height:auto;
+		max-width: 100%;
+		box-shadow: 1px 2px 3px $sienna;
+		border:1px solid $sienna;
+	}
+
+	img:hover {
+		transform: scale(1.08);
+		transition: all .5s ease-out;
+	}
+
+	img.mobile {
+		border:none;
+		box-shadow:none;
+		display:block;
+	}
+
+	a.mobile {
+		display:block;
+	}
+
+}
+
+.ads {
+	padding:5%;
+	text-align: center;
+
+	h2 {
+		margin:0 auto 40px;
+		@media (max-width:768px){
+			margin:30px auto 40px;
+		}
+	}
+
+	img {
+		margin: 10px 13px;
+		box-shadow: 1px 2px 3px $sienna;
+		border:1px solid $sienna;
+		@media(max-width:768px){
+			margin:10px auto;
+		}
+	}
+	.square {
+		max-width: 240px;
+		height:auto;
+	}
+
+	.rectangle {
+		width: 340px;
+		max-width:100%;
+		height:auto;
+	}
+}
+
+
+.logos {
+  text-align:center;
+	padding:5%;
+
+	h2 {
+		margin:0 auto 40px;
+		@media (max-width:768px){
+			margin:30px auto 40px;
+		}
+	}
+
+	img {
+    width:240px;
+    height:auto;
+    margin:30px 33px;
+		display: inline-block;
+
+		/*	&:nth-child(3n) {
+			width:300px;
+			height:auto;
+		}
+
+			&:nth-child(2n) {
+			width:240px;
+			height:auto;
+		}*/
+	}
+
+}
+
+
+.contactme {
+
+	padding:10%;
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
+	@media (max-width:992px){
+		padding:10%;
+	}
+
+	.container-fluid {
+		max-width:1170px;
+	}
+
+	.col-md-6 {
+		margin-top:20px;
+	}
+	.btn-block {
+		width:50%;
+		float:right;
+	}
+	:required {
+
+	}
+	:focus {
+
+	}
+	label {
+		font-weight:400;
+	}
+
+}
+
+
+footer {
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_02_ijass0.png')no-repeat top center,url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
+	background-size:  1250px,cover;
+	padding:2% 0;
+	color:$white;
+	font-size: .86em;
+	/*margin-top:-12%;*/
+	overflow:hidden;
+	clear:both;
+	@media(max-width:768px) {
+		padding:10%;
+	}
+
+
+
+	nav {
+		background:none;
+		padding:0;
+	}
+
+	a {
+		color:$cream;
+		&:hover {
+			color:$greenLight;
+		}
+	}
+
+	.navbar-nav {
+		float:right;
+		@media(max-width:768px) {
+			float:none;
+			width:auto;
+		}
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		@media(max-width:768px) {
+			flex-direction:column;
+			width:100%;
+			}
+		}
+
+.col-lg-4 {
+	display: flex;
+	flex-direction: column;
+	@media(max-width:768px) {
+		align-items: center;
+		}
+
+	a:hover{
+		background:none;
+		}
+
+		div:nth-child(3){
+			font-size:.78em;
+			margin-top:12px;
+		}
+	}
+
+	.col-lg-8 {
+		@media(max-width:768px) {
+		margin-top:30px;
+			}
+	}
+
+	.col-lg-12 {
+	 	@media(max-width:768px){
+			text-align:center;
+		}
+		div:nth-child(4){
+			font-size:.78em;
+			margin-top:12px;
+		}
+	}
+
+.recentWork {
+  width: 126px;
+  height: 126px;
+		@media(max-width:768px){
+			width: 108px;
+			height: 108px;
+		}
+		@media(max-width:568px){
+			width: 94px;
+			height: 94px;
+		}
+}
+
+.contact {
+  width: 71px;
+  height: 71px;
+	margin: 32px 0 0 -49px;
+	@media(max-width:768px){
+		width: 108px;
+		height: 108px;
+	}
+	@media(max-width:568px){
+		width: 94px;
+		height: 94px;
+	}
+}
+
+.branding{
+	width: 90px;
+	height: 90px;
+	margin:85px -10px 0 -45px;
+	@media(max-width:768px){
+		width: 108px;
+		height: 108px;
+	}
+	@media(max-width:568px){
+		width: 94px;
+		height: 94px;
+	}
+}
+
+
+} /* end footer */
+
+.homepage .socials{
+	display:none;
+}
+
+@import "files/navigation",
+"files/form",
+"files/pages",
+"files/animations";

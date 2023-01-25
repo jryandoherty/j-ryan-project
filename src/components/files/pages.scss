@@ -1,0 +1,235 @@
+.desktop {
+	@media(max-width: 767px){
+		display:none;
+	}
+}
+
+.mobile {
+	max-width:400px;
+}
+
+
+.webpage {
+	position:relative;
+
+	@media(max-width:768px) {
+		width:100%;
+	}
+
+	@media(min-width:1400px) {
+		width:1280px;
+	}
+
+	@media(min-width:1600px) {
+		width:1480px;
+	}
+
+	.col-lg-6:last-of-type {
+		text-align:right;
+		@media(max-width:1199px) {
+		text-align:center;
+		}
+	}
+	 .row:last-of-type {
+		margin-top:2%;
+	}
+
+}
+
+iframe, object {
+	box-shadow:1px 2px 3px $sienna;
+	/*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
+	min-height:700px;
+	height:768px;
+	width:100%;
+}
+
+.iframe {
+	-ms-zoom: 0.85;
+	-moz-transform: scale(0.85);
+	-moz-transform-origin: top center;
+	-webkit-transform: scale(0.85);
+	-webkit-transform-origin: top center;
+	margin-bottom:-10%;
+
+	.legend {
+		font-size:110%;
+	}
+
+	.crumbs {
+		font-size:100%;
+		padding-right:0!important;
+		@media(max-width:480px){
+			font-size:90%;
+		}
+	}
+}
+
+.screenshot {
+	position:relative;
+	img {
+		box-shadow: 1px 2px 3px $sienna;
+		margin-bottom:10px;
+	}
+
+	.crumbs {
+		font-size:85%;
+	}
+
+	.legend {
+		font-size:85%;
+	}
+}
+
+.legend {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	height:auto;
+	padding:20px 0;
+
+	@media (max-width:768px) {
+			position:static;
+			margin:20px auto;
+	}
+
+	h2 {
+		font-size: 1.3em;
+		font-family: 'Oswald', sans-serif;
+		margin-bottom:12px;
+
+	}
+
+	ul {
+		list-style-type: none;
+		text-align: left;
+		margin: 0;
+		padding:0;
+	}
+
+	li {
+		margin:0 0 4px 0;
+	}
+
+	a:not([href*="github"]){
+    background: transparent url('/img/new-window-svgrepo-com.svg') no-repeat top right;
+		background-size:18px;
+		padding-right:24px;
+
+	}
+
+	p {
+		margin:10px 0 0 0;
+	}
+
+	a {
+	 color:$siennaLight
+	}
+
+	svg {
+		width:44px;
+		height:44px;
+		&:hover {
+			fill:#6cc644;
+		}
+	}
+
+}
+
+.three-screens {
+	width:700px;
+	height:auto;
+	max-width: 100%;
+	margin-top:35px;
+
+}
+
+.four-screens {
+	width:1000px;
+	height:auto;
+	max-width: 100%;
+	display:block;
+	margin:0 auto;
+}
+
+
+.thumbnail-webpage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+		max-width:500px;
+		margin-top:20px;
+
+		img {
+			width:150px;
+			height:100px;
+			box-shadow: 1px 2px 3px $sienna;
+
+		}
+
+		a {
+			&:hover{
+				width:1200px;
+			}
+		}
+
+		p {
+			padding:20px 0;
+		}
+
+		& >* {
+			flex: 1 1 140px;
+		}
+}
+
+.carousel-indicators {
+	position:static;
+	margin-left: 20px;
+	text-align:left;
+}
+
+.carousel-indicators li {
+    width:15px;
+    height: 15px;
+		margin:0;
+    background-color: $gray;
+		border:0;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+		border:0;
+    background-color: $siennaLight;
+}
+
+.carousel-control {
+	width:0;
+}
+
+.carousel img {
+	max-width:100%;
+}
+
+.project-flow {
+	display:flex;
+  max-width: 1200px;
+  align-items:center;
+	margin:20px auto 0;
+
+	.item {
+	  flex:1;
+	  text-align:center;
+		font-size:1.35em;
+		@media(max-width:768px){
+			font-size:1em;
+		}
+	}
+}
+.project-flow-img {
+	max-width:100%;
+	width:1200px;
+	margin:20px auto 0;
+	display:block;
+}

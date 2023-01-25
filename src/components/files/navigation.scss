@@ -1,0 +1,263 @@
+/* Navigation */
+
+@import "colors";
+
+.logo {
+	width:200px;
+	display:block;
+}
+
+
+.recentWork {
+	width:175px;
+	height:175px;
+	z-index: 700;
+	margin:10px 0 0 0;
+	position:relative;
+	float:right;
+	transform: rotate(0deg);
+
+
+
+	&:hover{
+
+		transform: rotate(10deg);
+		transition: .3s ease-in all;
+
+	}
+
+	svg #sticker4 {fill:$sienna}
+	svg:hover #sticker4 { fill: $siennaLight  }
+
+}
+
+
+
+
+.branding {
+	width:125px;
+	height:125px;
+	margin:105px -10px 0 -50px;
+	z-index: 600;
+	position:relative;
+	float:right;
+	transform: rotate(0deg);
+
+
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .3s ease-in all;
+
+	}
+
+	svg #sticker3 {fill: $green}
+	svg:hover #sticker3 { fill: $greenLight  }
+
+}
+
+
+
+.contact {
+	width:100px;
+	height:100px;
+
+	margin:20px 0 0 -88px;
+	z-index: 900;
+	position:relative;
+	float:right;
+	transform: rotate(0deg);
+
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .3s ease-in all;
+
+
+	}
+
+	svg #sticker2 {fill:$yellowDark}
+	svg:hover #sticker2 { fill:$yellow  }
+
+}
+
+
+
+.about {
+	width:120px;
+	height:120px;
+	margin:50px 0 0 -37px;
+	z-index: 800;
+	position:relative;
+	cursor:pointer;
+	float:right;
+
+	visibility:hidden;
+
+	/*&:hover {
+
+		-webkit-animation: spin 0.6s ease-out both;
+						animation: spin 0.6s ease-out both;
+
+	}*/
+
+
+
+	svg #sticker1 {fill:$black}
+	svg:hover #sticker1 { fill: $blackGreen }
+}
+
+
+
+
+
+
+.navbar {
+
+	border:none;
+}
+
+.navbar-brand {
+	padding-top:100px;
+	height:auto;
+	width:330px;
+}
+
+.crumbs {
+	text-align: right;
+	font-size:.95em;
+	padding: 0 14px 12px 0;
+	margin: 20px 0 0 0;
+	@media (max-width:768px) {
+		font-size:.7521367521367521em;
+		padding-right:15px;
+
+	}
+
+	/*a:nth-child(2){
+		display:none;
+	}*/
+
+}
+
+
+nav {
+		padding:15px;
+		background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
+		background-size: cover cover;
+		border-radius: 0!important;
+
+		color:$white;
+		margin-bottom:2%!important;
+
+
+		h1 {
+			margin:0;
+			font-size:2.3em;
+		}
+		h2 {
+			font-family: 'Montserrat', sans-serif;
+			font-size:.7521367521367521em;
+			padding-left:60px;
+			margin:0;
+			}
+		svg {
+			width:30px;
+			fill:$white;
+			&:hover.twitter {
+				fill:#00ACEE;
+			}
+			&:hover.linkedIn {
+				fill:#00a0dc;
+			}
+			&:hover.github {
+				fill:#6cc644;
+			}
+			&:hover.flickr {
+				fill:#216bd6;
+			}
+			&:hover.behance {
+				fill:#1769ff;
+			}
+
+		}
+
+		a {
+			color:white;
+			text-decoration: none;
+			padding-right:0!important;
+			padding-left:0;
+			&:hover {
+				color:$white;
+				text-decoration: none;
+				background-color: initial!important;
+			}
+			&:active {
+				color:$white;
+			}
+			&:focus {
+				color:$white;
+				text-decoration: none;
+			}
+		}
+
+		.navbar-toggle {
+			margin-right:0;
+		}
+		.icon-bar {
+			border:2px solid $white;
+		}
+
+
+	} /* end navigation */
+
+
+	@media (max-width: 768px) {
+
+		.navbar-collapse{
+			overflow:hidden;
+			border:none;
+			box-shadow:none;
+		}
+
+		.navbar-nav li div {
+			margin:0
+		}
+
+		.nav > li {
+			display: inline-flex;
+			flex-direction: row-reverse;
+			align-items: center;
+
+		}
+
+		.recentWork {
+			width: 108px;
+			height: 108px;
+			transition:all 1s ease-out;
+		}
+
+		.contact {
+				width: 108px;
+				height: 108px;
+				transition:all 1s ease-out;
+		}
+
+		.branding{
+			width: 108px;
+			height: 108px;
+			transition:all 1s ease-out;
+		}
+
+		.logo {
+			max-width: 290px;
+
+		}
+
+	}
+
+	.text {
+	  fill:#fff;
+	}

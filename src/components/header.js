@@ -3,9 +3,7 @@ import PropTypes from "prop-types"
 import Stickers from "./stickers"
 
 const Header = ({ siteTitle }) => (
-  <header
-    className="brick"
-  >
+  <header className="brick">
 
 
   <div className="container-fluid">

@@ -1,0 +1,114 @@
+.btn {
+	background-color: #000345;
+	color:#fff;
+	&:hover{
+		background-color: #0001B3;
+		color:#fff
+	}
+}
+
+.checkbox {
+	margin-top:60px;
+}
+
+.checkbox label {
+	min-height: 46px;
+	display:block;
+}
+
+.checkbox label span {
+	margin-left:40px;
+}
+
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #000345;
+	color: rgba(255, 255, 255, 1);
+	font-size: 1em;
+	line-height: 1;
+	text-align: center;
+	padding: 12px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #0001B3;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+	margin-left: -68px;
+  cursor: pointer;
+  &:focus{
+    outline: 0;
+	}
+}
+
+.toggle {
+  height: 32px;
+  width: 52px;
+  border-radius: 16px;
+  display: inline-block;
+  position: relative;
+  margin: -3px 0 0 -20px!important;
+  border: 2px solid #474755;
+  background: linear-gradient(180deg, #2D2F39 0%, #1F2027 100%);
+  transition: all .2s ease;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 1px 2px rgba(44,44,44,.2);
+    transition: all .2s cubic-bezier(.5,.1,.75,1.35);
+	}
+  &:checked {
+    border-color: #0001B3;
+		  background: linear-gradient(180deg, #0001B3 0%, #0001B3 100%);
+
+		&:after{
+			transform: translatex(20px);
+		}
+	}
+
+
+}
