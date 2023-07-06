@@ -17,13 +17,9 @@
 	float:right;
 	transform: rotate(0deg);
 
-
-
 	&:hover{
-
 		transform: rotate(10deg);
 		transition: .3s ease-in all;
-
 	}
 
 	svg #sticker4 {fill:$sienna}
@@ -35,15 +31,13 @@
 
 
 .branding {
-	width:125px;
-	height:125px;
-	margin:105px -10px 0 -50px;
+	width:100px;
+	height:100px;
+	margin:125px -10px 0 -50px;
 	z-index: 600;
 	position:relative;
 	float:right;
 	transform: rotate(0deg);
-
-
 
 	&:hover{
 
@@ -60,10 +54,9 @@
 
 
 .contact {
-	width:100px;
-	height:100px;
-
-	margin:20px 0 0 -88px;
+	width:125px;
+	height:125px;
+	margin:20px 0 0 -68px;
 	z-index: 900;
 	position:relative;
 	float:right;
@@ -74,7 +67,6 @@
 
 		transform: rotate(15deg);
 		transition: .3s ease-in all;
-
 
 	}
 
@@ -88,12 +80,11 @@
 .about {
 	width:120px;
 	height:120px;
-	margin:50px 0 0 -37px;
+	margin:80px 0 0 -37px;
 	z-index: 800;
 	position:relative;
 	cursor:pointer;
 	float:right;
-
 	visibility:hidden;
 
 	/*&:hover {
@@ -209,6 +200,9 @@ nav {
 		.icon-bar {
 			border:2px solid $white;
 		}
+		.navbar-nav {
+			flex-direction: row;
+		}
 
 
 	} /* end navigation */
@@ -240,9 +234,9 @@ nav {
 		}
 
 		.contact {
-				width: 108px;
-				height: 108px;
-				transition:all 1s ease-out;
+			width: 108px;
+			height: 108px;
+			transition:all 1s ease-out;
 		}
 
 		.branding{
@@ -253,7 +247,6 @@ nav {
 
 		.logo {
 			max-width: 290px;
-
 		}
 
 	}

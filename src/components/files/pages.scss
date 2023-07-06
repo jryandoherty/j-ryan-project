@@ -1,23 +1,122 @@
+.emails-container {
+		background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
+		/*background:url('/img/triangleAsymmetrical.svg')no-repeat center 64px/100% $cream;*/
+
+	.container {
+		max-width:1024px!important;
+	}
+
+	.crumbs {
+		font-size:85%;
+		padding:0 0 12px 0;
+		border-bottom:1px solid $breadcrumbs;
+		}
+
+		@media(max-width:1100px){
+			.crumbs{
+			text-align:center;
+			}
+		}
+}
+
+.emails {
+
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+
+	@media(max-width:1100px) {
+		width:95%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	@media(min-width:1600px) {
+		max-width:1170px;
+	}
+
+}
+
+
 .desktop {
+	height:594px;
+	width:740px;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1667588066/email-client_uxawba.png')no-repeat top center;
+	-ms-zoom: 0.85;
+	-moz-transform: scale(0.85);
+	-moz-transform-origin: top center;
+	-webkit-transform: scale(0.85);
+	-webkit-transform-origin: top center;
+	padding:0;
+	box-shadow:0 0 5px $sienna;
+	border-radius: 5px;
+	margin-top:2%;
+	margin-left: 25px;
+
+	object {
+		margin: 115px auto 0 ;
+		height: 478px;
+		width:740px;
+	}
+
+	@media(max-width:1100px) {
+		-moz-transform-origin: top center;
+		-webkit-transform-origin: top center;
+	}
+
 	@media(max-width: 767px){
 		display:none;
 	}
 }
 
+
 .mobile {
-	max-width:400px;
+	width:430px;
+	min-height:808px;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1667588066/phone_wguetm.png')no-repeat top center;
+	-ms-zoom: 0.70;
+	-moz-transform: scale(0.70);
+	-moz-transform-origin: top center;
+	-webkit-transform: scale(0.70);
+	-webkit-transform-origin: top center;
+
+	object {
+		margin: 110px auto 0;
+		border: 1px gray solid;
+		height: 589px;
+		width:332px;
+		margin-left: 50px;
+	}
+
+
+	@media(max-width:1100px) {
+		-moz-transform-origin: top center;
+		-webkit-transform-origin: top center;
+	}
+
+}
+
+
+.webpage-container {
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
 }
 
 
 .webpage {
-	position:relative;
+	margin:0 auto;
+	-ms-zoom: 0.85;
+ -moz-transform: scale(0.85);
+ -moz-transform-origin: top center;
+ -webkit-transform: scale(0.85);
+ -webkit-transform-origin: top center;
 
 	@media(max-width:768px) {
 		width:100%;
 	}
 
 	@media(min-width:1400px) {
-		width:1280px;
+		width:1380px;
 	}
 
 	@media(min-width:1600px) {
@@ -30,54 +129,97 @@
 		text-align:center;
 		}
 	}
-	 .row:last-of-type {
-		margin-top:2%;
+
+	.col-lg-3, .col-lg-4 {
+		padding-right:50px;
 	}
 
-}
+	.col-lg-8, .col-lg-7 {
+		padding: 0;
+	}
 
-iframe, object {
-	box-shadow:1px 2px 3px $sienna;
-	/*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
-	min-height:700px;
-	height:768px;
-	width:100%;
-}
+	.row:first-of-type {
+	 	margin-bottom:2%;
+ 	}
 
-.iframe {
-	-ms-zoom: 0.85;
-	-moz-transform: scale(0.85);
-	-moz-transform-origin: top center;
-	-webkit-transform: scale(0.85);
-	-webkit-transform-origin: top center;
-	margin-bottom:-10%;
+	.row:nth-of-type(2) {
+		margin-bottom:4%;
+	}
+
+	.row:last-of-type {
+
+	}
+
+	iframe, object {
+
+		min-height:700px;
+		height:768px;
+		width:100%;
+
+		border: 1px solid $altblack;
+	 	box-shadow:  1px 1px $altblack,
+	 		 2px 2px $altblack,
+	 		 3px 3px $altblack,
+	 		 4px 4px $altblack,
+	 		 5px 5px $altblack,
+			 6px 6px $altblack,
+			 7px 7px $altblack;
+	}
 
 	.legend {
-		font-size:110%;
+		font-size:100%;
+		@media(max-width:480px){
+			font-size:90%;
+		}
 	}
 
 	.crumbs {
 		font-size:100%;
+		border-bottom:1px solid $breadcrumbs;
 		padding-right:0!important;
 		@media(max-width:480px){
 			font-size:90%;
 		}
 	}
-}
+
+}/* end webpage */
+
+
 
 .screenshot {
+
 	position:relative;
-	img {
-		box-shadow: 1px 2px 3px $sienna;
-		margin-bottom:10px;
-	}
+	padding-bottom:2%;
 
 	.crumbs {
 		font-size:85%;
+		border-bottom:1px solid $breadcrumbs;
+		padding-right:0!important;
+		@media(max-width:480px){
+			font-size:80%;
+		}
+
+	}
+
+	.row:first-of-type {
+	 	margin-bottom:2%;
+ 	}
+
+	.row:nth-of-type(2) {
+		margin-bottom:4%;
+	}
+
+	.row:last-of-type  {
+		margin-bottom:15%;
 	}
 
 	.legend {
 		font-size:85%;
+
+	}
+	+ footer {
+		background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
+		background-size:cover;
 	}
 }
 
@@ -86,18 +228,17 @@ iframe, object {
 	flex-direction: column;
 	justify-content: center;
 	height:auto;
-	padding:20px 0;
+	padding:0px 0 20px 0;
 
 	@media (max-width:768px) {
 			position:static;
-			margin:20px auto;
+
 	}
 
 	h2 {
 		font-size: 1.3em;
 		font-family: 'Oswald', sans-serif;
 		margin-bottom:12px;
-
 	}
 
 	ul {
@@ -112,10 +253,9 @@ iframe, object {
 	}
 
 	a:not([href*="github"]){
-    background: transparent url('/img/new-window-svgrepo-com.svg') no-repeat top right;
+    background: transparent url('https://res.cloudinary.com/jryandoherty/image/upload/v1669751611/new-window-svgrepo-com_uzxb5h.svg') no-repeat top right;
 		background-size:18px;
 		padding-right:24px;
-
 	}
 
 	p {
@@ -140,7 +280,7 @@ iframe, object {
 	width:700px;
 	height:auto;
 	max-width: 100%;
-	margin-top:35px;
+
 
 }
 
@@ -160,11 +300,15 @@ iframe, object {
 		max-width:500px;
 		margin-top:20px;
 
+
 		img {
 			width:150px;
 			height:100px;
 			box-shadow: 1px 2px 3px $sienna;
-
+			@media (max-width:460px){
+				width:110px;
+				height:auto;
+			}
 		}
 
 		a {
@@ -178,13 +322,13 @@ iframe, object {
 		}
 
 		& >* {
-			flex: 1 1 140px;
+			flex: 1 1;
 		}
 }
 
 .carousel-indicators {
 	position:static;
-	margin-left: 20px;
+	margin-left: 2px;
 	text-align:left;
 }
 
@@ -209,7 +353,11 @@ iframe, object {
 }
 
 .carousel img {
-	max-width:100%;
+	box-shadow: $sienna 2px 2px 4px;
+	margin-bottom:10px;
+	max-width: 99%!important;
+	border-top:1px solid $sienna;
+	border-left:1px solid $sienna;
 }
 
 .project-flow {
@@ -221,12 +369,17 @@ iframe, object {
 	.item {
 	  flex:1;
 	  text-align:center;
-		font-size:1.35em;
+		font-size:110%;
+		&:first-child {
+			text-align: left;
+			margin-left:20px;
+		}
 		@media(max-width:768px){
 			font-size:1em;
 		}
 	}
 }
+
 .project-flow-img {
 	max-width:100%;
 	width:1200px;

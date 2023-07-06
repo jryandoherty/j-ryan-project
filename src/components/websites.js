@@ -4,10 +4,10 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Websites = () => {
   return (
-    <section class="thumbnails tab-pane fade in active " id="sites" role="tabpanel">
+    <section class="thumbnails" id="sites" role="tabpanel">
 
       <h2>Sites</h2>
-      <Link to="/portfolio/sites/grab_cad_blog.php"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649437956/thumbs_sites/grabcad_rrmcl8.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1649437955/thumbs_sites/grabcad_1x_f75pog.jpg" alt="GrabCad" /></Link>
+      <Link to="/grabcad/"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649437956/thumbs_sites/grabcad_rrmcl8.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1649437955/thumbs_sites/grabcad_1x_f75pog.jpg" alt="GrabCad" /></Link>
 
       <Link to="/portfolio/sites/bdc_partner.php"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg" alt="Business.com" /></Link>
 

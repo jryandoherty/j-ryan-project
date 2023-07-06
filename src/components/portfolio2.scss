@@ -3,7 +3,6 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	color:$black;
 	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png')no-repeat 185px 94px/600px $cream;
@@ -18,20 +17,6 @@ html, body {
 }
 
 
-h1, h2 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 500;
-	font-size: 2.2em;
-}
-
-h3 {
-	font-family: 'Oswald', sans-serif;
-  font-weight: 100;
-}
-
-p.browsehappy{
-	padding:50px 0 0 10px;
-}
 
 .divider {
 	width:100%;
@@ -40,13 +25,13 @@ p.browsehappy{
 
 .brick {
 
-	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png') center bottom no-repeat,
+	background:radial-gradient(circle, rgba(240, 109, 6, .34), transparent),url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png') center bottom no-repeat,
 	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
-	background-size:  cover,80%,cover;
+	background-size:  cover,70%,cover;
 	overflow:hidden;
 	color:$white;
 	position:relative;
-	height:100vh;
+	height:70vh;
 	display:flex;
 	align-items: center;
 	justify-content: center;
@@ -57,7 +42,12 @@ p.browsehappy{
 
 
 	h1 {
-		font-size:4em;
+
+		font-size:max(6.1vw, 1.23rem);
+		word-spacing: -.4ch;
+		letter-spacing: -2px;
+		font-family: 'Nova Round', cursive;
+
 
 		@media(max-width:768px) {
 			font-size:3.3em;
@@ -72,14 +62,10 @@ p.browsehappy{
 	}
 
 	h2 {
-		font-family: 'Montserrat', sans-serif;
-		font-size:1em;
-		padding-left:108px;
-		padding-bottom:10px;
-		/*border-bottom:1px solid $white;*/
-		letter-spacing: .18em;
-		/*line-height: .2;*/
-		margin-top:-7px;
+		font-family: 'Source Code Pro', monospace;
+		font-size:1.4vw;
+		letter-spacing: .10em;
+		margin:-3% 0 0 35%;
 
 
 		@media(max-width:768px) {
@@ -132,6 +118,7 @@ p.browsehappy{
 .container-fluid {
 	display: flex;
 	align-items: center;
+	width:auto;
 
 	@media(max-width:768px) {
 		flex-direction: column;
@@ -156,9 +143,7 @@ p.browsehappy{
 
 }
 
-.intro {
-	
-}
+
 
 }   /* end brick section */
 
@@ -196,16 +181,10 @@ p.browsehappy{
 } /* end about section */
 
 
-.portfolio {
-	/*background: #ded6cc;*/
-	background: $portfolioPink;
-	box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -1px 3px 1px;
 
-.divider {
-	margin-bottom:-14px;
-}
 
-.scroll {
+
+.nav-pills {
 
 	white-space: nowrap;
 	overflow-x: scroll;
@@ -213,7 +192,9 @@ p.browsehappy{
 	scrollbar-width:none; /* firefox */
 	-ms-overflow-style: none;  /* IE 10+ */
 	padding: 4px 0;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap!important;
 
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 	background:$gray;
@@ -244,15 +225,15 @@ p.browsehappy{
 
 }/* end scroll classes */
 
-.btn {
+.nav-item {
 	width: 15.00%;
-	text-transform: uppercase;
 	min-width:130px;
 	border-radius: 17px;
 	margin:10px 3px;
 	/*height:50px;
 	padding:12px;*/
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	text-align: center;
 
 
 	&:hover{
@@ -277,27 +258,37 @@ p.browsehappy{
 
 	&:nth-child(5){
 		background:$yellowDark;
-		color:$gray;
 	}
 
 	&:nth-child(6){
 		background:$yellow;
-		color:$gray;
 	}
 
 } /* end button */
 
-} /* end portfolio section */
+
+.nav-link {
+	font-family: 'Source Code Pro', monospace;
+	text-transform: uppercase;
+	display: inline;
+	width:100%;
+	color:$white!important;
+}
+
+
 
 .nav-tabs {
 	border-bottom:none;
 }
 
-.nav-tabs a.active {
+.nav-pills .nav-link.active {
+	background:$altblack!important;
+}
+
+.active {
   color: $altblack;
-	background:$portfolioPink!important;
-	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px inset, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px inset;
-	border-bottom: none;
+	box-shadow: none!important;
+	border: none!important;
 	/*padding: 17px 0 17px 0;
 	height: 62px;
 	box-shadow: none!important;*/
@@ -325,7 +316,8 @@ p.browsehappy{
 	text-align: center;
 
 	h2 {
-		margin:0 auto 40px;
+		font-family: 'Nova Round', cursive;
+		margin:0 auto;
 		@media (max-width:768px){
 			margin:30px auto 40px;
 		}
