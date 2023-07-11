@@ -24,9 +24,28 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const injectGA = () => {
+    if (typeof window == 'undefined') {
+      return;
+    }
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-HJTVZF928W');
+  };
+
   return (
     <>
     <Helmet>
+    {/* Global site tag (gtag.js) - Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-HJTVZF928W"
+        />
+        <script>{injectGA()}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet" />
@@ -41,8 +60,6 @@ const Layout = ({ children }) => {
     <script
       src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
       crossorigin></script>
-
-
 
     <link
       rel="stylesheet"

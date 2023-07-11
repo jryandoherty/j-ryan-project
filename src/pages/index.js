@@ -8,13 +8,15 @@ import Seo from "../components/seo"
 import "../components/portfolio2.scss"
 
 
-
 const IndexPage = () => (
   <Layout>
     <Seo title="J. Ryan Doherty :: DEV + DESIGN" />
+  
+    <div class="container" style={{
 
-
-    <div class="container">
+      textAlign: `center`,
+      fontFamily:`Nova Round, cursive`,
+    }}>
   <h1>DEV + DESIGN</h1>
 
   <p>Web design and development</p>
