@@ -69,7 +69,7 @@ const Layout = ({ children }) => {
             padding:`1rem`,
           }}
         >
-          © {new Date().getFullYear()} J. Ryan doherty
+          © {new Date().getFullYear()} J. Ryan Doherty
           <p>Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a></p>

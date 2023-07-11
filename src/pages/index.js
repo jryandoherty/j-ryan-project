@@ -6,19 +6,54 @@ import Layout from "../components/layout"
 
 import Seo from "../components/seo"
 import "../components/portfolio2.scss"
-import ControlledTabsExample from "../components/tabs"
 
 
 
 const IndexPage = () => (
   <Layout>
     <Seo title="J. Ryan Doherty :: DEV + DESIGN" />
-    <h1>Hi MEEPle</h1>
-    <h2>ZEET</h2>
-    <p>WeHOWour new Gatsby site.</p>
-    <p>Now go build something great.</p>this
+
+
+    <div class="container">
+  <h1>DEV + DESIGN</h1>
+
+  <p>Web design and development</p>
+
+      <h2>Recent Work</h2>
+
+
+
+      <div class="legend col-lg-6">
+        <h2>PROJECT</h2>
+        <ul>
+          <li><strong>Category:</strong> Sites and mini-sites</li>
+          <li><strong>Client:</strong> Outer Space</li>
+          <li><strong>Date:</strong> 2023</li>
+        </ul>
+        <p>Website, logo, and promotional materials for the Outer Space, an art gallery based in Concord NH. </p>
+      </div>
+    <div class="col-lg-12 thumbnails">
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="https://res.cloudinary.com/jryandoherty/image/upload/v1688653154/phone-home_gwpywb.png"
+      width={200}
+      quality={95}
+      formats={["auto", "webp"]}
+      alt="me"
+      style={{ marginBottom: `1.45rem` }}
+
+    />
+
+    <StaticImage
+      src="https://res.cloudinary.com/jryandoherty/image/upload/v1688653154/ipad-home_qhunn9.png"
+      width={400}
+      quality={95}
+      formats={["auto", "webp"]}
+      alt="me"
+      style={{ marginBottom: `1.45rem` }}
+    />
+
+    <StaticImage
+      src="https://res.cloudinary.com/jryandoherty/image/upload/v1688653154/price-list_kg1r59.jpg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
@@ -26,40 +61,27 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
 
-    <div class="container">
-      <h2>Recent Work</h2>
+  <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg" alt="mobile" />
 
 
-    <div class="col-lg-12">
-    <StaticImage
-      src="https://res.cloudinary.com/jryandoherty/image/upload/v1688653154/ipad-home_qhunn9.png"
-      width={400}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="me"
-      style={{ marginBottom: `1.45rem` }}
-    />
-      <img src="/portfolio/2023/outerspace/phone-home.png" alt="mobile" />
-      <img src="/portfolio/2023/outerspace/ipad-home.png" alt="tablet" />
-      <img src="/portfolio/2023/outerspace/instagram.jpg" alt="instragram" />
-      <img src="/portfolio/2023/outerspace/os-black.svg" alt="logo" />
-      <img src="/portfolio/2023/outerspace/price-list.jpg" alt="pdf" />
+  </div>
+
+
+<div class="row">
+  <h3>All access passes</h3>
+    <div class="col-lg-4">
+          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="mobile" />
+    </div>
+    <div class="col-lg-4">
+          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593986/blArtboard_2_db76tt.svg" alt="tablet" />
     </div>
 
-    </div>
+  </div>
 
-
-    <p>
-      <Link to="/portfolio/">Portfolio</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
-
+</div>
 
 
   </Layout>
-
 
 )
 

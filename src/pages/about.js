@@ -12,7 +12,8 @@ const About = () => (
     <Seo title="About" />
     <section class="about-section" id="about">
 
-      <div class="container-fluid">
+      <div class="container">
+      <div class="row">
         <h2>About</h2>
         <div class="col-lg-6 bio">
      I've been working on the web since the early 2000s doing freelance, corporate, and non-profit work ranging from full site
@@ -27,7 +28,7 @@ const About = () => (
            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_jci1ne.jpg" alt="me" />
         </picture>
       </div>
-
+      </div>
       </div>
 
     </section>
