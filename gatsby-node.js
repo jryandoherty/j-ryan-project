@@ -7,3 +7,14 @@ exports.createPages = async ({ actions }) => {
     defer: true,
   })
 }
+
+
+// gatsby-node.js
+exports.createPages = async ({ graphql, actions }) => {
+	const { createRedirect } = actions;
+
+	createRedirect({
+    fromPath: `/portfolio/emails/office_cubicles.php`,
+    toPath: `/email/office-cubicles/`,
+  });
+}
