@@ -15,6 +15,19 @@ exports.createPages = async ({ graphql, actions }) => {
 
 	createRedirect({
     fromPath: `/portfolio/emails/office_cubicles.php`,
-    toPath: `/email/office-cubicles/`,
+    toPath: `/emails/office-cubicles/`,
+
+    fromPath: `/portfolio/emails/cloud.php`,
+    toPath: `/emails/cloud/`,
+
+    fromPath: `/portfolio/emails/bucket.php`,
+    toPath: `/emails/bucket/`,
+
+    fromPath: `/portfolio/emails/trucks.php`,
+    toPath: `/emails/trucks/`,
+
+    fromPath: `/portfolio/emails/bdc.php`,
+    toPath: `/emails/bdc/`,
+
   });
 }
