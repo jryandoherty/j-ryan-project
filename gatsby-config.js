@@ -34,26 +34,34 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-
-
-    `gatsby-plugin-humans-txt`,
-    options: {
-      team: [
-        {
-          Developer: `J. Ryan Doherty`,
-          GitHub: `jryandoherty`,
-          Twitter: `@jryandoherty`
-        }
-      ],
-      thanks: [`Gatsby`, `Node`],
-      site: {
-        'Last update': `7/12/2023`,
-        Standards: `JavaScript`,
-        Components: `humans-generator`
-
-      },
-      note: `Congrats, you've found a humans.txt file. I'm impressed, that's for sure.`
-    }
-
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
+
+
+  plugins: [
+    {
+      resolve: `gatsby-plugin-humans-txt`,
+      options: {
+        team: [
+          {
+            Developer: `Dylan Tackoor`,
+            GitHub: `dylantackoor`,
+            Twitter: `@dylantackoor`
+          }
+        ],
+        thanks: [`Gatsby`, `Node`],
+        site: {
+          'Last update': `2019/4/16`,
+          Standards: `JavaScript`,
+          Components: `humans-generator`,
+          Softwares: `Visual Studio Code`
+        },
+        note: `Made in Miami.`
+      }
+    }
+  ],
+
+
 }
