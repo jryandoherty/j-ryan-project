@@ -37,7 +37,26 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+       resolve: `gatsby-plugin-humans-txt`,
+       options: {
+         team: [
+           {
+             Developer: `Dylan Tackoor`,
+             GitHub: `dylantackoor`,
+             Twitter: `@dylantackoor`
+           }
+         ],
+         thanks: [`Gatsby`, `Node`],
+         site: {
+           'Last update': `2019/4/16`,
+           Standards: `JavaScript`,
+           Components: `humans-generator`,
+           Softwares: `Visual Studio Code`
+         },
+         note: `Made in Miami.`
+       }
+     },
+
   ],
-
-
 }
