@@ -10,7 +10,7 @@ import Tabs from 'react-bootstrap/Tabs';
 
 const Portfolio = () => (
   <Layout>
-    <Seo title="Portfolio" />
+    <Seo title="Portfolio yes" />
       <ControlledTabsExample/>
   </Layout>
 )

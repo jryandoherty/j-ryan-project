@@ -5,8 +5,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { useState } from 'react';
 
-
-
 const About = () => (
   <Layout>
     <Seo title="About" />
@@ -20,7 +18,6 @@ const About = () => (
      design, landing pages, conversion pages, and marketing emails. So many changes during that time! But that's the fun part.
      When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank">birding</a>.
       </div>
-
 
       <div class="col-lg-6">
         <picture>
