@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import "../components/portfolio2.scss"
 
 import ControlledTabsExample from "../components/tabs"
 import Tab from 'react-bootstrap/Tab';
