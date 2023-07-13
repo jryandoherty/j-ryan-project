@@ -1,5 +1,4 @@
 import React from 'react';
-import "./files/navigation.scss"
 
 const Stickers = () => {
   return (

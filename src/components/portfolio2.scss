@@ -39,10 +39,12 @@ html, body {
 
 	h1 {
 		font-size:max(6.1vw, 1.23rem);
-		word-spacing: -.4ch;
+		word-spacing: -.2ch;
 		letter-spacing: -2px;
 		font-family: 'Nova Round', cursive;
 		margin-right:1rem;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color:$white;
 
 
 		@media(max-width:768px) {
@@ -203,6 +205,7 @@ html, body {
 	}
 
 	@media (max-width: 850px){
+		justify-content: left;
 		&::-webkit-scrollbar-thumb{
 			background:#757575;
 			border-radius: 20px;
@@ -367,7 +370,9 @@ html, body {
 	text-align: center;
 
 	h2 {
-		margin:0 auto 40px;
+		font-family: 'Nova Round', cursive;
+		margin:0 auto 3rem;
+		font-size: 3rem;
 		@media (max-width:768px){
 			margin:30px auto 40px;
 		}
@@ -399,7 +404,9 @@ html, body {
 	padding:5%;
 
 	h2 {
-		margin:0 auto 40px;
+		font-family: 'Nova Round', cursive;
+		margin:0 auto 3rem;
+		font-size: 3rem;
 		@media (max-width:768px){
 			margin:30px auto 40px;
 		}
@@ -426,7 +433,7 @@ html, body {
 
 .websites, .print, .email {
 	img {
-		width:270px;
+		width:250px;
 		height:auto;
 		border:2px solid $sienna;
 		margin:0 2rem 1rem 0;

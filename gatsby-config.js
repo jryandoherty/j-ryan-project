@@ -42,19 +42,18 @@ module.exports = {
        options: {
          team: [
            {
-             Developer: `Dylan Tackoor`,
-             GitHub: `dylantackoor`,
-             Twitter: `@dylantackoor`
+             Developer: `J. Ryan Doherty`,
+             GitHub: `jryandoherty`,
+             Twitter: `@jryandoherty`
            }
          ],
-         thanks: [`Gatsby`, `Node`],
+         thanks: [`Gatsby`, `Node`, `Disco Biscuits`, `Phish`],
          site: {
-           'Last update': `2019/4/16`,
+           'Last update': `2023/7/12`,
            Standards: `JavaScript`,
-           Components: `humans-generator`,
-           Softwares: `Visual Studio Code`
+           Components: `humans-generator`
          },
-         note: `Made in Miami.`
+         note: `Congrats, you've found a humans.txt file. I'm impressed, that's for sure.`
        }
      },
 

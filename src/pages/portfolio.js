@@ -12,7 +12,6 @@ const Portfolio = () => (
   <Layout>
     <Seo title="Portfolio" />
       <ControlledTabsExample/>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

@@ -13,21 +13,20 @@
 	height:175px;
 	z-index: 700;
 	margin:10px 0 0 0;
-	position:relative;
+	/*position:relative;*/
 	float:right;
-	transform: rotate(0deg);
+	animation: out 1s;
 
 	&:hover{
-		transform: rotate(10deg);
-		transition: .3s ease-in all;
+  	animation: in 1s alternate ease-out forwards;
 	}
+
+
 
 	svg #sticker4 {fill:$sienna}
 	svg:hover #sticker4 { fill: $siennaLight  }
 
 }
-
-
 
 
 .branding {
@@ -37,12 +36,11 @@
 	z-index: 600;
 	position:relative;
 	float:right;
-	transform: rotate(0deg);
+	animation: out 1s;
 
 	&:hover{
 
-		transform: rotate(15deg);
-		transition: .3s ease-in all;
+		animation: in 1s alternate ease-out forwards;
 
 	}
 
@@ -60,14 +58,11 @@
 	z-index: 900;
 	position:relative;
 	float:right;
-	transform: rotate(0deg);
+	animation: out 1s;
 
 
-	&:hover{
-
-		transform: rotate(15deg);
-		transition: .3s ease-in all;
-
+	&:hover {
+		animation: in 1s alternate ease-out forwards;
 	}
 
 	svg #sticker2 {fill:$yellowDark}
@@ -101,12 +96,20 @@
 }
 
 
+@keyframes in {
+    from   { transform: rotate(0deg); }
+    to { transform: rotate(10deg);}
+}
+
+@keyframes out {
+    0%   { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
 
 
 
 
 .navbar {
-
 	border:none;
 }
 
