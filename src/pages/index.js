@@ -5,13 +5,11 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 
 import Seo from "../components/seo"
-import "../components/portfolio2.scss"
-
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="J. Ryan Doherty :: DEV + DESIGN" />
-  
+    <Seo title="DEV + DESIGN" />
+
     <div class="container" style={{
 
       textAlign: `center`,
