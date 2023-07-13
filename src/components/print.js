@@ -15,7 +15,6 @@ const Print = () => {
         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574293/thumbs_brochures/data_connect_jjj0yt.png" alt="DataConnect" />
     </section>
 
-
   );
 }
 export default Print;
