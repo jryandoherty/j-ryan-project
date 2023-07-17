@@ -151,7 +151,7 @@ const IndexPage = () => (
       <div class="col-lg-8">
 
         <StaticImage
-          src="../images/min-desktop.png"
+          src="https://res.cloudinary.com/jryandoherty/image/upload/v1689555178/min-desktop_zhqhse.png"
           quality={95}
           formats={["auto", "webp"]}
           alt="min and chula"
@@ -169,7 +169,7 @@ const IndexPage = () => (
     <div class="col-lg-4">
 
       <StaticImage
-        src="../images/min-desktop-mid.png"
+        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689555179/min-desktop-mid_upl2e7.png"
         quality={95}
         width={440}
         formats={["auto", "webp"]}
@@ -179,7 +179,7 @@ const IndexPage = () => (
       />
 
       <StaticImage
-        src="../images/credits-desktop.png"
+        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689556627/credits-desktop_li5usp.png"
         quality={95}
         width={440}
         formats={["auto", "webp"]}
@@ -192,7 +192,7 @@ const IndexPage = () => (
     <div class="col-lg-4" >
 
       <StaticImage
-        src="../images/min-ipad.png"
+        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689556633/min-ipad_vhhyja.png"
         quality={95}
         formats={["auto", "webp"]}
         alt="min and chula"
