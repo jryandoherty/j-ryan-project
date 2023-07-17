@@ -63,8 +63,8 @@ const IndexPage = () => (
       src="../images/outer-space-desktop.png"
       width={580}
       quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="instagram post"
+      formats={["auto", "webp"]}
+      alt="website desktop"
       placeholder="blurred"
       style={{boxShadow:`2px 1px 1px #333`}}
     />
@@ -122,12 +122,12 @@ const IndexPage = () => (
 
     <div class="col-lg-4">
         <p>front</p>
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="mobile" style={{borderRadius:`30px`}} />
+          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="front of pass" style={{borderRadius:`30px`}} />
     </div>
 
     <div class="col-lg-4">
           <p>back</p>
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593986/blArtboard_2_db76tt.svg" alt="tablet" style={{borderRadius:`30px`}} />
+          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593986/blArtboard_2_db76tt.svg" alt="back of pass" style={{borderRadius:`30px`}} />
 
     </div>
 
