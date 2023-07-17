@@ -224,11 +224,8 @@
 }
 
 .legend {
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	height:auto;
-	padding:0px 0 20px 0;
+
+margin:2rem auto;
 
 	@media (max-width:768px) {
 			position:static;
@@ -237,7 +234,6 @@
 
 	h2 {
 		font-size: 1.3em;
-		font-family: 'Oswald', sans-serif;
 		margin-bottom:12px;
 	}
 

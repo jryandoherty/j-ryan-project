@@ -42,10 +42,8 @@ const Trucks = () => (
       </div>
 
       <div class="row">
-        <object data="../2016/trucks/trucks.html"></object>
+        <object data="../2016/trucks/trucks.html" aria-label="live page"></object>
       </div>
-
-
 
       </div>
     </div>

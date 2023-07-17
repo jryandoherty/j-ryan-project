@@ -36,7 +36,7 @@ const LouisMian = () => (
         </div>
 
         <div class="row">
-          <object name="frame" data="https://www.louismian.com"></object>
+          <object name="frame" data="https://www.louismian.com" aria-label="live page"></object>
         </div>
 
 

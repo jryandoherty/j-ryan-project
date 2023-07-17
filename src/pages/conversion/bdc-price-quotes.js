@@ -38,15 +38,15 @@ const BDCPrice = () => (
         <div class="carousel-inner" role="listbox">
 
           <div class="item active">
-              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223067/screens/radio_buttons_c8joko.jpg" alt="image 1" />
+              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223067/screens/radio_buttons_c8joko.jpg" alt="question screen" />
           </div>
 
           <div class="item">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223059/screens/email_flkmir.jpg" alt="image 2" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223059/screens/email_flkmir.jpg" alt="email screen" />
           </div>
 
           <div class="item">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223059/screens/optional_uy3yxg.jpg" alt="image 3" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223059/screens/optional_uy3yxg.jpg" alt="optional screen" />
           </div>
 
 

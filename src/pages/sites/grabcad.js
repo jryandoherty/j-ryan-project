@@ -38,7 +38,7 @@ const GrabCad = () => (
         </div>
 
       <div class="row">
-          <object data="https://blog.grabcad.com/"></object>
+          <object data="https://blog.grabcad.com/" aria-label="live page"></object>
       </div>
 
     </div>

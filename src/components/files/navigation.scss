@@ -139,24 +139,23 @@
 
 nav {
 		padding:15px;
-		background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
-		background-size: cover cover;
+		background: $altblack;
 		border-radius: 0!important;
-
 		color:$white;
 		margin-bottom:2%!important;
-
 
 		h1 {
 			margin:0;
 			font-size:2.3em;
 		}
+
 		h2 {
 			font-family: 'Montserrat', sans-serif;
 			font-size:.7521367521367521em;
 			padding-left:60px;
 			margin:0;
 			}
+
 		svg {
 			width:30px;
 			fill:$white;

@@ -13,12 +13,12 @@ const BDC = () => (
 
       <div class="emails">
         <div class="desktop">
-          <object data="https://www.jryandoherty.com/portfolio/2017/emails_bdc/template_Nov.html">
+          <object data="https://www.jryandoherty.com/portfolio/2017/emails_bdc/template_Nov.html" aria-label="live email">
           </object>
         </div>
 
         <div class="mobile">
-          <object data="https://www.jryandoherty.com/portfolio/2017/emails_bdc/template_Nov.html">
+          <object data="https://www.jryandoherty.com/portfolio/2017/emails_bdc/template_Nov.html" aria-label="live email">
           </object>
         </div>
 

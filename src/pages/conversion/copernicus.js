@@ -44,7 +44,7 @@ const Copernicus = () => (
       </div>
 
       <div class="row">
-        <object name="frame" data="../2015/copernicus/copernicus.html">
+        <object name="frame" data="../2015/copernicus/copernicus.html" aria-label="live page">
         </object>
       </div>
 

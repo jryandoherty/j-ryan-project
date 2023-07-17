@@ -36,14 +36,14 @@ const BDCPartner = () => (
         </div>
       </div>
       <div class="row">
-        <object name="frame" data="louis-mian.js"></object>
+        <object name="frame" data="louis-mian.js" aria-label="live page"></object>
       </div>
 
       <div class="row">
         <div class="col-md-6 thumbnail-webpage">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_lead_mv5h11.png" alt="image-1" />
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_marketing_nkwfbt.png" alt="image-2" />
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_ad_cpwlnl.png" alt="image-3" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_lead_mv5h11.png" alt="screen 1" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_marketing_nkwfbt.png" alt="screen 2" />
+          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_ad_cpwlnl.png" alt="screen 3" />
         </div>
       </div>
 

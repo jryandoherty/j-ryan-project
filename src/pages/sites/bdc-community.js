@@ -30,16 +30,16 @@ const BDCCommunity = () => (
         <div class="carousel-inner" role="listbox">
 
           <div class="item active">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649446967/screens/image-1_lfsqhs.webp" alt="image 1" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649446967/screens/image-1_lfsqhs.webp" alt="screen 1" />
           </div>
           <div class="item">
-          < img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649446967/screens/image-2_ojwvt4.webp" alt="image 2" />
+          < img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649446967/screens/image-2_ojwvt4.webp" alt="screen 2" />
           </div>
           <div class="item">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649446967/screens/image-3_l6n4v9.webp" alt="image 3" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649446967/screens/image-3_l6n4v9.webp" alt="screen 3" />
           </div>
 
-          
+
         </div>
 
         </div>

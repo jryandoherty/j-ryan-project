@@ -44,28 +44,28 @@ const Buyerzone = () => (
             <div class="item active">
                 <picture>
                    <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648694029/screens/image-1_xqdqpp.webp"  type="image/webp" />
-                   <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg" alt="image-1" />
+                   <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg" alt="screen 1" />
                 </picture>
             </div>
 
             <div class="item">
                 <picture>
                    <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648694029/screens/image-2_ab2qw2.webp"  type="image/webp" />
-                   <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693489/screens/image-2_u6dwyd.jpg" alt="image 2" />
+                   <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693489/screens/image-2_u6dwyd.jpg" alt="screen 2" />
                 </picture>
             </div>
 
             <div class="item">
                 <picture>
                    <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648694029/screens/image-3_duxwra.webp"  type="image/webp"  />
-                   <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693490/screens/image-3_don5rd.jpg" alt="image 3" />
+                   <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693490/screens/image-3_don5rd.jpg" alt="screen 3" />
                 </picture>
             </div>
 
             <div class="item">
                 <picture>
                    <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648694029/screens/image-4_lrwebf.webp"  type="image/webp" />
-                   <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693489/screens/image-4_vwtbzt.jpg" alt="image 4" />
+                   <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693489/screens/image-4_vwtbzt.jpg" alt="screen 4" />
                 </picture>
             </div>
 

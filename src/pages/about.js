@@ -3,11 +3,18 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Helmet from 'react-helmet'
 
 import "../components/portfolio2.scss"
 
 const About = () => (
   <Layout>
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
+
     <Seo title="About" />
     <section class="about-section" id="about">
 
@@ -17,7 +24,7 @@ const About = () => (
         <div class="col-lg-6 bio">
      I've been working on the web since the early 2000s doing freelance, corporate, and non-profit work ranging from full site
      design, landing pages, conversion pages, and marketing emails. So many changes during that time! But that's the fun part.
-     When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank">birding</a>.
+     When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank" rel="noreferrer">birding</a>.
       </div>
 
       <div class="col-lg-6">

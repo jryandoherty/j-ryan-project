@@ -40,7 +40,7 @@ const Hornet = () => (
       </div>
 
       <div class="row">
-        <object name="frame" data="../2016/hornet/skidSteer.html"></object>
+        <object name="frame" data="../2016/hornet/skidSteer.html" aria-label="live page"></object>
       </div>
 
       </div>

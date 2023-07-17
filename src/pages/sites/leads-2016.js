@@ -38,7 +38,7 @@ const Leads2016 = () => (
     </div>
 
     <div class="row">
-      <object data=""></object>
+      <object data="" aria-label="live page"></object>
     </div>
 
 

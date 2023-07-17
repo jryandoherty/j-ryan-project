@@ -28,7 +28,7 @@ const RogerButtles = () => (
       </div>
 
       <div class="row">
-          <object data="https://rogerbuttles.com"></object>
+          <object data="https://rogerbuttles.com" aria-label="live page"></object>
       </div>
 
       </div>

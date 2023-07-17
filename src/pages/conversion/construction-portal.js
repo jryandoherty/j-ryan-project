@@ -44,7 +44,7 @@ const Construction = () => (
       </div>
 
       <div class="row">
-        <object name="frame" data="../2016/construction/construction.html"></object>
+        <object name="frame" data="../2016/construction/construction.html" aria-label="live page"></object>
       </div>
 
       </div>

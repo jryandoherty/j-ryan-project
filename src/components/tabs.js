@@ -2,12 +2,15 @@ import * as React from "react"
 import { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import Navbar from 'react-bootstrap/Navbar';
 import Websites from "../components/websites"
 import Conversion from "../components/conversion"
 import Email from "../components/email"
 import Print from "../components/print"
 import Ads from "../components/ads"
 import Logos from "../components/logos"
+import { Link } from "gatsby"
+
 
 function ControlledTabsExample() {
   const [key, setKey] = useState('home');
@@ -19,7 +22,7 @@ function ControlledTabsExample() {
       activeKey={key}
       transition={true}
       onSelect={(k) => setKey(k)}
-
+      sticky="top"
     >
       <Tab eventKey="home" title="Websites">
         <Websites/>
@@ -29,7 +32,7 @@ function ControlledTabsExample() {
         <Conversion/>
       </Tab>
 
-      <Tab eventKey="email" title="email">
+      <Tab eventKey="email" title="email" >
         <Email/>
       </Tab>
 
