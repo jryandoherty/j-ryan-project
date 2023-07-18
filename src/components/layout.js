@@ -47,6 +47,8 @@ const Layout = ({ children }) => {
           src="https://www.googletagmanager.com/gtag/js?id=G-HJTVZF928W"
         />
         <script>{injectGA()}</script>
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet" />

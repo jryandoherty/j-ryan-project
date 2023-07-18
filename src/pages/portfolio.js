@@ -17,7 +17,7 @@ const Portfolio = () => (
         class: 'secondary'
     }}
     />
-    <Seo title="Portfolio yes" />
+    <Seo title="Portfolio" />
       <ControlledTabsExample/>
   </Layout>
 

@@ -17,7 +17,6 @@ const IndexPage = () => (
     <p style={{textAlign:`center`,fontSize:`1.5rem`}}>Affordable design solutions and web development. </p>
     <p style={{textAlign:`center`,fontSize:`1.1rem`}}><Link to="#recent-projects">Recent Work</Link></p>
 
-
     <div class="row">
           <div class="col-md-4 p-4">
             <h2><span class="glyphicon glyphicon-briefcase"></span>Companies</h2>
@@ -34,7 +33,7 @@ const IndexPage = () => (
       </div>{/* end row */}
 
       <h2 style={{textAlign:`center`,fontSize:`3rem`}} id="recent-projects">Recent Work</h2>
-      <div class="row" style={{marginTop:`4rem`}}>
+      <div class="row" style={{marginTop:`6rem`}}>
           <div class="col-lg-6">
             <h3>PROJECT</h3>
               <ul>
@@ -169,49 +168,69 @@ const IndexPage = () => (
     <div class="col-lg-4">
 
       <StaticImage
-        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689555179/min-desktop-mid_upl2e7.png"
+        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689642668/min-browser-top_ps0joe.png"
         quality={95}
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
         placeholder="blurred"
-        style={{boxShadow:`2px 1px 1px #333`}}
-      />
 
+      />
+  </div>
+  <div class="col-lg-4">
       <StaticImage
-        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689556627/credits-desktop_li5usp.png"
+        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689642667/min-browser-mid_lsbqk0.png"
         quality={95}
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
         placeholder="blurred"
-        style={{boxShadow:`2px 1px 1px #333`}}
-      />
-    </div>
-
-    <div class="col-lg-4" >
-
-      <StaticImage
-        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689556633/min-ipad_vhhyja.png"
-        quality={95}
-        formats={["auto", "webp"]}
-        alt="min and chula"
-        placeholder="blurred"
-      />
-    </div>
-
-    <div class="col-lg-4">
-
-      <StaticImage
-        src="../images/min-phone.png"
-        quality={95}
-        formats={["auto", "webp"]}
-        alt="min and chula"
-        placeholder="blurred"
 
       />
-    </div>
+  </div>
+<div class="col-lg-4">
+<StaticImage
+  src="https://res.cloudinary.com/jryandoherty/image/upload/v1689642663/min-browser-bottom_tzb5hy.png"
+  quality={95}
+  width={440}
+  formats={["auto", "webp"]}
+  alt="min and chula"
+  placeholder="blurred"
+
+/>
+
+</div>
+
   </div>{/* end row */}
+
+  <div class="row" style={{marginTop: `4rem`}}>
+  <div class="col-lg-6" style={{textAlign:`center`}}>
+
+    <StaticImage
+      src="https://res.cloudinary.com/jryandoherty/image/upload/v1689556633/min-ipad_vhhyja.png"
+      quality={95}
+      formats={["auto", "webp"]}
+      alt="min and chula"
+      placeholder="blurred"
+      width={400}
+
+    />
+  </div>
+
+  <div class="col-lg-6" style={{display:`flex`, alignItems:`center`, justifyContent:`center`}}>
+
+    <StaticImage
+      src="../images/min-phone.png"
+      quality={95}
+      formats={["auto", "webp"]}
+      alt="min and chula"
+      placeholder="blurred"
+      width={220}
+
+    />
+  </div>
+
+  </div>
 
 </div>{/* end container */}
 
