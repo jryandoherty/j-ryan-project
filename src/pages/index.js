@@ -24,7 +24,7 @@ const IndexPage = () => (
           </div>
           <div class="col-md-4 p-4">
             <h2><span class="glyphicon glyphicon-user"></span>Individuals</h2>
-              <p>Want to take your side hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a fully-responsive pro site, I can help you get there.</p>
+              <p>Want to take your side hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a full website, I can help you get there.</p>
           </div>
           <div class="col-md-4 p-4">
             <h2><span class="glyphicon glyphicon-education"></span>Nonprofits</h2>
@@ -40,14 +40,13 @@ const IndexPage = () => (
                 <li><strong>Website & Branding</strong></li>
                 <li><strong>Client:</strong> Outer Space</li>
                 <li><strong>Date:</strong> April 2023</li>
-                <li><strong>Platforn:</strong> <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">Bootstrap 5.3</a></li>
+                <li><strong>Platform:</strong> <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">Bootstrap 5.3</a></li>
                 <li><a href="https://outerspacearts.xyz" target="_blank" rel="noreferrer">Website</a></li>
               </ul>
             <p>Website, logo, and promotional materials for Outer Space, an art gallery based in Concord NH. </p>
           </div>
 
           <div class="col-lg-6" style={{textAlign:`center`}}>
-
               <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg"
                 style={{ marginBottom: `1.45rem`, marginRight:`1rem`, maxWidth: `90%`}}
               alt="outer space logo"
@@ -176,8 +175,8 @@ const IndexPage = () => (
         placeholder="blurred"
 
       />
-  </div>
-  <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4">
       <StaticImage
         src="https://res.cloudinary.com/jryandoherty/image/upload/v1689642667/min-browser-mid_lsbqk0.png"
         quality={95}
@@ -187,19 +186,19 @@ const IndexPage = () => (
         placeholder="blurred"
 
       />
-  </div>
-<div class="col-lg-4">
-<StaticImage
-  src="https://res.cloudinary.com/jryandoherty/image/upload/v1689642663/min-browser-bottom_tzb5hy.png"
-  quality={95}
-  width={440}
-  formats={["auto", "webp"]}
-  alt="min and chula"
-  placeholder="blurred"
+    </div>
+    <div class="col-lg-4">
+      <StaticImage
+        src="https://res.cloudinary.com/jryandoherty/image/upload/v1689642663/min-browser-bottom_tzb5hy.png"
+        quality={95}
+        width={440}
+        formats={["auto", "webp"]}
+        alt="min and chula"
+        placeholder="blurred"
 
-/>
+      />
 
-</div>
+      </div>
 
   </div>{/* end row */}
 
