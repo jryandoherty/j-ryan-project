@@ -8,10 +8,6 @@ const Conversion = () => {
 
       <h2>Conversion Pages</h2>
 
-
-
-
-
 <div class="col-lg-12">
       <picture>
          <source srcSet="https://res.cloudinary.com/jryandoherty/image/upload/v1674058071/construction_igsuw6.webp" type="image/webp" class="project-flow-img" />
@@ -98,8 +94,6 @@ const Conversion = () => {
       </div>
 </div>
 
-    <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688589377/first_oppd1f.png" alt="conversion-6" />
-      <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593263/thumbs_conversion/ipad-2-mobileflow_eemjif.png" alt="conversion-7" />
 
     </section>
 

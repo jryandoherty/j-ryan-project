@@ -138,8 +138,7 @@
 
 
 nav {
-		padding:15px;
-		background: $altblack;
+
 		border-radius: 0!important;
 		color:$white;
 		margin-bottom:2%!important;
@@ -208,6 +207,48 @@ nav {
 
 
 	} /* end navigation */
+
+
+
+	nav.socials {
+
+			h1 {
+				margin:0;
+				font-size:2.3em;
+			}
+
+
+			svg {
+				width:140px;
+				fill:$altblack;
+				&:hover.twitter {
+					fill:#00ACEE;
+				}
+				&:hover.linkedIn {
+					fill:#00a0dc;
+				}
+				&:hover.github {
+					fill:#6cc644;
+				}
+				&:hover.flickr {
+					fill:#216bd6;
+				}
+				&:hover.behance {
+					fill:#1769ff;
+				}
+
+			}
+
+			li {
+				width:25%;
+				text-align: center;
+			}
+
+
+
+
+		} /* end navigation */
+
 
 
 	@media (max-width: 768px) {
