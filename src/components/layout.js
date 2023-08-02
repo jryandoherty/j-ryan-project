@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet" />
 
-
+    <meta name="google-site-verification" content="EtahvMSnu3hGZ5VJ74bsnZdq4VszXFfZ2q2KOqYEsjw" />
 
     </Helmet>
 
