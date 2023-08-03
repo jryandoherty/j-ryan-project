@@ -44,8 +44,6 @@ exports.createPages = async ({ graphql, actions }) => {
     fromPath: `/portfolio/conversion/bdc_price_quotes.php`,
     toPath: `/conversion/bdc-price-quotes/`,
 
-
-
     fromPath: `/portfolio/sites/avian_records.php`,
     toPath: `/sites/avian-records/`,
 
@@ -73,7 +71,5 @@ exports.createPages = async ({ graphql, actions }) => {
     fromPath: `portfolio/sites/dzone.php`,
     toPath: `/portfolio/`,
 
-
-
-  });
+  })
 }
