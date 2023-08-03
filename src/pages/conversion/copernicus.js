@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-
+import "../../components/portfolio2.scss"
 
 const Copernicus = () => (
   <Layout>
