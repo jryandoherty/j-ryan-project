@@ -21,7 +21,6 @@
     "gatsby-plugin-react-helmet": "^5.12.1",
     "gatsby-plugin-sass": "^5.18.1",
     "gatsby-plugin-sharp": "^4.12.1",
-    "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-source-filesystem": "^4.12.1",
     "gatsby-transformer-sharp": "^4.25.0",
     "prop-types": "^15.8.1",
@@ -55,6 +54,6 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "engines": {
-    "node" : ">=18.0.0"
+    "node": ">=18.0.0"
   }
 }
