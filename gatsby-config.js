@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://jryandoherty.com/`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
