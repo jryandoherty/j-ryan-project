@@ -16,7 +16,6 @@ module.exports = {
       },
     },
 
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
