@@ -16,6 +16,15 @@ module.exports = {
       },
     },
 
+    {
+   resolve: `gatsby-plugin-canonical-urls`,
+   options: {
+     siteUrl: `https://www.jryandoherty.com`,
+   },
+  },
+
+
+
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
