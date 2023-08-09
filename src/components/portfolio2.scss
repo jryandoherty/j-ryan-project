@@ -19,11 +19,12 @@ main {
 
 	h1, h2 {
 		margin:3rem auto 1rem;
-		font-family: 'Nova Round', cursive;
+		font-family: 'Nova Round', sans-serif;
+		text-align: center;
 	}
 
 	h3 {
-		font-family: 'Nova Round', cursive;
+		font-family: 'Nova Round', sans-serif;
 		padding:1.2rem;
 		background:$sienna;
 		color:$white;
