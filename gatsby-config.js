@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `J. Ryan Doherty Design`,
-    description: `Web design and developent for artists, small businesses, contractors and non-profits.`,
+    description: `Web design and development for artists, small businesses, contractors and non-profits.`,
     author: `@gatsbyjs`,
     siteUrl: `https://jryandoherty.com/`,
   },
