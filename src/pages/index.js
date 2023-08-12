@@ -18,22 +18,22 @@ const IndexPage = () => (
     <p style={{textAlign:`center`,fontSize:`1.1rem`}}><Link to="#recent-projects">Recent Work</Link></p>
 
     <div className="row">
-          <div className="col-md-4 p-4">
+          <div className="col-md-4">
             <h2>Companies</h2>
             <p>Your business need a website that "pops". Ok, I hate that term. It's meaningless. What you really need is a custom design approach based on research and data-driven analysis.  I offer reasonable hourly pricing and flat rates based on project type.</p>
           </div>
-          <div class="col-md-4 p-4">
+          <div class="col-md-4">
             <h2>Individuals</h2>
               <p>Want to take your side hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a full website, I can help you get there.</p>
           </div>
-          <div class="col-md-4 p-4">
+          <div class="col-md-4">
             <h2>Nonprofits</h2>
               <p>If you have a nonprofit organization with a limited or nonexistent budget, I can offer highly discounted rates and even pro bono work.</p>
           </div>
       </div>{/* end row */}
 
-      <h2 style={{fontSize:`3rem`}} id="recent-projects">Recent Work</h2>
-      <div class="row" style={{marginTop:`6rem`}}>
+      <h2 style={{fontSize:`3rem`, marginBottom:`3rem`}} id="recent-projects">Recent Work</h2>
+      <div class="row" >
           <div class="col-lg-6">
             <h3>PROJECT</h3>
               <ul>
@@ -48,7 +48,7 @@ const IndexPage = () => (
 
           <div class="col-lg-6" style={{textAlign:`center`}}>
               <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg"
-                style={{ marginBottom: `1.45rem`, width:`400px`}}
+                style={{ width:`320px`, maxWidth:`100%`}}
               alt="outer space logo"
               />
 
@@ -94,19 +94,11 @@ const IndexPage = () => (
       placeholder="blurred"
     />
 
-    <StaticImage
-      src="../images/instagram.jpg"
-      width={380}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="instagram post"
-      placeholder="blurred"
-    />
 
   </div>{/* end col-12 */}
 
 
-<div class="row" style={{marginTop: `8rem`}}>
+<div class="row" style={{marginTop: `4rem`}}>
 
     <div class="col-lg-4">
       <h3>PROJECT</h3>
@@ -119,20 +111,17 @@ const IndexPage = () => (
     </div>
 
     <div class="col-lg-4">
-        <p>front</p>
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="front of pass" style={{width:`100%`, borderRadius:`30px`}} />
+          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="front of pass" style={{width:`100%`, borderRadius:`30px`,marginBottom:`1rem`}} />
     </div>
 
     <div class="col-lg-4">
-          <p>back</p>
           <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593986/blArtboard_2_db76tt.svg" alt="back of pass" style={{width:`100%`, borderRadius:`30px`}} />
-
     </div>
 
   </div>{/* end row */}
 
 
-  <div class="row" style={{marginTop: `8rem`}}>
+  <div class="row" style={{marginTop: `4rem`}}>
 
       <div class="col-lg-4">
         <h3>PROJECT</h3>
@@ -161,7 +150,7 @@ const IndexPage = () => (
 
     </div>{/* end row */}
 
-<div className="row" style={{marginTop: `4rem`}}>
+<div className="row" style={{marginTop: `2rem`, textAlign:`center`}}>
     <div class="col-lg-4">
 
       <StaticImage
@@ -214,7 +203,7 @@ const IndexPage = () => (
     />
   </div>
 
-  <div class="col-lg-6" style={{display:`flex`, alignItems:`center`, justifyContent:`center`}}>
+  <div class="col-lg-6" style={{display:`flex`, alignItems:`center`, justifyContent:`center`, marginTop:`1rem`}}>
 
     <StaticImage
       src="../images/min-phone.png"

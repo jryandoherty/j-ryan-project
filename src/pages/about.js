@@ -20,7 +20,7 @@ const About = () => (
 
       <div class="container">
       <div class="row">
-        <h2>About</h2>
+        <h1>About</h1>
         <div class="col-lg-6 bio">
      I've been working on the web since the early 2000s doing freelance, corporate, and non-profit work ranging from full site
      design, landing pages, conversion pages, and marketing emails. So many changes during that time! But that's the fun part.

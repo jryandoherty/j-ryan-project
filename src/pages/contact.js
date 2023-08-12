@@ -12,7 +12,7 @@ const Contact = () => (
     bodyAttributes={{
         class: 'secondary'
     }}
-/>
+    />
     <Seo title="Contact" />
 
     <section class="contact-section">
@@ -27,8 +27,8 @@ const Contact = () => (
           <h1>Call me:</h1>
           <a href="tel:6173120522">617-312-0522</a>
         </div>
-
-
+  </div>{/* end row */}
+  <div class="row" style={{display:`flex`, alignItems:`center`}}>
         <div class="col-lg-12">
           <h2>Find me elswhere on the interwebs:</h2>
           <nav class="socials">

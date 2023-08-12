@@ -29,6 +29,7 @@ main {
 		background:$sienna;
 		color:$white;
 		display: inline-block;
+		margin:0 0 20px;
 	}
 
 	a {
@@ -350,6 +351,9 @@ main {
 	display: inline;
 	width:100%;
 	color:$white!important;
+	@media (max-width:768px){
+		font-size: .70rem!important;
+	}
 }
 
 
@@ -570,7 +574,7 @@ main {
 .contact-section {
 
 	.row {
-		margin-top:4rem;
+		margin-bottom:4rem;
 	}
 
 	h1 {
@@ -590,8 +594,8 @@ main {
 
 
 footer {
-	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_02_ijass0.png')no-repeat top center,url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
-	background-size:  1250px,cover;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
+	background-size: cover;
 	padding:2% 0;
 	color:$white;
 	font-size: .86em;
