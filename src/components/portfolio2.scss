@@ -59,19 +59,23 @@ main {
 
 .secondary {
 
-.brick {
-	height:40vh;
+	.brick {
+		height:40vh;
+		@media (max-width:926px) and (orientation:landscape){
 
-@media (min-width: 1280px){
-	h1 {
-		font-size:4rem;
-	}
-	h2 {
-		font-size:1rem;
-	}
-}
+		height:60vh;
 
-}
+	}
+	@media (min-width: 1280px){
+		h1 {
+			font-size:4rem;
+		}
+		h2 {
+			font-size:1rem;
+		}
+	}
+
+	}
 
 }/* end secondary styles */
 
@@ -336,10 +340,23 @@ main {
 
 	&:nth-child(5){
 		background:$yellowDark;
+		.nav-link{
+			color:$altblack!important;
+		}
+		.active {
+			color:$white!important;
+		}
+
 	}
 
 	&:nth-child(6){
 		background:$yellow;
+		.nav-link{
+			color:$altblack!important;
+		}
+		.active {
+			color:$white!important;
+		}
 	}
 
 } /* end button */

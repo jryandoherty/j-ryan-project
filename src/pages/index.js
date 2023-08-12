@@ -78,7 +78,7 @@ const IndexPage = () => (
 
     <StaticImage
       src="../images/ipad-home.png"
-      width={400}
+      width={300}
       quality={95}
       formats={["auto", "webp"]}
       alt="website ipad"
@@ -87,7 +87,7 @@ const IndexPage = () => (
 
     <StaticImage
       src="../images/price-list.jpg"
-      width={480}
+      width={380}
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="pdf price list"
