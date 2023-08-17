@@ -73,7 +73,7 @@ const IndexPage = () => (
       quality={95}
       formats={["auto", "webp"]}
       alt="website iphone"
-      placeholder="blurred"
+
     />
 
     <StaticImage
@@ -142,7 +142,7 @@ const IndexPage = () => (
           quality={95}
           formats={["auto", "webp"]}
           alt="min and chula"
-          placeholder="blurred"
+        
           style={{boxShadow:`2px 1px 1px #333`}}
         />
 
@@ -170,7 +170,7 @@ const IndexPage = () => (
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
-        placeholder="blurred"
+
 
       />
     </div>
@@ -181,7 +181,7 @@ const IndexPage = () => (
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
-        placeholder="blurred"
+
 
       />
 
@@ -197,7 +197,7 @@ const IndexPage = () => (
       quality={95}
       formats={["auto", "webp"]}
       alt="min and chula"
-      placeholder="blurred"
+
       width={400}
 
     />
@@ -210,7 +210,7 @@ const IndexPage = () => (
       quality={95}
       formats={["auto", "webp"]}
       alt="min and chula"
-      placeholder="blurred"
+
       width={220}
 
     />
