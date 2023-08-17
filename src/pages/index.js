@@ -142,7 +142,7 @@ const IndexPage = () => (
           quality={95}
           formats={["auto", "webp"]}
           alt="min and chula"
-        
+          placeholder="blurred"
           style={{boxShadow:`2px 1px 1px #333`}}
         />
 
