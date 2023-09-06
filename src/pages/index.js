@@ -42,6 +42,7 @@ const IndexPage = () => (
             quality={95}
             formats={["auto", "webp"]}
             alt="section divider"
+            placeholder="blurred"
             style={{display:`flex`,margin:`2rem auto`}}
           />
 
@@ -154,7 +155,8 @@ alt="outer space logo"
     quality={95}
     formats={["auto", "webp"]}
     alt="section divider"
-      style={{display:`flex`,margin:`0 auto`}}
+    placeholder="blurred"
+    style={{display:`flex`,margin:`0 auto`}}
   />
 
   <div class="row" id="min" style={{marginTop: `4rem`}}>
