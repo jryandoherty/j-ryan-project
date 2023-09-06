@@ -40,9 +40,9 @@ const IndexPage = () => (
             src="../images/border.png"
             width={380}
             quality={95}
-            formats={["auto", "webp", "avif"]}
+            formats={["auto", "webp"]}
             alt="section divider"
-            style={{display:`flex`,margin:`0 auto`}}
+            style={{display:`flex`,margin:`2rem auto`}}
           />
 
 </div>
@@ -121,7 +121,7 @@ alt="outer space logo"
     src="../images/border.png"
     width={380}
     quality={95}
-    formats={["auto", "webp", "avif"]}
+    formats={["auto", "webp"]}
     alt="section divider"
     style={{display:`flex`,margin:`0 auto`}}
   />
@@ -152,7 +152,7 @@ alt="outer space logo"
     src="../images/border.png"
     width={380}
     quality={95}
-    formats={["auto", "webp", "avif"]}
+    formats={["auto", "webp"]}
     alt="section divider"
       style={{display:`flex`,margin:`0 auto`}}
   />

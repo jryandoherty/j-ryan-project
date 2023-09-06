@@ -15,9 +15,8 @@ const Email = () => {
         <StaticImage
           src="../images/emails/bdc-desktop.png"
           width={290}
-
           quality={95}
-          formats={["auto", "webp"]}
+
           alt="website desktop"
           style={{}}
         />
@@ -26,7 +25,6 @@ const Email = () => {
           src="../images/emails/cloud-mobile.png"
           width={137}
           quality={100}
-          formats={["auto", "webp"]}
           alt="website desktop"
           style={{}}
         />
@@ -35,7 +33,7 @@ const Email = () => {
           src="../images/emails/cubicles_desktop.png"
           width={290}
           quality={100}
-          formats={["auto", "webp"]}
+
           alt="website desktop"
           style={{}}
         />
@@ -44,7 +42,6 @@ const Email = () => {
           src="../images/emails/reach-mobile.png"
           width={137}
           quality={100}
-          formats={["auto", "webp"]}
           alt="website desktop"
           style={{}}
         />
@@ -53,7 +50,6 @@ const Email = () => {
           src="../images/emails/trucks-desktop.png"
           width={290}
           quality={100}
-          formats={["auto", "webp"]}
           alt="website desktop"
           style={{}}
         />
