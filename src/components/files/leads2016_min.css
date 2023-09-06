@@ -1,0 +1,1980 @@
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.ie9 body, .ie9 h1, .ie9 h2, .ie9 h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.ie9 #intro, .ie9 .closer {
+  background: url(https://cdn.buyerzone.com/images/leads/office_ie9.jpg)
+}
+
+.ie9 .whatwedo {
+  background: url(https://cdn.buyerzone.com/images/leads/office2_ie9.jpg)
+}
+
+
+#intro {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+}
+
+
+#intro  h1, h2, h3 {
+  margin: 0;
+
+}
+
+#intro  h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+#intro h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 48px
+}
+
+#intro h3 {
+
+  font-size: 30px
+}
+
+#intro .btn {
+
+}
+
+.logo img {
+  width: 380px;
+  height: 65px;
+  position: absolute
+}
+
+.purch-bug-btn {
+  border: 2px solid #FFF !important;
+  margin: 0 !important
+}
+
+.leads-nav {
+  padding-top:28px;
+}
+
+.leads-nav li {
+  margin-left:24px;
+  margin-right:0;
+}
+
+.navbar-nav {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navbar-nav a.textlink {
+  color: #fff;
+  font-size: 17px;
+  padding-top: 5px;
+  display: block
+}
+
+.navbar-nav a.textlink:hover {
+  color: #FBD157 !important
+}
+
+.btn-info:hover {
+  box-shadow: 0 0 0 65px #8ae1ff inset;
+  transition: all 1.2s ease 0s
+}
+
+.divider1, .divider2 {
+  display: block;
+  width: 100%;
+  height: 100%
+}
+
+.ie9 .divider1, .ie9 .divider2 {
+  display: none
+}
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+  .divider1 {
+    margin-top: -40px
+  }
+
+  .divider2 {
+    margin-bottom: -40px
+  }
+}
+
+@media screen and (-ms-high-contrast:active) and (max-width:768px), (-ms-high-contrast:none) and (max-width:768px) {
+  .divider1, .divider2 {
+    display: none
+  }
+}
+
+@supports (-webkit-appearance:none) {
+  .divider1 {
+    margin-top: -2px;
+    margin-left: -5px
+  }
+
+  .divider2 {
+    margin-bottom: -2px
+  }
+}
+
+@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) {
+  .divider1 {
+    margin-top: -2px;
+    margin-left: -5px
+  }
+
+  .divider2 {
+    margin-bottom: -2px
+  }
+}
+
+#intro {
+  background: url(https://cdn.buyerzone.com/images/leads/hero-office.jpg) no-repeat fixed;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  height: 520px;
+  margin: 0 auto;
+  padding: 0
+}
+
+#intro:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #ff7b12, #F49445, #636363, #464646);
+  opacity: .84;
+  height: 520px
+}
+
+#intro .col-lg-7 {
+  position: absolute
+}
+
+#intro .get-more {
+  width: 390px;
+  position: absolute;
+  top: 190px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center
+}
+
+#intro h1 {
+  color: #292929
+}
+
+#intro h1 span {
+  color: #fff;
+  background: #292929;
+  padding: 12px 24px
+}
+
+#intro h2 {
+  color: #F1F1F1;
+  font-size: 43px;
+  line-height: 38px
+}
+
+#intro .value {
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 8px;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#intro .col-lg-10 {
+  -webkit-transform: rotate(-1.8deg);
+  -moz-transform: rotate(-1.8deg);
+  margin-top: 12%;
+  margin-left: 1%;
+
+  -webkit-transition: 1s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: 1s ease;
+  transition: .3s ease
+}
+
+#intro .col-lg-10 .btn-large {
+  font-size: 42px
+}
+
+#intro .col-lg-10 .btn-large a {
+  color: #fff
+}
+
+#intro .client {
+  background: 0 0;
+  border: 2px solid #fff;
+  padding: 10px 16px
+}
+
+#intro a:hover {
+  text-decoration: none
+}
+
+#intro .thanks-text {
+  padding-left: 23px;
+  padding-top: 40px;
+  line-height: 26px
+}
+
+#intro .thanks-text h2 {
+  margin-bottom: 20px
+}
+
+#intro .thanks-text a {
+  color: #FBC85D
+}
+
+.menuContainer {
+  padding-top:28px;
+}
+
+.mobileMessage {
+  background: #464646;
+  padding: 5%;
+  display: none
+}
+
+.mobileMessage h2 {
+  font-size: 28px;
+  color: #fff
+}
+
+.contact-form {
+  background: #505050;
+  color: #FCFAF5;
+  font-size: 19px;
+  padding: 60px 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contact-form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.contact-form h3 {
+  font-size: 28px;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color:#FCFAF5;
+}
+
+.about-leads {
+  width: 100%;
+  text-align: center;
+  padding: 65px 0;
+  background:#fff;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-leads img {
+  max-width: 100%;
+  height: auto
+}
+
+.about-leads h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 10px
+}
+
+.about-leads h3 {
+  padding: 0 20px;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.about-leads .introText {
+  border-left: 2px solid #000;
+  text-align: left;
+  font-size: 19px
+}
+
+.about-leads .logos {
+  margin: 20px auto 0;
+  float: none
+}
+
+.about-leads .watch {
+  margin: 145px 0;
+  background: url(/https:/cdn.buyerzone.com/images/leads/video.png) no-repeat center #fff;
+  background-size: 700px;
+  height: 300px;
+  clear: both
+}
+
+.about-leads .watch h3 {
+  margin-bottom: 20px
+}
+
+.whatwedo {
+  padding: 8% 0;
+  width: 100%;
+  background: url(https://cdn.buyerzone.com/images/leads/what_we_do.jpg) fixed;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  font-family: Fira Sans;
+  color:#fff;
+}
+
+.whatwedo:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #F47A20, rgba(244, 148, 69, .84), rgba(99, 99, 99, .84), #464646)
+}
+
+.whatwedo svg {
+  fill:#fff;
+}
+
+.whatwedo h2, .whatwedo h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  color: #F1F1F1;
+  margin-top:0;
+}
+
+.whatwedo .container {
+  padding: 10px 0 90px
+}
+
+.whatwedo .font17 {
+  font-size: 17px
+}
+
+.whatwedo .col-lg-3 {
+
+}
+
+.whatwedo .introText {
+  text-align: left;
+  font-size: 19px;
+  border-left: 2px solid #fff;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.whatwedo .col-lg-4 {
+  text-align: left
+}
+
+.whatwedo .col-lg-4:nth-child(3) {
+  border: 0
+}
+
+.whatwedo .col-lg-4 img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px
+}
+
+.whatwedo .col-lg-4 svg {
+  display: block;
+  fill: #fff;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px
+}
+
+.whatwedo .col-lg-4 h3 {
+  text-align: center;
+  padding-bottom: 20px
+}
+
+.whatwedo .col-sm-1 {
+  color: #F3F3F3
+}
+
+.whatwedo .col-sm-1 img {
+  margin-bottom: 20px
+}
+
+.whatwedo #whatwedoThree {
+
+}
+
+.story {
+  padding: 4% 0;
+  width: 100%;
+  background: url(https://cdn.buyerzone.com/images/leads/brick_white_fade.jpg);
+  background-size: cover;
+  color: #505050;
+  position: relative
+}
+
+.story .col-lg-11 p, .story .col-lg-12 p {
+  font-size: 19px;
+  text-align: left;
+  margin-bottom: 44px
+}
+
+.story p {
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.story h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  text-align: left;
+
+  color: #F1F1F1;
+}
+
+.story button {
+  font-size: 27px;
+  font-weight: 700;
+  background: 0 0;
+  border: 2px solid #505050;
+  padding: 18px;
+  color: #505050;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.story button:hover {
+  box-shadow: 0 0 0 65px #ff8437 inset;
+  transition: all 1.2s ease 0s
+}
+
+.story li.active button {
+  color: #fff
+}
+
+.story ul {
+  font-size: 23px;
+  list-style-type: none
+}
+
+.story .blueArrow {
+  width: 1170px;
+  display: block;
+  margin: 72px auto 0
+}
+
+.story .storyIntro {
+  position: absolute;
+  top: -64px;
+  background: #164463;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  color: #f5f7fd;
+  border: 4px solid #1678B5
+}
+
+.story .storyIntro h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left
+}
+
+.story .storyIntro .introText {
+  border-left: 2px solid #1678B5;
+  text-align: left;
+  font-size: 19px
+}
+
+.story .tabContainer {
+  padding-bottom: 40px;
+  padding-top: 24px;
+  margin-top: 140px;
+  text-align: center
+}
+
+.story .nav-tabs {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  clear: both
+}
+
+.story .nav-tabs>li {
+  float: none;
+  display: inline-block
+}
+
+.story .nav-tabs>li.active {
+  background: #F9AC21;
+  border-radius: 4px
+}
+
+.story .tab-pane {
+  min-height: 460px
+}
+
+.story .tab-pane h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px
+}
+
+.story .tab-pane h3 {
+  font-size: 32px;
+  color: #34729c
+}
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+  .story .storyIntro {
+    width: 100%
+  }
+}
+
+.story .how {
+  width: 100%;
+  overflow: hidden
+}
+
+.story .how h2 {
+  color:#000;
+}
+
+
+
+.story .how #icon1, .story .how #icon2, .story .how #icon3 {
+
+}
+
+.story .how img {
+  padding: 18px 0;
+  margin: 0 auto;
+  display: block
+}
+
+.story .how img {
+  width: 190px;
+  height: 190px
+}
+
+.story #stories svg {
+  width: 58%;
+  height: 100%
+}
+
+.story #integrations .col-lg-4 svg {
+  width: 112px;
+  height: 112px;
+  display: block;
+  margin: 0 auto
+}
+
+.story #integrations .col-lg-4 h3 {
+  margin-top: 20px
+}
+
+.story #leadintell h3 {
+  text-align: left
+}
+
+.story #ourstandards .col-lg-7 {
+  text-align: left;
+  margin-top: 35px
+}
+
+.story #ourstandards .col-lg-7 svg {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: -12px
+}
+
+.clients {
+  width: 100%;
+  background: url(https://cdn.buyerzone.com/images/leads/bg_clients.jpg) no-repeat center;
+  background-size: 1500px;
+  background-position-y: -14px;
+  text-align: center;
+  height: 860px;
+  padding-top: 70px
+}
+
+.clients h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px
+}
+
+.clients .col-lg-4 {
+  height: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: rgba(235, 202, 87, .7)
+}
+
+.clients .col-lg-4:hover {
+  background: #ebca57
+}
+
+.industries {
+  padding: 4% 0;
+  width: 100%;
+  background: #505050;
+  overflow: hidden;
+  text-align: center;
+  color: #fff
+}
+
+.industries h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: right
+}
+
+.industries .row {
+  margin-bottom: 40px
+}
+
+.industries .introText {
+  border-left: 2px solid #f9f7f5;
+  text-align: left;
+  font-size: 19px
+}
+
+.industries .whaticons {
+
+  overflow: hidden;
+  font-size: 18px;
+  margin-top: 40px;
+  text-align: center
+}
+
+.view {
+  width: 168px;
+  height: 210px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  cursor: default
+}
+
+.view .content, .view .mask {
+  width: 168px;
+  height: 210px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
+}
+
+.view img {
+  display: block;
+  position: relative
+}
+
+.view ul {
+  text-align: left;
+  font-size: 13px;
+  padding: 0 0 0 20px;
+  margin: 24px 0 0 10px;
+  width: 85%
+}
+
+.view ul li {
+  margin-bottom: 12px
+}
+
+.view ul li a {
+  color: #F6D57E
+}
+
+.col-sm-2 span {
+  width: 168px;
+  background: #363636;
+  display: inline-block;
+  padding: 8px 0;
+  margin-left: -1px
+}
+
+.view h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 28px;
+  padding: 10px;
+  margin: 60px 0 0
+}
+
+.view p {
+  font-size: 15px;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 20px;
+  text-align: center
+}
+
+.view-first img {
+  transition: all .2s linear
+}
+
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(244, 148, 69, .9);
+  transition: all .4s ease-in-out
+}
+
+.view-first h3 {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all .2s ease-in-out
+}
+
+.view-first p {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all .2s linear
+}
+
+.view-first a.info {
+  opacity: 0;
+  transition: all .2s ease-in-out
+}
+
+.view-first:hover img {
+  transform: scale(1.1)
+}
+
+.view-first:hover .mask {
+  opacity: 1
+}
+
+.view-first:hover a.info, .view-first:hover h3, .view-first:hover p {
+  opacity: 1;
+  transform: translateY(0px)
+}
+
+.view-first:hover p {
+  transition-delay: .1s
+}
+
+.view-first:hover a.info {
+  transition-delay: .2s
+}
+
+.closer {
+  background: url(https://cdn.buyerzone.com/images/leads/hero-office.jpg) 50% 0 no-repeat fixed;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 55px;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Fira Sans', sans-serif;
+
+
+}
+
+.closer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #ff7b12, #F49445, #636363, #464646);
+  opacity: .84;
+  height: 600px
+}
+
+.closer .col-lg-5 {
+  margin: 0 auto;
+  display: block;
+  float: none;
+  text-align: center;
+
+}
+
+.closer .btn-large {
+  font-size: 34px;
+  padding: 18px 28px
+}
+
+.closer a:hover {
+  text-decoration: none
+}
+
+.closer h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+    font-size: 70px;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.closer h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 40px;
+  color:#fff;
+}
+
+.closer img {
+  width:180px;
+  height:auto;
+  margin-left:30px
+}
+
+.navbar-fixed-top+.content-container {
+  margin-top: 70px
+}
+
+.content-container {
+  margin: 0 130px
+}
+
+#top-link-block.affix-top {
+  position: absolute;
+  left: 0
+}
+
+#top-link-block.affix {
+  position: fixed;
+  bottom: 48px;
+  z-index: 10000;
+  left:22px;
+}
+
+#top-link-block.affix a {
+  color: #fff
+}
+
+#top-link-block.affix a:hover {
+  color: #3498db
+}
+
+.well {
+  font-size: 21px;
+  background: #46b8da;
+  border-radius: 8px;
+  border: 0
+}
+
+.well:hover {
+  box-shadow: 0 0 0 65px #8ae1ff inset;
+  transition: all 1.2s ease 0s;
+  text-decoration: none
+}
+
+input[type=text] {
+  width: 265px
+}
+
+.mktField {
+  display: inline-block;
+  margin: 20px 45px 20px 0;
+  min-height: 100px
+}
+
+.bottomRow {
+  display: inline-flex
+}
+
+.g-recaptcha {
+  margin-bottom: 10px
+}
+
+.mktField:nth-child(10), .mktField:nth-child(4), .mktField:nth-child(7) {
+  margin-right: 0
+}
+
+label {
+  display: block!important;
+}
+
+.mktError input, .mktError select, .mktError textarea {
+  border: 4px solid #FA593A
+}
+
+.marketoForm table input {
+  border: 0
+}
+
+.marketoForm .submitButton {
+  width: 415px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #5bc0de;
+  color: #fff;
+  font-size: 24px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  font-weight: 700;
+  text-align:center;
+}
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+  .marketoForm .submitButton {
+    width: 410px
+  }
+}
+
+.submitButton:hover {
+  box-shadow: 0 0 0 65px #8ae1ff inset;
+  transition: all 1.2s ease 0s
+}
+
+span.mktFormMsg {
+  color: #FA593A;
+  font-weight: 700;
+  display: table;
+  font-size: .916em;
+  padding: 0
+}
+
+textarea {
+  background-color: #fbfbfb;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+  padding: 13px;
+  width: 375px;
+  height: 150px
+}
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+  textarea {
+    vertical-align: middle
+  }
+}
+
+.phoneNumber {
+  font-size: 36px;
+  margin: 30px auto 0;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.feedback-input {
+  color: #3c3c3c;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0)
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: none;
+  border: 5px solid #FABF3A;
+  color: #DD9833;
+  outline: 0;
+  padding: 13px 13px 13px 50px
+}
+
+.focused {
+  color: #30aed6;
+  border: #30aed6 solid 3px
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px
+}
+
+.company {
+  background-image: url(https://cdn.buyerzone.com/images/leads/company.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  width: 358px !important
+}
+
+.company:focus {
+  background-image: url(https://cdn.buyerzone.com/images/leads/company.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat
+}
+
+.website {
+  background-image: url(https://cdn.buyerzone.com/images/leads/computer.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  width: 355px !important
+}
+
+.website:focus {
+  background-image: url(https://cdn.buyerzone.com/images/leads/computer.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat
+}
+
+.state, .state:focus {
+  background-image: url(https://cdn.buyerzone.com/images/leads/us.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  width: 100px !important
+}
+
+.phone, .phone:focus {
+  background-image: url(https://cdn.buyerzone.com/images/leads/phone.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat
+}
+
+.name {
+  background-image: url(https://cdn.buyerzone.com/images/leads/name.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat
+}
+
+.name:focus {
+  background-image: url(https://cdn.buyerzone.com/images/leads/name.png);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat
+}
+
+.email-leads {
+  background-image: url(https://cdn.buyerzone.com/images/leads/email.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  width: 428px !important
+}
+
+.email-leads:focus {
+  background-image: url(https://cdn.buyerzone.com/images/leads/email.png);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat
+}
+
+input:focus, input:hover, textarea:focus, textarea:hover {
+  background-color: #fff
+}
+
+.submit:hover {
+  color: #3498db
+}
+
+.ease {
+  width: 0;
+  height: 74px;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease
+}
+
+.submit:hover .ease {
+  width: 100%
+}
+
+.panel-tabs {
+  position: relative;
+  bottom: 30px;
+  clear: both;
+  border-bottom: 1px solid transparent
+}
+
+.panel-tabs>li {
+  float: left;
+  margin-bottom: -1px
+}
+
+.panel-tabs>li>a {
+  margin-right: 2px;
+  margin-top: 4px;
+  line-height: .85;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  color: #fff
+}
+
+.panel-tabs>li>a:hover {
+  border-color: transparent;
+  color: #fff;
+  background-color: transparent
+}
+
+.panel-tabs>li.active>a, .panel-tabs>li.active>a:focus, .panel-tabs>li.active>a:hover {
+  color: #fff;
+  cursor: default;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, .23);
+  border-bottom-color: transparent
+}
+
+.advanced-md-logo, .atlas-logo, .five-9-logo, .jacuzzi-logo, .kronos-logo, .paychex-logo, .pitney-bowes-logo, .ricoh-logo, .safestep-logo, .sharp-logo, .toyota-logo, .vonage-business-logo {
+  background: url(https://cdn.buyerzone.com/images/leads/sprites_logos.png) no-repeat;
+  background-size: 300px;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  margin: 14px
+}
+
+.atlas-logo {
+  background-position: -150px -150px
+}
+
+.advanced-md-logo {
+  background-position: -150px -100px
+}
+
+.toyota-logo {
+  background-position: 0 -150px
+}
+
+.safestep-logo {
+  background-position: -150px -200px
+}
+
+.five-9-logo {
+  background-position: 0 -250px
+}
+
+.kronos-logo {
+  background-position: 0 -200px
+}
+
+.paychex-logo {
+  background-position: 0 -100px
+}
+
+.pitney-bowes-logo {
+  background-position: -150px -50px
+}
+
+.ricoh-logo {
+  background-position: 0 -50px
+}
+
+.sharp-logo {
+  background-position: -150px 0
+}
+
+.vonage-business-logo {
+  background-position: 0 0
+}
+
+.jacuzzi-logo {
+  background-position: -150px -250px
+}
+
+.neopost-logo {
+  background: url(https://cdn.buyerzone.com/images/leads/neopost-gray_2.png) no-repeat;
+  background-size: 150px;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  margin: 14px
+}
+
+
+
+.col-sm-4 {
+  text-align: right;
+  font-size: 10px
+}
+
+span.build {
+  font-size: 11px;
+  color: #3A3A3A
+}
+
+.bbb {
+  margin-top: 36px
+}
+
+.bbb a {
+  display: block;
+  float: left;
+  margin-right: 20px
+}
+
+.copyright {
+  background-color: #3A3A3A;
+  color: #fff;
+  padding: 6px 0
+}
+
+.copyright p {
+  margin-top: 9px;
+  margin-bottom: 0;
+  font-size: 11px;
+  line-height: 14px;
+  margin-right: 0
+}
+
+.copyright nav {
+  margin-right: 0
+}
+
+.copyright a {
+  color: #fff;
+  display: inline-block;
+  font-size: 11px;
+  padding-right: 10px
+}
+
+.copyright a:hover {
+  color: #9ADFFF
+}
+
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: .9s;
+  -webkit-animation-duration: .9s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%)
+  }
+
+  50% {
+    transform: translateY(-8%)
+  }
+
+  65% {
+    transform: translateY(4%)
+  }
+
+  80% {
+    transform: translateY(-4%)
+  }
+
+  95% {
+    transform: translateY(2%)
+  }
+
+  100% {
+    transform: translateY(0%)
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(100%)
+  }
+
+  50% {
+    -webkit-transform: translateY(-8%)
+  }
+
+  65% {
+    -webkit-transform: translateY(4%)
+  }
+
+  80% {
+    -webkit-transform: translateY(-4%)
+  }
+
+  95% {
+    -webkit-transform: translateY(2%)
+  }
+
+  100% {
+    -webkit-transform: translateY(0%)
+  }
+}
+
+.slideLeft {
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: .4s;
+  -webkit-animation-duration: .4s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(150%)
+  }
+
+  50% {
+    transform: translateX(-8%)
+  }
+
+  100% {
+    transform: translateX(0%)
+  }
+}
+
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateX(150%)
+  }
+
+  50% {
+    -webkit-transform: translateX(-8%)
+  }
+
+  100% {
+    -webkit-transform: translateX(0%)
+  }
+}
+
+.slideRight {
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight;
+  animation-duration: .4s;
+  -webkit-animation-duration: .4s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-150%)
+  }
+
+  50% {
+    transform: translateX(8%)
+  }
+
+  100% {
+    transform: translateX(0%)
+  }
+}
+
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(-150%)
+  }
+
+  50% {
+    -webkit-transform: translateX(8%)
+  }
+
+  100% {
+    -webkit-transform: translateX(0%)
+  }
+}
+
+.bigEntrance {
+  animation-name: bigEntrance;
+  -webkit-animation-name: bigEntrance;
+  animation-duration: 1.6s;
+  -webkit-animation-duration: 1.6s;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  visibility: visible !important
+}
+
+@keyframes bigEntrance {
+  0% {
+    transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+    opacity: .2
+  }
+
+  30% {
+    transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
+    opacity: 1
+  }
+
+  45% {
+    transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+
+  60% {
+    transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+
+  75% {
+    transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+
+  90% {
+    transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes bigEntrance {
+  0% {
+    -webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+    opacity: .2
+  }
+
+  30% {
+    -webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);
+    opacity: 1
+  }
+
+  45% {
+    -webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+
+  60% {
+    -webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+
+  75% {
+    -webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+
+  90% {
+    -webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+
+  100% {
+    -webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+    opacity: 1
+  }
+}
+
+@media (max-width:1200px) {
+  .bottomRow {
+    display: block
+  }
+
+  .logo img {
+    width: 320px;
+    height: 50px
+  }
+
+  .mktField:nth-child(4) {
+    margin-right: 55px
+  }
+
+  #intro h1 {
+    font-size: 55px
+  }
+
+  #intro .col-lg-10 .btn-large, #intro h2 {
+    font-size: 38px
+  }
+
+  .story .blueArrow {
+    width: 970px
+  }
+
+  .story button {
+    font-size: 19px
+  }
+
+  .story #leadintell img {
+    width: 310px
+  }
+
+  .story #ourstandards .col-lg-4 img {
+    width: 270px
+  }
+
+  .story #ourstandards .col-lg-7 {
+    margin-top: 14px
+  }
+
+  .story #ourstandards .col-lg-7 svg {
+    margin-bottom: 30px
+  }
+
+  .view, .view .mask, .view img {
+    width: 134px;
+    height: 175px
+  }
+
+  .col-sm-2 span {
+    width: 134px;
+    font-size: 13px
+  }
+
+  .view ul {
+    margin: 12px 0 0 5px;
+    font-size: 11px
+  }
+}
+
+@media (max-width:992px) {
+  .logo img {
+    width: 210px;
+    height: 34px;
+    margin-top: 12px
+  }
+
+  .navbar-nav a.textlink {
+    font-size: 14px
+  }
+
+  .about-leads h2 {
+    text-align: center
+  }
+
+  .about-leads h3 {
+    font-size: 27px
+  }
+
+  .about-leads .introText {
+    border: 0;
+    margin-top: 12px
+  }
+
+  .adt-logo, .advanced-md-logo, .bobcat-logo, .caterpillar-logo, .five-9-logo, .konica-minolta-logo, .kronos-logo, .paychex-logo, .pitney-bowes-logo, .ricoh-logo, .sharp-logo, .vonage-business-logo {
+    margin: 8px
+  }
+
+  .whatwedo h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: left
+  }
+
+  .whatwedo .introText {
+    border: 0
+  }
+
+  .story .blueArrow {
+    display: none
+  }
+
+  .story .storyIntro {
+    position: static;
+    margin: 0 auto 40px
+  }
+
+  .story .storyIntro h2 {
+    font-size: 36px;
+    margin-bottom: 10px
+  }
+
+  .story .storyIntro .introText {
+    border: 0
+  }
+
+  .story #stories svg {
+    width: 95%
+  }
+
+  .story #ourstandards .col-lg-7 svg {
+    display: none
+  }
+
+  .tabContainer {
+    padding-top: 0
+  }
+
+  .industries h2 {
+    text-align: center
+  }
+
+  .industries .introText {
+    border: 0
+  }
+
+  .industries .col-sm-2 {
+    margin-right: 8%
+  }
+}
+
+@media (max-width:768px) {
+  #intro, .closer, .whatwedo {
+    background-attachment: scroll
+  }
+
+  .leads-nav li {
+    display: inline-block!important;
+  }
+
+  .leads-nav {
+    margin-top:-20px!important;
+  }
+
+  .hide-mobile {
+    display: none
+  }
+
+  .purch-bug {
+    padding-bottom: 0 !important
+  }
+
+  .menuContainer {
+    position: absolute;
+    top: 0;
+    float: none;
+    width:300px;
+    padding-top:0;
+  }
+
+
+  .logo img {
+    position: static;
+  }
+
+  .logo img {
+    width: 210px;
+    height: 35px;
+    top: 5px;
+    left: 10px
+  }
+
+
+
+
+
+  #intro {
+    padding-top: 82.62%;
+    background: url(https://cdn.buyerzone.com/images/leads/bg_office_mobile.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    height: 0
+  }
+
+  #intro:before {
+    display: none
+  }
+
+  #intro .get-more {
+    top: 20%
+  }
+
+  #intro .client {
+    font-size: 14px
+  }
+
+  #intro .col-lg-10 {
+    display: none;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    margin-top: 10%;
+    padding: 0
+  }
+
+  #intro .col-lg-10 .btn-large {
+    font-size: 28px
+  }
+
+  #intro .thanks-text {
+    position: absolute;
+    top: 5%
+  }
+
+  #intro .thanks-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px
+  }
+
+  #intro .thanks-text h3 {
+    font-size: 21px
+  }
+
+  .mobileMessage {
+    display: block
+  }
+
+  .contact-form {
+    padding: 30px 0;
+  }
+
+  .contact-form h3 {
+    margin-left: 0;
+    font-size: 28px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .mktField {
+    display: block;
+    min-height: 0;
+    margin: 20px 0
+  }
+
+  input[type=text], textarea {
+    width: 100% !important
+  }
+
+  .marketoForm .submitButton {
+    width: 90%
+  }
+
+  .phoneNumber {
+    font-size: 21px;
+    text-align: left
+  }
+
+  .how img {
+    padding: 14px 0
+  }
+
+  .about-leads h2 {
+    font-size: 34px
+  }
+
+  .about-leads .watch {
+    margin: 58px 0;
+    background-size: 300px;
+    height: 240px
+  }
+
+  .about-leads .watch img {
+    width: 125px
+  }
+
+  .whatwedo {
+    padding: 12% 10%
+  }
+
+  .whatwedo .container {
+    padding: 0
+  }
+
+  .whatwedo img {
+    max-width: 270px
+  }
+
+  .whatwedo .col-sm-1 {
+    display: inline
+  }
+
+  .whatwedo .col-lg-4 {
+    margin-top: 12%
+  }
+
+
+  .story img {
+    max-width: 100%
+  }
+
+  .story h2 {
+    padding-top: 0
+  }
+
+  .story h3 {
+    margin-top: 0 !important
+  }
+
+  .story .col-lg-4 {
+    margin: 8% 0;
+    float: none
+  }
+
+  .story .tabContainer {
+    padding-top: 0;
+    margin-top: 0
+  }
+
+  .story .col-lg-11 p, .story .col-lg-12 p {
+    margin-bottom: 12px
+  }
+
+  .story #leadintell img, .story #stories svg {
+    margin-top: 20px
+  }
+
+  .well {
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    display: inline-block;
+    font-size: 17px
+  }
+
+  #top-link-block.affix {
+    right: 0;
+    z-index: 103;
+    width: 100%;
+    text-align: center;
+    bottom: -22px;
+    left:0;
+  }
+
+  footer .footerLinks {
+    margin-bottom: 20px
+  }
+
+  footer .credits {
+    padding-bottom: 40px
+  }
+}
+
+@media (max-width:550px) {
+  #intro .get-more {
+    width: 90%;
+    top: 16%
+  }
+
+  nav li {
+    margin-left: 10px
+  }
+
+  g.watch img {
+    width: 85px
+  }
+
+  #confirm #intro {
+    padding-top: 92.62%
+  }
+}
+
+@media (max-width:450px) {
+  #intro .get-more {
+    top: 14%
+  }
+
+  #intro .client {
+    display: none
+  }
+}
+
+@media (max-width:415px) {
+  #intro h2 {
+    font-size: 28px;
+    line-height: 26px
+  }
+
+  #intro .value {
+    font-size: 14px
+  }
+
+  #intro .thanks-text {
+    top: 4%;
+    padding-left: 12px;
+    line-height: 20px
+  }
+
+  #intro .thanks-text h2 {
+    font-size: 21px
+  }
+
+  #intro .thanks-text h3 {
+    font-size: 17px
+  }
+
+  #intro .thanks-text ul {
+    margin-left: -10px;
+    margin-top: 12px
+  }
+
+  .closer h2 {
+    font-size: 38px
+  }
+}
+
+@media (max-width:360px) {
+  #confirm #intro {
+    padding-top: 106.62%
+  }
+}
+
+@media screen and (orientation:landscape) and (max-device-width:768px) {
+  #intro .get-more {
+    top: 28%
+  }
+}
+
+@media all and (device-width:768px) and (device-height:1024px) and (orientation:landscape) {
+  #intro, .closer, .whatwedo {
+    background-attachment: scroll
+  }
+
+  .industries {
+    display: none
+  }
+}
