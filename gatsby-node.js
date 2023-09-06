@@ -8,6 +8,15 @@ exports.createPages = async ({ actions }) => {
   })
 }
 
+module.exports = {
+  developMiddleware: app => {
+     app.use((req, res, next) => {
+      res.set('X-Frame-Options', 'SAMEORIGIN');
+      next();
+    });
+  },
+}
+
 
 // gatsby-node.js
 exports.createPages = async ({ graphql, actions }) => {

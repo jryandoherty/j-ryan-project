@@ -55,3 +55,9 @@
   height:10px;
   background-color:#d1d6da;
 }
+
+@media (max-width:500px) {
+  .mac-wrapper {
+    margin:1rem 0;
+  }
+}

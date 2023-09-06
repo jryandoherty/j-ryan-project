@@ -19,26 +19,6 @@ const Websites = () => {
         <div class="screen-stand-bottom"></div>
       </div>
 
-      <div class="mac-wrapper">
-        <div class="screen">
-        <Link to="/sites/bdc-partner/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg" alt="Business.com" /></Link>
-
-        </div>
-        <div class="screen-bottom"></div>
-        <div class="screen-stand"></div>
-        <div class="screen-stand-bottom"></div>
-      </div>
-
-
-      <div class="mac-wrapper">
-        <div class="screen">
-        <Link to="/sites/leads-2016/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649122544/thumbs_sites/leads2016_nyuefe.jpg" alt="Buyerzone Sales" /></Link>
-
-        </div>
-        <div class="screen-bottom"></div>
-        <div class="screen-stand"></div>
-        <div class="screen-stand-bottom"></div>
-      </div>
 
       <div class="mac-wrapper">
         <div class="screen">
@@ -55,7 +35,7 @@ const Websites = () => {
         <div class="screen">
         <Link to="/sites/louis-mian/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/mian_jfpy4j.jpg" alt="Louis W. Mian"/></Link>
 
-          
+
 
         </div>
         <div class="screen-bottom"></div>
@@ -94,6 +74,26 @@ const Websites = () => {
         <div class="screen-stand-bottom"></div>
       </div>
 
+      <div class="mac-wrapper">
+        <div class="screen">
+        <Link to="/sites/bdc-partner/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg" alt="Business.com" /></Link>
+
+        </div>
+        <div class="screen-bottom"></div>
+        <div class="screen-stand"></div>
+        <div class="screen-stand-bottom"></div>
+      </div>
+
+
+      <div class="mac-wrapper">
+        <div class="screen">
+        <Link to="/sites/leads-2016/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649122544/thumbs_sites/leads2016_nyuefe.jpg" alt="Buyerzone Sales" /></Link>
+
+        </div>
+        <div class="screen-bottom"></div>
+        <div class="screen-stand"></div>
+        <div class="screen-stand-bottom"></div>
+      </div>
 
 
 
