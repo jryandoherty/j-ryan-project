@@ -1,21 +1,26 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
+
 
 
 const BDCCommunity = () => (
   <Layout>
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
     <Seo title="Sites :: BDC Community" />
 
     <div class="webpage-container">
 
     <div class="container screenshot">
-
+    <div class="row">
     <div class="legend col-lg-6">
-      <h2>PROJECT</h2>
+      <h3>PROJECT</h3>
       <ul>
         <li><strong>Category:</strong> Sites and mini-sites</li>
         <li><strong>Client:</strong> Business.com</li>
@@ -24,6 +29,10 @@ const BDCCommunity = () => (
       <p>Prototypes for a redesign of Business.com's community page.</p>
     </div>
 
+    <div class="legend col-lg-6">
+  EMPTY
+    </div>
+</div>
     <div class="row">
       <div id="carousel-port" class="carousel slide" data-ride="carousel" data-interval="3000">
 

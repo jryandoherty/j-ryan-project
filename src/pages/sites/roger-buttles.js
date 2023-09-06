@@ -1,21 +1,26 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
 
 
 const RogerButtles = () => (
   <Layout>
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
     <Seo title="Sites :: Roger Buttles" />
 
     <div class="webpage-container">
       <div class="webpage">
 
       <div class="row">
+        <div class="col-lg-6">
         <div class="legend">
-          <h2>PROJECT</h2>
+          <h3>PROJECT</h3>
           <ul>
             <li><strong>Client:</strong> Roger Buttles</li>
             <li><strong>Date:</strong> 2021</li>
@@ -26,11 +31,12 @@ const RogerButtles = () => (
           </ul>
             <p>Portfolio site for artist Roger Buttles.</p>
         </div>
+        </div>
       </div>
 
-      <div class="row">
+
           <object data="https://rogerbuttles.com" aria-label="live page"></object>
-      </div>
+
 
       </div>
     </div>

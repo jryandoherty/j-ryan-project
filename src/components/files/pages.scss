@@ -99,7 +99,7 @@
 
 
 .webpage-container {
-	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
+
 }
 
 
@@ -140,6 +140,7 @@
 
 	.row:first-of-type {
 	 	margin-bottom:2%;
+		align-items: center;
  	}
 
 	.row:nth-of-type(2) {
@@ -156,6 +157,11 @@
 		height:768px;
 		width:100%;
 
+		--scrollbarBG: #211e18;
+		--thumbBG: #ff863e;
+			scrollbar-width: thin;
+			scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+
 		border: 1px solid $altblack;
 	 	box-shadow:  1px 1px $altblack,
 	 		 2px 2px $altblack,
@@ -167,7 +173,7 @@
 	}
 
 	.legend {
-		font-size:100%;
+		font-size:115%;
 		@media(max-width:480px){
 			font-size:90%;
 		}
@@ -184,44 +190,6 @@
 
 }/* end webpage */
 
-
-
-.screenshot {
-
-	position:relative;
-	padding-bottom:2%;
-
-	.crumbs {
-		font-size:85%;
-		border-bottom:1px solid $breadcrumbs;
-		padding-right:0!important;
-		@media(max-width:480px){
-			font-size:80%;
-		}
-
-	}
-
-	.row:first-of-type {
-	 	margin-bottom:2%;
- 	}
-
-	.row:nth-of-type(2) {
-		margin-bottom:4%;
-	}
-
-	.row:last-of-type  {
-		margin-bottom:15%;
-	}
-
-	.legend {
-		font-size:85%;
-
-	}
-	+ footer {
-		background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
-		background-size:cover;
-	}
-}
 
 .legend {
 
@@ -254,9 +222,7 @@ margin:2rem auto;
 		padding-right:24px;
 	}
 
-	p {
-		margin:10px 0 0 0;
-	}
+
 
 	a {
 	 color:$siennaLight
@@ -271,6 +237,37 @@ margin:2rem auto;
 	}
 
 }
+
+.screenshot {
+
+
+	.row:first-of-type {
+	 	margin-top:2rem;
+		-ms-zoom: 0.85;
+	 -moz-transform: scale(0.85);
+	 -moz-transform-origin: top center;
+	 -webkit-transform: scale(0.85);
+	 -webkit-transform-origin: top center;
+
+ 	}
+
+	.row:nth-of-type(2) {
+		margin-bottom:4%;
+	}
+
+
+
+	.legend {
+		font-size:115%;
+		margin:0;
+
+	}
+	+ footer {
+		background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
+		background-size:cover;
+	}
+}
+
 
 .three-screens {
 	width:700px;
@@ -350,10 +347,15 @@ margin:2rem auto;
 
 .carousel img {
 	box-shadow: $sienna 2px 2px 4px;
-	margin-bottom:10px;
-	max-width: 99%!important;
+	margin-bottom:3rem;
+	margin-top:1rem;
+	width: 85%;
 	border-top:1px solid $sienna;
 	border-left:1px solid $sienna;
+}
+
+.item {
+	text-align: center;
 }
 
 .project-flow {
@@ -378,7 +380,7 @@ margin:2rem auto;
 
 .project-flow-img {
 	max-width:100%;
-	width:1200px;
-	margin:20px auto 0;
+	width:800px;
+	margin:3rem auto;
 	display:block;
 }

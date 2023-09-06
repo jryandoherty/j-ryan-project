@@ -1,11 +1,12 @@
 import * as React from "react"
+import ReactDOM from 'react-dom'
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 
 import Seo from "../components/seo"
-import "../components/portfolio2.scss"
+
 
 const IndexPage = () => (
   <Layout>
@@ -13,27 +14,43 @@ const IndexPage = () => (
 
     <div className="container">
 
-    <h1 style={{textAlign:`center`,fontSize:`4rem`}}>DEV + DESIGN</h1>
-    <p style={{textAlign:`center`,fontSize:`1.5rem`}}>Affordable design solutions and web development. </p>
-    <p style={{textAlign:`center`,fontSize:`1.1rem`}}><Link to="#recent-projects">Recent Work</Link></p>
+    <h1 style={{marginBottom:`0`}}>DEV + DESIGN</h1>
+    <h2 style={{textAlign:`center`,fontSize:`1.5rem`}}>Affordable design solutions and web development. </h2>
+    <p style={{textAlign:`center`}}><Link to="#recent-projects"><button class="btn btn-primary" style={{textAlign:`center`,fontSize:`1.5rem`, margin:`2rem`}}>Recent Work &#8681;</button></Link></p>
 
     <div className="row">
-          <div className="col-md-4">
-            <h2>Companies</h2>
+          <div className="col-lg-7" style={{border:`2px solid #524d21`, padding:`30px`, borderRight:`0`}}>
+            <h2>For Companies</h2>
             <p>Your business need a website that "pops". Ok, I hate that term. It's meaningless. What you really need is a custom design approach based on research and data-driven analysis.  I offer reasonable hourly pricing and flat rates based on project type.</p>
           </div>
-          <div class="col-md-4">
-            <h2>Individuals</h2>
+          <div class="col-lg-5" style={{background:`#524d21`, color:`#fff`, padding:`30px`}}>
+            <h2>For  Individuals</h2>
               <p>Want to take your side hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a full website, I can help you get there.</p>
           </div>
-          <div class="col-md-4">
+
+            </div>{/* end row */}
+<div className="d-flex justify-content-center row">
+
+          <div class="col-lg-4" style={{background:`#fec800`, color:`#111`, padding:`30px`}}>
             <h2>Nonprofits</h2>
               <p>If you have a nonprofit organization with a limited or nonexistent budget, I can offer highly discounted rates and even pro bono work.</p>
           </div>
-      </div>{/* end row */}
 
-      <h2 style={{fontSize:`3rem`, marginBottom:`3rem`}} id="recent-projects">Recent Work</h2>
-      <div class="row" >
+          <StaticImage
+            src="../images/border.png"
+            width={380}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="section divider"
+            style={{display:`flex`,margin:`0 auto`}}
+          />
+
+</div>
+
+
+      <div class="row" style={{marginTop:`4rem`}} >
+
+      <h2 style={{fontSize:`3rem`, marginBottom:`3rem`, textAlign:`center`}}id="recent-projects">Recent Work</h2>
           <div class="col-lg-6">
             <h3>PROJECT</h3>
               <ul>
@@ -46,26 +63,27 @@ const IndexPage = () => (
             <p>Website, logo, and promotional materials for Outer Space, an art gallery based in Concord NH. </p>
           </div>
 
-          <div class="col-lg-6" style={{textAlign:`center`}}>
-              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg"
-                style={{ width:`320px`, maxWidth:`100%`}}
-              alt="outer space logo"
-              />
+          <div class="col-lg-6" style={{textAlign:`right`}}>
+          <StaticImage
+            src="../images/outer-space-desktop.png"
+            width={580}
+            quality={95}
+            formats={["auto", "webp"]}
+            alt="website desktop"
+            placeholder="blurred"
+            style={{boxShadow:`2px 1px 1px #333`}}
+          />
 
           </div>
         </div>
 
-<div class="col-lg-12 recent-images">
+<div className="col-lg-12 d-flex justify-content-between align-items-center my-5">
+<Link to="/sites/outer-space/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg"
+  style={{ width:`320px`, maxWidth:`100%`}}
+alt="outer space logo"
 
-    <StaticImage
-      src="../images/outer-space-desktop.png"
-      width={580}
-      quality={95}
-      formats={["auto", "webp"]}
-      alt="website desktop"
-      placeholder="blurred"
-      style={{boxShadow:`2px 1px 1px #333`}}
-    />
+/></Link>
+
 
     <StaticImage
       src="../images/phone-home.png"
@@ -83,6 +101,7 @@ const IndexPage = () => (
       formats={["auto", "webp"]}
       alt="website ipad"
       placeholder="blurred"
+
     />
 
     <StaticImage
@@ -92,13 +111,22 @@ const IndexPage = () => (
       formats={["auto", "webp", "avif"]}
       alt="pdf price list"
       placeholder="blurred"
+
     />
 
 
   </div>{/* end col-12 */}
 
+  <StaticImage
+    src="../images/border.png"
+    width={380}
+    quality={95}
+    formats={["auto", "webp", "avif"]}
+    alt="section divider"
+    style={{display:`flex`,margin:`0 auto`}}
+  />
 
-<div class="row" style={{marginTop: `4rem`}}>
+<div class="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
 
     <div class="col-lg-4">
       <h3>PROJECT</h3>
@@ -120,8 +148,16 @@ const IndexPage = () => (
 
   </div>{/* end row */}
 
+  <StaticImage
+    src="../images/border.png"
+    width={380}
+    quality={95}
+    formats={["auto", "webp", "avif"]}
+    alt="section divider"
+      style={{display:`flex`,margin:`0 auto`}}
+  />
 
-  <div class="row" style={{marginTop: `4rem`}}>
+  <div class="row" id="min" style={{marginTop: `4rem`}}>
 
       <div class="col-lg-4">
         <h3>PROJECT</h3>
@@ -170,7 +206,7 @@ const IndexPage = () => (
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
-
+        placeholder="blurred"
 
       />
     </div>
@@ -189,7 +225,7 @@ const IndexPage = () => (
 
   </div>{/* end row */}
 
-  <div class="row" style={{marginTop: `4rem`}}>
+  <div class="row" style={{marginTop: `2rem`}}>
   <div class="col-lg-6" style={{textAlign:`center`}}>
 
     <StaticImage
@@ -210,13 +246,13 @@ const IndexPage = () => (
       quality={95}
       formats={["auto", "webp"]}
       alt="min and chula"
-
+      placeholder="blurred"
       width={220}
 
     />
   </div>
 
-  </div>
+  </div>{/* end row */}
 
 </div>{/* end container */}
 

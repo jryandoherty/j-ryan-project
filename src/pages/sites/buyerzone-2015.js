@@ -1,13 +1,17 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
 
 
 const Buyerzone = () => (
   <Layout>
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
     <Seo title="Sites :: BuyerZone Homepage 2015" />
 
     <div class="webpage-container">
@@ -17,7 +21,7 @@ const Buyerzone = () => (
 
     <div class="row">
       <div class="col-lg-6 legend">
-        <h2>PROJECT</h2>
+        <h3>PROJECT</h3>
         <ul>
           <li><strong>Client:</strong> Buyerzone.com</li>
           <li><strong>Date:</strong> September 2015</li>

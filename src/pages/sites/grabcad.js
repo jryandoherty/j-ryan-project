@@ -1,21 +1,25 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
 
 
 const GrabCad = () => (
   <Layout>
-    <Seo title="GrabCad " />
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
+    <Seo title="Sites :: GrabCAD" />
 
     <div class="webpage-container">
       <div class="webpage">
         <div class="row">
           <div class="col-lg-6">
             <div class="legend">
-              <h2>PROJECT</h2>
+              <h3>PROJECT</h3>
               <ul>
                 <li><strong>Client:</strong> GrabCad</li>
                 <li><strong>Date:</strong> March 2020</li>
@@ -38,9 +42,9 @@ const GrabCad = () => (
           </div>
         </div>
 
-      <div class="row">
+
           <object data="https://blog.grabcad.com/" aria-label="live page"></object>
-      </div>
+
 
     </div>
     </div>

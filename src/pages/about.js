@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Helmet from 'react-helmet'
 
-import "../components/portfolio2.scss"
+
 
 const About = () => (
   <Layout>
@@ -19,12 +19,15 @@ const About = () => (
     <section class="about-section" id="about">
 
       <div class="container">
-      <div class="row">
-        <h1>About</h1>
-        <div class="col-lg-6 bio">
-     I've been working on the web since the early 2000s doing freelance, corporate, and non-profit work ranging from full site
+        <div class="row" style={{display:`flex`, alignItems:`top`, margin:`5rem 0`}}>
+
+        <div class="col-lg-6 ">
+          <h1 style={{margin:`0`}}>about</h1>
+     <p>I've been working on the web since the early 2000s doing freelance, corporate, and non-profit work ranging from full site
      design, landing pages, conversion pages, and marketing emails. So many changes during that time! But that's the fun part.
-     When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank" rel="noreferrer">birding</a>.
+     When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank" rel="noreferrer">birding</a>.</p>
+
+
       </div>
 
       <div class="col-lg-6">
@@ -34,6 +37,7 @@ const About = () => (
         </picture>
       </div>
       </div>
+
       </div>
 
     </section>

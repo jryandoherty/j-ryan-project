@@ -9,6 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
+import "../components/portfolio2.scss"
 
 
 import Header from "./header"
@@ -71,11 +72,12 @@ const Layout = ({ children }) => {
 
         <footer
           style={{
-            marginTop: `2rem`,
             padding:`1rem`,
           }}
         >
           © {new Date().getFullYear()} J. Ryan Doherty
+          <p><a href="/">home</a> | <a href="/portfolio/">portfolio</a> | <a href="/about/">about</a> | <a href="/contact/">contact</a></p>
+
           <p>Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a></p>

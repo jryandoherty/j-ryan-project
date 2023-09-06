@@ -1,14 +1,20 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
+
+import homePartner from './home-partner.js'
 
 
 const BDCPartner = () => (
   <Layout>
-    <Seo title="Sites :: BDC Partner " />
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
+    <Seo title="Sites :: BDC Partner" />
 
     <div class="webpage-container">
 
@@ -17,7 +23,7 @@ const BDCPartner = () => (
       <div class="row">
       <div class="col-lg-6">
         <div class="legend legend-thumbnails">
-          <h2>PROJECT</h2>
+          <h3>PROJECT</h3>
           <ul>
             <li><strong>Category:</strong> Sites & Mini-sites</li>
             <li><strong>Client:</strong> Business.com</li>
@@ -36,17 +42,11 @@ const BDCPartner = () => (
           </picture>
         </div>
       </div>
-      <div class="row">
-        <object name="frame" data="louis-mian.js" aria-label="live page"></object>
-      </div>
 
-      <div class="row">
-        <div class="col-md-6 thumbnail-webpage">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_lead_mv5h11.png" alt="screen 1" />
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_marketing_nkwfbt.png" alt="screen 2" />
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_ad_cpwlnl.png" alt="screen 3" />
-        </div>
-      </div>
+        <object name="frame" data="/sites/home-partner/" aria-label="live page"></object>
+
+
+      
 
 
     </div>

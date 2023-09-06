@@ -1,12 +1,14 @@
 import React from 'react';
+
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
 const Conversion = () => {
-  return (
-    <section class="thumbnails conversion-tab" id="sites" role="tabpanel">
 
-      <h2>Conversion Pages</h2>
+
+  return (
+    <section class="conversion-tab" id="sites" role="tabpanel">
+
+      <h1>conversion projects</h1>
 
 <div class="col-lg-12">
       <picture>
@@ -31,6 +33,15 @@ const Conversion = () => {
 
 
       <div class="col-lg-12">
+
+      <StaticImage
+        src="../images/border.png"
+        width={380}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="section divider"
+        style={{margin:`0 auto`, display:`block`, width:`70%`}}
+      />
         <picture>
          <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649344243/copiers_nrghcx.webp" type="image/webp" class="project-flow-img" />
          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649344243/copiers_dj6tbk.jpg" alt="me" class="project-flow-img" />
@@ -52,25 +63,21 @@ const Conversion = () => {
 
       </div>
 
-      <div class="col-lg-12">
-          <picture>
-             <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1673634183/bdc_price_utflcx.webp" type="image/webp" class="three-screens" />
-             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1673634184/bdc_price_p9qbp3.jpg" alt="three screens" class="three-screens" />
-          </picture>
 
-          <div class="col-lg-7 legend">
-            <h3>PROJECT</h3>
-            <ul>
-              <li><strong>Category:</strong> Conversion pages</li>
-              <li><strong>Client:</strong> Business.com</li>
-              <li><strong>Date:</strong> 2018</li>
-            </ul>
-            <p>Prototype for Business.com's B2B conversion pages.</p>
-          </div>
-        </div>
+
+
 
 
 <div class="col-lg-12">
+
+<StaticImage
+  src="../images/border.png"
+  width={380}
+  quality={95}
+  formats={["auto", "webp", "avif"]}
+  alt="section divider"
+  style={{margin:`0 auto`, display:`block`, width:`70%`}}
+/>
       <picture>
          <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1673483637/trucks_elz1ig.webp" type="image/webp" class="project-flow-img" />
          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1673483637/trucks_a1mblg.jpg" alt="project flow" class="project-flow-img" />
@@ -90,6 +97,33 @@ const Conversion = () => {
       </div>
 </div>
 
+
+
+<div class="col-lg-12">
+
+<StaticImage
+  src="../images/border.png"
+  width={380}
+  quality={95}
+  formats={["auto", "webp", "avif"]}
+  alt="section divider"
+  style={{margin:`0 auto`, display:`block`, width:`70%`}}
+/>
+    <picture>
+       <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1673634183/bdc_price_utflcx.webp" type="image/webp" class="project-flow-img" />
+       <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1673634184/bdc_price_p9qbp3.jpg" alt="three screens" class="project-flow-img" />
+    </picture>
+
+    <div class="col-lg-7 legend">
+      <h3>PROJECT</h3>
+      <ul>
+        <li><strong>Category:</strong> Conversion pages</li>
+        <li><strong>Client:</strong> Business.com</li>
+        <li><strong>Date:</strong> 2018</li>
+      </ul>
+      <p>Prototype for Business.com's B2B conversion pages.</p>
+    </div>
+  </div>
 
     </section>
 

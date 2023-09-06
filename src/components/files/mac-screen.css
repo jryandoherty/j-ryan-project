@@ -1,0 +1,57 @@
+.mac-wrapper {
+  position:relative;
+  margin:3rem;
+  width:350px;
+  height:auto;
+  overflow:hidden;
+  display:inline-block;
+}
+
+.screen {
+  position:relative;
+  margin:0 auto;
+  height:216px;
+  display:block;
+  background-color:white;
+  border:20px solid #313742;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+}
+
+.screen-camera {
+  position:absolute;
+  top:-15px;
+  left:50%;
+  transform:translateX(-50%);
+  width:10px;
+  height:10px;
+  background-color:#464b54;
+  border-radius:100%;
+}
+
+.screen-top {
+  height:15px;
+  background-color:#f1f2f2;
+}
+
+.screen-bottom {
+  height:32px;
+  background-color:#dcdfe2;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+.screen-stand {
+  margin:0 auto;
+  width:35%;
+  height:32px;
+  background-color:#dcdfe2;
+  border-top:6px solid #d1d6da;
+}
+
+.screen-stand-bottom {
+  margin:0 auto;
+  width:50%;
+  height:10px;
+  background-color:#d1d6da;
+}

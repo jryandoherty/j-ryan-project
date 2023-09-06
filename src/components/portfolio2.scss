@@ -5,10 +5,11 @@ html, body {
 	height: 100%;
 	font-size: 17px;
 	color:$black;
+	background: $cream!important;
 	/*background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png')no-repeat 185px 94px/600px;*/
 	/*scroll-behavior: smooth;*/
 	/*image-rendering: -webkit-optimize-contrast;*/
-	background: $cream!important;
+
 }
 
 main {
@@ -17,10 +18,18 @@ main {
 		text-align: left;
 	}
 
-	h1, h2 {
+	h1 {
 		margin:3rem auto 1rem;
 		font-family: 'Nova Round', sans-serif;
 		text-align: center;
+	}
+
+	h2 {
+		font-family: 'Nova Round', sans-serif;
+
+		@media(min-width:1280px) {
+			font-size: 1.25rem;
+		}
 	}
 
 	h3 {
@@ -40,7 +49,43 @@ main {
 		}
 	}
 
-}
+	h1 {
+		font-size:max(6.1vw, 1.23rem);
+		word-spacing: -.2ch;
+		letter-spacing: -2px;
+		font-family: 'Nova Round', serif;
+		margin:5rem auto 3rem;
+
+
+		@media(min-width:1280px) {
+			font-size:5rem;
+		}
+
+	/*	@media(max-width:1024px) {
+			font-size:max(7.1vw, 1.23rem);
+			transition: all .5s ease-out;
+
+		}*/
+
+		@media(max-width:768px) {
+			font-size:3.3em;
+			transition: all .5s ease-out;
+			margin-right:0;
+		}
+
+		@media(max-width:500px) {
+			font-size:2.75em;
+			transition: all .5s ease-out;
+			margin-right:0;
+		}
+
+	}
+
+	h1 + p {
+		margin:0;
+	}
+
+} /* end main */
 
 .navbar {
 	position:relative!important;
@@ -62,20 +107,66 @@ main {
 	.brick {
 		height:40vh;
 		@media (max-width:926px) and (orientation:landscape){
-
 		height:60vh;
 
 	}
+
+	.recentWork {
+		height:140px;
+		width:140px;
+		@media (max-width:768px){
+			width: 75px;
+			height: 75px;
+			transition:all 1s ease-out;
+			margin:0;
+		}
+	}
+
+	.contact {
+		height:100px;
+		width:100px;
+		margin: 20px 0 0 -40px;
+		@media (max-width:768px){
+			width: 75px;
+			height: 75px;
+			transition:all 1s ease-out;
+			margin:0;
+		}
+	}
+
+	.branding {
+		height:80px;
+		width:80px;
+		margin: 100px -10px 0 -50px;
+		@media (max-width:768px){
+			width: 75px;
+			height: 75px;
+			transition:all 1s ease-out;
+			margin:0;
+		}
+	}
+
+
 	@media (min-width: 1280px){
-		h1 {
+		.logo {
 			font-size:4rem;
 		}
-		h2 {
+		.title {
 			font-size:1rem;
 		}
 	}
 
+
+}/* end brick styles */
+@media (min-width: 1280px){
+	h1 {
+		font-size:4rem;
 	}
+	h2 {
+		font-size:1rem;
+	}
+}
+
 
 }/* end secondary styles */
 
@@ -84,9 +175,9 @@ main {
 
 .brick {
 
-	background:radial-gradient(circle, rgba(240, 109, 6, .24), transparent),
+	background:radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('../images/graffiti_large.png') no-repeat bottom right,
 	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
-	background-size:  cover, cover;
+	background-size:  cover, 60%, cover;
 	overflow:hidden;
 	color:$white;
 	position:relative;
@@ -100,7 +191,7 @@ main {
 	}
 
 
-	h1 {
+	.logo {
 		font-size:max(6.1vw, 1.23rem);
 		word-spacing: -.2ch;
 		letter-spacing: -2px;
@@ -134,11 +225,11 @@ main {
 
 	}
 
-	h2 {
+	.title {
 		font-family: 'Source Code Pro', monospace;
 		font-size:1.4vw;
 		letter-spacing: .10em;
-		margin:-3% 0 0 33%;
+		margin:-4% 0 0 33%;
 
 
 		@media(min-width:1280px) {
@@ -211,33 +302,19 @@ main {
 	width:auto;
 }
 
-.logo {
-	min-width:400px;
-	@media(max-width:768px) {
-		min-width:auto;
-	}
-	img {
-		width:320px;
-		@media(max-width:768px) {
-			width:270px;
-		}
-	}
-
-}
 
 
 
 }   /* end brick section */
 
 .about-section {
-	padding:5% 5%;
+	padding:0 5%;
 	@media(max-width:768px) {
 		background-size: 900px;
 	}
 
 	h1, h2 {
-		margin-top:0;
-		font-family: 'Nova Round', cursive;
+
 	}
 
 	img {
@@ -364,12 +441,12 @@ main {
 
 .nav-link {
 	font-family: 'Source Code Pro', monospace;
-	text-transform: uppercase;
+
 	display: inline;
 	width:100%;
 	color:$white!important;
 	@media (max-width:768px){
-		font-size: .70rem!important;
+		font-size: .80rem!important;
 	}
 }
 
@@ -410,7 +487,7 @@ main {
 
 
 .thumbnails {
-	padding:5%;
+	padding:0 5%;
 	text-align: center;
 
 	h2 {
@@ -464,7 +541,7 @@ main {
 }
 
 .ads {
-	padding:5%;
+	padding:0 5%;
 	text-align: center;
 
 	h2 {
@@ -477,8 +554,8 @@ main {
 	}
 
 	img {
-		margin: 10px 13px;
-		box-shadow: 1px 2px 3px $sienna;
+		margin: 3rem;
+
 		border:1px solid $sienna;
 		@media(max-width:768px){
 			margin:10px auto;
@@ -499,7 +576,7 @@ main {
 
 .logos {
   text-align:center;
-	padding:5%;
+	padding:0 5%;
 
 	h2 {
 		font-family: 'Nova Round', cursive;
@@ -511,9 +588,9 @@ main {
 	}
 
 	img {
-    width:240px;
+    width:280px;
     height:auto;
-    margin:30px 33px;
+    margin:3rem;
 		display: inline-block;
 
 		/*	&:nth-child(3n) {
@@ -529,14 +606,42 @@ main {
 
 }
 
-.websites, .print, .email {
+.websites {
+	text-align: center;
 	img {
-		width:250px;
-		height:auto;
-
-		margin:1rem;
-		box-shadow: 1px 1px 1px #333;
+		max-width:100%;
+		border:1px solid #7a7a7a;
 	}
+
+
+/* a	{
+		width:320px;
+		margin:2rem;
+		display:inline-block;
+
+		&:nth-child(3n){
+			width:440px;
+		}
+
+		&:nth-child(2n){
+			width:290px;
+		}
+	}*/
+}
+
+
+.print {
+	img {
+		width:240px;
+		height:auto;
+		margin:1rem;
+
+	}
+}
+
+
+.email {
+
 }
 
 .recent-images {
@@ -550,7 +655,14 @@ main {
 
 .conversion-tab {
 	.col-lg-12{
-		margin-bottom:12rem;
+		margin-bottom:7rem;
+		&:last-child {
+			margin-bottom:0;
+		}
+	}
+
+	picture {
+		margin-top:3rem;
 	}
 }
 
@@ -607,18 +719,28 @@ main {
 		font-size:1.24rem;
 	}
 
+	p {
+		font-size:2rem;
+		margin:0;
+		font-family: 'Nova Round', sans-serif;
+	}
+
+	label {
+		font-family: 'Source Code Pro', monospace;
+		margin:1rem 0 .2rem;
+	}
+
 }
 
 
 footer {
-	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
-	background-size: cover;
+	background: radial-gradient(circle, rgba(240, 109, 6, .14)15%, transparent), url('../images/graffiti_large.png') no-repeat right, url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
+	background-size: cover, cover, cover;
 	padding:2% 0;
 	color:$white;
 	font-size: .86em;
-	/*margin-top:-12%;*/
-	overflow:hidden;
-	clear:both;
+
+	font-family: 'Source Code Pro', monospace;
 	@media(max-width:768px) {
 		padding:10%;
 	}
@@ -688,46 +810,6 @@ footer {
 		}
 	}
 
-.recentWork {
-  width: 126px;
-  height: 126px;
-		@media(max-width:768px){
-			width: 108px;
-			height: 108px;
-		}
-		@media(max-width:568px){
-			width: 94px;
-			height: 94px;
-		}
-}
-
-.contact {
-  width: 71px;
-  height: 71px;
-	margin: 32px 0 0 -49px;
-	@media(max-width:768px){
-		width: 108px;
-		height: 108px;
-	}
-	@media(max-width:568px){
-		width: 94px;
-		height: 94px;
-	}
-}
-
-.branding{
-	width: 90px;
-	height: 90px;
-	margin:85px -10px 0 -45px;
-	@media(max-width:768px){
-		width: 108px;
-		height: 108px;
-	}
-	@media(max-width:568px){
-		width: 94px;
-		height: 94px;
-	}
-}
 
 
 } /* end footer */

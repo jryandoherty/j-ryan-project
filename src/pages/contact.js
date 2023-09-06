@@ -21,16 +21,101 @@ const Contact = () => (
       <div class="row" style={{display:`flex`, alignItems:`center`}}>
 
         <div class="col-lg-12" style={{textAlign:`center`}}>
-          <h1>Email me:</h1>
+          <p class="text-center  mt-5">email me:</p>
           <a href="mailto:ryan@jryandoherty.com" >ryan@jryandoherty.com</a>
 
-          <h1>Call me:</h1>
+          <p class="text-center mt-5">call me:</p>
           <a href="tel:6173120522">617-312-0522</a>
         </div>
-  </div>{/* end row */}
-  <div class="row" style={{display:`flex`, alignItems:`center`}}>
+
+      </div>{/* end row */}
+
+
+      <div class="row">
+        <p class="my-5 text-center">Get in Touch:</p>
+      <form action="https://public.herotofu.com/v1/514f74d0-2505-11ee-9907-0b23fd627d84" method="post" accept-charset="UTF-8">
+
+      <div class="row">
+
+
+    <div class="col-lg-6 form-group px-5">
+
+        <div class="form-group">
+        <label for="name">Your Name</label>
+        <input class="form-control" name="Name" id="name" type="text" required />
+        </div>
+
+
+        <div class="form-group">
+        <label for="email">Your Email</label>
+        <input class="form-control" name="Email" id="email" type="email" required  />
+        </div>
+        <div class="form-group">
+            <label for="phone">
+                Phone:</label>
+            <input type="tel" class="form-control" id="phone" name="phone" maxlength="50" />
+        </div>
+
+
+              <div class="form-group ">
+                      <label for="message">
+                          Message:</label>
+                      <textarea class="form-control" id="message" name="message" placeholder="Briefly describe your project" maxlength="6000" rows="7"></textarea>
+                  </div>
+
+                    </div>
+                      <div class="col-lg-6 form-group px-5">
+
+
+
+
+                      <div class="checkbox">
+                          <p class="fs-4">Click any service you are looking for:</p>
+                        <label>
+                          <input type="checkbox" id="web-design" name="web-design" value="yes" class="toggle" /><span>Website design</span>
+                        </label>
+
+                        <label>
+                            <input type="checkbox" id="logo" name="logo" value="yes" class="toggle" /><span>Logo design</span>
+                        </label>
+
+                        <label>
+                            <input type="checkbox" id="email-marketing" name="email-marketing" value="yes" class="toggle" /><span>Email Marketing</span>
+                        </label>
+
+
+
+                      </div>
+
+
+                      <div>
+                        <button type="submit" class="btn btn-primary" value="Send" >Send</button>
+                        <div style={{textIndent:`-99999px`, whiteSpace:`nowrap`, overflow:`hidden`, position:`absolute`}} aria-hidden="true">
+                          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                        </div>
+                      </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+      </form>
+      </div>
+
+
+
+      <div class="row" style={{display:`flex`, alignItems:`center`}}>
         <div class="col-lg-12">
-          <h2>Find me elswhere on the interwebs:</h2>
+          <p style={{textAlign:`center`}}>Find me elswhere on the interwebs:</p>
           <nav class="socials">
           <ul class="nav navbar-nav">
             <li>
@@ -68,10 +153,7 @@ const Contact = () => (
 
 
 
-
-
-
-      </div>
+      </div>{/* end container */}
 
     </section>
 

@@ -2,11 +2,16 @@ import * as React from "react"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
 
 
 const LouisMian = () => (
   <Layout>
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
     <Seo title="Sites :: Louis W. Mian, inc." />
 
     <div class="webpage-container">
@@ -14,7 +19,7 @@ const LouisMian = () => (
         <div class="row">
           <div class="col-lg-6">
             <div class="legend">
-              <h2>PROJECT</h2>
+              <h3>PROJECT</h3>
               <ul>
                 <li><strong>Client:</strong> Louis W. Mian, Inc.</li>
                 <li><strong>Date:</strong> August 2020</li>
@@ -36,9 +41,9 @@ const LouisMian = () => (
           </div>
         </div>
 
-        <div class="row">
+
           <object name="frame" data="https://www.louismian.com" aria-label="live page"></object>
-        </div>
+
 
 
       </div>

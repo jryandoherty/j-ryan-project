@@ -2,11 +2,16 @@ import * as React from "react"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
 
 
 const Leads2016 = () => (
   <Layout>
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
     <Seo title="Sites :: BuyerZone Leads 2016" />
 
     <div class="webpage-container">
@@ -17,7 +22,7 @@ const Leads2016 = () => (
     <div class="row">
       <div class="col-lg-6">
       <div class="legend">
-        <h2>PROJECT</h2>
+        <h3>PROJECT</h3>
         <ul>
           <li><strong>Client:</strong> Buyerzone.com</li>
           <li><strong>Platform:</strong> FreeMarker(Java)</li>
@@ -38,9 +43,9 @@ const Leads2016 = () => (
 
     </div>
 
-    <div class="row">
-      <object data="" aria-label="live page"></object>
-    </div>
+
+    <object data="/sites/leads-2016-home/" aria-label="live page"></object>
+
 
 
     </div>

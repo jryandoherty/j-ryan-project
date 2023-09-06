@@ -4,13 +4,61 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Email = () => {
   return (
-    <section class="thumbnails email" id="emails" role="tabpanel">
-        <h2>Emails</h2>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573426/thumbs_email/doc_management2_ud8uee.jpg" alt="email-1" />
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573319/thumbs_email/bdc_email_sdbc5l.png" alt="email-2" />
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573426/thumbs_email/bucket_q5jlbq.jpg" alt="email-3" />
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573397/thumbs_email/box_trucks2_c9bife.jpg" alt="email-4" />
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573519/thumbs_email/office-cubes_tdceiy.jpg" alt="email-5" />
+
+
+    <section class="email" id="emails" role="tabpanel">
+
+<div class="container">
+<div class="col-lg-12 recent-images">
+    <h1>emails</h1>
+
+        <StaticImage
+          src="../images/emails/bdc-desktop.png"
+          width={290}
+
+          quality={95}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          style={{}}
+        />
+
+        <StaticImage
+          src="../images/emails/cloud-mobile.png"
+          width={137}
+          quality={100}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          style={{}}
+        />
+
+        <StaticImage
+          src="../images/emails/cubicles_desktop.png"
+          width={290}
+          quality={100}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          style={{}}
+        />
+
+        <StaticImage
+          src="../images/emails/reach-mobile.png"
+          width={137}
+          quality={100}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          style={{}}
+        />
+
+        <StaticImage
+          src="../images/emails/trucks-desktop.png"
+          width={290}
+          quality={100}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          style={{}}
+        />
+</div>
+</div>
     </section>
 
   );

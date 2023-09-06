@@ -1,19 +1,25 @@
 import * as React from "react"
 import { useState } from 'react';
+import { useRef } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import Navbar from 'react-bootstrap/Navbar';
+
 import Websites from "../components/websites"
 import Conversion from "../components/conversion"
 import Email from "../components/email"
 import Print from "../components/print"
 import Ads from "../components/ads"
 import Logos from "../components/logos"
-import { Link } from "gatsby"
 
 
 function ControlledTabsExample() {
   const [key, setKey] = useState('home');
+
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
 
@@ -24,11 +30,11 @@ function ControlledTabsExample() {
       onSelect={(k) => setKey(k)}
       sticky="top"
     >
-      <Tab eventKey="home" title="Websites">
-        <Websites/>
+      <Tab eventKey="home" title="websites" onClick={handleClick}>
+        <Websites ref={ref} />
       </Tab>
 
-      <Tab eventKey="conversion" title="conversion">
+      <Tab eventKey="conversion" title="conversion" onClick={handleClick}>
         <Conversion/>
       </Tab>
 
@@ -44,7 +50,7 @@ function ControlledTabsExample() {
         <Ads/>
       </Tab>
 
-      <Tab eventKey="logos" title="logos" style={{color:`#333`}}>
+      <Tab eventKey="logos" title="logos">
         <Logos/>
       </Tab>
 

@@ -9,8 +9,8 @@ const Header = ({ siteTitle }) => (
 
   <div className="container-fluid">
       <div className="col-lg-6 intro">
-          <h1><Link to="/">j. ryan doherty</Link></h1>
-          <h2>designer & developer</h2>
+          <div class="logo"><Link to="/">j. ryan doherty</Link></div>
+          <div class="title">designer & developer</div>
       </div>
 
       <div className="col-lg-6">
