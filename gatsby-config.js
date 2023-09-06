@@ -1,4 +1,13 @@
 module.exports = {
+  developMiddleware: app => {
+     app.use((req, res, next) => {
+      res.set('X-Frame-Options', 'ALLOWSAMEORIGIN');
+      next();
+    });
+  },
+}
+
+module.exports = {
   siteMetadata: {
     title: `J. Ryan Doherty Design`,
     description: `Web design and development for artists, small businesses, contractors and non-profits.`,
