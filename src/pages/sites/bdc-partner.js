@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 
-import homePartner from './home-partner.js'
+
 
 
 const BDCPartner = () => (
@@ -43,10 +43,9 @@ const BDCPartner = () => (
         </div>
       </div>
 
-        <object name="frame" data="/sites/home-partner/" aria-label="live page"></object>
 
 
-      
+
 
 
     </div>
