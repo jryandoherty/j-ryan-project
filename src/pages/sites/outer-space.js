@@ -43,7 +43,7 @@ const OuterSpace = () => (
           quality={95}
           formats={["auto", "webp"]}
           alt="website iphone"
-
+  placeholder="blurred"
         />
 
       </div>
