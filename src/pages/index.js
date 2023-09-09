@@ -87,16 +87,6 @@ alt="outer space logo"
 
 
     <StaticImage
-      src="../images/phone-home.png"
-      width={180}
-      quality={95}
-      formats={["auto"]}
-      alt="website iphone"
-
-
-    />
-
-    <StaticImage
       src="../images/ipad-home.png"
       width={300}
       quality={95}
