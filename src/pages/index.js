@@ -92,7 +92,7 @@ alt="outer space logo"
       quality={95}
       formats={["auto"]}
       alt="website iphone"
-      placeholder="blurred"
+
 
     />
 
@@ -181,7 +181,6 @@ alt="outer space logo"
           quality={95}
           formats={["auto", "webp"]}
           alt="min and chula"
-          placeholder="blurred"
           style={{boxShadow:`2px 1px 1px #333`}}
         />
 
@@ -198,8 +197,6 @@ alt="outer space logo"
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
-        placeholder="blurred"
-
       />
     </div>
     <div class="col-lg-4">
@@ -209,8 +206,6 @@ alt="outer space logo"
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
-        placeholder="blurred"
-
       />
     </div>
     <div class="col-lg-4">
@@ -220,9 +215,6 @@ alt="outer space logo"
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
-        placeholder="blurred"
-
-
       />
 
       </div>
@@ -237,9 +229,7 @@ alt="outer space logo"
       quality={95}
       formats={["auto", "webp"]}
       alt="min and chula"
-      placeholder="blurred"
       width={400}
-
     />
   </div>
 
@@ -250,9 +240,7 @@ alt="outer space logo"
       quality={95}
       formats={["auto", "webp"]}
       alt="min and chula"
-      placeholder="blurred"
       width={220}
-
     />
   </div>
 
