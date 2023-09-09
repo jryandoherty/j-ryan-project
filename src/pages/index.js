@@ -178,41 +178,7 @@ alt="outer space logo"
 
     </div>{/* end row */}
 
-<div className="row" style={{marginTop: `2rem`, textAlign:`center`}}>
-    <div class="col-lg-4">
 
-      <StaticImage
-        src="../images/min-browser-top.png"
-        width={440}
-        quality={95}
-        alt="min and chula"
-        formats={["auto"]}
-      />
-
-    </div>
-    <div class="col-lg-4">
-
-      <StaticImage
-        src="../images/min-browser-mid.png"
-        quality={95}
-        formats={["auto"]}
-        alt="min and chula 2"
-        width={440}
-      />
-    </div>
-    <div class="col-lg-4">
-
-    <StaticImage
-        src="../images/min-browser-bottom.png"
-        quality={95}
-        formats={["auto"]}
-        alt="min and chula 3"
-        width={440}
-      />
-
-      </div>
-
-  </div>{/* end row */}
 
   <div class="row" style={{marginTop: `2rem`}}>
   <div class="col-lg-6" style={{textAlign:`center`}}>
@@ -223,7 +189,6 @@ alt="outer space logo"
       quality={95}
       formats={["auto"]}
       alt="min and chula ipad"
-
     />
   </div>
 
