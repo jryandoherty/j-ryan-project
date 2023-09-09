@@ -172,7 +172,6 @@ alt="outer space logo"
           formats={["auto", "webp"]}
           alt="min and chula home"
           style={{boxShadow:`2px 1px 1px #333`}}
-          placeholder="blurred"
         />
 
       </div>
@@ -188,30 +187,27 @@ alt="outer space logo"
         quality={95}
         alt="min and chula"
         formats={["auto"]}
-        placeholder="blurred"
-        style={{}}
       />
+
     </div>
     <div class="col-lg-4">
+
       <StaticImage
         src="../images/min-browser-mid.png"
-        width={440}
         quality={95}
+        formats={["auto", "webp"]}
         alt="min and chula 2"
-        formats={["auto"]}
-        placeholder="blurred"
-        style={{}}
+        width={440}
       />
     </div>
     <div class="col-lg-4">
-      <StaticImage
+
+    <StaticImage
         src="../images/min-browser-bottom.png"
-        width={440}
         quality={95}
+        formats={["auto", "webp"]}
         alt="min and chula 3"
-        formats={["auto"]}
-        placeholder="blurred"
-        style={{}}
+        width={440}
       />
 
       </div>
@@ -227,8 +223,6 @@ alt="outer space logo"
       quality={95}
       formats={["auto", "webp"]}
       alt="min and chula ipad"
-      placeholder="blurred"
-      style={{}}
 
     />
   </div>
