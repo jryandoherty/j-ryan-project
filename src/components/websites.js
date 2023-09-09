@@ -9,6 +9,27 @@ const Websites = () => {
 
       <h1>sites</h1>
 
+      <div class="mac-wrapper">
+        <div class="screen">
+        <Link to="/sites/outer-space/">
+
+        <StaticImage
+          src="../images/home-desktop.png"
+          width={580}
+          quality={95}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          placeholder="blurred"
+          style={{boxShadow:`2px 1px 1px #333`}}
+        />
+        </Link>
+        </div>
+        <div class="screen-bottom"></div>
+        <div class="screen-stand"></div>
+        <div class="screen-stand-bottom"></div>
+      </div>
+
+
 
       <div class="mac-wrapper">
         <div class="screen">

@@ -85,6 +85,13 @@ main {
 		margin:0;
 	}
 
+	.btn-primary {
+		background-color:$sienna;
+		&:hover {
+			background-color:$siennaLight;
+		}
+	}
+
 } /* end main */
 
 .navbar {
@@ -187,7 +194,7 @@ main {
 	justify-content: center;
   /*mix-blend-mode: hard-light;*/
 	@media(max-width:768px) {
-		background-size: cover, 900px, cover;
+		background-size: cover, 600px, cover;
 	}
 
 
@@ -593,7 +600,7 @@ main {
     margin:3rem;
 		display: inline-block;
 		@media (max-width: 500px){
-			margin:1rem 0;
+			margin:2rem 0;
 		}
 
 		/*	&:nth-child(3n) {
@@ -658,7 +665,7 @@ main {
 
 .conversion-tab {
 	.col-lg-12{
-		margin-bottom:7rem;
+		margin-bottom:3rem;
 		padding:1rem;
 		&:last-child {
 			margin-bottom:0;

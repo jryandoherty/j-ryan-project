@@ -38,9 +38,10 @@ const Conversion = () => {
         src="../images/border.png"
         width={380}
         quality={95}
-        formats={["auto", "webp", "avif"]}
+        formats={["auto"]}
         alt="section divider"
-        style={{margin:`0 auto`, display:`block`, width:`70%`}}
+        placeholder="blurred"
+        style={{display:`flex`,margin:`0 auto`}}
       />
         <picture>
          <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649344243/copiers_nrghcx.webp" type="image/webp" class="project-flow-img" />
@@ -74,9 +75,10 @@ const Conversion = () => {
   src="../images/border.png"
   width={380}
   quality={95}
-  formats={["auto", "webp", "avif"]}
+  formats={["auto"]}
   alt="section divider"
-  style={{margin:`0 auto`, display:`block`, width:`70%`}}
+  placeholder="blurred"
+  style={{display:`flex`,margin:`0 auto`}}
 />
       <picture>
          <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1673483637/trucks_elz1ig.webp" type="image/webp" class="project-flow-img" />
@@ -105,9 +107,10 @@ const Conversion = () => {
   src="../images/border.png"
   width={380}
   quality={95}
-  formats={["auto", "webp", "avif"]}
+  formats={["auto"]}
   alt="section divider"
-  style={{margin:`0 auto`, display:`block`, width:`70%`}}
+  placeholder="blurred"
+  style={{display:`flex`,margin:`0 auto`}}
 />
     <picture>
        <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1673634183/bdc_price_utflcx.webp" type="image/webp" class="project-flow-img" />

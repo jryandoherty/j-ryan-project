@@ -72,15 +72,15 @@ const Contact = () => (
                       <div class="checkbox">
                           <p class="fs-4">Click any service you are looking for:</p>
                         <label>
-                          <input type="checkbox" id="web-design" name="web-design" value="yes" class="toggle" /><span>Website design</span>
+                          <span>Website design</span><input type="checkbox" id="web-design" name="web-design" value="yes" class="toggle" />
                         </label>
 
                         <label>
-                            <input type="checkbox" id="logo" name="logo" value="yes" class="toggle" /><span>Logo design</span>
+                            <span>Logo design</span><input type="checkbox" id="logo" name="logo" value="yes" class="toggle" />
                         </label>
 
                         <label>
-                            <input type="checkbox" id="email-marketing" name="email-marketing" value="yes" class="toggle" /><span>Email Marketing</span>
+                          <span>Email Marketing</span><input type="checkbox" id="email-marketing" name="email-marketing" value="yes" class="toggle" />
                         </label>
 
 

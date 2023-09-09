@@ -15,7 +15,7 @@ const IndexPage = () => (
     <div className="container">
 
     <h1 style={{marginBottom:`0`}}>DEV + DESIGN</h1>
-    <h2 style={{textAlign:`center`,fontSize:`1.5rem`}}>Affordable design solutions and web development. </h2>
+    <p style={{textAlign:`center`,fontSize:`1.5rem`}}>Affordable design solutions and web development. </p>
     <p style={{textAlign:`center`}}><Link to="#recent-projects"><button class="btn btn-primary" style={{textAlign:`center`,fontSize:`1.5rem`, margin:`2rem`}}>Recent Work &#8681;</button></Link></p>
 
     <div className="row">

@@ -43,6 +43,7 @@ const OuterSpace = () => (
           quality={95}
           formats={["auto", "webp"]}
           alt="website iphone"
+
         />
 
       </div>
@@ -56,6 +57,8 @@ const OuterSpace = () => (
           formats={["auto", "webp"]}
           alt="website ipad"
           placeholder="blurred"
+          style={{marginTop:`1rem`}
+          }
         />
 
       </div>

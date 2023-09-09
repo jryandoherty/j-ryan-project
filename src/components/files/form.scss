@@ -13,11 +13,11 @@
 
 .checkbox label {
 	min-height: 46px;
-	display:block;
+	display:flex;
 }
 
 .checkbox label span {
-	margin-left:40px;
+
 }
 
 .switch-field {
@@ -85,7 +85,7 @@ input[type="checkbox"] {
   border-radius: 16px;
   display: inline-block;
   position: relative;
-  margin: -3px 0 0 -20px!important;
+  margin: -3px 0 0 10px !important;
   border: 2px solid #474755;
   background: linear-gradient(180deg, #2D2F39 0%, #1F2027 100%);
   transition: all .2s ease;

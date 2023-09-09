@@ -1,5 +1,5 @@
 import * as React from "react"
-import "../../components/files/leads2016_min.css"
+
 import Helmet from 'react-helmet'
 
 
