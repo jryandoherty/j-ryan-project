@@ -169,7 +169,7 @@ alt="outer space logo"
         <StaticImage
           src="../images/min-desktop.png"
           quality={95}
-          formats={["auto", "webp"]}
+          formats={["auto"]}
           alt="min and chula home"
           style={{boxShadow:`2px 1px 1px #333`}}
         />
@@ -195,7 +195,7 @@ alt="outer space logo"
       <StaticImage
         src="../images/min-browser-mid.png"
         quality={95}
-        formats={["auto", "webp"]}
+        formats={["auto"]}
         alt="min and chula 2"
         width={440}
       />
@@ -205,7 +205,7 @@ alt="outer space logo"
     <StaticImage
         src="../images/min-browser-bottom.png"
         quality={95}
-        formats={["auto", "webp"]}
+        formats={["auto"]}
         alt="min and chula 3"
         width={440}
       />
@@ -221,7 +221,7 @@ alt="outer space logo"
       src="../images/min-ipad.png"
       width={400}
       quality={95}
-      formats={["auto", "webp"]}
+      formats={["auto"]}
       alt="min and chula ipad"
 
     />
