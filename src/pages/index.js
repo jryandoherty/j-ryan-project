@@ -140,73 +140,7 @@ alt="outer space logo"
 
   </div>{/* end row */}
 
-  <StaticImage
-    src="../images/border.png"
-    width={380}
-    quality={95}
-    formats={["auto"]}
-    alt="section divider"
-    placeholder="blurred"
-    style={{display:`flex`,margin:`0 auto`}}
-  />
 
-  <div class="row" id="min" style={{marginTop: `4rem`}}>
-
-      <div class="col-lg-4">
-        <h3>PROJECT</h3>
-        <ul>
-          <li><strong>Website</strong></li>
-          <li><strong>Client:</strong> Min and the Dancing Cactus</li>
-          <li><strong>Date:</strong> March 2023</li>
-          <li><strong>Platform:</strong> <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">Gatsby Cloud</a></li>
-          <li><a href="https://minandchula.com" target="_blank" rel="noreferrer">Website</a></li>
-        </ul>
-        <p>Website for the children's book Min and the Dancing Cactus by Nahyon Lee and Marshall Illif. Illustrated by Lucy Shin.</p>
-      </div>
-
-      <div class="col-lg-8">
-
-      <StaticImage
-        src="../images/min-phone.png"
-        quality={95}
-        formats={["auto", "webp"]}
-        alt="min and chula iphone"
-        width={220}
-        placeholder="blurred"
-      />
-
-      </div>
-
-    </div>{/* end row */}
-
-
-
-  <div class="row" style={{marginTop: `2rem`}}>
-  <div class="col-lg-6" style={{textAlign:`center`}}>
-
-  <StaticImage
-    src="../images/min-phone.png"
-    quality={95}
-    formats={["auto", "webp"]}
-    alt="min and chula iphone"
-    width={220}
-    placeholder="blurred"
-  />
-  </div>
-
-  <div class="col-lg-6" style={{display:`flex`, alignItems:`center`, justifyContent:`center`, marginTop:`1rem`}}>
-
-    <StaticImage
-      src="../images/min-phone.png"
-      quality={95}
-      formats={["auto", "webp"]}
-      alt="min and chula iphone"
-      width={220}
-      placeholder="blurred"
-    />
-  </div>
-
-  </div>{/* end row */}
 
 </div>{/* end container */}
 
