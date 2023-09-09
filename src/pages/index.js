@@ -172,6 +172,7 @@ alt="outer space logo"
           formats={["auto"]}
           alt="min and chula home"
           style={{boxShadow:`2px 1px 1px #333`}}
+          placeholder="blurred"
         />
 
       </div>
@@ -189,6 +190,7 @@ alt="outer space logo"
       quality={95}
       formats={["auto"]}
       alt="min and chula ipad"
+      placeholder="blurred"
     />
   </div>
 
@@ -200,6 +202,7 @@ alt="outer space logo"
       formats={["auto", "webp"]}
       alt="min and chula iphone"
       width={220}
+      placeholder="blurred"
     />
   </div>
 
