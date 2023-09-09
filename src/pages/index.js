@@ -169,7 +169,7 @@ alt="outer space logo"
         <StaticImage
           src="../images/min-desktop.png"
           quality={95}
-          formats={["auto"]}
+          formats={["auto", "webp"]}
           alt="min and chula home"
           style={{boxShadow:`2px 1px 1px #333`}}
           placeholder="blurred"
@@ -188,7 +188,7 @@ alt="outer space logo"
       src="../images/min-ipad.png"
       width={400}
       quality={95}
-      formats={["auto"]}
+      formats={["auto", "webp"]}
       alt="min and chula ipad"
       placeholder="blurred"
     />
