@@ -170,8 +170,9 @@ alt="outer space logo"
           src="../images/min-desktop.png"
           quality={95}
           formats={["auto", "webp"]}
-          alt="min and chula"
+          alt="min and chula home"
           style={{boxShadow:`2px 1px 1px #333`}}
+          placeholder="blurred"
         />
 
       </div>
@@ -183,28 +184,34 @@ alt="outer space logo"
 
       <StaticImage
         src="../images/min-browser-top.png"
-        quality={95}
         width={440}
-        formats={["auto", "webp"]}
+        quality={95}
         alt="min and chula"
+        formats={["auto"]}
+        placeholder="blurred"
+        style={{}}
       />
     </div>
     <div class="col-lg-4">
       <StaticImage
         src="../images/min-browser-mid.png"
-        quality={95}
         width={440}
-        formats={["auto", "webp"]}
-        alt="min and chula"
+        quality={95}
+        alt="min and chula 2"
+        formats={["auto"]}
+        placeholder="blurred"
+        style={{}}
       />
     </div>
     <div class="col-lg-4">
       <StaticImage
         src="../images/min-browser-bottom.png"
-        quality={95}
         width={440}
-        formats={["auto", "webp"]}
-        alt="min and chula"
+        quality={95}
+        alt="min and chula 3"
+        formats={["auto"]}
+        placeholder="blurred"
+        style={{}}
       />
 
       </div>
@@ -216,10 +223,13 @@ alt="outer space logo"
 
     <StaticImage
       src="../images/min-ipad.png"
+      width={400}
       quality={95}
       formats={["auto", "webp"]}
-      alt="min and chula"
-      width={400}
+      alt="min and chula ipad"
+      placeholder="blurred"
+      style={{}}
+
     />
   </div>
 
@@ -229,7 +239,7 @@ alt="outer space logo"
       src="../images/min-phone.png"
       quality={95}
       formats={["auto", "webp"]}
-      alt="min and chula"
+      alt="min and chula iphone"
       width={220}
     />
   </div>
