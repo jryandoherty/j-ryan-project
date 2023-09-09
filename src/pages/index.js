@@ -90,8 +90,9 @@ alt="outer space logo"
       src="../images/phone-home.png"
       width={180}
       quality={95}
-      formats={["auto", "webp"]}
+      formats={["auto"]}
       alt="website iphone"
+      placeholder="blurred"
 
     />
 
@@ -219,6 +220,7 @@ alt="outer space logo"
         width={440}
         formats={["auto", "webp"]}
         alt="min and chula"
+        placeholder="blurred"
 
 
       />
@@ -235,7 +237,7 @@ alt="outer space logo"
       quality={95}
       formats={["auto", "webp"]}
       alt="min and chula"
-
+      placeholder="blurred"
       width={400}
 
     />
