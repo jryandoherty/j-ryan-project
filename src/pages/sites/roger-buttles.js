@@ -32,6 +32,10 @@ const RogerButtles = () => (
             <p>Portfolio site for artist Roger Buttles.</p>
         </div>
         </div>
+
+        <div class="legend col-lg-6">
+
+        </div>
       </div>
 
 

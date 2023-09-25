@@ -30,7 +30,7 @@ const BDCCommunity = () => (
     </div>
 
     <div class="legend col-lg-6">
-  EMPTY
+
     </div>
 </div>
     <div class="row">
