@@ -15,6 +15,7 @@ import "../components/portfolio2.scss"
 import Header from "./header"
 // import "./layout.css"
 
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

@@ -40,6 +40,9 @@ const MinChula = () => (
     </div>
 </div>
     <div class="row">
+
+  <object name="frame" data="https://minandchula.com" aria-label="live page"></object>
+
       <div id="carousel-port" class="carousel slide" data-ride="carousel" data-interval="3000">
 
 

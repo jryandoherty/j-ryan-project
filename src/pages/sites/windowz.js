@@ -1,5 +1,4 @@
 import * as React from "react"
-import ReactDOM from 'react-dom'
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
@@ -33,15 +32,14 @@ const Windowz = () => (
           </div>
         </div>
 
-      <div class="col-lg-2">
 
+      <div class="col-lg-6">
 
+      <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1692984539/windowz-black_bwspvs.svg"
+        style={{ width:`520px`, maxWidth:`100%`}}
+      alt="outer space logo"
 
-      </div>
-
-      <div class="col-lg-4">
-
-
+      />
 
       </div>
 
