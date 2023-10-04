@@ -5,8 +5,6 @@ import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 
 
-
-
 const BDCPartner = () => (
   <Layout>
   <Helmet
@@ -43,7 +41,7 @@ const BDCPartner = () => (
         </div>
       </div>
 
-
+<object name="frame" data="https://master--verdant-kringle-235340.netlify.app/portfolio/2018/partner/home.html" aria-label="live page"></object>
 
 
 

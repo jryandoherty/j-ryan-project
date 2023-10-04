@@ -5,7 +5,6 @@ import { lucario } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const Outerspacecode2 = () => {
   const codeString = `
-/* by J. Ryan Doherty 2023 */
 @@include('./header.html', {
     "title": "Home",
     "canonical": ""

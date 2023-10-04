@@ -35,11 +35,11 @@ const Windowz = () => (
 
       <div class="col-lg-6">
 
-      <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1692984539/windowz-black_bwspvs.svg"
-        style={{ width:`520px`, maxWidth:`100%`}}
-      alt="outer space logo"
+        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1692984539/windowz-black_bwspvs.svg"
+          style={{ width:`520px`, maxWidth:`100%`}}
+        alt="outer space logo"
 
-      />
+        />
 
       </div>
 
@@ -47,8 +47,6 @@ const Windowz = () => (
 
 
       <object name="frame" data="https://windowzbyliberty.com" aria-label="live page"></object>
-
-
 
     </div>
     </div>

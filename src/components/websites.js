@@ -9,8 +9,31 @@ const Websites = () => {
 
       <h1>sites</h1>
 
+
       <div class="mac-wrapper">
         <div class="screen">
+
+        <Link to="/sites/windowz/">
+
+        <StaticImage
+          src="../images/websites/windowz-home.png"
+          width={580}
+          quality={95}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          placeholder="blurred"
+
+        />
+        </Link>
+        </div>
+        <div class="screen-bottom"></div>
+        <div class="screen-stand"></div>
+        <div class="screen-stand-bottom"></div>
+      </div>
+
+      <div class="mac-wrapper">
+        <div class="screen">
+
         <Link to="/sites/outer-space/">
 
         <StaticImage
@@ -20,7 +43,29 @@ const Websites = () => {
           formats={["auto", "webp"]}
           alt="website desktop"
           placeholder="blurred"
-          style={{boxShadow:`2px 1px 1px #333`}}
+
+        />
+        </Link>
+        </div>
+        <div class="screen-bottom"></div>
+        <div class="screen-stand"></div>
+        <div class="screen-stand-bottom"></div>
+      </div>
+
+
+      <div class="mac-wrapper">
+        <div class="screen">
+
+        <Link to="/sites/min-chula/">
+
+        <StaticImage
+          src="../images/min-desktop.png"
+          width={580}
+          quality={95}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          placeholder="blurred"
+
         />
         </Link>
         </div>
@@ -40,6 +85,15 @@ const Websites = () => {
         <div class="screen-stand-bottom"></div>
       </div>
 
+      <div class="mac-wrapper">
+        <div class="screen">
+        <Link to="/sites/bdc-partner/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg" alt="Business.com" /></Link>
+
+        </div>
+        <div class="screen-bottom"></div>
+        <div class="screen-stand"></div>
+        <div class="screen-stand-bottom"></div>
+      </div>
 
       <div class="mac-wrapper">
         <div class="screen">
@@ -94,17 +148,6 @@ const Websites = () => {
         <div class="screen-stand"></div>
         <div class="screen-stand-bottom"></div>
       </div>
-
-      <div class="mac-wrapper">
-        <div class="screen">
-        <Link to="/sites/bdc-partner/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg" alt="Business.com" /></Link>
-
-        </div>
-        <div class="screen-bottom"></div>
-        <div class="screen-stand"></div>
-        <div class="screen-stand-bottom"></div>
-      </div>
-
 
       <div class="mac-wrapper">
         <div class="screen">
