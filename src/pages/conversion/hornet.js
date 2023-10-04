@@ -3,22 +3,27 @@ import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
 
 
 const Hornet = () => (
   <Layout>
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
     <Seo title="Conversion :: Construction Equipment" />
 
     <div class="webpage-container">
     <div class="webpage">
 
       <div class="row">
-        <div class="legend col-lg-4">
-          <h2>PROJECT</h2>
+        <div class="col-lg-5">
+          <div class="legend">
+          <h3>PROJECT</h3>
           <ul>
-            <li><strong>Category:</strong> Conversion pages</li>
+            <li><strong>Category:</strong> Conversion projects</li>
             <li><strong>Client:</strong> Buyerzone.com</li>
             <li><strong>Date:</strong> 2016</li>
             <li><a href="https://github.com/jryandoherty/hornet" target="_blank" rel="noreferrer"><svg viewBox="0 0 32 32" class="github">
@@ -27,23 +32,24 @@ const Hornet = () => (
           </ul>
           <p>Construction themed conversion page. This page was the final step in a marketing campaign starting with a promotional email sent to potential customers in the construction business. The email would direct users either to a portal page, or directly to the conversion page.</p>
         </div>
-      <div class="col-lg-8">
+        </div>
+      <div class="col-lg-7">
           <picture>
              <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1674058071/construction_igsuw6.webp" type="image/webp" class="project-flow-img" />
              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1674058083/construction2_r7gr1f.jpg" alt="project flow" class="project-flow-img" />
           </picture>
 
           <div class="project-flow">
-            <div class="item">Promotional email</div>
-            <div class="item">Portal page</div>
-            <div class="item">Conversion page</div>
+            <div class="item"><p>Promotional email</p></div>
+            <div class="item"><p>Portal page</p></div>
+            <div class="item"><p>Conversion page</p></div>
           </div>
         </div>
       </div>
 
-      <div class="row">
-        <object name="frame" data="../2016/hornet/skidSteer.html" aria-label="live page"></object>
-      </div>
+
+        <object name="frame" data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/hornet/skidSteer.html" aria-label="live page"></object>
+
 
       </div>
     </div>

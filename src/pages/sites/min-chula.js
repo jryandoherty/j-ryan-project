@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 import Mincode from "../../components/code/min-chula"
-import Spacecode2 from "../../components/code/spacecode-html"
+import Mincode2 from "../../components/code/min-chula-css"
 
 const MinChula = () => (
   <Layout>
@@ -45,8 +45,8 @@ const MinChula = () => (
 
 
           <div class="row">
-            <div class="col-lg-6"><Mincode /></div>
-            <div class="col-lg-6"><Spacecode2 /></div>
+            <div class="col-lg-6"><p>TypeScript</p><Mincode /></div>
+            <div class="col-lg-6"><p>SCSS</p><Mincode2 /></div>
           </div>
 
     </div>

@@ -13,8 +13,9 @@ const BDCPrice = () => (
     <div class="container screenshot">
 
     <div class="row">
-        <div class="col-lg-6 legend">
-          <h2>PROJECT</h2>
+        <div class="col-lg-6">
+          <div class="legend">
+          <h3>PROJECT</h3>
           <ul>
             <li><strong>Category:</strong> Conversion pages</li>
             <li><strong>Client:</strong> Business.com</li>
@@ -22,7 +23,7 @@ const BDCPrice = () => (
           </ul>
           <p>Prototype for Business.com's B2B conversion pages.</p>
         </div>
-
+        </div>
         <div class="col-lg-6">
           <picture>
              <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1673634183/bdc_price_utflcx.webp" type="image/webp" class="three-screens" />

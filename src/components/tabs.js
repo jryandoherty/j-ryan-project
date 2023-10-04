@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useRef } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import { useNavigate} from "react-router-dom";
 
 import Websites from "../components/websites"
 import Conversion from "../components/conversion"
@@ -15,10 +16,15 @@ import Logos from "../components/logos"
 function ControlledTabsExample() {
   const [key, setKey] = useState('home');
 
+
+
+
   const ref = useRef(null);
+
 
   const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
+
   };
 
   return (
@@ -34,24 +40,24 @@ function ControlledTabsExample() {
         <Websites ref={ref} />
       </Tab>
 
-      <Tab eventKey="conversion" title="conversion" onClick={handleClick}>
-        <Conversion/>
+      <Tab eventKey="conversion" title="conversion" >
+        <Conversion ref={ref}/>
       </Tab>
 
       <Tab eventKey="email" title="email" >
-        <Email/>
+        <Email ref={ref}/>
       </Tab>
 
       <Tab eventKey="print" title="print">
-        <Print/>
+        <Print ref={ref}/>
       </Tab>
 
       <Tab eventKey="ads" title="ads">
-        <Ads/>
+        <Ads ref={ref}/>
       </Tab>
 
       <Tab eventKey="logos" title="logos">
-        <Logos/>
+        <Logos ref={ref}/>
       </Tab>
 
 

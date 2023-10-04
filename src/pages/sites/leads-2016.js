@@ -18,7 +18,6 @@ const Leads2016 = () => (
 
     <div class="webpage">
 
-
     <div class="row">
       <div class="col-lg-6">
       <div class="legend">
@@ -43,10 +42,7 @@ const Leads2016 = () => (
 
     </div>
 
-
     <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/leads/indexnew/" aria-label="live page"></object>
-
-
 
     </div>
 
