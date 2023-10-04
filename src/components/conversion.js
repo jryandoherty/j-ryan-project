@@ -16,9 +16,9 @@ const Conversion = () => {
 <Link to="/conversion/truck-portal/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649348101/thumbs_conversion/trucks_n0uh7g.jpg" alt="conversion-4" />  </Link>
 <Link to="/conversion/bdc-price-quotes/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1673385324/thumbs_conversion/bdc_price_quotes_hd3tai.png" alt="conversion-5" />  </Link>
 
-<a><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688589377/first_oppd1f.png" alt="conversion-6" /></a>
+<a style={{width:`auto`}}><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688589377/first_oppd1f.png" alt="conversion-6" style={{width:`220px`,border:`0`}}/></a>
 
-<a><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593263/thumbs_conversion/ipad-2-mobileflow_eemjif.png" alt="conversion-7" /></a>
+<a><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593263/thumbs_conversion/ipad-2-mobileflow_eemjif.png" alt="conversion-7" style={{border:`0`}} /></a>
 
 
     </section>
