@@ -45,8 +45,8 @@ const OuterSpace = () => (
       <object name="frame" data="https://outerspacearts.xyz" aria-label="live page"></object>
 
       <div class="row">
-        <div class="col-lg-6"><Spacecode /></div>
-        <div class="col-lg-6"><Spacecode2 /></div>
+        <div class="col-lg-6"><p>SCSS</p><Spacecode /></div>
+        <div class="col-lg-6"><p>HTML</p><Spacecode2 /></div>
       </div>
 
 

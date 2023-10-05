@@ -6,7 +6,7 @@ const Logos = () => {
   return (
 
     <section class="logos" id="logos">
-        <h1>logos</h1>
+        
         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1692984539/windowz-black_bwspvs.svg" alt="Windowz by Liberty" />
         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg" alt="Outer Space" />
         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1693002281/min-logo_jkmkh2.svg" alt="Min and Chula" />

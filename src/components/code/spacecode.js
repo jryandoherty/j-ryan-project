@@ -86,7 +86,6 @@ const Outerspacecode = () => {
       background:$gray-900;
       padding:.5rem;
       font-size:.9rem;
-
     }
   }
 
@@ -128,8 +127,6 @@ const Outerspacecode = () => {
       }
     }
   }
-
-
     `;
 
 return (

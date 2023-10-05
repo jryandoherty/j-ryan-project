@@ -10,7 +10,7 @@ const Email = () => {
 
 <div class="container">
 <div class="col-lg-12 recent-images">
-    <h1>emails</h1>
+
 
         <StaticImage
           src="../images/emails/bdc-desktop.png"

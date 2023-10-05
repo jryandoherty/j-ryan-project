@@ -65,11 +65,11 @@ const IndexPage = () => (
 
 <div className="col-lg-12 d-flex justify-content-between align-items-center my-5 recent-work">
 
-<Link to="/sites/windowz/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1692984539/windowz-black_bwspvs.svg"
-  style={{ width:`320px`, maxWidth:`100%`}}
-alt="outer space logo"
+  <Link to="/sites/windowz/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1692984539/windowz-black_bwspvs.svg"
+    style={{ width:`320px`, maxWidth:`100%`}}
+    alt="outer space logo"
 
-/></Link>
+  /></Link>
 
 
     <Link to="/sites/windowz/"><StaticImage
@@ -92,7 +92,6 @@ alt="outer space logo"
 
     /></Link>
 
-
   </div>{/* end col-12 */}
 
   <StaticImage
@@ -105,8 +104,6 @@ alt="outer space logo"
   />
 
   <div className="row" style={{marginTop:`4rem`}} >
-
-
       <div className="col-lg-6">
         <h3>PROJECT</h3>
           <ul>
@@ -137,7 +134,6 @@ alt="outer space logo"
   <Link to="/sites/outer-space/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg"
   style={{ width:`320px`, maxWidth:`100%`}}
   alt="outer space logo"/></Link>
-
 
   <Link to="/sites/outer-space/"><StaticImage
     src="../images/ipad-home.png"

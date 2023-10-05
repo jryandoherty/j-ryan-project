@@ -13,7 +13,7 @@ const Print = () => {
   return (
 
     <section class="thumbnails print" id="brochures">
-      <h1>print</h1>
+      
         <a href={bakerFront} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="II IIII Productions pass front" style={{borderRadius:`30px`}} /></a>
         <a href={bakerBack} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593986/blArtboard_2_db76tt.svg" alt="II IIII Productions pass back" style={{borderRadius:`30px`}} /></a>
         <a href={stateB2B} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688594204/thumbs_brochures/state-of-B2B-2013-thumb2_n5uhmc.png" alt="State Of B2B report" style={{border:`4px solid #333`}}  /></a>

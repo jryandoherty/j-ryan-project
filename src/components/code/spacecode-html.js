@@ -40,9 +40,6 @@ const Outerspacecode2 = () => {
 
 
 @@include('./footer.html')
-
-
-
     `;
 
 return (

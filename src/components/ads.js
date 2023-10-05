@@ -6,7 +6,7 @@ const Ads = () => {
   return (
 
     <section class="ads" id="ads">
-      <h1>ads</h1>
+    
       <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1673621773/ads/use_it_kbpozx.gif" alt="ad-1" className="rectangle" />
       <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1673621772/ads/header_truck_simmry.gif" alt="ad-2" className="rectangle" />
       <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1673621801/ads/air_compressors_lvwraa.jpg" alt="ad-3" className="rectangle" />

@@ -7,7 +7,7 @@ const Websites = () => {
   return (
     <section class="websites" id="sites" role="tabpanel">
 
-      <h1>sites</h1>
+      
 
         <Link to="/sites/windowz/">
 

@@ -3,10 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import "../../components/portfolio2.scss"
+import Helmet from 'react-helmet'
 
 const BDCPrice = () => (
   <Layout>
+  <Helmet
+    bodyAttributes={{
+        class: 'secondary'
+    }}
+    />
     <Seo title="Conversion :: BDC Price Quotes" />
 
     <div class="webpage-container">
@@ -22,7 +27,7 @@ const BDCPrice = () => (
             <li><strong>Date:</strong> 2018</li>
           </ul>
           <p>Prototype for Business.com's B2B conversion pages.</p>
-        </div>
+          </div>
         </div>
         <div class="col-lg-6">
           <picture>
