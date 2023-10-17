@@ -14,7 +14,7 @@ const IndexPage = () => (
 
     <h1 style={{marginBottom:`0`}}>DEV + DESIGN</h1>
     <p style={{textAlign:`center`,fontSize:`1.5rem`}}>Affordable design solutions and web development. </p>
-    <p style={{textAlign:`center`}}><Link to="#recent-projects"><button class="btn btn-primary" style={{textAlign:`center`,fontSize:`1.5rem`, margin:`2rem`}}>Recent Work &#8681;</button></Link></p>
+    <p style={{textAlign:`center`}}><Link to="#recent-projects" className="btn btn-primary" style={{textAlign:`center`,fontSize:`1.5rem`, margin:`2rem`}}>Recent Work &#8681;</Link></p>
 
     <div className="row">
           <div className="col-lg-7" style={{border:`2px solid #524d21`, padding:`30px`, borderRight:`0`}}>
@@ -191,7 +191,6 @@ const IndexPage = () => (
     </div>{/* end row */}
 
   </div>{/* end container */}
-
 
   </Layout>
 
