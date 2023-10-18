@@ -68,7 +68,6 @@ const Contact = () => (
           <p class="text-center">message me:</p>
           <form action="https://public.herotofu.com/v1/514f74d0-2505-11ee-9907-0b23fd627d84" method="post" accept-charset="UTF-8">
 
-
                   <div class="form-group">
                     <label for="name">Your Name</label>
                     <input class="form-control" name="Name" id="name" type="text" required />
@@ -90,7 +89,6 @@ const Contact = () => (
                         Message:</label>
                     <textarea class="form-control" id="message" name="message" placeholder="Briefly describe your project" maxlength="6000" rows="7"></textarea>
                   </div>
-
 
                   <div>
                     <button type="submit" class="btn btn-primary mt-4" value="Send">Send</button>
