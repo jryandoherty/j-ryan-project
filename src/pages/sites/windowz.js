@@ -26,7 +26,7 @@ const Windowz = () => (
               <li><strong>Date:</strong> July 2023</li>
               <li><strong>Platform:</strong> Wordpress</li>
               <li><strong>Theme:</strong> Teluro</li><li></li>
-              <li><a href="https://www.windowzbyliberty.xyz" target="_blank" rel="noreferrer">Full Site</a></li>
+              <li><a href="https://www.windowzbyliberty.com" target="_blank" rel="noreferrer">Full Site</a></li>
             </ul>
               <p>Logo and Wordpress site for the artwork of David Liberty.</p>
           </div>

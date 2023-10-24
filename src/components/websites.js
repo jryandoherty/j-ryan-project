@@ -7,10 +7,7 @@ const Websites = () => {
   return (
     <section class="websites" id="sites" role="tabpanel">
 
-      
-
         <Link to="/sites/windowz/">
-
         <StaticImage
           src="../images/websites/windowz-home.png"
           width={580}
@@ -21,9 +18,7 @@ const Websites = () => {
         />
         </Link>
 
-
         <Link to="/sites/outer-space/">
-
         <StaticImage
           src="../images/home-desktop.png"
           width={580}
@@ -31,12 +26,10 @@ const Websites = () => {
           formats={["auto", "webp"]}
           alt="website desktop"
           placeholder="blurred"
-
         />
         </Link>
 
         <Link to="/sites/min-chula/">
-
         <StaticImage
           src="../images/min-desktop.png"
           width={580}
@@ -44,7 +37,6 @@ const Websites = () => {
           formats={["auto", "webp"]}
           alt="website desktop"
           placeholder="blurred"
-
         />
         </Link>
 
