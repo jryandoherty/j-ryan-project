@@ -32,7 +32,7 @@ const BDC = () => (
     }}
     />
     <Seo title="Email :: BDC Question Alert" />
-    
+
 
 <div class="container">
 
@@ -42,14 +42,6 @@ const BDC = () => (
       <h3>PROJECT</h3>
       <ul>
         <li><strong>Client:</strong> Business.com</li>
-        <li><strong>Date:</strong> January 2022</li>
-        <li><strong>Platform:</strong> Wordpress</li>
-
-          <Link to="/portfolio/" onClick={handleSubmit} eventKey="email">
-
-        >
-          Preview
-        </Link>
 
       </ul>
         <p>Customer-facing emails for Business.com's expert platform.</p>
