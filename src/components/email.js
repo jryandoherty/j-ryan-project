@@ -6,64 +6,25 @@ const Email = () => {
   return (
 
 
-    <section class="email" id="emails" role="tabpanel">
+<section class="websites" id="emails" role="tabpanel">
 
 <div class="container">
 <div class="col-lg-12 recent-images">
 
 
-        <StaticImage
-          src="../images/emails/bdc-desktop.png"
-          width={290}
-          quality={95}
-          formats={["auto"]}
-          alt="website desktop"
-          placeholder="blurred"
-          style={{}}
-        />
+<Link to="/emails/cloud/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573426/thumbs_email/doc_management2_ud8uee.jpg" alt="email-1" /></Link>
+<Link to="/emails/bdc/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573319/thumbs_email/bdc_email_sdbc5l.png" alt="email-2" /></Link>
+<Link to="/emails/bucket/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573426/thumbs_email/bucket_q5jlbq.jpg" alt="email-3" /></Link>
+<Link to="/emails/office-cubicles/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573519/thumbs_email/office-cubes_tdceiy.jpg" alt="email-5" /></Link>
 
-        <StaticImage
-          src="../images/emails/cloud-mobile.png"
-          width={137}
-          quality={100}
-          alt="website desktop"
-          formats={["auto"]}
-          placeholder="blurred"
-          style={{}}
-        />
 
-        <StaticImage
-          src="../images/emails/cubicles_desktop.png"
-          width={290}
-          quality={100}
-          formats={["auto"]}
-          alt="website desktop"
-          placeholder="blurred"
-          style={{}}
-        />
 
-        <StaticImage
-          src="../images/emails/reach-mobile.png"
-          width={137}
-          quality={100}
-          formats={["auto"]}
-          alt="website desktop"
-          placeholder="blurred"
-          style={{}}
-        />
 
-        <StaticImage
-          src="../images/emails/trucks-desktop.png"
-          width={290}
-          quality={100}
-          formats={["auto"]}
-          alt="website desktop"
-          placeholder="blurred"
-          style={{}}
-        />
+
+
 </div>
 </div>
-    </section>
+</section>
 
   );
 }

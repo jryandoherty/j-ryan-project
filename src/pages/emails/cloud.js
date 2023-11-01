@@ -16,6 +16,23 @@ const Cloud = () => (
     />
     <Seo title="Email :: Take Documents to the Cloud" />
 
+    <div class="container">
+
+    <div class="row justify-content-md-center">
+      <div class="col-lg-6">
+        <div class="legend text-center">
+          <h3>PROJECT</h3>
+          <ul>
+            <li><strong>Client:</strong> Buyerzone.com</li>
+          </ul>
+            <p>Promotional email for customers considering cloud computing solutions.</p>
+        </div>
+      </div>
+
+      </div>
+
+     </div>
+
     <div class="emails-container">
 
     <div class="emails">
