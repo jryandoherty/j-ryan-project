@@ -92,6 +92,9 @@ main {
 		&:hover {
 			background-color:$siennaLight;
 		}
+		&:active {
+			background-color:$altblack!important;
+		}
 	}
 
 } /* end main */
@@ -406,14 +409,24 @@ section {
 	min-width:140px;
 	border-radius: 17px;
 	margin:10px 3px;
-	/*height:50px;
-	padding:12px;*/
-	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-	text-align: center;
 
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+
+
+	a {
+		display: block;
+		text-align: center;
+		padding:7px 0 ;
+		color:#fff;
+		&:hover {
+			color:#fff;
+		}
+	}
 
 	&:hover{
 		filter: brightness(1.2);
+		transition: .4s ease-out;
 	}
 
 	&:nth-child(1){
@@ -434,7 +447,7 @@ section {
 
 	&:nth-child(5){
 		background:$yellowDark;
-		.nav-link{
+		a {
 			color:$altblack!important;
 		}
 		.active {
@@ -445,7 +458,7 @@ section {
 
 	&:nth-child(6){
 		background:$yellow;
-		.nav-link{
+		a {
 			color:$altblack!important;
 		}
 		.active {
@@ -458,7 +471,6 @@ section {
 
 .nav-link {
 	font-family: 'Source Code Pro', monospace;
-
 	display: inline;
 	width:100%;
 	color:$white!important;
@@ -468,14 +480,42 @@ section {
 }
 
 
-
 .nav-tabs {
 	border-bottom:none;
 }
 
-.nav-pills .nav-link.active {
+
+.port-sites .nav-pills .nav-item:nth-child(1) {
 	background:$altblack!important;
 }
+
+.port-email .nav-pills .nav-item:nth-child(3) {
+	background:$altblack!important;
+}
+
+.port-conversion .nav-pills .nav-item:nth-child(2) {
+	background:$altblack!important;
+}
+
+.port-print .nav-pills .nav-item:nth-child(4) {
+	background:$altblack!important;
+}
+
+.port-ads .nav-pills .nav-item:nth-child(5) {
+	background:$altblack!important;
+	a {
+		color:$white!important;
+	}
+}
+
+.port-logos .nav-pills .nav-item:nth-child(6) {
+	background:$altblack!important;
+	a {
+		color:$white!important;
+	}
+}
+
+
 
 .active {
   color: $altblack;
@@ -635,7 +675,7 @@ section {
 
 
  a	{
-		width:420px;
+		width:380px;
 		margin:2rem;
 		display:inline-block;
 		@media (max-width:850px){
@@ -644,8 +684,8 @@ section {
 
 		}
 
-		&:nth-child(3n){
-			width:440px;
+		&:nth-child(3n+3){
+			width:260px;
 			@media (max-width:850px){
 
 					width:300px;
@@ -653,8 +693,8 @@ section {
 			}
 		}
 
-		&:nth-child(2n){
-			width:300px;
+		&:nth-child(2n+2){
+			width:240px;
 		}
 
 	}

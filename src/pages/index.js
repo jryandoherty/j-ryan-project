@@ -12,27 +12,28 @@ const IndexPage = () => (
 
     <div className="container">
 
-    <h1 style={{marginBottom:`0`}}>DEV + DESIGN</h1>
+    <h1 style={{marginBottom:`0`}} >DEV + DESIGN</h1>
     <p style={{textAlign:`center`,fontSize:`1.5rem`}}>Affordable design solutions and web development. </p>
     <p style={{textAlign:`center`}}><Link to="#recent-projects" className="btn btn-primary" style={{textAlign:`center`,fontSize:`1.5rem`, margin:`2rem`}}>Recent Work &#8681;</Link></p>
 
-    <div className="row">
+    <div className="row" style={{marginTop:`5rem`}}>
           <div className="col-lg-7" style={{border:`2px solid #524d21`, padding:`30px`, borderRight:`0`}}>
             <h2>For Companies</h2>
-            <p>Your business need a website that "pops". Ok, I hate that term. It's meaningless. What you really need is a custom design approach based on research and data-driven analysis.  I offer reasonable hourly pricing and flat rates based on project type.</p>
+            <p>Your business need a website that "pops". Ok, I hate that term. It's meaningless. What you really need is a custom design approach based on research and data-driven analysis. I'm available for contract, temp and even full-time work. I offer reasonable hourly pricing and flat rates based on project type.</p>
           </div>
           <div className="col-lg-5" style={{background:`#524d21`, color:`#fff`, padding:`30px`}}>
-            <h2>For  Individuals</h2>
+            <h2>For Individuals</h2>
               <p>Want to take your side hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a full website, I can help you get there.</p>
           </div>
 
-            </div>{/* end row */}
-      <div className="d-flex justify-content-center row">
+      </div>{/* end row */}
+
+      <div className="d-flex justify-content-center row"  style={{marginBottom:`5rem`}}>
                 <div class="col-lg-4" style={{background:`#fec800`, color:`#111`, padding:`30px`}}>
                   <h2>Nonprofits</h2>
                     <p>If you have a nonprofit organization with a limited or nonexistent budget, I can offer highly discounted rates and even pro bono work.</p>
                 </div>
-      </div>
+      </div>{/* end row */}
 
 
       <div className="row" style={{marginTop:`6rem`}} >
@@ -67,9 +68,7 @@ const IndexPage = () => (
 
   <Link to="/sites/windowz/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1692984539/windowz-black_bwspvs.svg"
     style={{ width:`320px`, maxWidth:`100%`}}
-    alt="outer space logo"
-
-  /></Link>
+    alt="outer space logo"/></Link>
 
 
     <Link to="/sites/windowz/"><StaticImage
@@ -181,11 +180,11 @@ const IndexPage = () => (
       </div>
 
       <div className="col-lg-4">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="front of pass" style={{width:`100%`, borderRadius:`30px`,marginBottom:`1rem`}} />
+        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="front of pass" style={{width:`100%`, borderRadius:`30px`,marginBottom:`1rem`}} />
       </div>
 
       <div className="col-lg-4">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593986/blArtboard_2_db76tt.svg" alt="back of pass" style={{width:`100%`, borderRadius:`30px`}} />
+        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593986/blArtboard_2_db76tt.svg" alt="back of pass" style={{width:`100%`, borderRadius:`30px`}} />
       </div>
 
     </div>{/* end row */}

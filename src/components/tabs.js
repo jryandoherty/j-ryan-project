@@ -1,9 +1,13 @@
 import * as React from "react"
 import { useState } from 'react';
 import { useRef } from 'react';
+import { useEffect } from 'react';
+import { browserHistory } from 'react';
+import { pureComponent } from 'react';
+import { handleSelect } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { useNavigate} from "react-router-dom";
+
 
 import Websites from "../components/websites"
 import Conversion from "../components/conversion"
@@ -13,19 +17,13 @@ import Ads from "../components/ads"
 import Logos from "../components/logos"
 
 
+
 function ControlledTabsExample() {
   const [key, setKey] = useState('home');
 
-
-
-
   const ref = useRef(null);
 
-
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: 'smooth' });
-
-  };
+  
 
   return (
 
@@ -34,9 +32,9 @@ function ControlledTabsExample() {
       activeKey={key}
       transition={true}
       onSelect={(k) => setKey(k)}
-      sticky="top"
+
     >
-      <Tab eventKey="home" title="websites" onClick={handleClick}>
+      <Tab eventKey="home" title="websites">
         <Websites ref={ref} />
       </Tab>
 
@@ -44,8 +42,8 @@ function ControlledTabsExample() {
         <Conversion ref={ref}/>
       </Tab>
 
-      <Tab eventKey="email" title="email" >
-        <Email ref={ref}/>
+      <Tab eventKey="email" title="email">
+        <Email ref={ref} />
       </Tab>
 
       <Tab eventKey="print" title="print">
@@ -60,11 +58,12 @@ function ControlledTabsExample() {
         <Logos ref={ref}/>
       </Tab>
 
-
     </Tabs>
-
 
   );
 }
+
+
+
 
 export default ControlledTabsExample;

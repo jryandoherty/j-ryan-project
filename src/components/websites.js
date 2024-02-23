@@ -1,22 +1,14 @@
 import React from 'react';
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import "./files/mac-screen.css"
+
 
 const Websites = () => {
   return (
     <section class="websites" id="sites" role="tabpanel">
 
-        <Link to="/sites/windowz/">
-        <StaticImage
-          src="../images/websites/windowz-home.png"
-          width={580}
-          quality={95}
-          formats={["auto", "webp"]}
-          alt="website desktop"
-          placeholder="blurred"
-        />
-        </Link>
+    <Link to="/sites/bdc-partner/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg" alt="Business.com" /></Link>
+
 
         <Link to="/sites/outer-space/">
         <StaticImage
@@ -42,7 +34,18 @@ const Websites = () => {
 
         <Link to="/sites/grabcad/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649437956/thumbs_sites/grabcad_rrmcl8.jpg" alt="GrabCad" /></Link>
 
-        <Link to="/sites/bdc-partner/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg" alt="Business.com" /></Link>
+
+        <Link to="/sites/windowz/">
+        <StaticImage
+          src="../images/websites/windowz-home.png"
+          width={580}
+          quality={95}
+          formats={["auto", "webp"]}
+          alt="website desktop"
+          placeholder="blurred"
+        />
+        </Link>
+
 
         <Link to="/sites/avian-records/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/maavian_d2bnie.jpg" alt="MA Avian Records" /></Link>
 

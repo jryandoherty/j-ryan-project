@@ -1,23 +1,34 @@
 import * as React from "react"
 
+import {setDone, useState, useEffect} from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Helmet from 'react-helmet'
-import "../components/portfolio2.scss"
 
-import ControlledTabsExample from "../components/tabs"
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
+
+import NavBar from "../components/port-nav";
+
+import Websites from "../components/websites"
+
+
+
 
 const Portfolio = () => (
+
   <Layout>
+
   <Helmet
     bodyAttributes={{
-        class: 'secondary'
+        class: 'secondary port-sites'
     }}
     />
     <Seo title="Portfolio" />
-      <ControlledTabsExample/>
+
+  <NavBar/>
+
+  <Websites  />
+
+
   </Layout>
 
 )

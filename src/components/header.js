@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
 
 
   <div className="container-fluid">
-      <div className="col-lg-6 intro">
+      <div className="col-lg-6 intro focus-in-expand ">
           <div class="logo"><Link to="/">j. ryan doherty</Link></div>
           <div class="title">designer & developer</div>
       </div>
