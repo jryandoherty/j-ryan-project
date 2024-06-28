@@ -18,11 +18,6 @@ exports.createPages = async ({ graphql, actions }) => {
     toPath: `/portfolio/`,
   })
 
-  createRedirect({
-    fromPath: `/portfolio/emails/cloud.php`,
-    toPath: `/portfolio/`,
-  })
-
 createRedirect({
     fromPath: `/portfolio/emails/bucket.php`,
     toPath: `/portfolio/`,
@@ -102,6 +97,11 @@ createRedirect({
 createRedirect({
     fromPath: `/portfolio/sites/dzone.php`,
     toPath: `/portfolio/`,
+    })
+
+createRedirect({
+    fromPath: `/portfolio/emails/cloud.php`,
+    toPath: `/emails/cloud/`,
     })
 
 

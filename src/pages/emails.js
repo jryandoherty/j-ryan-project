@@ -8,6 +8,7 @@ import Helmet from 'react-helmet'
 
 import NavBar from "../components/port-nav";
 import Email from "../components/email"
+import Bucket from "../components/emails/bucket"
 
 const PortfolioEmail = () => (
 
@@ -22,6 +23,7 @@ const PortfolioEmail = () => (
     <Seo title="Portfolio: Emails" />
     <NavBar setKey="link-1"/>
     <Email/>
+      <Bucket/>
 
   </Layout>
 
