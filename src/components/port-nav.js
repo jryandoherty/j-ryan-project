@@ -1,9 +1,6 @@
 import * as React from "react"
-import { useState } from 'react';
-import { useRef } from 'react';
 
 import Nav from 'react-bootstrap/Nav';
-import NavBar from 'react-bootstrap/Nav';
 
 import { Link } from "gatsby"
 
@@ -13,24 +10,23 @@ function PortNav() {
   return (
     <Nav variant="pills">
       <Nav.Item>
-        <Link to="/portfolio/#sites" >websites</Link>
+        <Link to="/portfolio/">websites</Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/conversion/#conversion" >conversion</Link>
+        <Link to="/conversion/">conversion</Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/emails/#emails">emails</Link>
+        <Link to="/print/">print</Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/print/#brochures">print</Link>
+        <Link to="/emails/">email marketing</Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/ads/#ads">ads</Link>
+        <Link to="/ads/">ads</Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/logos/#logos">logos</Link>
+        <Link to="/logos/">logos</Link>
       </Nav.Item>
-
     </Nav>
   );
 }

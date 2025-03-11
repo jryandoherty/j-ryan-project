@@ -1,20 +1,21 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
+import NavBar from "../../components/port-nav";
+
 
 
 const Hornet = () => (
   <Layout>
   <Helmet
     bodyAttributes={{
-        class: 'secondary'
+        class: 'secondary port-conversion'
     }}
     />
     <Seo title="Conversion :: Construction Equipment" />
-
+    <NavBar />
     <div class="webpage-container">
     <div class="webpage">
 
@@ -33,23 +34,44 @@ const Hornet = () => (
           <p>Construction themed conversion page. This page was the final step in a marketing campaign starting with a promotional email sent to potential customers in the construction business. The email would direct users either to a portal page, or directly to the conversion page.</p>
         </div>
         </div>
-      <div class="col-lg-7">
-          <picture>
-             <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1674058071/construction_igsuw6.webp" type="image/webp" class="project-flow-img" />
-             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1674058083/construction2_r7gr1f.jpg" alt="project flow" class="project-flow-img" />
-          </picture>
 
-          <div class="project-flow">
-            <div class="item"><p>Promotional email</p></div>
-            <div class="item"><p>Portal page</p></div>
-            <div class="item"><p>Conversion page</p></div>
-          </div>
-        </div>
       </div>
 
+      <object name="frame" data="https://epicsea.com/portfolio/2016/construction/construction.html" aria-label="live page"></object>
 
-        <object name="frame" data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/hornet/skidSteer.html" aria-label="live page"></object>
 
+
+      <object name="frame" data="https://epicsea.com/portfolio/2016/hornet/skidSteer.html" aria-label="live page"></object>
+
+
+
+        <div class="col-lg-7">
+            <picture>
+               <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1674058071/construction_igsuw6.webp" type="image/webp" class="project-flow-img" />
+               <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1674058083/construction2_r7gr1f.jpg" alt="project flow" class="project-flow-img" />
+            </picture>
+
+            <div class="project-flow">
+              <div class="item"><p>Promotional email</p></div>
+              <div class="item"><p>Portal page</p></div>
+              <div class="item"><p>Conversion page</p></div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="emails-container">
+
+      <div class="emails">
+        <div class="desktop">
+          <object data="https://epicsea.com/portfolio/2016/emails/aug/8-4.html">
+          </object>
+        </div>
+
+        <div class="mobile">
+          <object data="https:/epicsea.com/portfolio/2016/emails/aug/8-4.html">
+          </object>
+        </div>
 
       </div>
     </div>

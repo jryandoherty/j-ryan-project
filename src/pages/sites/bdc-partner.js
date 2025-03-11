@@ -3,17 +3,17 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
-
+import NavBar from "../../components/port-nav"
 
 const BDCPartner = () => (
   <Layout>
   <Helmet
     bodyAttributes={{
-        class: 'secondary'
+        class: 'secondary port-sites'
     }}
     />
     <Seo title="Sites :: BDC Partner" />
-
+    <NavBar />
     <div class="webpage-container">
 
     <div class="webpage">
@@ -33,17 +33,17 @@ const BDCPartner = () => (
           </ul>
         </div>
       </div>
-        <div class="col-lg-6">
-          <picture>
-             <source srcSet="https://res.cloudinary.com/jryandoherty/image/upload/v1674059465/business_d34evs.webp" type="image/webp" class="three-screens" />
-             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1597339328/business_c96lt5.jpg" alt="three screens" class="three-screens" />
-          </picture>
-        </div>
+
       </div>
 
 <object name="frame" data="https://master--verdant-kringle-235340.netlify.app/portfolio/2018/partner/home.html" aria-label="live page"></object>
 
-
+<div class="col-lg-6">
+  <picture>
+     <source srcSet="https://res.cloudinary.com/jryandoherty/image/upload/v1674059465/business_d34evs.webp" type="image/webp" class="three-screens" />
+     <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1597339328/business_c96lt5.jpg" alt="three screens" class="three-screens" />
+  </picture>
+</div>
 
 
     </div>

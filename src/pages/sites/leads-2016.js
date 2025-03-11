@@ -3,17 +3,17 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
-
+import NavBar from "../../components/port-nav"
 
 const Leads2016 = () => (
   <Layout>
   <Helmet
     bodyAttributes={{
-        class: 'secondary'
+        class: 'secondary port-sites'
     }}
     />
     <Seo title="Sites :: BuyerZone Leads 2016" />
-
+    <NavBar />
     <div class="webpage-container">
 
     <div class="webpage">
@@ -33,17 +33,21 @@ const Leads2016 = () => (
         </ul>
       </div>
     </div>
-      <div class="col-lg-6">
-        <picture>
-           <source srcSet="https://res.cloudinary.com/jryandoherty/image/upload/v1649434829/leads_l_mjtbpn.webp" type="image/webp" class="three-screens" />
-           <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649434830/leads_l_pv86ev.jpg" alt="three screens" class="three-screens" />
-        </picture>
-      </div>
+
 
     </div>
 
     <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/leads/indexnew/" aria-label="live page"></object>
 
+
+    <div class="col-lg-6">
+      <picture>
+         <source srcSet="https://res.cloudinary.com/jryandoherty/image/upload/v1649434829/leads_l_mjtbpn.webp" type="image/webp" class="three-screens" />
+         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649434830/leads_l_pv86ev.jpg" alt="three screens" class="three-screens" />
+      </picture>
+    </div>
+
+    
     </div>
 
     </div>

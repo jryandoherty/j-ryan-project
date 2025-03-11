@@ -51,8 +51,7 @@ const Websites = () => {
 
         <Link to="/sites/louis-mian/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/mian_jfpy4j.jpg" alt="Louis W. Mian"/></Link>
 
-        <Link to="/sites/roger-buttles/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/roger_yhrdix.jpg" alt="Roger Buttles" /></Link>
-
+      
         <Link to="/sites/bdc-community/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573008/thumbs_sites/bdc_community_vrusch.jpg" alt="Business.com Community" /></Link>
 
         <Link to="/sites/buyerzone-2015/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg" alt="Buyerzone Home" /></Link>

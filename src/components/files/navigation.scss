@@ -3,16 +3,16 @@
 @import "colors";
 
 .recentWork {
-	width:175px;
-	height:175px;
+	width:140px;
+	height:140px;
 	z-index: 700;
 	margin:10px 0 0 0;
-	/*position:relative;*/
 	float:right;
-	animation: out 1s;
+	/*animation: out .1s;*/
+
 
 	&:hover{
-  	animation: in 1s alternate ease-out forwards;
+  	animation: in .6s alternate ease-out forwards;
 	}
 
 
@@ -24,17 +24,17 @@
 
 
 .branding {
-	width:100px;
-	height:100px;
-	margin:125px -10px 0 -50px;
+	width:80px;
+	height:80px;
+	margin:100px -12px 0 -44px;
 	z-index: 600;
 	position:relative;
 	float:right;
-	animation: out 1s;
+	/*animation: out .2s;*/
 
 	&:hover{
 
-		animation: in 1s alternate ease-out forwards;
+		animation: in .6s alternate ease-out forwards;
 
 	}
 
@@ -46,17 +46,17 @@
 
 
 .contact {
-	width:125px;
-	height:125px;
-	margin:20px 0 0 -68px;
+	width:100px;
+	height:100px;
+	margin:20px 0 0 -40px;
 	z-index: 900;
 	position:relative;
 	float:right;
-	animation: out 1s;
+/*	animation: out .2s;*/
 
 
 	&:hover {
-		animation: in 1s alternate ease-out forwards;
+		animation: in .6s alternate ease-out forwards;
 	}
 
 	svg #sticker2 {fill:$yellowDark}

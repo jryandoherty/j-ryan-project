@@ -3,33 +3,37 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	font-size: 17px;
-	color:$black;
-	background: $cream!important;
-	/*background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png')no-repeat 185px 94px/600px;*/
-	/*scroll-behavior: smooth;*/
-	/*image-rendering: -webkit-optimize-contrast;*/
+	font-size: 16px;
+	color:$white!important;
+	background:radial-gradient(circle, rgba(56, 1, 52, 1), $newBlack), url('../images/graffiti_large.png') no-repeat bottom right;
+
+	font-family: 'Source Code Pro', monospace!important;
+}
+
+header {
+
+	display:flex;
+	align-items:center;
+	border-bottom:1px solid $sienna;
+	min-height: 25vh;
 
 }
 
 main {
 	p, li, a {
-		font-family: 'Source Code Pro', monospace;
 		text-align: left;
 	}
 
 	h1 {
 		margin:3rem auto 1rem;
-		font-family: 'Nova Round', sans-serif;
 		text-align: center;
 	}
 
 	h2 {
-		font-family: 'Nova Round', sans-serif;
+	font-family: 'Nova Round', sans-serif;
 
-		@media(min-width:1280px) {
-			font-size: 1.25rem;
-		}
+	text-align: center;
+
 	}
 
 	h3 {
@@ -58,14 +62,8 @@ main {
 
 
 		@media(min-width:1280px) {
-			font-size:5rem;
+			font-size:4rem;
 		}
-
-	/*	@media(max-width:1024px) {
-			font-size:max(7.1vw, 1.23rem);
-			transition: all .5s ease-out;
-
-		}*/
 
 		@media(max-width:768px) {
 			font-size:3.3em;
@@ -101,9 +99,9 @@ main {
 
 
 section {
-	margin:4rem 0;
+
 	@media (max-width:850px) {
-		margin:2rem 0;
+
 	}
 }
 
@@ -124,11 +122,27 @@ section {
 
 .secondary {
 
+	header {
+		/*background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent), url('../images/graffiti_large.png') no-repeat bottom right,
+		url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
+		background-size:  cover, 40%, cover;*/
+	}
+
+	.new-bio {
+		display: none;
+	}
+
+	.title {
+		visibility: visible;
+			animation-duration: 0s !important;
+			-webkit-animation-duration: 0s !important;
+			transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+	}
+
 	.brick {
-		height:40vh;
+		height:10vh;
 		@media (max-width:926px) and (orientation:landscape){
 		height:60vh;
-
 	}
 
 	.recentWork {
@@ -182,9 +196,7 @@ section {
 	h1 {
 		font-size:3.4rem;
 	}
-	h2 {
-		font-size:1rem;
-	}
+
 }
 
 
@@ -193,90 +205,73 @@ section {
 
 
 
-.brick {
+.logo {
+	font-size: 3.43rem;
+	word-spacing: -.2ch;
+	font-family: 'Nova Round', sans-serif;
+	letter-spacing: -1.75px;
 
-	background:radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('../images/graffiti_large.png') no-repeat bottom right,
-	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
-	background-size:  cover, 60%, cover;
-	overflow:hidden;
-	color:$white;
-	position:relative;
-	height:70vh;
-	display:flex;
-	align-items: center;
-	justify-content: center;
-  /*mix-blend-mode: hard-light;*/
-	@media(max-width:768px) {
-		background-size: cover, 600px, cover;
-	}
-
-
-	.logo {
-		font-size:max(6.1vw, 1.23rem);
-		word-spacing: -.2ch;
-		letter-spacing: -2px;
-		font-family: 'Nova Round', serif;
-		margin-right:1rem;
-		/*-webkit-text-stroke-width: 2px;
-		-webkit-text-stroke-color:$white;*/
-
-
-		@media(min-width:1280px) {
-			font-size:5rem;
-		}
-
-	/*	@media(max-width:1024px) {
-			font-size:max(7.1vw, 1.23rem);
-			transition: all .5s ease-out;
-
-		}*/
-
-		@media(max-width:768px) {
-			font-size:3.3em;
-			transition: all .5s ease-out;
-			margin-right:0;
-		}
-
-		@media(max-width:500px) {
-			font-size:2.75em;
-			transition: all .5s ease-out;
-			margin-right:0;
-		}
-
-	}
-
-	.title {
-		font-family: 'Source Code Pro', monospace;
-		font-size:1.4vw;
-		letter-spacing: .10em;
-		margin:-4% 0 0 33%;
-
-
-		@media(min-width:1280px) {
-			font-size: 1.25rem;
-		}
-
-
-		@media(max-width:768px) {
-
-			font-size: 0.78em;
-			letter-spacing: .13em;
-			transition: all .5s ease-out;
-			margin: -4% 0 5% 30%;
-		}
-
-		@media(max-width:500px) {
-
-			font-size: .72em;
-			letter-spacing: .11em;
-			transition: all .5s ease-out;
-		}
-	}
 
 	a {
 		color:white;
 		text-decoration: none;
 
+	}
+
+
+
+	@media(max-width:992px) {
+		font-size:max(7vw);
+		transition: all .5s ease-out;
+	}
+
+	@media(max-width:500px) {
+		font-size:max(10vw);
+		transition: all .5s ease-out;
+	}
+
+}
+
+
+.title {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.25rem;
+	letter-spacing: .08em;
+	margin: -20px 7% 2% 0%;
+	color:$greenLight;
+
+
+	@media(min-width:1180px) {
+		font-size: 1.25rem;
+	}
+
+
+	@media(max-width:992px) {
+		font-size: 2.34vw;
+		letter-spacing: .13em;
+		transition: all .5s ease-out;
+	}
+
+	@media(max-width:500px) {
+		font-size: .72em;
+		letter-spacing: .11em;
+		transition: all .5s ease-out;
+	}
+}
+
+
+.brick {
+	background:radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('../images/graffiti_large.png') no-repeat bottom right,
+	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
+	background-size:  cover, 80%, cover;
+	overflow:hidden;
+	color:$white;
+	position:relative;
+	height:40vh;
+
+
+	@media(max-width:768px) {
+		background-size: cover, 600px, cover;
 	}
 
 
@@ -306,8 +301,6 @@ section {
 	} /* end brick nav */
 
 
-
-
 .container-fluid {
 	display: flex;
 	align-items: center;
@@ -323,18 +316,12 @@ section {
 }
 
 
-
-
 }   /* end brick section */
 
 .about-section {
 	padding:0 5%;
 	@media(max-width:768px) {
 		background-size: 900px;
-	}
-
-	h1, h2 {
-		font-size: 1.55rem;
 	}
 
 	img {
@@ -359,11 +346,7 @@ section {
 } /* end about section */
 
 
-
-
-
 .nav-pills {
-
 	white-space: nowrap;
 	overflow-x: scroll;
 	webkit-overflow-scrolling: touch;
@@ -373,9 +356,9 @@ section {
 	display: flex;
 	justify-content: center;
 	flex-wrap: nowrap!important;
-
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 	background:$altblack;
+	border-bottom: 1px solid $sienna;
 
   &::-webkit-scrollbar {
     background: transparent; /* Chrome/Safari/Webkit */
@@ -383,7 +366,7 @@ section {
 		height:0px;
 	}
 
-	@media (max-width: 850px){
+	@media (max-width: 1250px){
 		justify-content: left;
 		&::-webkit-scrollbar-thumb{
 			background:#757575;
@@ -406,13 +389,14 @@ section {
 
 .nav-item {
 	width: 15.00%;
-	min-width:140px;
+	min-width:190px;
 	border-radius: 17px;
 	margin:10px 3px;
-
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
-
+	@media (max-width:1024px) {
+		font-size: 13px;
+	}
 
 	a {
 		display: block;
@@ -426,7 +410,6 @@ section {
 
 	&:hover{
 		filter: brightness(1.2);
-		transition: .4s ease-out;
 	}
 
 	&:nth-child(1){
@@ -470,7 +453,6 @@ section {
 
 
 .nav-link {
-	font-family: 'Source Code Pro', monospace;
 	display: inline;
 	width:100%;
 	color:$white!important;
@@ -486,30 +468,33 @@ section {
 
 
 .port-sites .nav-pills .nav-item:nth-child(1) {
-	background:$altblack!important;
+	background:$newBlack!important;
+	&:hover {
+		filter:brightness(1);
+	}
 }
 
-.port-email .nav-pills .nav-item:nth-child(3) {
-	background:$altblack!important;
+.port-email .nav-pills .nav-item:nth-child(4) {
+	background:$newBlack!important;
 }
 
 .port-conversion .nav-pills .nav-item:nth-child(2) {
-	background:$altblack!important;
+	background:$newBlack!important;
 }
 
-.port-print .nav-pills .nav-item:nth-child(4) {
-	background:$altblack!important;
+.port-print .nav-pills .nav-item:nth-child(3) {
+	background:$newBlack!important;
 }
 
 .port-ads .nav-pills .nav-item:nth-child(5) {
-	background:$altblack!important;
+	background:$newBlack!important;
 	a {
 		color:$white!important;
 	}
 }
 
 .port-logos .nav-pills .nav-item:nth-child(6) {
-	background:$altblack!important;
+	background:$newBlack!important;
 	a {
 		color:$white!important;
 	}
@@ -521,10 +506,6 @@ section {
   color: $altblack;
 	box-shadow: none!important;
 	border: none!important;
-	/*padding: 17px 0 17px 0;
-	height: 62px;
-	box-shadow: none!important;*/
-	/*transform: scale(1, 1.5);*/
 	transition:  height .5s linear;
 
 	&:first-child {
@@ -536,9 +517,6 @@ section {
 }
 
 .tab-pane.active {
-	/*border-top:2px solid $blackGreen;
-	background:$creamDark!important;
-	margin-top:-3px;*/
 	transition:  margin .5s linear;
 }
 
@@ -577,7 +555,6 @@ section {
 		min-height:100px;
     height:auto;
 		max-width: 100%;
-
 	}
 
 	img:hover {
@@ -612,7 +589,6 @@ section {
 
 	img {
 		margin: 3rem;
-
 		border:1px solid $sienna;
 		@media(max-width:768px){
 			margin:10px auto;
@@ -684,18 +660,7 @@ section {
 
 		}
 
-		&:nth-child(3n+3){
-			width:260px;
-			@media (max-width:850px){
 
-					width:300px;
-
-			}
-		}
-
-		&:nth-child(2n+2){
-			width:240px;
-		}
 
 	}
 
@@ -795,8 +760,6 @@ section {
 
 .contact-section {
 
-
-
 	h1 {
 
 		margin-bottom: 0;
@@ -825,12 +788,10 @@ section {
 
 
 footer {
-	background: radial-gradient(circle, rgba(240, 109, 6, .14)15%, transparent), url('../images/graffiti_large.png') no-repeat right, url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
-	background-size: cover, cover, cover;
+background: $sienna;
 	padding:2% 0;
 	color:$white;
 	font-size: .86em;
-
 	font-family: 'Source Code Pro', monospace;
 	@media(max-width:768px) {
 		padding:10%;

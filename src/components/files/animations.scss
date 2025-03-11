@@ -187,7 +187,7 @@
 @keyframes spin {
 
 	0% { -webkit-transform: rotate(0deg); transform:rotate(0deg); }
-	100% { -webkit-transform: rotate(10deg); transform:rotate(10deg); }
+	100% { -webkit-transform: rotate(30deg); transform:rotate(30deg); }
 
 }
 
@@ -195,7 +195,7 @@
 	animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	visibility: visible !important;
 
-	
+
 }
 
 /* ----------------------------------------------

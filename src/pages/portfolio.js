@@ -1,17 +1,13 @@
 import * as React from "react"
 
-import {setDone, useState, useEffect} from "react"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Helmet from 'react-helmet'
 
-
 import NavBar from "../components/port-nav";
 
 import Websites from "../components/websites"
-
-
-
 
 const Portfolio = () => (
 
@@ -24,10 +20,9 @@ const Portfolio = () => (
     />
     <Seo title="Portfolio" />
 
-  <NavBar/>
+  <NavBar />
 
   <Websites  />
-
 
   </Layout>
 

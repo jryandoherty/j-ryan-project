@@ -21,19 +21,12 @@
 
 .emails {
 
-	margin:0 auto;
 	display:flex;
 	justify-content: center;
-	flex-direction: row;
 
-	@media(max-width:1100px) {
-		width:95%;
+	@media(max-width:1480px) {
 		flex-direction: column;
 		align-items: center;
-	}
-
-	@media(min-width:1600px) {
-		max-width:1170px;
 	}
 
 }
@@ -85,22 +78,11 @@
 		border: 1px gray solid;
 		height: 589px;
 		width:332px;
-		margin-left: 50px;
-	}
+		margin-left: 49px;
 
-
-	@media(max-width:1100px) {
-		-moz-transform-origin: top center;
-		-webkit-transform-origin: top center;
 	}
 
 }
-
-
-.webpage-container {
-
-}
-
 
 .webpage {
 	margin:0 auto;
@@ -123,7 +105,6 @@
 	}
 
 	.col-lg-6:last-of-type {
-		text-align:right;
 		@media(max-width:1199px) {
 		text-align:center;
 		}
@@ -144,10 +125,6 @@
 
 	.row:nth-of-type(2) {
 		margin-bottom:4%;
-	}
-
-	.row:last-of-type {
-
 	}
 
 	pre {
@@ -234,6 +211,7 @@ margin:2rem auto;
 	svg {
 		width:44px;
 		height:44px;
+		fill:$white;
 		&:hover {
 			fill:#6cc644;
 		}
@@ -257,8 +235,6 @@ margin:2rem auto;
 		margin-bottom:4%;
 	}
 
-
-
 	.legend {
 		font-size:115%;
 		margin:0;
@@ -275,8 +251,6 @@ margin:2rem auto;
 	width:700px;
 	height:auto;
 	max-width: 100%;
-
-
 }
 
 .four-screens {
@@ -294,7 +268,6 @@ margin:2rem auto;
     flex-direction:row;
 		max-width:500px;
 		margin-top:20px;
-
 
 		img {
 			width:150px;

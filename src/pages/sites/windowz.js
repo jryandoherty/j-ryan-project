@@ -2,18 +2,18 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
-import { StaticImage } from "gatsby-plugin-image"
+import NavBar from "../../components/port-nav"
 
 
 const Windowz = () => (
   <Layout>
   <Helmet
     bodyAttributes={{
-        class: 'secondary'
+        class: 'secondary port-sites'
     }}
     />
     <Seo title="Sites :: Windowz by Liberty" />
-
+    <NavBar />
     <div class="webpage-container">
     <div class="webpage">
 

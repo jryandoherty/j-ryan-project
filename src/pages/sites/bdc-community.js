@@ -3,6 +3,7 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
+import NavBar from "../../components/port-nav"
 
 
 
@@ -14,7 +15,7 @@ const BDCCommunity = () => (
     }}
     />
     <Seo title="Sites :: BDC Community" />
-
+    <NavBar />
     <div class="webpage-container">
 
     <div class="container screenshot">

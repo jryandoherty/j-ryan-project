@@ -4,21 +4,21 @@ import { Link } from "gatsby"
 import Stickers from "./stickers"
 
 const Header = ({ siteTitle }) => (
-  <header className="brick">
 
-
-  <div className="container-fluid">
-      <div className="col-lg-6 intro focus-in-expand ">
-          <div class="logo"><Link to="/">j. ryan doherty</Link></div>
-          <div class="title">designer & developer</div>
+  <header>
+  <div className="container py-2">
+    <div className="row justify-content-center align-items-center">
+      <div className="col-lg-5 intro text-center text-lg-end mb-4 mb-md-0">
+          <div class="logo text-nowrap"><Link to="/">j. ryan doherty</Link></div>
+          <div class="title focus-in-expand">digital design</div>
       </div>
 
-      <div className="col-lg-6">
+      <div className="d-flex col-lg-4 justify-content-center justify-content-lg-start">
         <Stickers></Stickers>
       </div>
+
+    </div>
   </div>
-
-
   </header>
 )
 
