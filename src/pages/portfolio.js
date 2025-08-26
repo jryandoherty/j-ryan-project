@@ -8,6 +8,7 @@ import Helmet from 'react-helmet'
 import NavBar from "../components/port-nav";
 
 import Websites from "../components/websites"
+import BreadcrumbExample from "../components/breadcrumb";
 
 const Portfolio = () => (
 
@@ -18,7 +19,8 @@ const Portfolio = () => (
         class: 'secondary port-sites'
     }}
     />
-    <Seo title="Portfolio" />
+
+  <Seo title="Portfolio" />
 
   <NavBar />
 

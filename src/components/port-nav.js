@@ -6,14 +6,19 @@ import { Link } from "gatsby"
 
 
 function PortNav() {
-  const [show, setShow] = React.useState();
+  
   return (
+
+<div class="container-md">
     <Nav variant="pills">
       <Nav.Item>
         <Link to="/portfolio/">websites</Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/conversion/">conversion</Link>
+        <Link to="/logos/">branding</Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Link to="/conversion/">conversion projects</Link>
       </Nav.Item>
       <Nav.Item>
         <Link to="/print/">print</Link>
@@ -21,13 +26,9 @@ function PortNav() {
       <Nav.Item>
         <Link to="/emails/">email marketing</Link>
       </Nav.Item>
-      <Nav.Item>
-        <Link to="/ads/">ads</Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Link to="/logos/">logos</Link>
-      </Nav.Item>
+
     </Nav>
+    </div>
   );
 }
 

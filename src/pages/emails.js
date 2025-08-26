@@ -9,6 +9,7 @@ import Bucket from "../components/emails/bucket"
 import Cloud from "../components/emails/cloud"
 import BDC from "../components/emails/bdc"
 import Understory from "../components/emails/understory"
+import CE from "../components/emails/ce"
 
 const PortfolioEmail = () => (
 
@@ -23,10 +24,12 @@ const PortfolioEmail = () => (
     <Seo title="Portfolio: Emails" />
 
     <NavBar />
+    <CE />
     <Understory />
     <Bucket />
     <BDC />
-    <Cloud />
+    
+
 
 
   </Layout>

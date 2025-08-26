@@ -15,37 +15,37 @@ const Cryptids = () => (
     />
     <Seo title="Sites :: Cryptids Cannabis, LLC" />
     <NavBar />
-    <div class="webpage-container">
-      <div class="webpage">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="legend">
-              <h3>PROJECT</h3>
-              <ul>
-                <li><strong>Client:</strong> Cryptids Cannabis LLC</li>
-                <li><strong>Date:</strong> June 2020</li>
-                <li><strong>Platform:</strong> Wordpress</li>
-              </ul>
-                <p>Wordpress for Cryptids Cannabis of Bethel, ME. A dispensary serving the Sugarloaf Ski Resort area.</p>
-            </div>
-          </div>
 
-        </div>
-
-
-        <object data="https://cryptidscannabis.com/" aria-label="live page"></object>
-
+    <div class="container">
+        <div class="row align-items-center">
         <div class="col-lg-6">
-          <picture>
-             <source srcSet="https://res.cloudinary.com/jryandoherty/image/upload/v1670535741/grabcad_fd6fki.webp" type="image/webp" class="three-screens" />
-             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1596128951/grabcad_ae6x58.jpg" alt="three screens" class="three-screens" />
-          </picture>
+          <div class="legend legend-thumbnails">
+          <h3>PROJECT</h3>
+          <ul>
+            <li><strong>Client:</strong> Cryptids Cannabis LLC</li>
+            <li><strong>Date:</strong> June 2020</li>
+            <li><strong>Platform:</strong> Wordpress</li>
+          </ul>
+            <p>Wordpress for Cryptids Cannabis of Bethel, ME. A dispensary serving the Sugarloaf Ski Resort area.</p>
+          </div>
         </div>
+      <div class="col-lg-6 text-end"><img src="https://www.cryptidscannabis.com/wp-content/uploads/2021/06/cropped-cropped-logo-white.png" alt="business" class="w-50" /></div>
+      </div>{/* end row */}
+
+    </div>{/* end container */}
 
 
-    </div>
-    </div>
+``  <div class="container-fluid">
+    ``<div class="row">
+      `<div class="col-lg-12 webpage my-5">
+          <object data="https://cryptidscannabis.com/" aria-label="live page"></object>
+            <div class="stand"></div>
+            <div class="base"></div>
+      ``</div>`
 
+    </div>{/* end row */}
+
+    </div>{/* end container */}
 
   </Layout>
 )

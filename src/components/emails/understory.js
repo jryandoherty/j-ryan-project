@@ -6,13 +6,12 @@ const Understory = () => {
 
 <div class="container">
 
-<div class="row justify-content-md-center">
+<div class="row">
   <div class="col-lg-6">
-    <div class="legend text-center">
+    <div class="legend ">
       <h3>PROJECT</h3>
       <ul>
         <li><strong>Client:</strong> Outer Space Arts</li>
-
       </ul>
         <p>Promotional email for upcoming exhibit entitled "Understory".</p>
     </div>

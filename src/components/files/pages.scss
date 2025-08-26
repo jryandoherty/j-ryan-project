@@ -22,7 +22,6 @@
 .emails {
 
 	display:flex;
-	justify-content: center;
 
 	@media(max-width:1480px) {
 		flex-direction: column;
@@ -33,23 +32,19 @@
 
 .desktop {
 	height:594px;
-	width:740px;
-	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1667588066/email-client_uxawba.png')no-repeat top center;
-	-ms-zoom: 0.85;
-	-moz-transform: scale(0.85);
-	-moz-transform-origin: top center;
-	-webkit-transform: scale(0.85);
-	-webkit-transform-origin: top center;
+	width:780px;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1755197014/emails-html/email-black_pmuica.png')no-repeat top center;
+	background-size:cover;
 	padding:0;
 	box-shadow:0 0 5px $sienna;
 	border-radius: 5px;
 	margin-top:2%;
-	margin-left: 25px;
+
 
 	object {
 		margin: 115px auto 0 ;
 		height: 478px;
-		width:740px;
+		width:780px;
 	}
 
 	@media(max-width:1100px) {
@@ -134,10 +129,14 @@
 
 	iframe, object {
 
-		min-height:700px;
-		height:768px;
+		min-height:868px;
+
 		width:100%;
-		margin-bottom:3rem;
+
+		border: 20px solid #444; /* bezel */
+	  border-radius: 20px;
+	  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+		/*margin-bottom:3rem;
 		margin-top:2rem;
 
 		--scrollbarBG: #211e18;
@@ -145,14 +144,14 @@
 			scrollbar-width: thin;
 			scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 
-		border: 1px solid $altblack;
-	 	box-shadow:  1px 1px $altblack,
-	 		 2px 2px $altblack,
-	 		 3px 3px $altblack,
-	 		 4px 4px $altblack,
-	 		 5px 5px $altblack,
-			 6px 6px $altblack,
-			 7px 7px $altblack;
+		border: 1px solid $sienna;
+	 	box-shadow:  1px 1px $sienna,
+	 		 2px 2px $sienna,
+	 		 3px 3px $sienna,
+	 		 4px 4px $sienna,
+	 		 5px 5px $sienna,
+			 6px 6px $sienna,
+			 7px 7px $sienna;*/
 	}
 
 	.legend {

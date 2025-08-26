@@ -1,25 +1,24 @@
 import React from 'react';
+import { Link } from "gatsby"
 
 const Logos = () => {
   return (
 
     <section class="logos" id="logos">
 
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1692984539/windowz-black_bwspvs.svg" alt="Windowz by Liberty" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg" alt="Outer Space" />
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1693002281/min-logo_jkmkh2.svg" alt="Min and Chula" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693045/logos/j-h_logo_blue_peiwky.png" alt="Just Healthy" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648486718/logos/vertibid_urvnfx.svg" alt="Vertibid" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648486756/logos/BZ_logo_buyer_ba7ivj.svg" alt="Buyerzone"   style={{background: "#232333", padding: "20px" }} />
+          <Link to="/branding/worlds/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178099/outer-space-arts/logo-black_q0pr68.png" alt="Worlds"  /></Link>
+          <Link to="/branding/caterpillar/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415961/logos/logoArtboard_1_vs32zi.svg" alt="Caterpillar" /></Link>
+          <Link to="/branding/understory/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178480/outer-space-arts/understory/headline-white2_i6vo7p.png" alt="Worlds"  /></Link>
+          <Link to="/branding/ce/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1756150722/outer-space-arts/ce/ce-ii_1_qz5ic5.svg" alt="Creativity Explored"  /></Link>
+          <Link to="/sites/buyerzone-2015/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648486756/logos/BZ_logo_buyer_ba7ivj.svg" alt="Buyerzone"   /></Link>
 
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1693005286/mentor_program_i37pkg.png" alt="Mentor Program" />
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648485087/logos/maine_black_k5mzi4.png" alt="Maine Event" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648485087/logos/epicsea_dark_rufufq.png" alt="epicsea" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693045/logos/MARC_bg_l_p8vauj.png" alt="MARC" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648486718/logos/blog_logo_ycv1pu.svg" alt="About Leads" />
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648486718/logos/revbites_x7h8xl.svg" alt="RevBites" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1693003830/payroll-services-new_bmiatd.png" alt="Payroll Services" style={{background: "#fff", padding: "20px" }}/>
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648485087/logos/berenbak_black_oa2n5q.png" alt="Berenbak Style" style={{background: "#fff", padding: "20px" }}/>
+          <Link to="/sites/outer-space/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg" alt="Outer Space" /></Link>
+          <Link to="/sites/windowz/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415413/logos/windowz-nqvtxg.svg" alt="Windowz by Liberty" /></Link>
+          <Link to="/sites/min-chula/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415027/logos/min-logo-orange_sfjanx.svg" alt="Min and Chula" /></Link>
+          <Link to="/branding/vertibid/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1729274904/vertibid_white_jtribv.svg" alt="Vertibid" /></Link>
+          <Link to="/sites/bdc-partner/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1693249428/partner-page/cta_mjklsl.svg" alt="business" /></Link>
+          <Link to="/sites/avian-records/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693045/logos/MARC_bg_l_p8vauj.png" alt="MARC" /></Link>
+
 
     </section>
 

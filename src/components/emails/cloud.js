@@ -5,9 +5,9 @@ const Cloud = () => {
 
     <div class="container">
 
-    <div class="row justify-content-md-center">
+    <div class="row">
       <div class="col-lg-6">
-        <div class="legend text-center">
+        <div class="legend">
           <h3>PROJECT</h3>
           <ul>
             <li><strong>Client:</strong> Buyerzone.com</li>

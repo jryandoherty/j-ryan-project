@@ -17,43 +17,47 @@ const Copernicus = () => (
 
     <NavBar />
 
-    <div class="webpage-container">
-    <div class="webpage">
+    <div class="container">
 
-      <div class="row">
-        <div class="col-lg-5">
-          <div class="legend">
-            <h3>PROJECT</h3>
-            <ul>
-              <li><strong>Category:</strong> Conversion projects</li>
-              <li><strong>Client:</strong> Buyerzone.com</li>
-              <li><strong>Date:</strong> 2015</li>
-            </ul>
-            <p class="mt-4">Conversion page for digital copier shoppers.</p>
-          </div>
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="legend">
+          <h3>PROJECT</h3>
+          <ul>
+            <li><strong>Category:</strong> Conversion projects</li>
+            <li><strong>Client:</strong> Buyerzone.com</li>
+            <li><strong>Date:</strong> 2015</li>
+          </ul>
+          <p class="mt-4">Conversion page for digital copier shoppers.</p>
         </div>
+      </div>
+    </div>
 
+    <div class="emails-container">
 
-
+    <div class="emails">
+      <div class="desktop">
+        <object data="https://epicsea.com/portfolio/2015/emails/june/june_9.html">
+        </object>
       </div>
 
+      <div class="mobile">
+        <object data="https://epicsea.com/portfolio/2015/emails/june/june_9.html">
+        </object>
+      </div>
+
+    </div>
+
+    </div>
+
+
+
+    <div class="webpage">
 
         <object name="frame" data="https://master--verdant-kringle-235340.netlify.app/portfolio/2015/copernicus/copernicus.html" aria-label="live page">
         </object>
-
-
-        <div class="col-lg-7">
-          <picture>
-           <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649344243/copiers_nrghcx.webp" type="image/webp" class="project-flow-img" />
-           <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649344243/copiers_dj6tbk.jpg" alt="me" class="project-flow-img" />
-          </picture>
-
-          <div class="project-flow">
-            <div class="item"><p>Promotional Email</p></div>
-            <div class="item"><p>Landing page</p></div>
-          </div>
-
-        </div>
+        <div class="stand"></div>
+        <div class="base"></div>
 
 
     </div>

@@ -15,51 +15,45 @@ const BDCPrice = () => (
     <Seo title="Conversion :: BDC Price Quotes" />
     <NavBar />
 
-    <div class="webpage-container">
-    <div class="container screenshot">
+    <div class="container">
 
-    <div class="row">
-        <div class="col-lg-6">
-          <div class="legend">
+    <div class="row my-5">
+      <div class="col-lg-5 legend">
+        <h3>PROJECT</h3>
+        <ul>
+          <li><strong>Category:</strong> Conversion pages</li>
+          <li><strong>Client:</strong> Business.com</li>
+          <li><strong>Date:</strong> 2018</li>
+        </ul>
+        <p class="mt-4">Prototype for Business.com's B2B conversion pages.</p>
+      </div>
 
-          <h3>PROJECT</h3>
-          <ul>
-            <li><strong>Category:</strong> Conversion pages</li>
-            <li><strong>Client:</strong> Business.com</li>
-            <li><strong>Date:</strong> 2018</li>
-          </ul>
-          <p class="mt-4">Prototype for Business.com's B2B conversion pages.</p>
-          </div>
-        </div>
-
-    </div>
-
-
-    <div class="row">
-      <div id="carousel-port" class="carousel slide" data-ride="carousel" data-interval="3000">
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="item active">
-              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223067/screens/radio_buttons_c8joko.jpg" alt="question screen" />
-          </div>
-
-          <div class="item">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223059/screens/email_flkmir.jpg" alt="email screen" />
-          </div>
-
-          <div class="item">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223059/screens/optional_uy3yxg.jpg" alt="optional screen" />
-          </div>
-
-
-        </div>
+      <div class="col-lg-7">
 
       </div>
-    </div>
+    </div>{/* end row */}
 
-    </div>
-    </div>
+      <div class="row d-flex">
+
+            <div class="col-lg-12 mb-5 text-center">
+                <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223067/screens/radio_buttons_c8joko.jpg" alt="question screen" class="w-75"/>
+            </div>
+
+            <div class="col-lg-12 mb-5 text-center">
+                <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223073/screens/reg_field_owvtjf.jpg" alt="question screen" class="w-75"/>
+            </div>
+
+            <div class="col-lg-12 mb-5 text-center">
+                <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223059/screens/email_flkmir.jpg" alt="email screen" class="w-75" />
+            </div>
+
+            <div class="col-lg-12 mb-5 text-center">
+                <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223059/screens/optional_uy3yxg.jpg" alt="optional screen" class="w-75"/>
+            </div>
+
+      </div>{/* end row */}
+
+    </div>{/* end container */}
 
   </Layout>
 )

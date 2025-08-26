@@ -64,7 +64,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 1960,
+          maxWidth: 2260,
         }}
       >
 
@@ -74,15 +74,16 @@ const Layout = ({ children }) => {
         <footer
           style={{
             padding:`1rem`,
+            textAlign:`center`
           }}
         >
           © {new Date().getFullYear()} J. Ryan Doherty
-          <p><a href="/">home</a> | <a href="/portfolio/">portfolio</a> | <a href="/about/">about</a> | <a href="/contact/">contact</a></p>
+          <p><a href="/">home</a> | <a href="/portfolio/">projects</a></p>
 
 
 
-          <nav>
-          <ul class="nav navbar-nav">
+          <nav class="justify-content-center d-flex">
+          <ul class="nav">
             <li>
               <a href="https://www.linkedin.com/in/jrdoherty/" target="_blank" rel="noreferrer">
                 <svg viewBox="0 0 32 32" class="linkedIn">
@@ -104,22 +105,9 @@ const Layout = ({ children }) => {
 
         </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
 
-        <script
-          src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
-          crossorigin></script>
-
-        <script
-          src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
-          crossorigin></script>
-
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-          crossorigin="anonymous"
-        />
       </div>
     </>
   )

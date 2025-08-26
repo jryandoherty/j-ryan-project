@@ -15,8 +15,6 @@
   	animation: in .6s alternate ease-out forwards;
 	}
 
-
-
 	svg #sticker4 {fill:$sienna}
 	svg:hover #sticker4 { fill: $siennaLight  }
 
@@ -33,9 +31,7 @@
 	/*animation: out .2s;*/
 
 	&:hover{
-
 		animation: in .6s alternate ease-out forwards;
-
 	}
 
 	svg #sticker3 {fill: $green}
@@ -83,8 +79,6 @@
 
 	}*/
 
-
-
 	svg #sticker1 {fill:$black}
 	svg:hover #sticker1 { fill: $blackGreen }
 }
@@ -101,16 +95,12 @@
 }
 
 
-
-
 .navbar {
 	border:none;
 }
 
 .navbar-brand {
-	padding-top:100px;
-	height:auto;
-	width:330px;
+
 }
 
 .crumbs {
@@ -152,7 +142,7 @@ nav {
 		}
 
 		svg {
-			width:40px;
+			width:30px;
 			fill:$white;
 			&:hover.twitter {
 				fill:#00ACEE;
@@ -198,7 +188,7 @@ nav {
 			border:2px solid $white;
 		}
 		.navbar-nav {
-			flex-direction: row;
+			
 		}
 
 
@@ -252,6 +242,13 @@ nav {
 		} /* end navigation */
 
 
+
+		@media (min-width: 992px) {
+		  .navbar-expand-lg .navbar-collapse {
+
+		    justify-content: end;
+		  }
+		}
 
 	@media (max-width: 768px) {
 

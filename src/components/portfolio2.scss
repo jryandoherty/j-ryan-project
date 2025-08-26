@@ -5,35 +5,40 @@ html, body {
 	height: 100%;
 	font-size: 16px;
 	color:$white!important;
-	background:radial-gradient(circle, rgba(56, 1, 52, 1), $newBlack), url('../images/graffiti_large.png') no-repeat bottom right;
-
+	background-color:#2a2a29!important;
 	font-family: 'Source Code Pro', monospace!important;
 }
 
 header {
-
 	display:flex;
 	align-items:center;
-	border-bottom:1px solid $sienna;
-	min-height: 25vh;
+}
 
+.home-icons {
+	img {
+		&:hover {
+			transform: scale(1.03);
+
+		}
+	}
 }
 
 main {
+
+/*	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png')no-repeat bottom center/70%,
+	 url('')no-repeat top center;*/
 	p, li, a {
 		text-align: left;
 	}
 
 	h1 {
-		margin:3rem auto 1rem;
-		text-align: center;
+
+
 	}
 
 	h2 {
-	font-family: 'Nova Round', sans-serif;
-
-	text-align: center;
-
+		font-family: 'Nova Round', sans-serif;
+		text-align: center;
 	}
 
 	h3 {
@@ -58,7 +63,6 @@ main {
 		word-spacing: -.2ch;
 		letter-spacing: -2px;
 		font-family: 'Nova Round', serif;
-		margin:5rem auto 3rem;
 
 
 		@media(min-width:1280px) {
@@ -99,9 +103,7 @@ main {
 
 
 section {
-
 	@media (max-width:850px) {
-
 	}
 }
 
@@ -123,9 +125,11 @@ section {
 .secondary {
 
 	header {
-		/*background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent), url('../images/graffiti_large.png') no-repeat bottom right,
+	background:radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('../images/graffiti_large.png') no-repeat bottom right,
 		url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
-		background-size:  cover, 40%, cover;*/
+		background-size:  cover, 40%, cover;
+		border-bottom:1px solid $siennaLight;
+		margin-bottom:1.2rem;
 	}
 
 	.new-bio {
@@ -134,9 +138,9 @@ section {
 
 	.title {
 		visibility: visible;
-			animation-duration: 0s !important;
-			-webkit-animation-duration: 0s !important;
-			transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+		animation-duration: 0s !important;
+		-webkit-animation-duration: 0s !important;
+		transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
 	}
 
 	.brick {
@@ -206,7 +210,7 @@ section {
 
 
 .logo {
-	font-size: 3.43rem;
+	font-size: 3.63rem;
 	word-spacing: -.2ch;
 	font-family: 'Nova Round', sans-serif;
 	letter-spacing: -1.75px;
@@ -215,10 +219,7 @@ section {
 	a {
 		color:white;
 		text-decoration: none;
-
 	}
-
-
 
 	@media(max-width:992px) {
 		font-size:max(7vw);
@@ -237,9 +238,7 @@ section {
 	font-family: 'Source Code Pro', monospace;
 	font-size: 1.25rem;
 	letter-spacing: .08em;
-	margin: -20px 7% 2% 0%;
 	color:$greenLight;
-
 
 	@media(min-width:1180px) {
 		font-size: 1.25rem;
@@ -259,19 +258,38 @@ section {
 	}
 }
 
+.gradient {
+	background:radial-gradient(circle, rgba(240, 109, 6, .64)10%, transparent, transparent);
+	animation:gradientAnimation 8s linear infinite;
+}
+
+
+
+@keyframes gradientAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100%;
+  }
+	100% {
+		opacity: 0;
+	}
+}
+
 
 .brick {
-	background:radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('../images/graffiti_large.png') no-repeat bottom right,
+	background: url('../images/graffiti_large.png') no-repeat bottom right,
 	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
-	background-size:  cover, 80%, cover;
+	background-size: 80%, cover;
 	overflow:hidden;
 	color:$white;
 	position:relative;
-	height:40vh;
-
+	border-bottom:1px solid $sienna;
+	border-top:1px solid $sienna;
 
 	@media(max-width:768px) {
-		background-size: cover, 600px, cover;
+		background-size: 600px, cover;
 	}
 
 
@@ -301,22 +319,9 @@ section {
 	} /* end brick nav */
 
 
-.container-fluid {
-	display: flex;
-	align-items: center;
-	width:auto;
-
-	@media(max-width:768px) {
-		flex-direction: column;
-	}
-}
-
-.col-lg-6 {
-	width:auto;
-}
-
-
 }   /* end brick section */
+
+
 
 .about-section {
 	padding:0 5%;
@@ -352,13 +357,10 @@ section {
 	webkit-overflow-scrolling: touch;
 	scrollbar-width:none; /* firefox */
 	-ms-overflow-style: none;  /* IE 10+ */
-	padding: 4px 0;
+	padding: 20px 0;
 	display: flex;
-	justify-content: center;
 	flex-wrap: nowrap!important;
-	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-	background:$altblack;
-	border-bottom: 1px solid $sienna;
+
 
   &::-webkit-scrollbar {
     background: transparent; /* Chrome/Safari/Webkit */
@@ -367,7 +369,7 @@ section {
 	}
 
 	@media (max-width: 1250px){
-		justify-content: left;
+
 		&::-webkit-scrollbar-thumb{
 			background:#757575;
 			border-radius: 20px;
@@ -388,65 +390,24 @@ section {
 }/* end scroll classes */
 
 .nav-item {
-	width: 15.00%;
-	min-width:190px;
-	border-radius: 17px;
-	margin:10px 3px;
-	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
-	@media (max-width:1024px) {
-		font-size: 13px;
-	}
 
 	a {
-		display: block;
+
 		text-align: center;
-		padding:7px 0 ;
 		color:#fff;
+		margin-right:1.5rem;
+
+		border-radius: 2rem;
+		border:3px solid $sienna;
+		padding:11px 23px ;
+
+
+
 		&:hover {
 			color:#fff;
 		}
-	}
 
-	&:hover{
-		filter: brightness(1.2);
-	}
 
-	&:nth-child(1){
-		background:$sienna;
-	}
-
-	&:nth-child(2){
-		background:$siennaLight;
-	}
-
-	&:nth-child(3){
-		background:$green;
-	}
-
-	&:nth-child(4){
-		background:$greenLight;
-	}
-
-	&:nth-child(5){
-		background:$yellowDark;
-		a {
-			color:$altblack!important;
-		}
-		.active {
-			color:$white!important;
-		}
-
-	}
-
-	&:nth-child(6){
-		background:$yellow;
-		a {
-			color:$altblack!important;
-		}
-		.active {
-			color:$white!important;
-		}
 	}
 
 } /* end button */
@@ -456,9 +417,6 @@ section {
 	display: inline;
 	width:100%;
 	color:$white!important;
-	@media (max-width:768px){
-		font-size: .80rem!important;
-	}
 }
 
 
@@ -467,23 +425,23 @@ section {
 }
 
 
-.port-sites .nav-pills .nav-item:nth-child(1) {
-	background:$newBlack!important;
+.port-sites .nav-pills .nav-item:nth-child(1) a {
+	background:$sienna!important;
 	&:hover {
 		filter:brightness(1);
 	}
 }
 
-.port-email .nav-pills .nav-item:nth-child(4) {
-	background:$newBlack!important;
+.port-email .nav-pills .nav-item:nth-child(5) a {
+	background:$sienna!important;
 }
 
-.port-conversion .nav-pills .nav-item:nth-child(2) {
-	background:$newBlack!important;
+.port-conversion .nav-pills .nav-item:nth-child(3) a {
+	background:$sienna;
 }
 
-.port-print .nav-pills .nav-item:nth-child(3) {
-	background:$newBlack!important;
+.port-print .nav-pills .nav-item:nth-child(4) a {
+	background:$sienna!important;
 }
 
 .port-ads .nav-pills .nav-item:nth-child(5) {
@@ -493,14 +451,9 @@ section {
 	}
 }
 
-.port-logos .nav-pills .nav-item:nth-child(6) {
-	background:$newBlack!important;
-	a {
-		color:$white!important;
-	}
+.port-logos .nav-pills .nav-item:nth-child(2) a{
+	background:$sienna!important;
 }
-
-
 
 .active {
   color: $altblack;
@@ -537,16 +490,6 @@ section {
 	a {
     margin:10px 13px;
 		display: inline-block;
-
-		/*	&:nth-child(3n) {
-			width:240px;
-			height:auto;
-		}
-
-			&:nth-child(2n) {
-			width:300px;
-			height:auto;
-		}*/
 	}
 
 
@@ -629,15 +572,6 @@ section {
 			margin:2rem 0;
 		}
 
-		/*	&:nth-child(3n) {
-			width:300px;
-			height:auto;
-		}
-
-			&:nth-child(2n) {
-			width:240px;
-			height:auto;
-		}*/
 	}
 
 }
@@ -646,18 +580,16 @@ section {
 	text-align: center;
 	img {
 		max-width:100%;
-		border:1px solid #7a7a7a;
+
 	}
 
 
  a	{
-		width:380px;
-		margin:2rem;
+
+		margin:3rem;
 		display:inline-block;
 		@media (max-width:850px){
-
 				width:300px;
-
 		}
 
 
@@ -675,14 +607,9 @@ section {
 		width:240px;
 		height:auto;
 		margin:1rem;
-
 	}
 }
 
-
-.email {
-
-}
 
 .recent-work {
 	@media (max-width: 992px){
@@ -728,7 +655,6 @@ section {
 
 
 .contactme {
-
 	padding:10%;
 	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
 	@media (max-width:992px){
@@ -761,7 +687,6 @@ section {
 .contact-section {
 
 	h1 {
-
 		margin-bottom: 0;
 	}
 
@@ -788,7 +713,6 @@ section {
 
 
 footer {
-background: $sienna;
 	padding:2% 0;
 	color:$white;
 	font-size: .86em;
@@ -796,8 +720,6 @@ background: $sienna;
 	@media(max-width:768px) {
 		padding:10%;
 	}
-
-
 
 	nav {
 		background:none;
@@ -869,6 +791,39 @@ background: $sienna;
 .homepage .socials{
 	display:none;
 }
+
+
+
+.monitor {
+  width: 100%; /* adjust overall monitor width */
+  margin: 50px auto;
+}
+
+.screen {
+  width: 100%;
+  height: auto;
+  background: #111; /* screen color */
+  border: 20px solid #444; /* bezel */
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.stand {
+  width: 147px;
+  height: 110px;
+  background: #333;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.base {
+  width: 320px;
+  height: 32px;
+  background: #555;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 
 @import "files/navigation",
 "files/form",

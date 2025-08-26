@@ -15,8 +15,8 @@ const GrabCad = () => (
     />
     <Seo title="Sites :: GrabCAD" />
     <NavBar />
-    <div class="webpage-container">
-      <div class="webpage">
+    <div class="container">
+
         <div class="row">
           <div class="col-lg-6">
             <div class="legend">
@@ -35,21 +35,25 @@ const GrabCad = () => (
             </div>
           </div>
 
-        </div>
+          </div>{/* end row */}
 
 
-        <object data="https://blog.grabcad.com/" aria-label="live page"></object>
+   </div>{/* end container */}
 
-        <div class="col-lg-6">
-          <picture>
-             <source srcSet="https://res.cloudinary.com/jryandoherty/image/upload/v1670535741/grabcad_fd6fki.webp" type="image/webp" class="three-screens" />
-             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1596128951/grabcad_ae6x58.jpg" alt="three screens" class="three-screens" />
-          </picture>
-        </div>
+    <div class="container-fluid">
+        <div class="row mt-4">
+
+            <div class="col-lg-12 webpage mb-5">
+            
+              <object name="frame" data="https://blog.grabcad.com/blog/category/engineering-management-2/" aria-label="live page"></object>
+              <div class="stand"></div>
+              <div class="base"></div>
+            </div>
+
+         </div>{/* end row */}
 
 
-    </div>
-    </div>
+  </div>{/* end container */}
 
 
   </Layout>
