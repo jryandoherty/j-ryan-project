@@ -6,12 +6,11 @@ const Logos = () => {
 
     <section class="logos" id="logos">
 
-          <Link to="/branding/worlds/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178099/outer-space-arts/logo-black_q0pr68.png" alt="Worlds"  /></Link>
+          <Link to="/branding/worlds/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178099/outer-space-arts/logo-black_q0pr68.png" alt="image of the Worlds exhibition logo"  /></Link>
           <Link to="/branding/caterpillar/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415961/logos/logoArtboard_1_vs32zi.svg" alt="Caterpillar" /></Link>
           <Link to="/branding/understory/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178480/outer-space-arts/understory/headline-white2_i6vo7p.png" alt="Worlds"  /></Link>
           <Link to="/branding/ce/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1756150722/outer-space-arts/ce/ce-ii_1_qz5ic5.svg" alt="Creativity Explored"  /></Link>
           <Link to="/sites/buyerzone-2015/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648486756/logos/BZ_logo_buyer_ba7ivj.svg" alt="Buyerzone"   /></Link>
-
           <Link to="/sites/outer-space/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg" alt="Outer Space" /></Link>
           <Link to="/sites/windowz/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415413/logos/windowz-nqvtxg.svg" alt="Windowz by Liberty" /></Link>
           <Link to="/sites/min-chula/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415027/logos/min-logo-orange_sfjanx.svg" alt="Min and Chula" /></Link>

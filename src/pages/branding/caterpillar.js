@@ -24,10 +24,12 @@ const Caterpillar = () => (
 
           <div class="col-lg-6">
             <div class="legend">
-              <h3>PROJECT</h3>
+              <h3>project</h3>
               <ul>
                 <li><strong>Client:</strong> Outer Space Arts</li>
-                <li><strong>Date:</strong> May 2025</li>
+                <li><strong>Date:</strong> November 2024</li>
+                <li><strong>Typeface:</strong> </li>
+                <li><strong>Software:</strong> InDesign, Illustrator, Photoshop</li>
               </ul>
               <p class="mt-4">Branding for Caterpillar exhibition featuring works by Emma cc Cook and Em Kettner.</p>
             </div>

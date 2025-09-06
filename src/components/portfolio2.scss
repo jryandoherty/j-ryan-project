@@ -31,23 +31,22 @@ main {
 		text-align: left;
 	}
 
-	h1 {
 
-
-	}
 
 	h2 {
 		font-family: 'Nova Round', sans-serif;
-		text-align: center;
+		font-size:3.4rem;
+		word-spacing: -.2ch;
+		letter-spacing: -2px;
 	}
 
 	h3 {
 		font-family: 'Nova Round', sans-serif;
-		padding:1.2rem;
+		padding:0.82rem;
 		background:$sienna;
 		color:$white;
 		display: inline-block;
-		margin:0 0 20px;
+		margin:0 0 1rem;
 	}
 
 	a {
@@ -59,14 +58,15 @@ main {
 	}
 
 	h1 {
-		font-size:max(6.1vw, 1.23rem);
+		/*font-size:max(6.1vw, 1.23rem);*/
+		font-size:3.4rem;
 		word-spacing: -.2ch;
 		letter-spacing: -2px;
 		font-family: 'Nova Round', serif;
 
 
-		@media(min-width:1280px) {
-			font-size:4rem;
+	/*	@media(min-width:1280px) {
+			font-size:3rem;
 		}
 
 		@media(max-width:768px) {
@@ -79,7 +79,7 @@ main {
 			font-size:2.75em;
 			transition: all .5s ease-out;
 			margin-right:0;
-		}
+		}*/
 
 	}
 
@@ -101,24 +101,66 @@ main {
 
 } /* end main */
 
+.about-section-new {
 
-section {
-	@media (max-width:850px) {
+
+	h4 {
+		text-align: center;
 	}
+
+
+	.companies {
+		border:2px solid #524d21;
+		padding:30px;
+		border-right:0;
+	}
+
+	.individuals {
+		background:#524d21;
+		color:#fff;
+		padding:30px;
+	}
+
+	.nonprofits {
+		background:#a25d1a;
+		padding:30px;
+	}
+
 }
 
-.navbar {
-	position:relative!important;
-	background:none!important;
+
+
+@media (max-width:991px){
+
+.offcanvas-body, .offcanvas-header {
+	background:#000;
 }
 
-.navbar-expand {
-  flex-wrap: wrap!important;
+.offcanvas-body .offcanvas-title {
+	color:#fff;
 }
 
-.divider {
-	width:100%;
-	height:6px;
+.offcanvas-body .nav-pills {
+	flex-direction: column;
+}
+
+.offcanvas-body .nav-item {
+	min-height: 2rem;
+	margin-bottom: 1rem;
+	margin-top:1rem;
+}
+
+.navbar-nav {
+	flex-direction: row!important;
+}
+
+}
+
+.portname {
+	display:none;
+	font-family: "Nova Round", sans-serif;
+	text-transform: uppercase;
+	font-size:1.2rem;
 }
 
 
@@ -128,8 +170,8 @@ section {
 	background:radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('../images/graffiti_large.png') no-repeat bottom right,
 		url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
 		background-size:  cover, 40%, cover;
-		border-bottom:1px solid $siennaLight;
-		margin-bottom:1.2rem;
+		border-bottom:2px solid $sienna;
+
 	}
 
 	.new-bio {
@@ -149,40 +191,6 @@ section {
 		height:60vh;
 	}
 
-	.recentWork {
-		height:140px;
-		width:140px;
-		@media (max-width:768px){
-			width: 75px;
-			height: 75px;
-			transition:all 1s ease-out;
-			margin:0;
-		}
-	}
-
-	.contact {
-		height:100px;
-		width:100px;
-		margin: 20px 0 0 -40px;
-		@media (max-width:768px){
-			width: 75px;
-			height: 75px;
-			transition:all 1s ease-out;
-			margin:0;
-		}
-	}
-
-	.branding {
-		height:80px;
-		width:80px;
-		margin: 100px -10px 0 -50px;
-		@media (max-width:768px){
-			width: 75px;
-			height: 75px;
-			transition:all 1s ease-out;
-			margin:0;
-		}
-	}
 
 
 	@media (min-width: 1280px){
@@ -196,12 +204,7 @@ section {
 
 
 }/* end brick styles */
-@media (min-width: 1280px){
-	h1 {
-		font-size:3.4rem;
-	}
 
-}
 
 
 }/* end secondary styles */
@@ -351,70 +354,26 @@ section {
 } /* end about section */
 
 
-.nav-pills {
-	white-space: nowrap;
-	overflow-x: scroll;
-	webkit-overflow-scrolling: touch;
-	scrollbar-width:none; /* firefox */
-	-ms-overflow-style: none;  /* IE 10+ */
-	padding: 20px 0;
-	display: flex;
-	flex-wrap: nowrap!important;
-
-
-  &::-webkit-scrollbar {
-    background: transparent; /* Chrome/Safari/Webkit */
-    width: 0px;
-		height:0px;
-	}
-
-	@media (max-width: 1250px){
-
-		&::-webkit-scrollbar-thumb{
-			background:#757575;
-			border-radius: 20px;
-			height:3px;
-		}
-
-		&::-webkit-scrollbar {
-			background: $gray; /* Chrome/Safari/Webkit */
-			width:auto;
-			height:auto;
-
-		}
-			scrollbar-width:auto; /* firefox */
-			-ms-overflow-style:auto;  /* IE 10+ */
-	}
-
-
-}/* end scroll classes */
 
 .nav-item {
 
 	a {
-
 		text-align: center;
 		color:#fff;
 		margin-right:1.5rem;
-
-		border-radius: 2rem;
-		border:3px solid $sienna;
-		padding:11px 23px ;
-
-
+		padding:1rem;
+		text-decoration: none;
 
 		&:hover {
 			color:#fff;
 		}
-
-
 	}
 
 } /* end button */
 
 
 .nav-link {
-	display: inline;
+
 	width:100%;
 	color:$white!important;
 }
@@ -424,24 +383,50 @@ section {
 	border-bottom:none;
 }
 
+@media (max-width:991px){
+.port-sites .mobile-nav .portname:nth-child(1){
+	display:block!important;
+}
+
+.port-logos .mobile-nav .portname:nth-child(2){
+	display:block!important;
+}
+
+.port-email .mobile-nav .portname:nth-child(5){
+	display:block!important;
+}
+
+.port-conversion .mobile-nav .portname:nth-child(3){
+	display:block!important;
+}
+
+.port-print .mobile-nav .portname:nth-child(4){
+	display:block!important;
+}
+
+}
 
 .port-sites .nav-pills .nav-item:nth-child(1) a {
-	background:$sienna!important;
+border-bottom:3px solid $sienna;
 	&:hover {
 		filter:brightness(1);
 	}
 }
 
+.port-logos .nav-pills .nav-item:nth-child(2) a{
+	border-bottom:3px solid $sienna;
+}
+
 .port-email .nav-pills .nav-item:nth-child(5) a {
-	background:$sienna!important;
+	border-bottom:3px solid $sienna;
 }
 
 .port-conversion .nav-pills .nav-item:nth-child(3) a {
-	background:$sienna;
+	border-bottom:3px solid $sienna;
 }
 
 .port-print .nav-pills .nav-item:nth-child(4) a {
-	background:$sienna!important;
+	border-bottom:3px solid $sienna;
 }
 
 .port-ads .nav-pills .nav-item:nth-child(5) {
@@ -451,9 +436,7 @@ section {
 	}
 }
 
-.port-logos .nav-pills .nav-item:nth-child(2) a{
-	background:$sienna!important;
-}
+
 
 .active {
   color: $altblack;
@@ -589,7 +572,7 @@ section {
 		margin:3rem;
 		display:inline-block;
 		@media (max-width:850px){
-				width:300px;
+			margin:1rem 0;
 		}
 
 
@@ -651,7 +634,23 @@ section {
 	}
 }
 
+.contact-new {
+	.btn {
+		background: none;
+		border:1px solid #000;
+		&:hover {
+			background: #000;
+			color:#fff;
+		}
+	}
 
+	.form-group {
+		margin-bottom:1rem;
+		&:nth-child(4) {
+			margin-bottom:0;
+		}
+	}
+}
 
 
 .contactme {

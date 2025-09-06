@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 import NavBar from "../../components/port-nav";
-import outerSpace from '../../static/kp-ao.pdf'
+import outerSpace from '../../static/flyer-ce-II.pdf'
 
 const Understory = () => (
 
@@ -28,11 +28,11 @@ const Understory = () => (
             <ul>
               <li><strong>Client:</strong> Outer Space Arts</li>
               <li><strong>Date:</strong> Summer 2025</li>
-              <li><strong>Tyoeface:</strong> Acme Gothic Condensed</li>
+              <li><strong>Typeface:</strong> Acme Gothic Condensed</li>
               <li><strong>Software:</strong> InDesign, Illustrator, Photoshop</li>
 
             </ul>
-              <p class="mt-3">Brand design for Understory exhibition featuring works by Lou Breininger and Erin M. Riley. </p>
+              <p class="mt-3">Brand design for an exhibition featuring works from Creativity Explored, the is a celebrated nonprofit artist community and working studio where over 130 adult artists with developmental disabilities create, exhibit, and sell art. </p>
             </div>
           </div>
 
@@ -47,7 +47,7 @@ const Understory = () => (
 
            <div class="col-lg-6 my-5">
            <p>mobile banner</p>
-             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1754505070/outer-space-arts/ce/banner-mobile-II_ag3zs2.png" alt="Logo for a gallery called Outer Space" class="w-100" style={{border: "1px solid #ccc"}} />
+             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1754505070/outer-space-arts/ce/banner-mobile-II_ag3zs2.png" alt="Logo for a gallery called Outer Space" class="w-75" style={{border: "1px solid #ccc"}} />
            </div>
 
            <div class="col-lg-12 my-5">
@@ -60,12 +60,15 @@ const Understory = () => (
 
         </div>{/* end container */}
 
+        <div class="col-lg-12 webpage mb-5">
+          <object name="frame" data="../../static/flyer-ce-II.pdf" aria-label="live page"></object>
+        </div>
 
     <div class="container-fluid">
         <div class="row mt-4">
 
             <div class="col-lg-12 webpage mb-5">
-                <p>"preview" webpage for clients</p>
+              <p>"preview" webpage for clients</p>
               <object name="frame" data="https://outerspacearts.xyz/exhibitions/creativity-explored/" aria-label="live page"></object>
               <div class="stand"></div>
               <div class="base"></div>

@@ -35,7 +35,7 @@ const OuterSpace = () => (
           </div>{/* end left column */}
 
 
-          <div class="col-lg-6 text-end">
+          <div class="col-lg-6 text-center text-lg-end">
           <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1755016912/outer-space-arts/galleryAsset_1_ggftpn.svg"
           alt="Logo for an exhibition entitled Worlds" class="w-50" />
           </div>
@@ -63,10 +63,9 @@ const OuterSpace = () => (
           <div class="row mt-4">
             <p class="text-center">outdoor sign</p>
             <div class="col-lg-12 text-center">
-
              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750265854/outer-space-arts/yard-sign-new-5_fl8gih.png"
-             style={{width:`80%`, border:`2px solid #fff`}}
-             alt="sign for an art gallery called Outer Space"/>
+             style={{width:`60%`, border:`2px solid #fff`}}
+             alt="sign for an art gallery called Outer Space" />
             </div>
           </div>{/* end row */}
 

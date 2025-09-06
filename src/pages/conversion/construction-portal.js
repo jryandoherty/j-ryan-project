@@ -26,15 +26,14 @@ const Construction = () => (
                 <li>Date: April 2016</li>
                 <li>Typefaces: Industry Inc, Neuzeit Grotesk </li>
               </ul>
-              <p>Construction themed conversion page. This page was the final step in a marketing campaign starting with a promotional email sent to potential customers in the construction business. The email would direct users either to a portal page, or directly to the conversion page.</p>
-
+              <p>This project was a targeted marketing initiative, starting with an email campaign aimed at construction-industry prospects. Recipients of the promotional email were directed either to a themed portal page or straight to the final conversion page, encouraging them to take action. This project was part of a larger email engagement strategy undertaken by myself and a senior associate of marketing.</p>
             </div>
           </div>
-          <div class="col-lg-6 text-end"><img src="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/construction/img/headline_construction.svg" alt="business" class="w-75" /></div>
+          <div class="col-lg-6 text-center text-lg-end"><img src="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/construction/img/headline_construction.svg" alt="business" class="w-75" /></div>
       </div>{/* end row */}
-<div class="row ">
-    <Skid />
-</div>
+      <div class="row ">
+          <Skid />
+      </div>
     </div>{/* end container */}
 
 
@@ -49,12 +48,12 @@ const Construction = () => (
         </div>
 
         <div class="col-lg-12 webpage">
-        <p>thumbs_conversion page</p>
+        <p>conversion page</p>
           <object name="frame" data="https://epicsea.com/portfolio/2016/hornet/skidSteer.html" aria-label="live page"></object>
           <div class="stand"></div>
           <div class="base"></div></div>
 
-https://res.cloudinary.com/jryandoherty/image/upload/v1754070081/thumbs_conversion/screencapture-buyerzone-industrial-air-compressors-rfqz-1485548624165_fir7oe.webp
+
     </div>{/* end row */}
     </div>{/* end container */}
 

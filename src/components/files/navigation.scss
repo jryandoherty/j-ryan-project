@@ -2,125 +2,6 @@
 
 @import "colors";
 
-.recentWork {
-	width:140px;
-	height:140px;
-	z-index: 700;
-	margin:10px 0 0 0;
-	float:right;
-	/*animation: out .1s;*/
-
-
-	&:hover{
-  	animation: in .6s alternate ease-out forwards;
-	}
-
-	svg #sticker4 {fill:$sienna}
-	svg:hover #sticker4 { fill: $siennaLight  }
-
-}
-
-
-.branding {
-	width:80px;
-	height:80px;
-	margin:100px -12px 0 -44px;
-	z-index: 600;
-	position:relative;
-	float:right;
-	/*animation: out .2s;*/
-
-	&:hover{
-		animation: in .6s alternate ease-out forwards;
-	}
-
-	svg #sticker3 {fill: $green}
-	svg:hover #sticker3 { fill: $greenLight  }
-
-}
-
-
-
-.contact {
-	width:100px;
-	height:100px;
-	margin:20px 0 0 -40px;
-	z-index: 900;
-	position:relative;
-	float:right;
-/*	animation: out .2s;*/
-
-
-	&:hover {
-		animation: in .6s alternate ease-out forwards;
-	}
-
-	svg #sticker2 {fill:$yellowDark}
-	svg:hover #sticker2 { fill:$yellow  }
-
-}
-
-
-
-.about {
-	width:120px;
-	height:120px;
-	margin:80px 0 0 -37px;
-	z-index: 800;
-	position:relative;
-	cursor:pointer;
-	float:right;
-	visibility:hidden;
-
-	/*&:hover {
-
-		-webkit-animation: spin 0.6s ease-out both;
-						animation: spin 0.6s ease-out both;
-
-	}*/
-
-	svg #sticker1 {fill:$black}
-	svg:hover #sticker1 { fill: $blackGreen }
-}
-
-
-@keyframes in {
-    from   { transform: rotate(0deg); }
-    to { transform: rotate(10deg);}
-}
-
-@keyframes out {
-    0%   { transform: rotate(10deg); }
-    100% { transform: rotate(0deg); }
-}
-
-
-.navbar {
-	border:none;
-}
-
-.navbar-brand {
-
-}
-
-.crumbs {
-	text-align: right;
-	font-size:.95em;
-	padding: 0 14px 12px 0;
-	margin: 20px 0 0 0;
-	@media (max-width:768px) {
-		font-size:.7521367521367521em;
-		padding-right:15px;
-
-	}
-
-	/*a:nth-child(2){
-		display:none;
-	}*/
-
-}
-
-
 nav {
 
 		border-radius: 0!important;
@@ -141,6 +22,8 @@ nav {
 			 margin-right:10px
 		}
 
+
+
 		svg {
 			width:30px;
 			fill:$white;
@@ -160,6 +43,15 @@ nav {
 				fill:#1769ff;
 			}
 
+		}
+
+		.navbar-brand svg {
+			width:336px;
+			height:90px;
+			@media (max-width: 500px){
+				width:250px;
+				height:67px;
+			}
 		}
 
 		a {
@@ -188,7 +80,7 @@ nav {
 			border:2px solid $white;
 		}
 		.navbar-nav {
-			
+
 		}
 
 

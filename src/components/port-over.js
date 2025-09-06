@@ -1,13 +1,12 @@
 import * as React from "react"
 import { useState } from 'react';
-
+import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from "gatsby"
 
-
-function PortNav() {
+function ResponsiveExample() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -15,19 +14,15 @@ function PortNav() {
 
   return (
     <>
-    <div class="container-md mt-3 mb-5 d-flex justify-content-between  align-items-center mobile-nav">
-    <div class="portname">websites</div>
-    <div class="portname">branding</div>
-    <div class="portname">conversion</div>
-    <div class="portname">print</div>
-    <div class="portname">email marketing</div>
+    <div class="container-md">
       <Button variant="primary" className="d-lg-none" onClick={handleShow}>
-        MORE PROJECTS +
+        Launch
       </Button>
+
 
       <Offcanvas show={show} onHide={handleClose} responsive="lg">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>J. Ryan Doherty Projects</Offcanvas.Title>
+          <Offcanvas.Title>Responsive offcanvas</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
         <Nav variant="pills">
@@ -55,4 +50,4 @@ function PortNav() {
   );
 }
 
-export default PortNav;
+export default ResponsiveExample;

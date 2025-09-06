@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
   return (
 
-    <div class="container">
+    <div class="container contact-new">
       <div class="row justify-content-center">
 
 
@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <button type="submit" class="btn btn-primary mt-4" value="Send">Send</button>
+                  <button type="submit" class="btn mt-4" value="Send">Send</button>
                   <div style={{textIndent:`-99999px`, whiteSpace:`nowrap`, overflow:`hidden`, position:`absolute`}} aria-hidden="true">
                     <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
                   </div>
