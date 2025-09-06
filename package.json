@@ -3,12 +3,9 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-
   "engines": {
     "node": ">=20.18.1"
   },
-
-
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@deckdeckgo/highlight-code": "^4.4.0",
@@ -22,7 +19,6 @@
     "gatsby": "^5.13.7",
     "gatsby-cli": "^5.11.0",
     "gatsby-plugin-canonical-urls": "^5.11.0",
-    "gatsby-plugin-gatsby-cloud": "^4.12.1",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-humans-txt": "^1.1.4",
     "gatsby-plugin-image": "^3.13.1",
