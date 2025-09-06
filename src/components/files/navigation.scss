@@ -2,135 +2,6 @@
 
 @import "colors";
 
-.recentWork {
-	width:175px;
-	height:175px;
-	z-index: 700;
-	margin:10px 0 0 0;
-	/*position:relative;*/
-	float:right;
-	animation: out 1s;
-
-	&:hover{
-  	animation: in 1s alternate ease-out forwards;
-	}
-
-
-
-	svg #sticker4 {fill:$sienna}
-	svg:hover #sticker4 { fill: $siennaLight  }
-
-}
-
-
-.branding {
-	width:100px;
-	height:100px;
-	margin:125px -10px 0 -50px;
-	z-index: 600;
-	position:relative;
-	float:right;
-	animation: out 1s;
-
-	&:hover{
-
-		animation: in 1s alternate ease-out forwards;
-
-	}
-
-	svg #sticker3 {fill: $green}
-	svg:hover #sticker3 { fill: $greenLight  }
-
-}
-
-
-
-.contact {
-	width:125px;
-	height:125px;
-	margin:20px 0 0 -68px;
-	z-index: 900;
-	position:relative;
-	float:right;
-	animation: out 1s;
-
-
-	&:hover {
-		animation: in 1s alternate ease-out forwards;
-	}
-
-	svg #sticker2 {fill:$yellowDark}
-	svg:hover #sticker2 { fill:$yellow  }
-
-}
-
-
-
-.about {
-	width:120px;
-	height:120px;
-	margin:80px 0 0 -37px;
-	z-index: 800;
-	position:relative;
-	cursor:pointer;
-	float:right;
-	visibility:hidden;
-
-	/*&:hover {
-
-		-webkit-animation: spin 0.6s ease-out both;
-						animation: spin 0.6s ease-out both;
-
-	}*/
-
-
-
-	svg #sticker1 {fill:$black}
-	svg:hover #sticker1 { fill: $blackGreen }
-}
-
-
-@keyframes in {
-    from   { transform: rotate(0deg); }
-    to { transform: rotate(10deg);}
-}
-
-@keyframes out {
-    0%   { transform: rotate(10deg); }
-    100% { transform: rotate(0deg); }
-}
-
-
-
-
-.navbar {
-	border:none;
-}
-
-.navbar-brand {
-	padding-top:100px;
-	height:auto;
-	width:330px;
-}
-
-.crumbs {
-	text-align: right;
-	font-size:.95em;
-	padding: 0 14px 12px 0;
-	margin: 20px 0 0 0;
-	@media (max-width:768px) {
-		font-size:.7521367521367521em;
-		padding-right:15px;
-
-	}
-
-	/*a:nth-child(2){
-		display:none;
-	}*/
-
-}
-
-
 nav {
 
 		border-radius: 0!important;
@@ -151,8 +22,10 @@ nav {
 			 margin-right:10px
 		}
 
+
+
 		svg {
-			width:40px;
+			width:30px;
 			fill:$white;
 			&:hover.twitter {
 				fill:#00ACEE;
@@ -170,6 +43,15 @@ nav {
 				fill:#1769ff;
 			}
 
+		}
+
+		.navbar-brand svg {
+			width:336px;
+			height:90px;
+			@media (max-width: 500px){
+				width:250px;
+				height:67px;
+			}
 		}
 
 		a {
@@ -198,7 +80,7 @@ nav {
 			border:2px solid $white;
 		}
 		.navbar-nav {
-			flex-direction: row;
+
 		}
 
 
@@ -252,6 +134,13 @@ nav {
 		} /* end navigation */
 
 
+
+		@media (min-width: 992px) {
+		  .navbar-expand-lg .navbar-collapse {
+
+		    justify-content: end;
+		  }
+		}
 
 	@media (max-width: 768px) {
 

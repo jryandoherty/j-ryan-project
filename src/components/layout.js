@@ -64,7 +64,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 1960,
+          maxWidth: 2260,
         }}
       >
 
@@ -74,19 +74,16 @@ const Layout = ({ children }) => {
         <footer
           style={{
             padding:`1rem`,
+            textAlign:`center`
           }}
         >
           © {new Date().getFullYear()} J. Ryan Doherty
-          <p><a href="/">home</a> | <a href="/portfolio/">portfolio</a> | <a href="/about/">about</a> | <a href="/contact/">contact</a></p>
-
-          <p>Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a></p>
+          <p><a href="/">home</a> | <a href="/portfolio/">projects</a></p>
 
 
 
-          <nav>
-          <ul class="nav navbar-nav">
+          <nav class="justify-content-center d-flex">
+          <ul class="nav">
             <li>
               <a href="https://www.linkedin.com/in/jrdoherty/" target="_blank" rel="noreferrer">
                 <svg viewBox="0 0 32 32" class="linkedIn">
@@ -102,40 +99,15 @@ const Layout = ({ children }) => {
                 </svg>
                 </a>
             </li>
-            <li>
-              <a href="https://twitter.com/jryandoherty" target="_blank" rel="noreferrer">
-              <svg viewBox="0 0 32 32" class="twitter">
-                  <path id="twitter" d="M26.32865,10.20428c.01043.22891.01043.45778.01043.6867A15.18194,15.18194,0,0,1,2.99214,23.68808a10.26487,10.26487,0,0,0,1.26929.07283A10.70029,10.70029,0,0,0,10.8889,21.472a5.33486,5.33486,0,0,1-4.9836-3.70387,5.36636,5.36636,0,0,0,2.40336-.09364,5.34632,5.34632,0,0,1-4.2761-5.23331v-.07283a5.39627,5.39627,0,0,0,2.41374.6659A5.35659,5.35659,0,0,1,4.79205,5.90738,15.1498,15.1498,0,0,0,15.78924,11.484a5.89821,5.89821,0,0,1-.13524-1.21727,5.33642,5.33642,0,0,1,9.22847-3.65189,10.61188,10.61188,0,0,0,3.3918-1.2901A5.368,5.368,0,0,1,25.9229,8.27951a10.81127,10.81127,0,0,0,3.06924-.84274A10.868,10.868,0,0,1,26.32865,10.20428Z" />
-              </svg>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.flickr.com/photos/jryandoherty/" target="_blank" rel="noreferrer">
-                <svg viewBox="0 0 333333 333333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" class="flickr"><path d="M187501 166667c0-40270 32654-72915 72915-72915 40276 0 72917 32646 72917 72915 0 40262-32640 72915-72915 72915-40261 0-72915-32654-72915-72915h-2z" fill="#ff0084"/><path d="M0 166667c0-40270 32640-72915 72915-72915 40261 0 72915 32648 72915 72915 0 40262-32654 72915-72915 72915C32641 239582 0 206928 0 166667z" /></svg>
-              </a>
 
-            </li>
           </ul>
           </nav>
 
         </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
 
-        <script
-          src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
-          crossorigin></script>
-
-        <script
-          src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
-          crossorigin></script>
-
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-          crossorigin="anonymous"
-        />
       </div>
     </>
   )

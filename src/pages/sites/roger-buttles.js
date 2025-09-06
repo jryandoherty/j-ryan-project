@@ -3,17 +3,18 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
+import NavBar from "../../components/port-nav"
 
 
 const RogerButtles = () => (
   <Layout>
   <Helmet
     bodyAttributes={{
-        class: 'secondary'
+        class: 'secondary port-sites'
     }}
     />
     <Seo title="Sites :: Roger Buttles" />
-
+    <NavBar />
     <div class="webpage-container">
       <div class="webpage">
 

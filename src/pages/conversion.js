@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Helmet from 'react-helmet'
 
-
 import NavBar from "../components/port-nav";
 import Conversion from "../components/conversion"
 
@@ -19,8 +18,11 @@ const PortfolioCon = () => (
       }}
 
       />
-    <Seo title="Portfolio: Conversion" />
+    <Seo title="Portfolio: Conversion Projects" />
+
+
     <NavBar />
+    
     <Conversion/>
 
   </Layout>
