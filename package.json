@@ -3,6 +3,9 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
+  "engines": {
+    "node": ">=20.18.1"
+  },
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@deckdeckgo/highlight-code": "^4.4.0",
