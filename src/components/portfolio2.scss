@@ -18,7 +18,7 @@ header {
 	img {
 		&:hover {
 			transform: scale(1.03);
-
+			transition: all .2s ease-out;
 		}
 	}
 }
@@ -113,6 +113,9 @@ main {
 		border:2px solid #524d21;
 		padding:30px;
 		border-right:0;
+		@media (max-width:991px){
+			border-right:2px solid #534d21;
+		}
 	}
 
 	.individuals {

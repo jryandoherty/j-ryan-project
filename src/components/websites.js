@@ -40,17 +40,6 @@ const Websites = () => {
       />
     </Link>
 
-    <Link to="/sites/min-chula/">
-      <StaticImage
-        src="../images/min-desktop.png"
-        width={487}
-        quality={95}
-        formats={["auto", "webp"]}
-        alt="website desktop"
-        placeholder="blurred"
-      />
-    </Link>
-
     <Link to="/sites/grabcad/">
       <StaticImage
         src="https://res.cloudinary.com/jryandoherty/image/upload/c_pad,w_1920/v1756143047/thumbs_sites/grabcad-laptop_lsspxx.webp"
@@ -76,7 +65,7 @@ const Websites = () => {
     <Link to="/sites/louis-mian/">
       <StaticImage
         src="https://res.cloudinary.com/jryandoherty/image/upload/v1754065700/thumbs_sites/mian-iphone_m8mdrm.webp"
-        width={170}
+        width={150}
         quality={95}
         formats={["auto", "webp"]}
         alt="Louis W. Mian"
@@ -91,6 +80,17 @@ const Websites = () => {
         quality={95}
         formats={["auto", "webp"]}
         alt="us chamber"
+        placeholder="blurred"
+      />
+    </Link>
+
+    <Link to="/sites/min-chula/">
+      <StaticImage
+        src="../images/min-desktop.png"
+        width={487}
+        quality={95}
+        formats={["auto", "webp"]}
+        alt="website desktop"
         placeholder="blurred"
       />
     </Link>

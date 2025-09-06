@@ -23,8 +23,6 @@ const PortfolioCon = () => (
 
     <NavBar />
     
-
-
     <Conversion/>
 
   </Layout>

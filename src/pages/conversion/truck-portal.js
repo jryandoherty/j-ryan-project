@@ -26,16 +26,18 @@ const Trucks = () => (
         <ul>
           <li><strong>Client:</strong> Buyerzone.com</li>
           <li><strong>Date:</strong> September 2016</li>
-          <li><strong>Project:</strong> FreeMarker</li>
+          <li><strong>Project:</strong> Trucking themed conversion page</li>
           <li><strong>Typefaces:</strong> Neuzeit Grotesk</li>
 
-          <p class="mt-4">A specialized conversion portal and promotional email campaign designed in September 2016 for Buyerzone.com, developed using FreeMarker. The project features a streamlined “portal page” that guides trucking-industry visitors toward key conversion actions. Assets included:
+          <p class="mt-4">A specialized conversion portal and promotional email campaign designed in September 2016 for Buyerzone.com. The project features a streamlined "portal page" that guides trucking-industry visitors toward key conversion actions. Assets included:
 
-    <ul><li>Promotional email: Crafted to attract and engage the target audience.</li>
+          <ul>
+        <li><strong>Promotional email:</strong> Crafted to attract and engage the target audience.</li>
 
-  <li> Portal page: Tailored interface featuring trucking-themed design elements.</li>
+        <li><strong>Portal page:</strong> Tailored interface featuring trucking themed design elements.</li>
 
-    <li>Conversion page: Optimized layout aimed at driving visitor actions—registrations, leads, or inquiries. </li></ul></p>
+        <li><strong>Conversion page:</strong> Optimized layout aimed at driving visitor actions: registrations, leads, or inquiries. </li></ul>
+        </p>
         </ul>
         </div>
       </div>

@@ -55,7 +55,7 @@ const Conversion = () => {
 
     <Link to="/conversion/bdc-price-quotes/">
       <StaticImage
-        src="https://res.cloudinary.com/jryandoherty/image/upload/v1673385324/thumbs_conversion/bdc_price_quotes_hd3tai.png"
+        src="https://res.cloudinary.com/jryandoherty/image/upload/v1671223067/screens/radio_buttons_c8joko.jpg"
         width={275}
         quality={100}
         formats={["auto", "webp"]}
