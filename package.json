@@ -10,6 +10,7 @@
     "@fontsource/averia-gruesa-libre": "^4.5.7",
     "@fontsource/passion-one": "^4.5.9",
     "@mui/material": "^5.11.5",
+    "@parcel/watcher": "^2.5.1",
     "bootstrap": "^5.3.0",
     "gatsby": "^5.13.7",
     "gatsby-cli": "^5.11.0",
