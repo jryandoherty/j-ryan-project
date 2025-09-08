@@ -7,7 +7,6 @@ const Contact = () => {
     <div class="container contact-new">
       <div class="row justify-content-center">
 
-
       <div class="col-lg-5 px-5">
         <h2 class="text-center">message me:</h2>
         <form action="https://public.herotofu.com/v1/514f74d0-2505-11ee-9907-0b23fd627d84" method="post" accept-charset="UTF-8">
@@ -43,13 +42,9 @@ const Contact = () => {
 
         </form>
 
-
-
       </div>{/* end right column */}
 
-
     </div>{/* end row */}
-
 
     </div>
 

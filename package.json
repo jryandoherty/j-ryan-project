@@ -29,7 +29,7 @@
     "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-remark-highlight-code": "^3.3.0",
     "gatsby-source-filesystem": "^4.12.1",
-    "gatsby-transformer-remark": "^6.12.0",
+    "gatsby-transformer-remark": "^6.15.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
