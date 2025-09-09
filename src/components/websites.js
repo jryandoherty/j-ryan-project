@@ -13,7 +13,7 @@ const Websites = () => {
         width={487}
         quality={95}
         formats={["auto", "webp"]}
-        alt="website desktop"
+        alt="thumbnail of a computer showing business website"
         placeholder="blurred"
       />
     </Link>
@@ -24,7 +24,7 @@ const Websites = () => {
         width={240}
         quality={95}
         formats={["auto", "webp"]}
-        alt="website desktop"
+        alt="thumbnail of a tablet showing a website"
         placeholder="blurred"
       />
     </Link>
@@ -35,7 +35,7 @@ const Websites = () => {
         width={150}
         quality={95}
         formats={["auto", "webp"]}
-        alt="Cryptids Cannabis"
+        alt="thumbnail of an iphone showing a website"
         placeholder="blurred"
       />
     </Link>
@@ -46,7 +46,7 @@ const Websites = () => {
         width={487}
         quality={95}
         formats={["auto", "webp"]}
-        alt="GrabCad"
+        alt="thumbnail of a laptop computer showing a blog"
         placeholder="blurred"
       />
     </Link>
@@ -57,7 +57,7 @@ const Websites = () => {
         width={240}
         quality={95}
         formats={["auto", "webp"]}
-        alt="MA Avian Records"
+        alt="thumbnail image of a tablet showing a website"
         placeholder="blurred"
       />
     </Link>
@@ -68,7 +68,7 @@ const Websites = () => {
         width={150}
         quality={95}
         formats={["auto", "webp"]}
-        alt="Louis W. Mian"
+        alt="thumbnail image of an iphone showing a website"
         placeholder="blurred"
       />
     </Link>
@@ -79,7 +79,7 @@ const Websites = () => {
         width={487}
         quality={95}
         formats={["auto", "webp"]}
-        alt="us chamber"
+        alt="thumbnail image of a laptop computer"
         placeholder="blurred"
       />
     </Link>
@@ -90,29 +90,29 @@ const Websites = () => {
         width={487}
         quality={95}
         formats={["auto", "webp"]}
-        alt="website desktop"
+        alt="thumbnail image of a website"
         placeholder="blurred"
       />
     </Link>
 
     <Link to="/sites/buyerzone-2015/">
     <StaticImage
-      src="https://res.cloudinary.com/jryandoherty/image/upload/t_thumbnail-vert/v1756772122/screens/FireShot_Capture_026_-_BuyerZone_Purchasing_For_Your_Business_Made_Easy_-_epicsea.com_ys4usz.png"
+      src="https://res.cloudinary.com/jryandoherty/image/upload/c_pad,w_1920/v1757368321/thumbs_sites/bz-home_xketxx.webp"
       width={487}
       quality={95}
       formats={["auto", "webp"]}
-      alt="us chamber"
+      alt="thumbnail image of a mac computer"
       placeholder="blurred"
     />
     </Link>
 
     <Link to="/sites/leads-2016/">
     <StaticImage
-      src="https://res.cloudinary.com/jryandoherty/image/upload/v1649122544/thumbs_sites/leads2016_nyuefe.jpg"
+      src="https://res.cloudinary.com/jryandoherty/image/upload/c_pad,w_1920/v1757368322/thumbs_sites/bz-leads_gf4x1z.webp"
       width={487}
       quality={95}
       formats={["auto", "webp"]}
-      alt="us chamber"
+      alt="thumbnail image of a mac laptop"
       placeholder="blurred"
     />
     </Link>
