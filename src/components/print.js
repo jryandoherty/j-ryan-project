@@ -13,7 +13,7 @@ import bakerFront from '../images/baker-front.svg'
 const Print = () => {
   return (
 
-    <section class="thumbnails print" id="brochures">
+    <section class="logos print" id="brochures">
         <a href={outerSpace} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688653154/price-list_kg1r59.jpg" alt="Outer Space Preview" style={{border:`4px solid #333`}} /></a>
         <Link to="/print/passes/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688593985/blArtboard_1_y9hh5i.svg" alt="II IIII Productions pass front" style={{borderRadius:`30px`}} /></Link>
         <a href={stateB2B} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688594204/thumbs_brochures/state-of-B2B-2013-thumb2_n5uhmc.png" alt="State Of B2B report" style={{border:`4px solid #333`}}  /></a>

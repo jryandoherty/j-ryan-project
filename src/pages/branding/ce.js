@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 import NavBar from "../../components/port-nav";
-import outerSpace from '../../static/flyer-ce-II.pdf'
+import OuterSpace from '../../static/flyer-ce-II.pdf'
 
 const Understory = () => (
 
@@ -61,7 +61,7 @@ const Understory = () => (
         </div>{/* end container */}
 
         <div class="col-lg-12 webpage mb-5">
-          <object name="frame" data="../../static/flyer-ce-II.pdf" aria-label="live page"></object>
+          <object name="frame" data={OuterSpace} aria-label="live page" style={{width:`612px`}}></object>
         </div>
 
     <div class="container-fluid">

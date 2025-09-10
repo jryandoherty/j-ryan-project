@@ -3,7 +3,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 import NavBar from "../../components/port-nav"
-import Breadcrumb from "../../components/breadcrumb"
+
 
 const OuterSpace = () => (
   <Layout>
@@ -36,8 +36,8 @@ const OuterSpace = () => (
 
 
           <div class="col-lg-6 text-center text-lg-end">
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1755016912/outer-space-arts/galleryAsset_1_ggftpn.svg"
-          alt="Logo for an exhibition entitled Worlds" class="w-50" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1755016912/outer-space-arts/galleryAsset_1_ggftpn.svg"
+            alt="Logo for an exhibition entitled Worlds" class="w-50" />
           </div>
 
         </div>{/* end row */}

@@ -21,16 +21,16 @@ function PortNav() {
     <div class="portname">conversion</div>
     <div class="portname">print</div>
     <div class="portname">email marketing</div>
-      <Button variant="primary" className="d-lg-none" onClick={handleShow}>
+      <Button variant="primary" className="d-lg-none" onClick={handleShow} aria-label="more projects">
         MORE PROJECTS +
       </Button>
 
-      <Offcanvas show={show} onHide={handleClose} responsive="lg">
+      <Offcanvas show={show} onHide={handleClose} responsive="lg" aria-label="mobile menu">
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>J. Ryan Doherty Projects</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-        <Nav variant="pills">
+        <Nav variant="pills" aria-label="projects menu">
           <Nav.Item>
             <Link to="/portfolio/">websites</Link>
           </Nav.Item>

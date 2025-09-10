@@ -6,9 +6,9 @@ const Logos = () => {
 
     <section class="logos" id="logos">
 
-          <Link to="/branding/worlds/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178099/outer-space-arts/logo-black_q0pr68.png" alt="image of the Worlds exhibition logo"  /></Link>
+          <Link to="/branding/worlds/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178099/outer-space-arts/logo-black_q0pr68.png" alt="Worlds exhibition logo"  /></Link>
           <Link to="/branding/caterpillar/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415961/logos/logoArtboard_1_vs32zi.svg" alt="Caterpillar branding" /></Link>
-          <Link to="/branding/understory/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178480/outer-space-arts/understory/headline-white2_i6vo7p.png" alt="Worlds logo"  /></Link>
+          <Link to="/branding/understory/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178480/outer-space-arts/understory/headline-white2_i6vo7p.png" alt="logo for exhibition called understory"  /></Link>
           <Link to="/branding/ce/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1756150722/outer-space-arts/ce/ce-ii_1_qz5ic5.svg" alt="Creativity Explored branding"  /></Link>
           <Link to="/sites/buyerzone-2015/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648486756/logos/BZ_logo_buyer_ba7ivj.svg" alt="Buyerzone logo"   /></Link>
           <Link to="/sites/outer-space/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg" alt="Outer Space logo" /></Link>

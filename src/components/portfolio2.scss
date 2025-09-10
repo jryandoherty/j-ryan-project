@@ -31,13 +31,30 @@ main {
 		text-align: left;
 	}
 
+	h1 {
 
+		font-size:3.4rem;
+		word-spacing: -.2ch;
+		letter-spacing: -2px;
+		font-family: 'Nova Round', serif;
+		@media (max-width:500px){
+			font-size:2.2rem;
+		}
+
+	}
+
+	h1 + p {
+		margin:0;
+	}
 
 	h2 {
 		font-family: 'Nova Round', sans-serif;
 		font-size:3.4rem;
 		word-spacing: -.2ch;
 		letter-spacing: -2px;
+		@media (max-width:500px){
+			font-size:2.2rem;
+		}
 	}
 
 	h3 {
@@ -57,35 +74,7 @@ main {
 		}
 	}
 
-	h1 {
-		/*font-size:max(6.1vw, 1.23rem);*/
-		font-size:3.4rem;
-		word-spacing: -.2ch;
-		letter-spacing: -2px;
-		font-family: 'Nova Round', serif;
 
-
-	/*	@media(min-width:1280px) {
-			font-size:3rem;
-		}
-
-		@media(max-width:768px) {
-			font-size:3.3em;
-			transition: all .5s ease-out;
-			margin-right:0;
-		}
-
-		@media(max-width:500px) {
-			font-size:2.75em;
-			transition: all .5s ease-out;
-			margin-right:0;
-		}*/
-
-	}
-
-	h1 + p {
-		margin:0;
-	}
 
 	.btn-primary {
 		background-color:$sienna;
@@ -135,12 +124,14 @@ main {
 
 @media (max-width:991px){
 
+
+
 .offcanvas-body, .offcanvas-header {
 	background:#000;
 }
 
-.offcanvas-body .offcanvas-title {
-	color:#fff;
+.offcanvas-title {
+	color:#fff!important;
 }
 
 .offcanvas-body .nav-pills {
@@ -214,56 +205,6 @@ main {
 
 
 
-
-.logo {
-	font-size: 3.63rem;
-	word-spacing: -.2ch;
-	font-family: 'Nova Round', sans-serif;
-	letter-spacing: -1.75px;
-
-
-	a {
-		color:white;
-		text-decoration: none;
-	}
-
-	@media(max-width:992px) {
-		font-size:max(7vw);
-		transition: all .5s ease-out;
-	}
-
-	@media(max-width:500px) {
-		font-size:max(10vw);
-		transition: all .5s ease-out;
-	}
-
-}
-
-
-.title {
-	font-family: 'Source Code Pro', monospace;
-	font-size: 1.25rem;
-	letter-spacing: .08em;
-	color:$greenLight;
-
-	@media(min-width:1180px) {
-		font-size: 1.25rem;
-	}
-
-
-	@media(max-width:992px) {
-		font-size: 2.34vw;
-		letter-spacing: .13em;
-		transition: all .5s ease-out;
-	}
-
-	@media(max-width:500px) {
-		font-size: .72em;
-		letter-spacing: .11em;
-		transition: all .5s ease-out;
-	}
-}
-
 .gradient {
 	background:radial-gradient(circle, rgba(240, 109, 6, .64)10%, transparent, transparent);
 	animation:gradientAnimation 8s linear infinite;
@@ -287,7 +228,7 @@ main {
 .brick {
 	background: url('../images/graffiti_large.png') no-repeat bottom right,
 	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
-	background-size: 80%, cover;
+	background-size: 95%, cover;
 	overflow:hidden;
 	color:$white;
 	position:relative;
@@ -328,36 +269,6 @@ main {
 }   /* end brick section */
 
 
-
-.about-section {
-	padding:0 5%;
-	@media(max-width:768px) {
-		background-size: 900px;
-	}
-
-	img {
-		width:100%;
-		max-width:520px;
-		height:auto;
-		margin: 0 auto;
-		display:block;
-	}
-
-	.bio {
-		font-family: 'Source Code Pro', monospace;
-		padding-bottom:2rem;
-		@media (max-width:500px){
-			font-size: 1em;
-		}
-	}
-
-	div:nth-child(2){
-		background-size: 600px;
-	}
-} /* end about section */
-
-
-
 .nav-item {
 
 	a {
@@ -376,7 +287,6 @@ main {
 
 
 .nav-link {
-
 	width:100%;
 	color:$white!important;
 }
@@ -441,113 +351,9 @@ border-bottom:3px solid $sienna;
 
 
 
-.active {
-  color: $altblack;
-	box-shadow: none!important;
-	border: none!important;
-	transition:  height .5s linear;
-
-	&:first-child {
-		border-left:none;
-	}
-	&:hover {
-		filter: brightness(1);
-	}
-}
-
-.tab-pane.active {
-	transition:  margin .5s linear;
-}
-
-
-.thumbnails {
-	padding:0 5%;
-	text-align: center;
-
-	h2 {
-		font-family: 'Nova Round', cursive;
-		margin:0 auto 3rem;
-		font-size: 3rem;
-		@media (max-width:768px){
-			margin:30px auto 40px;
-		}
-	}
-
-	a {
-    margin:10px 13px;
-		display: inline-block;
-	}
-
-
-	img {
-		width:740px;
-		min-height:100px;
-    height:auto;
-		max-width: 100%;
-	}
-
-	img:hover {
-		transform: scale(1.01);
-		transition: all .3s ease-out;
-	}
-
-	img.mobile {
-		border:none;
-		box-shadow:none;
-		display:block;
-	}
-
-	a.mobile {
-		display:block;
-	}
-
-}
-
-.ads {
-	padding:0 5%;
-	text-align: center;
-
-	h2 {
-		font-family: 'Nova Round', cursive;
-		margin:0 auto 3rem;
-		font-size: 3rem;
-		@media (max-width:768px){
-			margin:30px auto 40px;
-		}
-	}
-
-	img {
-		margin: 3rem;
-		border:1px solid $sienna;
-		@media(max-width:768px){
-			margin:10px auto;
-		}
-	}
-	.square {
-		max-width: 240px;
-		height:auto;
-	}
-
-	.rectangle {
-		width: 340px;
-		max-width:100%;
-		height:auto;
-	}
-}
-
-
 .logos {
   text-align:center;
-	padding:0 5%;
-
-	h2 {
-		font-family: 'Nova Round', cursive;
-		margin:0 auto 3rem;
-		font-size: 3rem;
-		@media (max-width:768px){
-			margin:30px auto 40px;
-		}
-	}
+	padding:0 2rem;
 
 	img {
     width:280px;

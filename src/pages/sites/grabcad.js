@@ -34,9 +34,7 @@ const GrabCad = () => (
                 blog with a fresh look that was also mobile friendly.</p>
             </div>
           </div>
-
           </div>{/* end row */}
-
 
    </div>{/* end container */}
 
@@ -44,7 +42,7 @@ const GrabCad = () => (
         <div class="row mt-4">
 
             <div class="col-lg-12 webpage mb-5">
-            
+
               <object name="frame" data="https://blog.grabcad.com/blog/category/engineering-management-2/" aria-label="live page"></object>
               <div class="stand"></div>
               <div class="base"></div>
