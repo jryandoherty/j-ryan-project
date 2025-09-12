@@ -11,10 +11,10 @@ const USChamber = () => (
   <Layout>
   <Helmet
     bodyAttributes={{
-        class: 'secondary'
+        class: 'secondary port-sites'
     }}
     />
-    <Seo title="Sites :: BDC Community" />
+    <Seo title="Sites :: US Chamber" />
     <NavBar />
 
     <div class="container">
@@ -30,7 +30,7 @@ const USChamber = () => (
         <p class="mt-3">Figma prototypes for a new lead generation section of the CO website serving to educate small business owners.</p>
       </div>
 
-      <div class="col-lg-6 text-end">
+      <div class="col-lg-6 text-center text-lg-end">
         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1731002044/molecule-gray-n_a00joc.png" alt="screen 2"  class="w-50" />
       </div>
     </div>

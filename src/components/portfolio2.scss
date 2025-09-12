@@ -31,12 +31,16 @@ main {
 		text-align: left;
 	}
 
+	h1, h2, h3, h4, h5 {
+		font-family: 'Nova Round', serif;
+	}
+
 	h1 {
 
 		font-size:3.4rem;
 		word-spacing: -.2ch;
 		letter-spacing: -2px;
-		font-family: 'Nova Round', serif;
+
 		@media (max-width:500px){
 			font-size:2.2rem;
 		}
@@ -48,7 +52,7 @@ main {
 	}
 
 	h2 {
-		font-family: 'Nova Round', sans-serif;
+
 		font-size:3.4rem;
 		word-spacing: -.2ch;
 		letter-spacing: -2px;
@@ -58,12 +62,11 @@ main {
 	}
 
 	h3 {
-		font-family: 'Nova Round', sans-serif;
 		color:$white;
 		display: inline-block;
-		margin:0 0 1rem;
-		border-bottom:3px solid $sienna;
-		padding-bottom:.6rem;
+
+		
+
 	}
 
 	a {
@@ -154,7 +157,7 @@ main {
 	display:none;
 	font-family: "Nova Round", sans-serif;
 	text-transform: uppercase;
-	font-size:1.2rem;
+
 }
 
 
@@ -370,21 +373,18 @@ border-bottom:3px solid $sienna;
 
 .websites {
 	text-align: center;
+
 	img {
 		max-width:100%;
-
 	}
 
 
- a	{
-
+ a {
 		margin:3rem;
 		display:inline-block;
 		@media (max-width:850px){
 			margin:1rem 0;
 		}
-
-
 
 	}
 

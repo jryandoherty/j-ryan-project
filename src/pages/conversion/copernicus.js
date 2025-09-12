@@ -49,17 +49,23 @@ const Copernicus = () => (
     </div>
 
     </div>
+</div>
 
 
 
-    <div class="webpage">
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+    <div class="col-12-lg webpage">
 
         <object name="frame" data="https://master--verdant-kringle-235340.netlify.app/portfolio/2015/copernicus/copernicus.html" aria-label="live page">
         </object>
         <div class="stand"></div>
         <div class="base"></div>
 
-
+</div>
     </div>
     </div>
 

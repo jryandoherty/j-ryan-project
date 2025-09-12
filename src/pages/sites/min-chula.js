@@ -34,7 +34,7 @@ const MinChula = () => (
           <p>Designed and developed the website and logo for <em>Min and the Dancing Cactus</em> by authors Marshall Illif and Nahyon Lee. The goal was a fast-loading, single-page site to promote their book, which I built using Gatsby—a React-based framework—to ensure speed, responsiveness, and smooth user experience.</p></div>
         </div>
 
-      <div class="col-lg-6 text-end">
+      <div class="col-lg-6 text-center text-lg-end">
         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415027/logos/min-logo-orange_sfjanx.svg" alt="logo for Windowz by Liberty" class="w-75" />
       </div>
 

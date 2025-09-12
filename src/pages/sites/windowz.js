@@ -31,7 +31,7 @@ const Windowz = () => (
           </div>
         </div>
 
-      <div class="col-lg-6 text-end">
+      <div class="col-lg-6 text-center text-lg-end">
         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415413/logos/windowz-nqvtxg.svg" alt="logo for Windowz by Liberty" class="w-75" />
       </div>
 

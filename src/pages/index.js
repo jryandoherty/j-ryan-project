@@ -29,8 +29,8 @@ const IndexPage = () => (
     <section>
 
     <div className="container mt-5">
-    <div className="row mt-5 justify-content-center align-items-center">
-      <div class="col-lg-7  mb-5">
+    <div className="row mt-5 flex-column-reverse flex-lg-row justify-content-center align-items-center">
+      <div class="col-lg-7 mt-5 mb-5">
         <h2 style={{marginBottom:`0`}} >dev + design</h2>
         <p>Turn your ideas into experiences through code and design. Let me help you convey your messages with stunning visuals and the latest technology. </p>
       </div>
@@ -72,30 +72,30 @@ const IndexPage = () => (
           /></Link>
         </div>
 
-        <div class="d-none d-sm-block col-sm-6 col-lg-3 mb-4 mb-lg-0">
+        <div class="d-none d-sm-block col-sm-6 col-lg-3 mb-0 mb-lg-4">
           <Link to="/sites/bdc-partner/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1693249428/partner-page/cta_mjklsl.svg"
             class="w-100 shadow-1-strong rounded mb-5"
-            alt="BDC Partner"
+            alt="branding for a b2b partner website"
           /></Link>
 
           <Link to="/branding/understory/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1747929889/outer-space-arts/understory/banner3_yurktp.jpg"
-            class="w-100 mt-3 mb-5 rounded"
-            alt="Box Trucks"
+            class="w-100 mt-0 mb-5 rounded"
+            alt="branding for a gallery exhibition"
           /></Link>
 
           <Link to="/sites/windowz/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1731021732/portArtboard_1_zrfe4a.svg"
-            class="w-100 shadow-1-strong rounded mt-3"
-            alt="Windowz"
+            class="w-100 shadow-1-strong rounded mt-0 mt-xl-3"
+            alt="logo for an artist"
           /></Link>
         </div>
 
         <div class="col-sm-6 col-lg-2 col-sm-4 mb-4 mb-lg-0">
           <Link to="/sites/us-chamber/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1731002044/molecule-gray-n_a00joc.png"
-            class="d-none d-sm-block w-100 shadow-1-strong rounded mb-4"
+            class="d-none d-sm-block w-100 shadow-1-strong rounded mb-0 mb-lg-4"
             alt="US Chamber molecule graphic"
           /></Link>
 
@@ -110,19 +110,19 @@ const IndexPage = () => (
             <Link to="/sites/cryptids/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1727458023/image-2_mkbsso.jpg"
             class="w-100 shadow-1-strong rounded mb-4"
-            alt=""
+            alt="thumbnail of a website"
           /></Link>
 
           <Link to="/branding/caterpillar/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415961/logos/logoArtboard_1_vs32zi.svg"
             class="w-100 shadow-1-strong rounded mb-4 d-none d-sm-block"
-            alt="Vertibid"
+            alt="branding for an elevator company"
           /></Link>
 
           <Link to="/sites/avian-records/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/maavian_d2bnie.jpg"
             class="d-none d-sm-block w-100 shadow-1-strong rounded"
-            alt="Massachusetts Avian Records"
+            alt="thubnail of the Massachusetts Avian Records website"
           /></Link>
         </div>
 
@@ -134,12 +134,12 @@ const IndexPage = () => (
 
   <section>
 
-    <div className="container about-section-new">
-      <div className="d-flex justify-content-center row" style={{marginTop:`8rem`}}>
-        <div className="col-lg-10" style={{padding:`30px`}}>
+    <div className="container about-section-new" style={{marginTop:`8rem`}}>
+      <div className="row mt-5 flex-column-reverse flex-lg-row justify-content-center align-items-center">
+        <div className="col-lg-8 mb-5 mb-md-0">
         <p class="fs-5">I've been working on the web since the early 2000s, designing and building for freelance clients, corporations, and non-profits alike. My projects have ranged from full websites and landing pages to conversion funnels and marketing emails. The web has changed a lot since then -- and that’s what keeps it exciting. When I'm not designing or writing code, you'll probably find me out birding.</p>
         </div>
-        <div class="col-sm-4 col-lg-2 text-center">
+        <div class="col-sm-4 offset-lg-2 col-lg-2 text-center">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.32 266.53" style={{maxWidth:`250px`}}>
           <g>
             <polygon points="110.57 34.04 133.82 0 149.19 38.25 184.91 17.67 182.17 58.8 223.28 55.76 202.95 91.63 241.32 106.72 207.44 130.22 235.46 160.46 194.74 166.94 206.86 206.34 167.37 194.51 161.19 235.27 130.75 207.47 107.49 241.51 92.12 203.26 56.4 223.84 59.15 182.71 18.04 185.75 38.36 149.89 0 134.79 33.87 111.3 5.86 81.05 46.57 74.58 34.45 35.17 73.95 47.01 80.12 6.25 110.57 34.04" fill="#a69933"/>
@@ -155,7 +155,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-    <div className="row">
+    <div className="row mt-5">
           <div className="col-lg-7 companies">
             <h4>for companies</h4>
             <p>I'm available for contract, temp and even full-time work. I offer reasonable hourly pricing and flat rates based on project type.</p>

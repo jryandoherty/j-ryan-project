@@ -16,11 +16,11 @@ function PortNav() {
   return (
     <>
     <div class="container-md mt-3 mb-5 d-flex justify-content-between  align-items-center mobile-nav">
-    <div class="portname">websites</div>
-    <div class="portname">branding</div>
-    <div class="portname">conversion</div>
-    <div class="portname">print</div>
-    <div class="portname">email marketing</div>
+    <h3 class="portname">websites</h3>
+    <h3 class="portname">branding</h3>
+    <h3 class="portname">conversion</h3>
+    <h3 class="portname">print</h3>
+    <h3 class="portname">email marketing</h3>
       <Button variant="primary" className="d-lg-none" onClick={handleShow} aria-label="more projects">
         MORE PROJECTS +
       </Button>
