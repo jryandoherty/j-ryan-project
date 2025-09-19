@@ -32,7 +32,7 @@ const Understory = () => (
               <li><strong>Software:</strong> InDesign, Illustrator, Photoshop</li>
 
             </ul>
-              <p class="mt-3">Brand design for an exhibition featuring works from Creativity Explored, the is a celebrated nonprofit artist community and working studio where over 130 adult artists with developmental disabilities create, exhibit, and sell art. </p>
+              <p class="mt-3">Brand design for an exhibition featuring works from Creativity Explored, the celebrated nonprofit artist community and working studio where over 130 adult artists with developmental disabilities create, exhibit, and sell art. </p>
             </div>
           </div>
 
@@ -69,7 +69,7 @@ const Understory = () => (
 
             <div class="col-lg-12 webpage mb-5">
               <p>"preview" webpage for clients</p>
-              <object name="frame" data="https://outerspacearts.xyz/exhibitions/creativity-explored/" aria-label="live page"></object>
+              <object name="frame" data="https://outerspacearts.xyz/exhibitions/creativity-explored-ii/" aria-label="live page"></object>
               <div class="stand"></div>
               <div class="base"></div>
             </div>

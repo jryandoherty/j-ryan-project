@@ -29,8 +29,8 @@ const Understory = () => (
             <ul>
               <li><strong>Client:</strong> Outer Space Arts</li>
               <li><strong>Date:</strong> July 2024</li>
-              <li><strong>Tyoeface:</strong> Tenby Eight</li>
-              <li><strong>Software:</strong> InDesign, Illustrator, Photoshop</li>
+              <li><strong>Typeface:</strong> Tenby Eight</li>
+              <li><strong>Software:</strong> InDesign, Illustrator, Photoshop, Pages</li>
             </ul>
               <p class="mt-3">Brand design for Understory exhibition featuring works by Lou Breininger and Erin M. Riley. </p>
             </div>
@@ -46,9 +46,9 @@ const Understory = () => (
          <div class="row mt-4 d-flex justify-content-center">
 
            <div class="col-lg-6 my-5">
-           <p>mobile banner</p>
+             <p>mobile banner</p>
              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747929918/outer-space-arts/understory/email-ad-2_en6z28.jpg" alt="Logo for a gallery called Outer Space" class="w-100" style={{border: "1px solid #ccc"}} />
-           </div>
+          </div>
 
            <div class="col-lg-12 my-5">
             <p>desktop banner</p>
@@ -65,7 +65,7 @@ const Understory = () => (
         <div class="row mt-4">
 
             <div class="col-lg-12 webpage mb-5">
-                <p>"preview" webpage for clients</p>
+              <p>"preview" webpage for clients</p>
               <object name="frame" data="https://outerspacearts.xyz/exhibitions/breininger-riley/" aria-label="live page"></object>
               <div class="stand"></div>
               <div class="base"></div>
@@ -75,9 +75,9 @@ const Understory = () => (
 
          <Email></Email>
 
-  <object name="frame" data={outerSpace} aria-label="live page" type="application/pdf"></object>
+         <object name="frame" data={outerSpace} aria-label="live page" type="application/pdf"></object>
 
-         </div>
+         </div>{/* end container */}
 
   </Layout>
 )

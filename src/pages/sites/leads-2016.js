@@ -16,7 +16,6 @@ const Leads2016 = () => (
     <Seo title="Sites :: BuyerZone Leads 2016" />
     <NavBar />
 
-
     <div class="container">
 
     <div class="row">
@@ -36,23 +35,23 @@ const Leads2016 = () => (
       </div>
     </div>
 
-
     </div>{/* end row */}
 
     </div>{/* end conainer */}
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 webpage">
 
-    <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/leads/indexnew/" aria-label="live page"></object>
+      <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/leads/indexnew/" aria-label="live page"></object>
+        <div class="stand"></div>
+        <div class="base"></div>
 
     </div>
 
-</div>{/* end row */}
+  </div>{/* end row */}
 
-</div>{/* end conainer */}
-
-
+  </div>{/* end conainer */}
 
   </Layout>
 )

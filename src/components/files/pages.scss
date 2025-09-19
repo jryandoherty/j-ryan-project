@@ -165,14 +165,6 @@
 
 margin:2rem auto;
 
-	@media (max-width:768px) {
-			position:static;
-			text-align: center;
-		
-
-
-	}
-
 	h2 {
 		font-size: 1.3em;
 		margin-bottom:12px;
@@ -193,9 +185,7 @@ margin:2rem auto;
 
 
 
-	a {
-	 color:$siennaLight
-	}
+	
 
 	svg {
 		width:44px;

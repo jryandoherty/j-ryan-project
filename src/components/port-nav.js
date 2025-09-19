@@ -15,13 +15,13 @@ function PortNav() {
 
   return (
     <>
-    <div class="container-md mt-3 mb-5 d-flex justify-content-between  align-items-center mobile-nav">
+    <div class="container-md mt-3 mb-5 d-flex justify-content-between align-items-center flex-column-reverse flex-md-row mobile-nav">
     <h3 class="portname">websites</h3>
     <h3 class="portname">branding</h3>
     <h3 class="portname">conversion</h3>
     <h3 class="portname">print</h3>
     <h3 class="portname">email marketing</h3>
-      <Button variant="primary" className="d-lg-none" onClick={handleShow} aria-label="more projects">
+      <Button variant="primary" className="d-lg-none mb-4 mb-md-0" onClick={handleShow} aria-label="more projects">
         MORE PROJECTS +
       </Button>
 

@@ -7,7 +7,7 @@ import Contact from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="DEV + DESIGN" />
+    <Seo title="J. Ryan Doherty :: DEV + DESIGN" />
     <section>
         <div className="brick d-flex align-items-center">
           <div className="container">
@@ -30,14 +30,14 @@ const IndexPage = () => (
 
     <div className="container mt-5">
     <div className="row mt-5 flex-column-reverse flex-lg-row justify-content-center align-items-center">
-      <div class="col-lg-7 mt-5 mb-5">
+      <div class="col-lg-7  mb-5">
         <h2 style={{marginBottom:`0`}} >dev + design</h2>
         <p>Turn your ideas into experiences through code and design. Let me help you convey your messages with stunning visuals and the latest technology. </p>
       </div>
-      <div className="col-sm-4 offset-lg-3 col-lg-2 text-center">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.32 241.32" style={{maxWidth:`250px`}}>
+      <div className="col-sm-4 offset-lg-3 col-lg-2 text-center mb-3">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.32 241.32" style={{maxWidth:`220px`}} >
         <g>
-          <polygon points="110.57 34.04 133.82 0 149.19 38.25 184.91 17.67 182.17 58.8 223.28 55.76 202.95 91.63 241.32 106.72 207.44 130.22 235.46 160.46 194.74 166.94 206.86 206.34 167.37 194.51 161.19 235.27 130.75 207.47 107.49 241.51 92.12 203.26 56.4 223.84 59.15 182.71 18.04 185.75 38.36 149.89 0 134.79 33.87 111.3 5.86 81.05 46.57 74.58 34.45 35.17 73.95 47.01 80.12 6.25 110.57 34.04" fill="#a69933"/>
+          <polygon class="stickers" points="110.57 34.04 133.82 0 149.19 38.25 184.91 17.67 182.17 58.8 223.28 55.76 202.95 91.63 241.32 106.72 207.44 130.22 235.46 160.46 194.74 166.94 206.86 206.34 167.37 194.51 161.19 235.27 130.75 207.47 107.49 241.51 92.12 203.26 56.4 223.84 59.15 182.71 18.04 185.75 38.36 149.89 0 134.79 33.87 111.3 5.86 81.05 46.57 74.58 34.45 35.17 73.95 47.01 80.12 6.25 110.57 34.04" />
           <g>
             <path d="M84.37,123.06c-.47-2.94,1.81-5.33,4.83-5.81,3.45-.55,6.57,1.26,7.22,5.31,1.3,8.2-3.38,22.13-14.6,23.92-5.78.92-9.89-1.53-11.57-3.74-1.23,1.7-4.57,6.3-11.74,7.44-5.01.8-8.78-1.79-9.38-5.59-.91-5.7,1.15-11.16.54-14.95-.23-1.47-.78-1.56-.96-2.68-.3-1.9,5.36-4.13,10.37-4.92,1.9-.3,3.06.31,3.29,1.78.6,3.8-1.43,9.96-.55,15.49.33,2.07,1.24,2.81,2.62,2.59,1.55-.25,2.44-1.36,3.26-3.97,1.01-3.08,1.18-8.15.69-11.26-.23-1.47-.87-1.54-1.04-2.67-.3-1.9,5.36-4.13,10.37-4.92,1.9-.3,3.06.31,3.29,1.78.6,3.8-1.21,10.19-.37,15.46.33,2.07,1.83,2.63,3.22,2.41,2.5-.4,4.78-5.54,4.04-10.2-.4-2.5-3.04-2.44-3.52-5.46Z" fill="#fff"/>
             <path d="M128.19,121.49c1.54,9.67-2.65,18.39-14.13,20.21-7.6,1.21-14.08-2.28-15.18-9.18-1.33-8.37,4.42-17.87,16.24-19.75,7.25-1.15,12.12,2.76,13.07,8.72ZM119.09,124.35c-2.84-.61-3.58-1.38-3.8-2.76-.32-1.99.91-3.15.82-3.76-.05-.34-.25-.49-.69-.42-.35.05-1.33.56-2.28,1.78-1.55,1.93-2.31,4.97-1.53,9.89.62,3.88,2.36,5.91,5.46,5.42,3.19-.51,4.74-4.12,4.26-7.14-.23-1.47-.96-2.68-2.25-3Z" fill="#fff"/>
@@ -59,7 +59,7 @@ const IndexPage = () => (
 
           <Link to="/conversion/construction-portal/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573273/thumbs_conversion/hornet_gmpndj.jpg"
-            class="w-100 shadow-1-strong rounded mt-1"
+            class="w-100 rounded mt-1"
             alt="thumbnail of construction themed conversion page"
           /></Link>
         </div>
@@ -75,7 +75,7 @@ const IndexPage = () => (
         <div class="d-none d-sm-block col-sm-6 col-lg-3 mb-0 mb-lg-4">
           <Link to="/sites/bdc-partner/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1693249428/partner-page/cta_mjklsl.svg"
-            class="w-100 shadow-1-strong rounded mb-5"
+            class="w-100 mb-5"
             alt="branding for a b2b partner website"
           /></Link>
 
@@ -87,21 +87,21 @@ const IndexPage = () => (
 
           <Link to="/sites/windowz/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1731021732/portArtboard_1_zrfe4a.svg"
-            class="w-100 shadow-1-strong rounded mt-0 mt-xl-3"
+            class="w-100 mt-0 mt-xl-3"
             alt="logo for an artist"
           /></Link>
         </div>
 
         <div class="col-sm-6 col-lg-2 col-sm-4 mb-4 mb-lg-0">
           <Link to="/sites/us-chamber/"><img
-            src="https://res.cloudinary.com/jryandoherty/image/upload/v1731002044/molecule-gray-n_a00joc.png"
-            class="d-none d-sm-block w-100 shadow-1-strong rounded mb-0 mb-lg-4"
+            src="https://res.cloudinary.com/jryandoherty/image/upload/v1758215437/moleculeArtboard_1_nbco9n.svg"
+            class="d-none d-sm-block w-100 rounded mb-0 mb-lg-4"
             alt="US Chamber molecule graphic"
           /></Link>
 
             <Link to="/branding/worlds/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178099/outer-space-arts/logo-black_q0pr68.png"
-            class="w-100 shadow-1-strong rounded"
+            class="w-100 rounded"
             alt="thumbnail of the Worlds exhibition logo"
           /></Link>
         </div>
@@ -109,7 +109,7 @@ const IndexPage = () => (
         <div class="col-lg-2 col-sm-6 mb-4 mb-lg-0">
             <Link to="/sites/cryptids/"><img
             src="https://res.cloudinary.com/jryandoherty/image/upload/v1727458023/image-2_mkbsso.jpg"
-            class="w-100 shadow-1-strong rounded mb-4"
+            class="w-100 rounded mb-4"
             alt="thumbnail of a website"
           /></Link>
 
@@ -136,13 +136,17 @@ const IndexPage = () => (
 
     <div className="container about-section-new" style={{marginTop:`8rem`}}>
       <div className="row mt-5 flex-column-reverse flex-lg-row justify-content-center align-items-center">
-        <div className="col-lg-8 mb-5 mb-md-0">
-        <p class="fs-5">I've been working on the web since the early 2000s, designing and building for freelance clients, corporations, and non-profits alike. My projects have ranged from full websites and landing pages to conversion funnels and marketing emails. The web has changed a lot since then -- and that’s what keeps it exciting. When I'm not designing or writing code, you'll probably find me out birding.</p>
+        <div className="col-lg-8 mb-5 mb-md-0 d-flex gap-4">
+        <picture class="d-none d-md-block">
+           <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/t_Square/v1650997088/portrait_tbsdrz.webp" type="image/webp" style={{borderRadius:`50%`}} />
+           <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_jci1ne.jpg" alt="portrait of J. Ryan Doherty" class="w-100" style={{borderRadius:`50%`, minWidth:`170px`, border:`2px solid #C4B01E`}} />
+        </picture>
+        <p class="">I've been working on the web since the early 2000s, designing and building for freelance clients, corporations, and non-profits alike. My projects have ranged from full websites and landing pages to conversion funnels and marketing emails. The web has changed a lot since then -- and that’s what keeps it exciting. When I'm not designing or writing code, you'll probably find me out <a href="https://ebird.org/profile/MTgyMDYz/US-MA" target="_blank">birding</a>.</p>
         </div>
         <div class="col-sm-4 offset-lg-2 col-lg-2 text-center">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.32 266.53" style={{maxWidth:`250px`}}>
           <g>
-            <polygon points="110.57 34.04 133.82 0 149.19 38.25 184.91 17.67 182.17 58.8 223.28 55.76 202.95 91.63 241.32 106.72 207.44 130.22 235.46 160.46 194.74 166.94 206.86 206.34 167.37 194.51 161.19 235.27 130.75 207.47 107.49 241.51 92.12 203.26 56.4 223.84 59.15 182.71 18.04 185.75 38.36 149.89 0 134.79 33.87 111.3 5.86 81.05 46.57 74.58 34.45 35.17 73.95 47.01 80.12 6.25 110.57 34.04" fill="#a69933"/>
+            <polygon class="stickers" points="110.57 34.04 133.82 0 149.19 38.25 184.91 17.67 182.17 58.8 223.28 55.76 202.95 91.63 241.32 106.72 207.44 130.22 235.46 160.46 194.74 166.94 206.86 206.34 167.37 194.51 161.19 235.27 130.75 207.47 107.49 241.51 92.12 203.26 56.4 223.84 59.15 182.71 18.04 185.75 38.36 149.89 0 134.79 33.87 111.3 5.86 81.05 46.57 74.58 34.45 35.17 73.95 47.01 80.12 6.25 110.57 34.04" fill="#a69933"/>
             <g>
               <path d="M71.36,147.25c-4.73.75-7.26-2.84-7.49-3.23-.14.19-2.72,4.85-9.35,5.91-5.23.83-10.23-1.78-11.25-8.16-1.31-8.21,2.34-17.38,14.2-19.27,4.4-.7,6.31.61,7.63.4,2.07-.33,5.56-2.5,7.46-2.8.75-.12,1.3.13,1.44,1.05.32,1.99-1.56,8.92-.53,15.39.34,2.16,1.87,3.19,3.36,2.95,1.41-.22,1.97-.99,2.88-2.24.49-.67.78-.97,1.28-1.05.75-.12,1.27.48,1.35.98.15.91-.25,1.66-.91,2.87-1.39,2.52-4.85,6.39-10.08,7.22ZM59.52,126.85c-2.82.45-4.55,8.29-3.68,13.77.28,1.74,1.23,2.95,2.48,2.75,2.9-.46,3.76-10.04,2.94-15.18-.16-1-.75-1.5-1.74-1.34Z" fill="#fff"/>
               <path d="M91.21,120.19c.89-1.33,3.26-3.58,6.99-4.17,5.23-.83,9.49.87,10.47,7.01,1.28,8.05-3.3,18.81-14.83,20.65-8.46,1.34-13.81-2.31-14.81-8.62-1.27-7.96,2.97-18.25,1.25-29.03-.44-2.74-1.64-3.91-3.38-3.63-.83.13-1.3-.13-1.4-.8-.28-1.74,4.43-5.3,9.16-6.05,4.4-.7,7.5,1.19,8.16,5.34.66,4.15-1.47,15.37-1.61,19.31ZM93.54,138.62c2.65-.42,3.82-10.73,3.31-13.96-.24-1.49-.85-2.16-2.18-1.95-2.16.34-3.95,8.88-3.09,14.27.17,1.08.88,1.82,1.96,1.64Z" fill="#fff"/>
@@ -156,6 +160,7 @@ const IndexPage = () => (
       </div>
 
     <div className="row mt-5">
+
           <div className="col-lg-7 companies">
             <h4>for companies</h4>
             <p>I'm available for contract, temp and even full-time work. I offer reasonable hourly pricing and flat rates based on project type.</p>

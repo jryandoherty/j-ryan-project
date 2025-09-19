@@ -19,7 +19,7 @@ const PortfolioPrint = () => (
       }}
 
       />
-    <Seo title="Portfolio: Print" />
+    <Seo title="Projects: Print" />
     <NavBar />
     <Print/>
 

@@ -19,7 +19,7 @@ const PortfolioLogos = () => (
       }}
 
       />
-    <Seo title="Portfolio: Logos" />
+    <Seo title="Projects: Branding" />
     <NavBar />
     <Logos/>
 

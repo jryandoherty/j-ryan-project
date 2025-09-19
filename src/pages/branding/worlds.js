@@ -27,9 +27,9 @@ const Worlds = () => (
             <ul>
               <li><strong>Client:</strong> Outer Space Arts</li>
               <li><strong>Date:</strong> May 2025</li>
-              <li><strong>Typeface:</strong> Nove, Informa Pro</li>
+              <li><strong>Typeface:</strong> <a href="https://fonts.adobe.com/fonts/nove" target="_blank">Nove</a>, <a href="https://fonts.adobe.com/fonts/informa" target="_blank">Informa Pro</a></li>
               <li><strong>Software:</strong> Photoshop, Illustrator, InDesign</li>
-              <li><strong>Code:</strong> Bootstrap v 5.3</li>
+              <li><strong>Code:</strong> Bootstrap v5.3</li>
             </ul>
             <p class="mt-4">Branding for Worlds exhibition featuring works by Julian Kent and Emma Kohlmann.</p>
           </div>

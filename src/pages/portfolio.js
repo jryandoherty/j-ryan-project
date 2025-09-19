@@ -19,7 +19,7 @@ const Portfolio = () => (
     }}
     />
 
-  <Seo title="Portfolio" />
+  <Seo title="Projects:: Websites" />
 
   <NavBar />
 
