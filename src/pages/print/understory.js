@@ -18,7 +18,7 @@ const Understory = () => (
     <NavBar />
 
 
-  <div className="container" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
+  <div className="container" style={{marginTop: `8rem`, marginBottom:`4rem`}}>
     <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
 
         <div className="legend col-lg-4">

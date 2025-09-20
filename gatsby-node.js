@@ -104,5 +104,15 @@ createRedirect({
     toPath: `/portfolio/`,
     })
 
+createRedirect({
+    fromPath: `/about/`,
+    toPath: `/`,
+    })
+
+createRedirect({
+    fromPath: `/contact/`,
+    toPath: `/`,
+    })
+
 
 }

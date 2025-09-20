@@ -14,11 +14,11 @@ const IndexPage = () => (
             <div className="row">
               <div className="col-lg-7 text-start py-5">
               <h1>digtial design and web development</h1>
-              <p className="mt-3">
-              Digital design lives at the intersection of creativity and technology. It may seem simple, but behind every screen lies a complex system of devices, behaviors, and expectations. I help you make sense of it all: crafting clear, effective solutions to your digital challenges.</p>
-              <p className="mt-3">
-              <Link to="/portfolio" className="btn btn-primary">Projects ></Link>
-              </p>
+                <p className="mt-3">
+                Digital design lives at the intersection of creativity and technology. It may seem simple, but behind every screen lies a complex system of devices, behaviors, and expectations. I help you make sense of it all: crafting clear, effective solutions to your digital challenges.</p>
+                <p className="mt-3">
+                <Link to="/portfolio" className="btn btn-primary">Projects ></Link>
+                </p>
               </div>
               <div className="col-lg-5 gradient"></div>
               </div>
