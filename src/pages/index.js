@@ -136,7 +136,7 @@ const IndexPage = () => (
 
     <div className="container about-section-new" style={{marginTop:`8rem`}}>
       <div className="row mt-5 flex-column-reverse flex-lg-row justify-content-center align-items-center">
-        <div className="col-lg-8 mb-5 mb-md-0 d-flex gap-4">
+        <div className="col-lg-8 mb-5 mb-md-0 d-flex gap-4 align-items-center">
         <picture class="d-none d-md-block">
            <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/t_Square/v1650997088/portrait_tbsdrz.webp" type="image/webp" style={{borderRadius:`50%`}} />
            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_jci1ne.jpg" alt="portrait of J. Ryan Doherty" class="w-100" style={{borderRadius:`50%`, minWidth:`170px`, border:`2px solid #C4B01E`}} />

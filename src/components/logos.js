@@ -18,9 +18,7 @@ const Logos = () => {
         <Link to="/sites/bdc-partner/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1693249428/partner-page/cta_mjklsl.svg" alt="business.com branding" /></Link>
         <Link to="/sites/avian-records/"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693045/logos/MARC_bg_l_p8vauj.png" alt="MARC logo" /></Link>
 
-
     </section>
-
 
   );
 }

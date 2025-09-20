@@ -9,7 +9,7 @@ const AvianRecords = () => (
   <Layout>
   <Helmet
     bodyAttributes={{
-        class: 'secondary'
+        class: 'secondary port-sites'
     }}
     />
     <Seo title="Sites :: MA Avian Records Committee" />
@@ -41,20 +41,18 @@ const AvianRecords = () => (
 
     </div>{/* end container */}
 
-  <div class="container-fluid">
-      <div class="row">
+    <div class="container-fluid">
+        <div class="row">
 
-        <div class="col-lg-12 webpage my-5">
-          <object name="frame" data="https://maavianrecords.com" aria-label="live page"></object>
-          <div class="stand"></div>
-          <div class="base"></div>
-        </div>
+          <div class="col-lg-12 webpage my-5">
+            <object name="frame" data="https://maavianrecords.com" aria-label="live page"></object>
+            <div class="stand"></div>
+            <div class="base"></div>
+          </div>
 
-      </div>{/* end row */}
+        </div>{/* end row */}
 
     </div>{/* end container */}
-
-
 
   </Layout>
 )

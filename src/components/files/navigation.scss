@@ -27,6 +27,10 @@ nav {
 		svg {
 			width:30px;
 			fill:$white;
+			@media (max-width: 810px){
+				width:44px;
+			}
+
 			&:hover.twitter {
 				fill:#00ACEE;
 			}

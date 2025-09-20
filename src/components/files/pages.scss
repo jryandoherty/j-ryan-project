@@ -61,7 +61,9 @@
 .mobile {
 	width:430px;
 	min-height:808px;
-	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1667588066/phone_wguetm.png')no-repeat top center;
+	margin-top:2rem;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1758379235/iphone-case_ampmyc.png') no-repeat top center;
+	background-size: 430px 808px;
 	-ms-zoom: 0.70;
 	-moz-transform: scale(0.70);
 	-moz-transform-origin: top center;
@@ -69,11 +71,16 @@
 	-webkit-transform-origin: top center;
 
 	object {
-		margin: 110px auto 0;
-		border: 1px gray solid;
-		height: 589px;
-		width:332px;
-		margin-left: 49px;
+
+
+
+	margin: 50px auto 0;
+  height: 745px;
+  width: 393px;
+  margin-left: 18px;
+
+  border-bottom-left-radius: 55px;
+	border-bottom-right-radius: 55px;
 
 	}
 

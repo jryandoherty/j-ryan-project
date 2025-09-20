@@ -7,7 +7,7 @@ const Websites = () => {
   return (
     <section class="container-fluid" id="sites">
 
-    <div class="col-lg-12 d-flex align-items-center justify-content-center flex-wrap flex-shrink ">
+    <div class="col-lg-12 d-flex align-items-center justify-content-center flex-wrap flex-shrink">
 
     <Link to="/sites/bdc-partner/" class="m-5">
       <StaticImage

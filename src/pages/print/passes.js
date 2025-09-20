@@ -21,9 +21,7 @@ const Passes = () => (
     <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
 
         <div className="legend col-lg-4">
-
           <ul>
-            <li><strong>All access passes</strong></li>
             <li><strong>Client:</strong> II IIII Productions</li>
             <li><strong>Date:</strong> May 2023</li>
           </ul>

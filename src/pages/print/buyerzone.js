@@ -11,7 +11,7 @@ import stateB2B from '../../static/state-of-b2b-2013e.pdf'
 
 
 
-const Inbox = () => (
+const Bz = () => (
   <Layout>
   <Helmet
     bodyAttributes={{
@@ -22,47 +22,34 @@ const Inbox = () => (
     <NavBar />
 
 
-  <div className="container" style={{marginTop: `8rem`, marginBottom:`4rem`}}>
+  <div className="container" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
+
+  <div className="col-lg-4">
+
+  <p><strong>Client:</strong> Buyerzone.com</p>
+
+    <p>Marketing sheets to be used by the sales team and a yearly report for the marketing team.</p>
+  </div>
     <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
 
-        <div className="col-lg-4 legend">
-
-          <ul>
-
-            <li><strong>Client:</strong> Inbox Insight</li>
-            <li><strong>Date:</strong> May 2024</li>
-          </ul>
-          <p>Marketing sheets to be used by the sales and marketing team for Inbox Insight's US office.</p>
+        <div className="col-lg-4">
+          <a href={dataConnect} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574293/thumbs_brochures/data_connect_jjj0yt.webp" alt="thumbnail of a marketing pdf" class="w-100" style={{background:`#fff`, padding:`12px`, border:`4px solid #333`}} /></a>
         </div>
 
         <div className="col-lg-4">
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213069/inbox/sponsor-3_gszvpa.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+            <a href={contentConnect} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574293/thumbs_brochures/connent_connect_tvjinp.webp" alt="thumbnail of a marketing pdf" class="w-100" style={{background:`#fff`, padding:`12px`, border:`4px solid #333`}} /></a>
         </div>
 
         <div className="col-lg-4">
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213058/inbox/hub-sponsorship-3_u3tbbe.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+          <a href={stateB2B} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758375689/thumbs_brochures/state-of-b2b-2013e_uou2rz.webp" alt="thumbnail of a marketing pdf" class="w-100"  /></a>
         </div>
 
       </div>{/* end row */}
 
-  <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
-  <div className="col-lg-4">
-    <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213028/inbox/acceleration-2_botksa.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
-  </div>
 
-  <div className="col-lg-4">
-    <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213021/inbox/direct-response-4_rkjpc1.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
-  </div>
-
-  <div className="col-lg-4">
-    <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213063/inbox/hub-sponsorship-requirements-2_mb2x5j.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
-  </div>
-
-  </div>{/* end row */}
-      </div>{/* end conainer */}
-
+  </div>{/* end conainer */}
 
   </Layout>
 )
 
-export default Inbox
+export default Bz

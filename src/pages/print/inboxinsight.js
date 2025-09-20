@@ -4,7 +4,11 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 import NavBar from "../../components/port-nav"
-
+import inbox1 from '../../static/acceleration-2.pdf'
+import inbox2 from '../../static/hub-sponsorship-3.pdf'
+import inbox3 from '../../static/direct-response-4.pdf'
+import inbox4 from '../../static/sponsor-3.pdf'
+import inbox5 from '../../static/hub-sponsorship-requirements-2.pdf'
 
 const Inbox = () => (
   <Layout>
@@ -29,26 +33,26 @@ const Inbox = () => (
         </div>
 
         <div className="col-lg-4">
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213069/inbox/sponsor-3_gszvpa.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+        <a href={inbox4} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213069/inbox/sponsor-3_gszvpa.webp" alt="thumbnail of a marketing pdf" class="w-100"  /></a>
         </div>
 
         <div className="col-lg-4">
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213058/inbox/hub-sponsorship-3_u3tbbe.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+          <a href={inbox2} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213058/inbox/hub-sponsorship-3_u3tbbe.webp" alt="thumbnail of a marketing pdf" class="w-100"  /></a>
         </div>
 
       </div>{/* end row */}
 
     <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
       <div className="col-lg-4">
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213028/inbox/acceleration-2_botksa.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+        <a href={inbox1} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213028/inbox/acceleration-2_botksa.webp" alt="thumbnail of a marketing pdf" class="w-100"  /></a>
       </div>
 
       <div className="col-lg-4">
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213021/inbox/direct-response-4_rkjpc1.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+        <a href={inbox3} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213021/inbox/direct-response-4_rkjpc1.webp" alt="thumbnail of a marketing pdf" class="w-100"  /></a>
       </div>
 
       <div className="col-lg-4">
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213063/inbox/hub-sponsorship-requirements-2_mb2x5j.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+        <a href={inbox5} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213063/inbox/hub-sponsorship-requirements-2_mb2x5j.webp" alt="thumbnail of a marketing pdf" class="w-100"  /></a>
       </div>
 
     </div>{/* end row */}

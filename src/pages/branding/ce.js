@@ -4,7 +4,6 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 import NavBar from "../../components/port-nav";
-import OuterSpace from '../../static/flyer-ce-II.pdf'
 
 const Understory = () => (
 

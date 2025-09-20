@@ -26,11 +26,10 @@ const Caterpillar = () => (
             <li><strong>Posters and promotional material</strong></li>
             <li><strong>Client:</strong> Outer Space Arts</li>
           </ul>
-          <p></p>
         </div>
 
         <div className="col-lg-8 text-center">
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296432/outer-space-arts/caterpillar/caterpillar-cook_drzfrs.webp" class="w-75" />
+          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296432/outer-space-arts/caterpillar/caterpillar-cook_drzfrs.webp" class="w-75" />
         </div>
 
         </div>{/* end row */}
