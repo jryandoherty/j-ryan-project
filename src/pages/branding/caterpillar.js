@@ -57,6 +57,12 @@ const Caterpillar = () => (
             alt="sign for an art gallery called Outer Space" class="w-100"/>
            </div>
 
+           <div class="col-lg-6 my-5">
+           <p>opening flyer</p>
+             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296960/outer-space-arts/caterpillar/flyer-cook-kettner_bthqvs.webp"
+ alt="flyer for an exhibition opening" class="w-100"/>
+           </div>
+
          </div>{/* end row */}
 
 

@@ -31,9 +31,9 @@ const BDCPartner = () => (
                 </svg></a></li>
                 <li><p>This branded mini-site was created to support Business.com’s partner marketing initiatives. The hero section sets the tone with a bold, customer-focused message — "You need customers. We know how to find them." — layered over a grayscale storefront image with a bright orange gradient overlay. The strong visual contrast immediately draws the eye to the central call-to-action button, "See how."</p>
 
-<p>The overall design balances clarity and urgency, using a modern single-page layout optimized for fast loading and high engagement.</p>
+                <p>The overall design balances clarity and urgency, using a modern single-page layout optimized for fast loading and high engagement.</p>
 
-<p>This project demonstrates the use of targeted messaging and clean design to create a professional, results-driven microsite that partners could leverage to connect with B2B audiences and drive lead generation.</p></li>
+                <p>This project demonstrates the use of targeted messaging and clean design to create a professional, results-driven microsite that partners could leverage to connect with B2B audiences and drive lead generation.</p></li>
               </ul>
             </div>
           </div>
@@ -61,36 +61,40 @@ const BDCPartner = () => (
 
       <div class="container">
       <div class="row">
-      <div class="col-3 p-4">
-        <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_appointment.svg" alt="business" />
-      </div>
-      <div class="col-3 p-4">
-        <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_quote_com.svg" alt="badge" />
-      </div>
-      <div class="col-3 p-4">
-        <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_call_connect.svg" alt="badge" />
+      <p class="text-center">custom badges</p>
+        <div class="col-lg-3 p-4">
+          <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_appointment.svg" alt="business" />
         </div>
 
-        <div class="col-3 p-4">
+        <div class="col-lg-3 p-4">
+          <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_quote_com.svg" alt="badge" />
+        </div>
+
+        <div class="col-lg-3 p-4">
+          <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_call_connect.svg" alt="badge" />
+        </div>
+
+        <div class="col-lg-3 p-4">
           <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_featured.svg" alt="badge" />
-          </div>
-
-          <div class="col-3 p-4">
-            <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_optimized.svg" alt="badge" />
-            </div>
-
-            <div class="col-3 p-4">
-              <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_business.svg" alt="badge" />
-              </div>
-
-              <div class="col-3 p-4">
-                <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_mrl.svg" alt="badge" />
-                </div>
-
-                <div class="col-3 p-4">
-                  <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_email_marketing.svg" alt="badge" />
-                  </div>
         </div>
+
+        <div class="d-none d-lg-block col-lg-3 p-4">
+          <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_optimized.svg" alt="badge" />
+        </div>
+
+        <div class="d-none d-lg-block col-lg-3 p-4">
+          <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_business.svg" alt="badge" />
+        </div>
+
+        <div class="d-none d-lg-block col-lg-3 p-4">
+          <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_mrl.svg" alt="badge" />
+        </div>
+
+        <div class="d-none d-lg-block col-lg-3 p-4">
+          <img src="https://epicsea.com/portfolio/2018/partner/svgs/badges/badge_email_marketing.svg" alt="badge" />
+        </div>
+
+        </div>{/* end row */}
       </div>
 
     </div>{/* end container */}

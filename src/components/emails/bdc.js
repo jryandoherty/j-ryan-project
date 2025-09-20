@@ -9,7 +9,6 @@ const BDC = () => {
 <div class="row">
   <div class="col-lg-6">
     <div class="legend ">
-      <h3>PROJECT</h3>
       <ul>
         <li><strong>Client:</strong> Business.com</li>
 

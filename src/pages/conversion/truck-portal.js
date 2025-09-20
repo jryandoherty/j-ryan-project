@@ -29,16 +29,14 @@ const Trucks = () => (
           <li><strong>Project:</strong> Trucking themed conversion page</li>
           <li><strong>Typefaces:</strong> Neuzeit Grotesk</li>
 
-          <p class="mt-4">A specialized conversion portal and promotional email campaign designed in September 2016 for Buyerzone.com. The project features a streamlined "portal page" that guides trucking-industry visitors toward key conversion actions. Assets included:
+          <p class="mt-4">A specialized conversion portal and promotional email campaign designed in September 2016 for Buyerzone.com. The project features a streamlined "portal page" that guides trucking-industry visitors toward key conversion actions. Assets included:  </p>
 
-          <ul>
-        <li><strong>Promotional email:</strong> Crafted to attract and engage the target audience.</li>
+          <p><strong>Promotional email:</strong> Crafted to attract and engage the target audience.</p>
 
-        <li><strong>Portal page:</strong> Tailored interface featuring trucking themed design elements.</li>
+          <p><strong>Portal page:</strong> Tailored interface featuring trucking themed design elements.</p>
 
-        <li><strong>Conversion page:</strong> Optimized layout aimed at driving visitor actions: registrations, leads, or inquiries. </li></ul>
-        </p>
-        </ul>
+          <p><strong>Conversion page:</strong> Optimized layout aimed at driving visitor actions: registrations, leads, or inquiries. </p></ul>
+
         </div>
       </div>
 
@@ -62,7 +60,7 @@ const Trucks = () => (
 
     </div>{/* end emails */}
 
-    </div>{/* end container */}
+  </div>{/* end container */}
 
 <div class="container-fluid">
     <div class="row">

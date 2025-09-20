@@ -26,7 +26,7 @@ const Construction = () => (
                 <li>Date: April 2016</li>
                 <li>Typefaces: Industry Inc, Neuzeit Grotesk </li>
               </ul>
-              <p>This project was a targeted marketing initiative, starting with an email campaign aimed at construction-industry prospects. Recipients of the promotional email were directed either to a themed portal page or straight to the final conversion page, encouraging them to take action. This project was part of a larger email engagement strategy undertaken by myself and a senior associate of marketing.</p>
+              <p class="mt-4">This project was a targeted marketing initiative, starting with an email campaign aimed at construction industry prospects. Recipients of the promotional email were directed either to a themed portal page or straight to the final conversion page, encouraging them to take action. This project was part of a larger email engagement strategy undertaken by myself and a senior associate of marketing.</p>
             </div>
           </div>
           <div class="col-lg-6 text-center text-lg-end"><img src="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/construction/img/headline_construction.svg" alt="business" class="w-75" /></div>

@@ -21,9 +21,7 @@ const Inbox = () => (
     <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
 
         <div className="col-lg-4 legend">
-
           <ul>
-
             <li><strong>Client:</strong> Inbox Insight</li>
             <li><strong>Date:</strong> May 2024</li>
           </ul>
@@ -40,21 +38,21 @@ const Inbox = () => (
 
       </div>{/* end row */}
 
-  <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
-  <div className="col-lg-4">
-    <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213028/inbox/acceleration-2_botksa.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
-  </div>
+    <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
+      <div className="col-lg-4">
+        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213028/inbox/acceleration-2_botksa.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+      </div>
 
-  <div className="col-lg-4">
-    <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213021/inbox/direct-response-4_rkjpc1.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
-  </div>
+      <div className="col-lg-4">
+        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213021/inbox/direct-response-4_rkjpc1.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+      </div>
 
-  <div className="col-lg-4">
-    <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213063/inbox/hub-sponsorship-requirements-2_mb2x5j.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
-  </div>
+      <div className="col-lg-4">
+        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758213063/inbox/hub-sponsorship-requirements-2_mb2x5j.webp" alt="thumbnail of a marketing pdf" class="w-100"  />
+      </div>
 
-  </div>{/* end row */}
-      </div>{/* end conainer */}
+    </div>{/* end row */}
+  </div>{/* end conainer */}
 
 
   </Layout>

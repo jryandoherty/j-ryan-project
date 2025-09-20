@@ -185,7 +185,7 @@ margin:2rem auto;
 
 
 
-	
+
 
 	svg {
 		width:44px;
@@ -273,71 +273,8 @@ margin:2rem auto;
 		}
 }
 
-.carousel-indicators {
-	position:static;
-	margin-left: 2px;
-	text-align:left;
-}
 
-.carousel-indicators li {
-    width:15px;
-    height: 15px;
-		margin:0;
-    background-color: $gray;
-		border:0;
-    border-radius: 50%;
-}
-
-.carousel-indicators .active {
-    width: 15px;
-    height: 15px;
-		border:0;
-    background-color: $siennaLight;
-}
-
-.carousel-control {
-	width:0;
-}
-
-.carousel img {
-	box-shadow: $sienna 2px 2px 4px;
-	margin-bottom:3rem;
-	margin-top:1rem;
-	width: 85%;
-	border-top:1px solid $sienna;
-	border-left:1px solid $sienna;
-}
 
 .item {
 	text-align: center;
-}
-
-.project-flow {
-	display:flex;
-  max-width: 1200px;
-  align-items:center;
-	margin:20px auto 0;
-
-	.item {
-	  flex:1;
-	  text-align:center;
-		font-size:110%;
-		&:first-child {
-			text-align: left;
-			margin-left:20px;
-		}
-		@media(max-width:768px){
-			font-size:1em;
-		}
-		p {
-			text-align:center;
-		}
-	}
-}
-
-.project-flow-img {
-	max-width:100%;
-	width:800px;
-	margin:3rem auto;
-	display:block;
 }
