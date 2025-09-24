@@ -53,9 +53,8 @@ const Construction = () => (
           <div class="stand"></div>
           <div class="base"></div></div>
 
-
     </div>{/* end row */}
-    </div>{/* end container */}
+  </div>{/* end container */}
 
 
   </Layout>

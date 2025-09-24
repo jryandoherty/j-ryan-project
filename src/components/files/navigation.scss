@@ -7,28 +7,31 @@ nav {
 		border-radius: 0!important;
 		color:$white;
 
-
 		h1 {
 			margin:0;
 			font-size:2.3em;
 		}
 
 		h2 {
-
 			margin:0;
-			}
+		}
 
 		li {
 			 margin-right:10px
 		}
 
-
 		svg {
 			width:30px;
 			fill:$white;
-			@media (max-width: 810px){
+			@media (max-width: 820px){
 				width:44px;
 			}
+
+			@media (max-width: 400px){
+				width:30px;
+			}
+
+
 
 			&:hover.twitter {
 				fill:#00ACEE;
@@ -52,8 +55,8 @@ nav {
 			width:336px;
 			height:81px;
 			@media (max-width: 500px){
-				width:250px;
-				height:60px;
+				width:240px;
+				height:56px;
 			}
 		}
 

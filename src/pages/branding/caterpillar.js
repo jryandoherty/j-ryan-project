@@ -8,7 +8,6 @@ import NavBar from "../../components/port-nav";
 
 const Caterpillar = () => (
 
-
   <Layout>
   <Helmet
     bodyAttributes={{
@@ -28,7 +27,7 @@ const Caterpillar = () => (
               <ul>
                 <li><strong>Client:</strong> Outer Space Arts</li>
                 <li><strong>Date:</strong> November 2024</li>
-                <li><strong>Typeface:</strong> <a href="https://fonts.adobe.com/fonts/abril" target="_blank">Abril Fatface</a>, <a href="https://fonts.adobe.com/fonts/josefin-sans" target="_blank">Josefin Sans Thin</a></li>
+                <li><strong>Typeface:</strong> <a href="https://fonts.adobe.com/fonts/abril" target="_blank" rel="noreferrer">Abril Fatface</a>, <a href="https://fonts.adobe.com/fonts/josefin-sans" target="_blank">Josefin Sans Thin</a></li>
                 <li><strong>Software:</strong> InDesign, Illustrator, Photoshop</li>
               </ul>
               <p class="mt-4">Branding for Caterpillar exhibition featuring works by Emma cc Cook and Em Kettner.</p>
@@ -45,26 +44,21 @@ const Caterpillar = () => (
          <div class="row mt-4 d-flex justify-content-center">
 
            <div class="col-lg-6 my-5">
-           <p>mobile banner</p>
-             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747930063/outer-space-arts/caterpillar/banner-mobile_potnux.jpg"
-
-             alt="Logo for a gallery called Outer Space" class="w-100"/>
+            <p>mobile banner</p>
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747930063/outer-space-arts/caterpillar/banner-mobile_potnux.jpg" alt="Logo for a gallery called Outer Space" class="w-100"/>
            </div>
 
            <div class="col-lg-12 my-5">
             <p>desktop banner</p>
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747930068/outer-space-arts/caterpillar/banner-RED_gboxnm.jpg"
-            alt="sign for an art gallery called Outer Space" class="w-100"/>
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1747930068/outer-space-arts/caterpillar/banner-RED_gboxnm.jpg" alt="sign for an art gallery called Outer Space" class="w-100"/>
            </div>
 
            <div class="col-lg-6 my-5">
            <p>opening flyer</p>
-             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296960/outer-space-arts/caterpillar/flyer-cook-kettner_bthqvs.webp"
- alt="flyer for an exhibition opening" class="w-100"/>
+             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296960/outer-space-arts/caterpillar/flyer-cook-kettner_bthqvs.webp" alt="flyer for an exhibition opening" class="w-100"/>
            </div>
 
          </div>{/* end row */}
-
 
     </div>{/* end container */}
 
@@ -80,9 +74,24 @@ const Caterpillar = () => (
 
      </div>{/* end row */}
 
-  <object name="frame" data="" aria-label="live page"></object>
-
     </div>{/* end container */}
+
+    <div class="container">
+        <div class="row">
+        <p class="text-center text-xl-start">promotional email</p>
+          <div class="emails">
+            <div class="desktop">
+              <object data="https://epicsea.com/portfolio/2023/outerspace/caterpillar.html" aria-label="email desktop">
+              </object>
+            </div>
+            <div class="mobile">
+              <object data="https://epicsea.com/portfolio/2023/outerspace/caterpillar.html" aria-label="email mobile">
+              </object>
+            </div>
+          </div>
+      </div>{/* end row */}
+
+     </div>{/* end container */}
 
   </Layout>
 

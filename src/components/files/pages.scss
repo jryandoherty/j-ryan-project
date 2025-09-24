@@ -1,6 +1,4 @@
 .emails-container {
-		/*background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
-		/*background:url('/img/triangleAsymmetrical.svg')no-repeat center 64px/100% $cream;*/
 
 	.container {
 		max-width:1024px!important;
@@ -14,7 +12,7 @@
 
 		@media(max-width:1100px){
 			.crumbs{
-			text-align:center;
+				text-align:center;
 			}
 		}
 }
@@ -39,7 +37,6 @@
 	box-shadow:0 0 5px $sienna;
 	border-radius: 5px;
 	margin-top:2%;
-
 
 	object {
 		margin: 115px auto 0 ;
@@ -71,17 +68,13 @@
 	-webkit-transform-origin: top center;
 
 	object {
-
-
-
-	margin: 50px auto 0;
-  height: 745px;
-  width: 393px;
-  margin-left: 18px;
-
-  border-bottom-left-radius: 55px;
-	border-bottom-right-radius: 55px;
-
+		margin: 50px auto 0;
+	  height: 745px;
+	  width: 393px;
+	  margin-left: 18px;
+		border: 1px solid #000;
+	 	border-bottom-left-radius: 45px;
+		border-bottom-right-radius: 45px;
 	}
 
 }
@@ -112,8 +105,8 @@
 	}
 
 	.col-lg-6:last-of-type {
-		@media(max-width:1199px) {
-		text-align:center;
+			@media(max-width:1199px) {
+			text-align:center;
 		}
 	}
 
@@ -140,7 +133,6 @@
 	}
 
 	iframe, object {
-
 		min-height:868px;
 		width:100%;
 		border: 20px solid #444;
@@ -170,8 +162,6 @@
 
 .legend {
 
-margin:2rem auto;
-
 	h2 {
 		font-size: 1.3em;
 		margin-bottom:12px;
@@ -187,12 +177,6 @@ margin:2rem auto;
 	li {
 		margin:0 0 4px 0;
 	}
-
-
-
-
-
-
 
 	svg {
 		width:44px;
@@ -231,22 +215,6 @@ margin:2rem auto;
 		background-size:cover;
 	}
 }
-
-
-.three-screens {
-	width:700px;
-	height:auto;
-	max-width: 100%;
-}
-
-.four-screens {
-	width:1000px;
-	height:auto;
-	max-width: 100%;
-	display:block;
-	margin:0 auto;
-}
-
 
 .thumbnail-webpage {
     display: flex;

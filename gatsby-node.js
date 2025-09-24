@@ -1,3 +1,5 @@
+// gatsby-node.js
+
 exports.createPages = async ({ actions }) => {
   const { createPage } = actions
   createPage({
@@ -9,16 +11,16 @@ exports.createPages = async ({ actions }) => {
 }
 
 
-// gatsby-node.js
+
 exports.createPages = async ({ graphql, actions }) => {
 	const { createRedirect } = actions;
 
-	createRedirect({
+createRedirect({
     fromPath: `/portfolio/emails/office_cubicles.php`,
     toPath: `/portfolio/`,
   })
 
-  createRedirect({
+createRedirect({
     fromPath: `/portfolio/emails/cloud.php`,
     toPath: `/portfolio/`,
   })
@@ -27,10 +29,12 @@ createRedirect({
     fromPath: `/portfolio/emails/bucket.php`,
     toPath: `/portfolio/`,
   })
+
 createRedirect({
     fromPath: `/portfolio/emails/trucks.php`,
     toPath: `/portfolio/`,
   })
+
 createRedirect({
     fromPath: `/portfolio/emails/bdc.php`,
     toPath: `/emails/bdc/`,
@@ -41,7 +45,7 @@ createRedirect({
     toPath: `/portfolio/`,
   })
 
-  createRedirect({
+createRedirect({
     fromPath: `/portfolio/conversion/copernicus.php`,
     toPath: `/portfolio/`,
   })
@@ -91,28 +95,44 @@ createRedirect({
     toPath: `/portfolio/`,
   })
 
-  createRedirect({
+createRedirect({
     fromPath: `/portfolio/sites/louis_mian.php`,
     toPath: `/sites/louis-mian/`,
   })
+
 createRedirect({
     fromPath: `/portfolio/sites/roger_buttles.php`,
     toPath: `/sites/roger-buttles/`,
-    })
+  })
+
 createRedirect({
     fromPath: `/portfolio/sites/dzone.php`,
     toPath: `/portfolio/`,
-    })
+  })
 
 createRedirect({
     fromPath: `/about/`,
     toPath: `/`,
-    })
+  })
 
 createRedirect({
     fromPath: `/contact/`,
     toPath: `/`,
-    })
+  })
 
+createRedirect({
+    fromPath: `/ads/`,
+    toPath: `/logos/`,
+  })
+
+createRedirect({
+    fromPath: `/emails/bucket/`,
+    toPath: `/emails/`,
+  })
+
+createRedirect({
+    fromPath: `/emails/office-cubicles/`,
+    toPath: `/emails/`,
+  })
 
 }

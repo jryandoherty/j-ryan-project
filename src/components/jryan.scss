@@ -21,7 +21,7 @@ header {
 
 @keyframes fillPulse {
 	 0%   { fill: #a69933; }
-	 50%  { fill: #C4B01E; }
+	 50%  { fill: #e7cd03; }
 	 100% { fill: #a69933; }
  }
 
@@ -52,6 +52,11 @@ header {
 			transition: all .2s ease-out;
 		}
 	}
+}
+
+.gatsby-image-wrapper:hover {
+	transform: scale(1.03);
+	transition: all .2s ease-out;
 }
 
 main {
@@ -175,6 +180,12 @@ main {
 
 
 .secondary {
+
+	.emaildesc {
+		display: none;
+	}
+
+	.email-promo {display:block;}
 
 	header {
 	background:radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('../images/graffiti_large.png') no-repeat bottom right,

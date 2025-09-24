@@ -3,8 +3,7 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
-import NavBar from "../../components/port-nav";
-import outerSpace from '../../static/kp-ao.pdf'
+import NavBar from "../../components/port-nav"
 
 
 const Worlds = () => (
@@ -27,7 +26,7 @@ const Worlds = () => (
             <ul>
               <li><strong>Client:</strong> Outer Space Arts</li>
               <li><strong>Date:</strong> May 2025</li>
-              <li><strong>Typeface:</strong> <a href="https://fonts.adobe.com/fonts/nove" target="_blank">Nove</a>, <a href="https://fonts.adobe.com/fonts/informa" target="_blank">Informa Pro</a></li>
+              <li><strong>Typeface:</strong> <a href="https://fonts.adobe.com/fonts/nove" target="_blank" rel="noreferrer">Nove</a>, <a href="https://fonts.adobe.com/fonts/informa" target="_blank" rel="noreferrer">Informa Pro</a></li>
               <li><strong>Software:</strong> Photoshop, Illustrator, InDesign</li>
               <li><strong>Code:</strong> Bootstrap v5.3</li>
             </ul>
@@ -72,6 +71,23 @@ const Worlds = () => (
  </div>{/* end row */}
 </div>{/* end container */}
 
+<div class="container">
+    <div class="row">
+    <p>promotional email</p>
+      <div class="emails">
+        <div class="desktop">
+          <object data="https://epicsea.com/portfolio/2023/outerspace/worlds.html">
+          </object>
+        </div>
+
+        <div class="mobile">
+          <object data="https://epicsea.com/portfolio/2023/outerspace/worlds.html">
+          </object>
+        </div>
+
+      </div>
+    </div>{/* end row */}
+   </div>{/* end container */}
 
 </Layout>
 )

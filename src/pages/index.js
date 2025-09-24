@@ -7,7 +7,7 @@ import Contact from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="J. Ryan Doherty :: DEV + DESIGN" />
+    <Seo title="J. Ryan Doherty :: digtial design and web development" />
     <section>
         <div className="brick d-flex align-items-center">
           <div className="container">
@@ -30,7 +30,7 @@ const IndexPage = () => (
 
     <div className="container mt-5">
     <div className="row mt-5 flex-column-reverse flex-lg-row justify-content-center align-items-center">
-      <div class="col-lg-7  mb-5">
+      <div class="col-lg-7">
         <h2 style={{marginBottom:`0`}} >dev + design</h2>
         <p>Turn your ideas into experiences through code and design. Let me help you convey your messages with stunning visuals and the latest technology. </p>
       </div>
@@ -136,14 +136,14 @@ const IndexPage = () => (
 
     <div className="container about-section-new" style={{marginTop:`8rem`}}>
       <div className="row mt-5 flex-column-reverse flex-lg-row justify-content-center align-items-center">
-        <div className="col-lg-8 mb-5 mb-md-0 d-flex gap-4 align-items-center">
-        <picture class="d-none d-md-block">
-           <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/t_Square/v1650997088/portrait_tbsdrz.webp" type="image/webp" style={{borderRadius:`50%`}} />
-           <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_jci1ne.jpg" alt="portrait of J. Ryan Doherty" class="w-100" style={{borderRadius:`50%`, minWidth:`170px`, border:`2px solid #C4B01E`}} />
-        </picture>
-        <p class="">I've been working on the web since the early 2000s, designing and building for freelance clients, corporations, and non-profits alike. My projects have ranged from full websites and landing pages to conversion funnels and marketing emails. The web has changed a lot since then -- and that’s what keeps it exciting. When I'm not designing or writing code, you'll probably find me out <a href="https://ebird.org/profile/MTgyMDYz/US-MA" target="_blank">birding</a>.</p>
+        <div className="col-lg-10 mb-md-0 d-flex gap-4 align-items-center">
+          <picture class="d-none d-md-block">
+             <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/t_Square/v1650997088/portrait_tbsdrz.webp" type="image/webp" style={{borderRadius:`50%`}} />
+             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_jci1ne.jpg" alt="portrait of J. Ryan Doherty" class="w-100" style={{borderRadius:`50%`, minWidth:`170px`, border:`2px solid #C4B01E`}} />
+          </picture>
+          <p>I've been working on the web since the early 2000s, designing and building for freelance clients, corporations, and non-profits alike. My projects have ranged from full websites and landing pages to conversion funnels and marketing emails. The web has changed a lot since then -- and that's what keeps it exciting. When I'm not designing or writing code, you'll probably find me out <a href="https://ebird.org/profile/MTgyMDYz/US-MA" target="_blank">birding</a>.</p>
         </div>
-        <div class="col-sm-4 offset-lg-2 col-lg-2 text-center">
+        <div class="col-sm-4 col-lg-2 text-center">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241.32 266.53" style={{maxWidth:`250px`}}>
           <g>
             <polygon class="stickers" points="110.57 34.04 133.82 0 149.19 38.25 184.91 17.67 182.17 58.8 223.28 55.76 202.95 91.63 241.32 106.72 207.44 130.22 235.46 160.46 194.74 166.94 206.86 206.34 167.37 194.51 161.19 235.27 130.75 207.47 107.49 241.51 92.12 203.26 56.4 223.84 59.15 182.71 18.04 185.75 38.36 149.89 0 134.79 33.87 111.3 5.86 81.05 46.57 74.58 34.45 35.17 73.95 47.01 80.12 6.25 110.57 34.04" fill="#a69933"/>
@@ -160,7 +160,6 @@ const IndexPage = () => (
       </div>
 
     <div className="row mt-5">
-
           <div className="col-lg-7 companies">
             <h4>for companies</h4>
             <p>I'm available for contract, temp and even full-time work. I offer reasonable hourly pricing and flat rates based on project type.</p>
@@ -169,7 +168,6 @@ const IndexPage = () => (
             <h4>for individuals</h4>
               <p>Want to take your side hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a full website, I can help you get there.</p>
           </div>
-
       </div>{/* end row */}
 
       <div className="d-flex justify-content-center row"  style={{marginBottom:`8rem`}}>
@@ -179,12 +177,12 @@ const IndexPage = () => (
         </div>
       </div>{/* end row */}
 
-  </div>{/* end container */}
-</section>
+    </div>{/* end container */}
+  </section>
 
-<section style={{background:`#fec800`, color:`#111`, padding:`30px`}}>
-  <Contact />
-</section>
+  <section style={{background:`#fec800`, color:`#111`, padding:`30px`}}>
+    <Contact />
+  </section>
 
 </Layout>
 

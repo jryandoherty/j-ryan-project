@@ -3,9 +3,9 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
-import NavBar from "../../components/port-nav";
+import NavBar from "../../components/port-nav"
 
-const Understory = () => (
+const Creativity = () => (
 
   <Layout>
   <Helmet
@@ -78,7 +78,25 @@ const Understory = () => (
 
     </div>{/* end container */}
 
+<div class="container">
+    <div class="row">
+    <p>promotional email</p>
+      <div class="emails">
+        <div class="desktop">
+          <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html">
+          </object>
+        </div>
+
+        <div class="mobile">
+          <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html">
+          </object>
+        </div>
+
+      </div>
+    </div>
+</div>
+
   </Layout>
 )
 
-export default Understory
+export default Creativity
