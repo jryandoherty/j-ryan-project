@@ -15,8 +15,13 @@ header {
 }
 
 .stickers {
-
 	animation:fillPulse 8s linear infinite;
+}
+
+@media (max-width:992px){
+.port-sticker {
+	width:160px;
+}
 }
 
 @keyframes fillPulse {

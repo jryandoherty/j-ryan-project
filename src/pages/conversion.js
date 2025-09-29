@@ -22,14 +22,14 @@ const PortfolioCon = () => (
 
 
     <NavBar />
-    <div class="container my-5">
+    <div class="container my-lg-5">
     <div class="row flex-column-reverse flex-lg-row align-items-center">
     <div class="col-lg-8">
       <p>A conversion funnel is the step-by-step journey a visitor takes from first discovering a website to becoming a lead or paying client. The funnel is intentionally designed to guide prospects smoothly toward taking action (like scheduling a consultation, requesting a quote, or signing a contract).</p>
     </div>
 
-    <div class="col-lg-3 offset-lg-1 text-center mb-5 mb-lg-0">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.62 239.3" style={{maxWidth:`260px`}}>
+    <div class="col-lg-3 offset-lg-1 text-center mb-3 mb-lg-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.62 239.3" style={{maxWidth:`260px`}} class="port-sticker">
       <g>
         <polygon class="stickers" points="120.31 21.69 145.46 0 159.62 30.05 191.42 20.46 192.12 53.67 225.08 57.84 212.22 88.47 240.62 105.68 216.42 128.43 235.36 155.71 204 166.65 210.21 199.28 177.11 196.51 169.51 228.84 140.4 212.85 120.31 239.3 100.22 212.85 71.11 228.84 63.51 196.51 30.41 199.28 36.62 166.65 5.26 155.71 24.2 128.43 0 105.68 28.4 88.47 15.54 57.84 48.5 53.67 49.2 20.46 81 30.05 95.16 0 120.31 21.69"/>
         <g>

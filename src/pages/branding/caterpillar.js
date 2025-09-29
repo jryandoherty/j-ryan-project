@@ -79,11 +79,13 @@ const Caterpillar = () => (
     <div class="container">
         <div class="row">
         <p class="text-center text-xl-start">promotional email</p>
-          <div class="emails">
+          <div class="col-lg-8">
             <div class="desktop">
               <object data="https://epicsea.com/portfolio/2023/outerspace/caterpillar.html" aria-label="email desktop">
               </object>
             </div>
+            </div>
+            <div class="d-flex d-lg-block justify-content-center col-lg-4">
             <div class="mobile">
               <object data="https://epicsea.com/portfolio/2023/outerspace/caterpillar.html" aria-label="email mobile">
               </object>

@@ -16,25 +16,26 @@ const Bucket = () => {
     </div>
   </div>
 
-  </div>
+  </div>{/* end row */}
 
-<div class="emails-container">
+  <div class="row">
 
-  <div class="emails">
-    <div class="desktop">
-      <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/emails/may/may_10.html">
-      </object>
+    <div class="col-lg-8">
+      <div class="desktop">
+        <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/emails/may/may_10.html"></object>
+      </div>
     </div>
 
-    <div class="mobile">
-      <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/emails/may/may_10.html">
-      </object>
+    <div class="col-lg-4">
+      <div class="mobile">
+        <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/emails/may/may_10.html"></object>
+      </div>
     </div>
 
-  </div>
-</div>
+  </div>{/* end row */}
 
-</div>
+  {/* end container */}
+  </div>
 
   );
 }

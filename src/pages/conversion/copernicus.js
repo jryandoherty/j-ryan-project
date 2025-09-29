@@ -34,29 +34,30 @@ const Copernicus = () => (
       </div>
     </div>
 
-    <div class="emails-container">
 
-    <div class="emails">
+<div class="row mt-5">
+<p class="text-center text-lg-start">promotional email</p>
+    <div class="col-lg-8">
       <div class="desktop">
         <object data="https://epicsea.com/portfolio/2015/emails/june/june_9.html">
         </object>
       </div>
-
+</div>
+<div class="d-flex d-lg-block justify-content-center col-lg-4">
       <div class="mobile">
         <object data="https://epicsea.com/portfolio/2015/emails/june/june_9.html">
         </object>
       </div>
-
-    </div>
-
-    </div>{/* end emails container */}
+</div>
+    </div>{/* row */}
 </div>{/* end container */}
 
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12-lg webpage">
 
+      <div class="col-12-lg webpage">
+  <p class="text-center text-lg-start">conversion page</p>
           <object name="frame" data="https://master--verdant-kringle-235340.netlify.app/portfolio/2015/copernicus/copernicus.html" aria-label="live page">
           </object>
           <div class="stand"></div>

@@ -15,8 +15,8 @@ function PortNav() {
 
   return (
     <>
-    <div class="container-md mt-3 mb-lg-5 d-flex justify-content-between align-items-center flex-column-reverse flex-md-row mobile-nav">
-    
+    <div class="container-md mt-3 mb-lg-5 d-flex align-items-center align-items-lg-start flex-column-reverse mobile-nav">
+
       <Button variant="primary" className="d-lg-none mb-4 mb-md-0" onClick={handleShow} aria-label="more projects">
         MORE PROJECTS +
       </Button>

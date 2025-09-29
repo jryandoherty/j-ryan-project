@@ -17,28 +17,28 @@ const BDC = () => {
     </div>
   </div>
 
-  </div>
+  </div>{/* end row */}
 
-    <div class="emails-container">
+<div class="row">
 
-      <div class="emails">
-        <div class="desktop">
-          <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2017/emails_bdc/template_Nov.html" aria-label="live email">
-          </object>
-        </div>
-
-        <div class="mobile">
-          <object data="https://master--verdant-kringle-235340.netlify.app//portfolio/2017/emails_bdc/template_Nov.html" aria-label="live email">
-          </object>
-        </div>
-
+    <div class="col-lg-8">
+      <div class="desktop">
+        <object data="https://www.epicsea.com/portfolio/2017/emails_bdc/template_Nov.html"></object>
       </div>
-
     </div>
+
+    <div class="col-lg-4">
+      <div class="mobile">
+        <object data="https://www.epicsea.com/portfolio/2017/emails_bdc/template_Nov.html"></object>
+      </div>
+    </div>
+
+</div>{/* end row */}
+
+{/* end container */}
 </div>
 
   );
 }
-
 
 export default BDC

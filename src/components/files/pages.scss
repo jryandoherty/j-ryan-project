@@ -19,11 +19,10 @@
 
 .emails {
 
-	display:flex;
+display:flex;
 
 	@media(max-width:1480px) {
-		flex-direction: column;
-		align-items: center;
+
 	}
 
 }
@@ -38,10 +37,22 @@
 	border-radius: 5px;
 	margin-top:2%;
 
+
+	@media(max-width:1200px){
+		width:675px;
+		height:514px;
+
+	}
+
 	object {
 		margin: 115px auto 0 ;
 		height: 478px;
 		width:780px;
+		@media(max-width:1200px){
+			width:675px;
+			height:514px;
+
+		}
 	}
 
 	@media(max-width:1100px) {
@@ -49,7 +60,7 @@
 		-webkit-transform-origin: top center;
 	}
 
-	@media(max-width: 767px){
+	@media(max-width: 991px){
 		display:none;
 	}
 }
@@ -66,6 +77,21 @@
 	-moz-transform-origin: top center;
 	-webkit-transform: scale(0.70);
 	-webkit-transform-origin: top center;
+	@media (max-width:992px){
+		-ms-zoom: 0.90;
+		-moz-transform: scale(0.90);
+		-moz-transform-origin: top center;
+		-webkit-transform: scale(0.90);
+		-webkit-transform-origin: top center;
+			margin-top:0;
+	}
+
+
+	@media (max-width:1200px){
+		width:365px;
+		min-height:685px;
+		background-size: 365px 685px;
+	}
 
 	object {
 		margin: 50px auto 0;
@@ -75,6 +101,10 @@
 		border: 1px solid #000;
 	 	border-bottom-left-radius: 45px;
 		border-bottom-right-radius: 45px;
+		@media (max-width:1200px){
+			width:334px;
+			height:625px;
+		}
 	}
 
 }

@@ -5,7 +5,6 @@ import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 import NavBar from "../../components/port-nav";
 import Email from "../../components/emails/understory";
-import outerSpace from '../../static/kp-ao.pdf'
 
 const Understory = () => (
 
@@ -36,7 +35,7 @@ const Understory = () => (
             </div>
           </div>
 
-            <div class="col-lg-6 text-center text-lg-end">
+            <div class="col-lg-6 text-center text-lg-end my-5 m-lg-0">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.77 35.17">
               <g data-name="understory Image">
                 <g>
@@ -119,7 +118,23 @@ const Understory = () => (
 
          </div>{/* end row */}
 
-         <Email></Email>
+  </div>{/* end container */}
+  <div class="container">
+         <div class="row">
+<p class="text-center text-xl-start">promotional email</p>
+             <div class="col-lg-8">
+               <div class="desktop">
+                 <object data="https://epicsea.com/portfolio/2023/outerspace/understory.html"></object>
+               </div>
+             </div>
+
+             <div class="d-flex d-lg-block justify-content-center col-lg-4">
+               <div class="mobile">
+                 <object data="https://epicsea.com/portfolio/2023/outerspace/understory.html"></object>
+               </div>
+             </div>
+
+         </div>{/* end row */}
 
     </div>{/* end container */}
 

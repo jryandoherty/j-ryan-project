@@ -16,24 +16,25 @@ const CE = () => {
     </div>
 
   </div>
-  </div>
+  </div>{/* end row */}
 
-<div class="emails-container">
+<div class="row">
 
-  <div class="emails">
-    <div class="desktop">
-      <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html">
-      </object>
+    <div class="col-lg-8">
+      <div class="desktop">
+        <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html"></object>
+      </div>
     </div>
 
-    <div class="mobile">
-      <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html">
-      </object>
+    <div class="col-lg-4">
+      <div class="mobile">
+        <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html"></object>
+      </div>
     </div>
 
-  </div>
-</div>
+</div>{/* end row */}
 
+{/* end container */}
 </div>
 
   );
