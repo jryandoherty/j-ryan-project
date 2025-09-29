@@ -80,12 +80,14 @@ const Creativity = () => (
 
 <div class="container">
     <div class="row">
-    <p>promotional email</p>
-      <div class="emails">
-        <div class="desktop">
-          <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html">
-          </object>
-        </div>
+    <p class="text-center text-lg-start">promotional email</p>
+      <div class="col-lg-8">
+          <div class="desktop">
+            <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html">
+            </object>
+          </div>
+      </div>
+      <div class="d-flex d-lg-block justify-content-center col-lg-4">
 
         <div class="mobile">
           <object data="https://epicsea.com/portfolio/2023/outerspace/ce.html">
@@ -93,8 +95,9 @@ const Creativity = () => (
         </div>
 
       </div>
-    </div>
-</div>
+    </div>{/* end row */}
+
+</div>{/* end container */}
 
   </Layout>
 )

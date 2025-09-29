@@ -35,32 +35,32 @@ const OuterSpace = () => (
           </div>{/* end left column */}
 
 
-          <div class="col-lg-6 text-center text-lg-end">
+          <div class="col-lg-6 text-center text-lg-end mt-5 mt-lg-0">
             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1755016912/outer-space-arts/galleryAsset_1_ggftpn.svg"
-            alt="Logo for an exhibition entitled Worlds" class="w-50" />
+            alt="Logo for an a gallery named Outer Space" class="w-50" />
           </div>
 
         </div>{/* end row */}
 
 
-        <div class="row mt-4">
+        <div class="row mt-5">
           <p class="text-center">stickers</p>
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-6 text-center mb-4 mb-lg-0">
             <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-black_huspum.svg"
             style={{width:`80%`}}
-            alt="Logo for a gallery called Outer Space"/>
+            alt="sticker Logo for a gallery called Outer Space"/>
           </div>
 
           <div class="col-lg-6 text-center">
            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1688761893/logos/os-white_e1w0dn.svg"
            style={{width:`80%`}}
-           alt="Logo for a gallery called Outer Space"/>
+           alt="sticker Logo for a gallery called Outer Space"/>
           </div>
 
           </div>{/* end row */}
 
 
-          <div class="row mt-4">
+          <div class="row mt-5">
             <p class="text-center">outdoor sign</p>
             <div class="col-lg-12 text-center">
              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1750265854/outer-space-arts/yard-sign-new-5_fl8gih.png"
@@ -78,7 +78,7 @@ const OuterSpace = () => (
     <div class="row">
 
       <div class="col-lg-12 webpage my-5">
-       <p class="text-center">website</p>
+       <p class="text-center text-lg-start">website</p>
           <object name="frame" data="https://outerspacearts.xyz" aria-label="live page"></object>
         <div class="stand"></div>
         <div class="base"></div>
