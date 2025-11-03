@@ -20,12 +20,12 @@ const Cloud = () => {
 
     <div class="emails">
       <div class="desktop">
-        <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/emails/may/may12.html">
+        <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/emails/may/may12.html" aria-label="email">
         </object>
       </div>
 
       <div class="mobile">
-        <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/emails/may/may12.html">
+        <object data="https://master--verdant-kringle-235340.netlify.app/portfolio/2016/emails/may/may12.html" aria-label="email">
         </object>
       </div>
 

@@ -30,13 +30,13 @@ const Understory = () => (
         </div>
 
         <div className="col-lg-8 text-center">
-        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758132812/outer-space-arts/understory/understory-riley_cndzzp.webp" class="w-75" />
+        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758132812/outer-space-arts/understory/understory-riley_cndzzp.webp" alt="poster" class="w-75" />
         </div>
 
         </div>{/* end row */}
         <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
           <div className="col-lg-8 offset-lg-4 text-center">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758133111/outer-space-arts/understory/understory-breininger_pgt5oj.webp" class="w-75" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758133111/outer-space-arts/understory/understory-breininger_pgt5oj.webp" alt="poster" class="w-75" />
           </div>
 
         </div>{/* end row */}

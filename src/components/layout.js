@@ -9,7 +9,10 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
+
 import "../components/jryan.scss"
+
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 import Header from "./header"
@@ -105,7 +108,6 @@ const Layout = ({ children }) => {
 
         </footer>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
 
       </div>
     </>

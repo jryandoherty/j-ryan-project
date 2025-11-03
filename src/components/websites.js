@@ -114,7 +114,7 @@ const Websites = () => {
         quality={95}
         formats={["auto", "webp"]}
         alt="thumbnail image of a mac laptop"
-        placeholder="blurred"
+        
       />
       </Link>
 

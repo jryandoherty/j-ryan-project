@@ -27,7 +27,7 @@ const Caterpillar = () => (
               <ul>
                 <li><strong>Client:</strong> Outer Space Arts</li>
                 <li><strong>Date:</strong> November 2024</li>
-                <li><strong>Typeface:</strong> <a href="https://fonts.adobe.com/fonts/abril" target="_blank" rel="noreferrer">Abril Fatface</a>, <a href="https://fonts.adobe.com/fonts/josefin-sans" target="_blank">Josefin Sans Thin</a></li>
+                <li><strong>Typeface:</strong> <a href="https://fonts.adobe.com/fonts/abril" target="_blank" rel="noreferrer">Abril Fatface</a>, <a href="https://fonts.adobe.com/fonts/josefin-sans" target="_blank" rel="noreferrer">Josefin Sans Thin</a></li>
                 <li><strong>Software:</strong> InDesign, Illustrator, Photoshop</li>
               </ul>
               <p class="mt-4">Branding for Caterpillar exhibition featuring works by Emma cc Cook and Em Kettner.</p>

@@ -1,285 +1,272 @@
 .emails-container {
+  .container {
+    max-width: 1024px !important;
+  }
 
-	.container {
-		max-width:1024px!important;
-	}
+  .crumbs {
+    font-size: 85%;
+    padding: 0 0 12px 0;
+    border-bottom: 1px solid $breadcrumbs;
+  }
 
-	.crumbs {
-		font-size:85%;
-		padding:0 0 12px 0;
-		border-bottom:1px solid $breadcrumbs;
-		}
-
-		@media(max-width:1100px){
-			.crumbs{
-				text-align:center;
-			}
-		}
+  @media (max-width: 1100px) {
+    .crumbs {
+      text-align: center;
+    }
+  }
 }
 
 .emails {
+  display: flex;
 
-display:flex;
-
-	@media(max-width:1480px) {
-
-	}
-
+  @media (max-width: 1480px) {
+  }
 }
 
 .desktop {
-	height:594px;
-	width:780px;
-	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1755197014/emails-html/email-black_pmuica.png')no-repeat top center;
-	background-size:cover;
-	padding:0;
-	box-shadow:0 0 5px $sienna;
-	border-radius: 5px;
-	margin-top:2%;
+  height: 594px;
+  width: 780px;
+  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1755197014/emails-html/email-black_pmuica.png")
+    no-repeat top center;
+  background-size: cover;
+  padding: 0;
+  box-shadow: 0 0 5px $sienna;
+  border-radius: 5px;
+  margin-top: 2%;
 
+  @media (max-width: 1200px) {
+    width: 675px;
+    height: 514px;
+  }
 
-	@media(max-width:1200px){
-		width:675px;
-		height:514px;
+  object {
+    margin: 115px auto 0;
+    height: 478px;
+    width: 780px;
+    @media (max-width: 1200px) {
+      width: 675px;
+      height: 514px;
+    }
+  }
 
-	}
+  @media (max-width: 1100px) {
+    -moz-transform-origin: top center;
+    -webkit-transform-origin: top center;
+  }
 
-	object {
-		margin: 115px auto 0 ;
-		height: 478px;
-		width:780px;
-		@media(max-width:1200px){
-			width:675px;
-			height:514px;
-
-		}
-	}
-
-	@media(max-width:1100px) {
-		-moz-transform-origin: top center;
-		-webkit-transform-origin: top center;
-	}
-
-	@media(max-width: 991px){
-		display:none;
-	}
+  @media (max-width: 991px) {
+    display: none;
+  }
 }
 
-
 .mobile {
-	width:430px;
-	min-height:808px;
-	margin-top:2rem;
-	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1758379235/iphone-case_ampmyc.png') no-repeat top center;
-	background-size: 430px 808px;
-	-ms-zoom: 0.70;
-	-moz-transform: scale(0.70);
-	-moz-transform-origin: top center;
-	-webkit-transform: scale(0.70);
-	-webkit-transform-origin: top center;
-	@media (max-width:992px){
-		-ms-zoom: 0.90;
-		-moz-transform: scale(0.90);
-		-moz-transform-origin: top center;
-		-webkit-transform: scale(0.90);
-		-webkit-transform-origin: top center;
-			margin-top:0;
-	}
+  width: 430px;
+  min-height: 808px;
+  margin-top: 2rem;
+  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1758379235/iphone-case_ampmyc.png")
+    no-repeat top center;
+  background-size: 430px 808px;
+  -ms-zoom: 0.7;
+  -moz-transform: scale(0.7);
+  -moz-transform-origin: top center;
+  -webkit-transform: scale(0.7);
+  -webkit-transform-origin: top center;
+  @media (max-width: 992px) {
+    -ms-zoom: 0.85;
+    -moz-transform: scale(0.85);
+    -moz-transform-origin: top center;
+    -webkit-transform: scale(0.85);
+    -webkit-transform-origin: top center;
+    margin-top: 0;
+  }
 
+  @media (max-width: 1200px) {
+    width: 365px;
+    min-height: 685px;
+    background-size: 365px 685px;
+  }
 
-	@media (max-width:1200px){
-		width:365px;
-		min-height:685px;
-		background-size: 365px 685px;
-	}
-
-	object {
-		margin: 50px auto 0;
-	  height: 745px;
-	  width: 393px;
-	  margin-left: 18px;
-		border: 1px solid #000;
-	 	border-bottom-left-radius: 45px;
-		border-bottom-right-radius: 45px;
-		@media (max-width:1200px){
-			width:334px;
-			height:625px;
-		}
-	}
-
+  object {
+    margin: 50px auto 0;
+    height: 745px;
+    width: 393px;
+    margin-left: 18px;
+    border: 1px solid #000;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    @media (max-width: 1200px) {
+      width: 334px;
+      height: 625px;
+    }
+  }
 }
 
 .webpage {
-	margin:0 auto;
-	-ms-zoom: 0.85;
- -moz-transform: scale(0.85);
- -moz-transform-origin: top center;
- -webkit-transform: scale(0.85);
- -webkit-transform-origin: top center;
+  margin: 0 auto;
+  -ms-zoom: 0.85;
+  -moz-transform: scale(0.85);
+  -moz-transform-origin: top center;
+  -webkit-transform: scale(0.85);
+  -webkit-transform-origin: top center;
 
-	@media(max-width:768px) {
-		width:100%;
-		-ms-zoom: .95;
-	 -moz-transform: scale(.95);
-	 -moz-transform-origin: top center;
-	 -webkit-transform: scale(.95);
-	 -webkit-transform-origin: top center;
-	}
+  @media (max-width: 768px) {
+    width: 100%;
+    -ms-zoom: 0.95;
+    -moz-transform: scale(0.95);
+    -moz-transform-origin: top center;
+    -webkit-transform: scale(0.95);
+    -webkit-transform-origin: top center;
+  }
 
-	@media(min-width:1400px) {
-		width:1380px;
-	}
+  @media (min-width: 1400px) {
+    width: 1380px;
+  }
 
-	@media(min-width:1600px) {
-		width:1480px;
-	}
+  @media (min-width: 1600px) {
+    width: 1480px;
+  }
 
-	.col-lg-6:last-of-type {
-			@media(max-width:1199px) {
-			text-align:center;
-		}
-	}
+  .col-lg-6:last-of-type {
+    @media (max-width: 1199px) {
+      text-align: center;
+    }
+  }
 
-	.col-lg-3, .col-lg-4 {
-		padding-right:50px;
-	}
+  .col-lg-3,
+  .col-lg-4 {
+    padding-right: 50px;
+  }
 
-	.col-lg-8, .col-lg-7 {
-		padding: 0;
-	}
+  .col-lg-8,
+  .col-lg-7 {
+    padding: 0;
+  }
 
-	.row:first-of-type {
-	 	margin:2rem 0;
-		align-items: center;
- 	}
+  .row:first-of-type {
+    margin: 2rem 0;
+    align-items: center;
+  }
 
-	.row:nth-of-type(2) {
-		margin-bottom:4%;
-	}
+  .row:nth-of-type(2) {
+    margin-bottom: 4%;
+  }
 
-	pre {
-		height:640px;
-		overflow-y: scroll;
-	}
+  pre {
+    height: 640px;
+    overflow-y: scroll;
+  }
 
-	iframe, object {
-		min-height:868px;
-		width:100%;
-		border: 20px solid #444;
-	  border-radius: 20px;
-	  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
-		@media(max-width:768px){
-			border: 10px solid #444;
-			min-height:800px;
-		}
-	}
+  iframe,
+  object {
+    min-height: 868px;
+    width: 100%;
+    border: 20px solid #444;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    @media (max-width: 768px) {
+      border: 10px solid #444;
+      min-height: 800px;
+    }
+  }
 
-	.legend {
-		font-size:115%;
-	}
+  .legend {
+    font-size: 115%;
+  }
 
-	.crumbs {
-		font-size:100%;
-		border-bottom:1px solid $breadcrumbs;
-		padding-right:0!important;
-		@media(max-width:480px){
-			font-size:90%;
-		}
-	}
-
-}/* end webpage */
-
+  .crumbs {
+    font-size: 100%;
+    border-bottom: 1px solid $breadcrumbs;
+    padding-right: 0 !important;
+    @media (max-width: 480px) {
+      font-size: 90%;
+    }
+  }
+} /* end webpage */
 
 .legend {
+  h2 {
+    font-size: 1.3em;
+    margin-bottom: 12px;
+  }
 
-	h2 {
-		font-size: 1.3em;
-		margin-bottom:12px;
-	}
+  ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
 
-	ul {
-		list-style-type: none;
-		text-align: left;
-		margin: 0;
-		padding:0;
-	}
+  li {
+    margin: 0 0 4px 0;
+  }
 
-	li {
-		margin:0 0 4px 0;
-	}
-
-	svg {
-		width:44px;
-		height:44px;
-		fill:$white;
-		&:hover {
-			fill:#6cc644;
-		}
-	}
-
+  svg {
+    width: 44px;
+    height: 44px;
+    fill: $white;
+    &:hover {
+      fill: #6cc644;
+    }
+  }
 }
 
 .screenshot {
+  .row:first-of-type {
+    margin-top: 2rem;
+    -ms-zoom: 0.85;
+    -moz-transform: scale(0.85);
+    -moz-transform-origin: top center;
+    -webkit-transform: scale(0.85);
+    -webkit-transform-origin: top center;
+  }
 
-	.row:first-of-type {
-	 	margin-top:2rem;
-		-ms-zoom: 0.85;
-	 -moz-transform: scale(0.85);
-	 -moz-transform-origin: top center;
-	 -webkit-transform: scale(0.85);
-	 -webkit-transform-origin: top center;
+  .row:nth-of-type(2) {
+    margin-bottom: 4%;
+  }
 
- 	}
-
-	.row:nth-of-type(2) {
-		margin-bottom:4%;
-	}
-
-	.legend {
-		font-size:115%;
-		margin:0;
-
-	}
-	+ footer {
-		background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
-		background-size:cover;
-	}
+  .legend {
+    font-size: 115%;
+    margin: 0;
+  }
+  + footer {
+    background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp")
+      $altblack;
+    background-size: cover;
+  }
 }
 
 .thumbnail-webpage {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:row;
-		max-width:500px;
-		margin-top:20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 500px;
+  margin-top: 20px;
 
-		img {
-			width:150px;
-			height:100px;
-			box-shadow: 1px 2px 3px $sienna;
-			@media (max-width:460px){
-				width:110px;
-				height:auto;
-			}
-		}
+  img {
+    width: 150px;
+    height: 100px;
+    box-shadow: 1px 2px 3px $sienna;
+    @media (max-width: 460px) {
+      width: 110px;
+      height: auto;
+    }
+  }
 
-		a {
-			&:hover{
-				width:1200px;
-			}
-		}
+  a {
+    &:hover {
+      width: 1200px;
+    }
+  }
 
-		p {
-			padding:20px 0;
-		}
+  p {
+    padding: 20px 0;
+  }
 
-		& >* {
-			flex: 1 1;
-		}
+  & > * {
+    flex: 1 1;
+  }
 }
 
-
-
 .item {
-	text-align: center;
+  text-align: center;
 }

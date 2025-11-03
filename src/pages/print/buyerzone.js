@@ -33,15 +33,15 @@ const Bz = () => (
     <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
 
         <div className="col-lg-4">
-          <a href={dataConnect} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574293/thumbs_brochures/data_connect_jjj0yt.webp" alt="thumbnail of a marketing pdf" class="w-100" style={{background:`#fff`, padding:`12px`, border:`4px solid #333`}} /></a>
+          <a href={dataConnect} target="_blank" rel="noreferrer"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574293/thumbs_brochures/data_connect_jjj0yt.webp" alt="thumbnail of a marketing pdf" class="w-100" style={{background:`#fff`, padding:`12px`, border:`4px solid #333`}} /></a>
         </div>
 
         <div className="col-lg-4">
-            <a href={contentConnect} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574293/thumbs_brochures/connent_connect_tvjinp.webp" alt="thumbnail of a marketing pdf" class="w-100" style={{background:`#fff`, padding:`12px`, border:`4px solid #333`}} /></a>
+            <a href={contentConnect} target="_blank" rel="noreferrer"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574293/thumbs_brochures/connent_connect_tvjinp.webp" alt="thumbnail of a marketing pdf" class="w-100" style={{background:`#fff`, padding:`12px`, border:`4px solid #333`}} /></a>
         </div>
 
         <div className="col-lg-4">
-          <a href={stateB2B} target="_blank"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758375689/thumbs_brochures/state-of-b2b-2013e_uou2rz.webp" alt="thumbnail of a marketing pdf" class="w-100"  /></a>
+          <a href={stateB2B} target="_blank" rel="noreferrer"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758375689/thumbs_brochures/state-of-b2b-2013e_uou2rz.webp" alt="thumbnail of a marketing pdf" class="w-100"  /></a>
         </div>
 
       </div>{/* end row */}

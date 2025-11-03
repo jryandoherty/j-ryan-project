@@ -4,7 +4,6 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import Helmet from 'react-helmet'
 import NavBar from "../../components/port-nav";
-import Email from "../../components/emails/understory";
 
 const Understory = () => (
 
@@ -124,13 +123,13 @@ const Understory = () => (
 <p class="text-center text-xl-start">promotional email</p>
              <div class="col-lg-8">
                <div class="desktop">
-                 <object data="https://epicsea.com/portfolio/2023/outerspace/understory.html"></object>
+                 <object data="https://epicsea.com/portfolio/2023/outerspace/understory.html" aria-label="email"></object>
                </div>
              </div>
 
              <div class="d-flex d-lg-block justify-content-center col-lg-4">
                <div class="mobile">
-                 <object data="https://epicsea.com/portfolio/2023/outerspace/understory.html"></object>
+                 <object data="https://epicsea.com/portfolio/2023/outerspace/understory.html" aria-label="email"></object>
                </div>
              </div>
 

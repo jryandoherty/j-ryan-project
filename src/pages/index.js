@@ -141,7 +141,7 @@ const IndexPage = () => (
              <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/t_Square/v1650997088/portrait_tbsdrz.webp" type="image/webp" style={{borderRadius:`50%`}} />
              <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_jci1ne.jpg" alt="portrait of J. Ryan Doherty" class="w-100" style={{borderRadius:`50%`, minWidth:`170px`, border:`2px solid #C4B01E`}} />
           </picture>
-          <p>I've been working on the web since the early 2000s, designing and building for freelance clients, corporations, and non-profits alike. My projects have ranged from full websites and landing pages to conversion funnels and marketing emails. The web has changed a lot since then -- and that's what keeps it exciting. When I'm not designing or writing code, you'll probably find me out <a href="https://ebird.org/profile/MTgyMDYz/US-MA" target="_blank">birding</a>.</p>
+          <p>I've been working on the web since the early 2000s, designing and building for freelance clients, corporations, and non-profits alike. My projects have ranged from full websites and landing pages to conversion funnels and marketing emails. The web has changed a lot since then -- and that's what keeps it exciting. When I'm not designing or writing code, you'll probably find me out <a href="https://ebird.org/profile/MTgyMDYz/US-MA" target="_blank" rel="noreferrer">birding</a>.</p>
         </div>
         <div class="col-sm-4 col-lg-2 text-center">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.62 264.35" style={{maxWidth:`220px`}}>

@@ -29,13 +29,13 @@ const Caterpillar = () => (
         </div>
 
         <div className="col-lg-8 text-center">
-          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296432/outer-space-arts/caterpillar/caterpillar-cook_drzfrs.webp" class="w-75" />
+          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296432/outer-space-arts/caterpillar/caterpillar-cook_drzfrs.webp" alt="poster" class="w-75" />
         </div>
 
         </div>{/* end row */}
         <div className="row" style={{marginTop: `4rem`, marginBottom:`4rem`}}>
           <div className="col-lg-8 offset-lg-4 text-center">
-            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296960/outer-space-arts/caterpillar/flyer-cook-kettner_bthqvs.webp" class="w-75" />
+            <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1758296960/outer-space-arts/caterpillar/flyer-cook-kettner_bthqvs.webp" alt="poster" class="w-75" />
           </div>
 
         </div>{/* end row */}
