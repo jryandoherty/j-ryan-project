@@ -191,13 +191,6 @@ const USChamber = () => (
         </div>
       </div>
       <div class="row">
-        <iframe
-          width="800"
-          height="450"
-          src="https://embed.figma.com/design/9deYMAfKmBawDPA7bj1xUY/DZone-Parent?node-id=2-2&embed-host=share"
-          allowfullscreen
-        ></iframe>
-
         <div class="item my-3">
           <img
             src="https://res.cloudinary.com/jryandoherty/image/upload/c_pad,w_1920/v1755019091/screens/chamber/Screen_Shot_2025-06-19_at_11.12.41_AM_zifbqr.webp"

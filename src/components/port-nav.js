@@ -1,54 +1,61 @@
 import * as React from "react"
-import { useState } from 'react';
+import { useState } from "react"
 
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import Nav from 'react-bootstrap/Nav';
+import Button from "react-bootstrap/Button"
+import Offcanvas from "react-bootstrap/Offcanvas"
+import Nav from "react-bootstrap/Nav"
 import { Link } from "gatsby"
 
-
 function PortNav() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false)
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
 
   return (
     <>
-    <div class="container-md mt-3 mb-0 mb-md-3 mb-lg-5 d-flex align-items-center align-items-lg-start flex-column-reverse mobile-nav">
+      <div class="container-md mt-3 mb-0 mb-md-3 mb-lg-5 d-flex align-items-center align-items-lg-start flex-column-reverse mobile-nav">
+        <Button
+          variant="primary"
+          className="d-lg-none mb-4 mb-md-0"
+          onClick={handleShow}
+          aria-label="more projects"
+        >
+          MORE PROJECTS +
+        </Button>
 
-      <Button variant="primary" className="d-lg-none mb-4 mb-md-0" onClick={handleShow} aria-label="more projects">
-        MORE PROJECTS +
-      </Button>
-
-      <Offcanvas show={show} onHide={handleClose} responsive="lg" aria-label="mobile menu">
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>J. Ryan Doherty Projects</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-        <Nav variant="pills" aria-label="projects menu">
-          <Nav.Item>
-            <Link to="/portfolio/">websites</Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link to="/logos/">branding</Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link to="/conversion/">conversion projects</Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link to="/print/">print</Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link to="/emails/">email marketing</Link>
-          </Nav.Item>
-
-        </Nav>
-        </Offcanvas.Body>
-      </Offcanvas>
+        <Offcanvas
+          show={show}
+          onHide={handleClose}
+          responsive="lg"
+          aria-label="mobile menu"
+        >
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title>J. Ryan Doherty Projects</Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <Nav variant="pills" aria-label="projects menu">
+              <Nav.Item>
+                <Link to="/portfolio/">websites</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/logos/">branding</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/conversion/">conversion projects</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/print/">print</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/emails/">email marketing</Link>
+              </Nav.Item>
+            </Nav>
+          </Offcanvas.Body>
+        </Offcanvas>
       </div>
     </>
-  );
+  )
 }
 
-export default PortNav;
+export default PortNav
