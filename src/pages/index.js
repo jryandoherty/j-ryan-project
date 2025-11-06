@@ -83,7 +83,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/t_thumbnail-vert/v1756772122/screens/FireShot_Capture_026_-_BuyerZone_Purchasing_For_Your_Business_Made_Easy_-_epicsea.com_ys4usz.png"
                 className="w-100 rounded mb-4"
-                alt="thumbnail of b2b website page"
+                alt="view the design of the buyerzone website"
               />
             </Link>
 
@@ -91,7 +91,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573273/thumbs_conversion/hornet_gmpndj.jpg"
                 className="w-100 rounded mt-1"
-                alt="thumbnail of construction themed conversion page"
+                alt="view the design of the construction portal landing page"
               />
             </Link>
           </div>
@@ -101,7 +101,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1754065700/thumbs_sites/mian-iphone_m8mdrm.webp"
                 className="w-100 rounded mb-4"
-                alt="iphone screenshot of a natural stone installer website"
+                alt="view the design of the louis mian website"
                 style={{ maxHeight: `360px` }}
               />
             </Link>
@@ -112,7 +112,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1693249428/partner-page/cta_mjklsl.svg"
                 className="w-100 mb-5"
-                alt="branding for a b2b partner website"
+                alt="view the design of the business.com partner website"
               />
             </Link>
 
@@ -120,7 +120,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1747929889/outer-space-arts/understory/banner3_yurktp.jpg"
                 className="w-100 mt-0 mb-5 rounded"
-                alt="branding for a gallery exhibition"
+                alt="view the design of an art exhibition entitled 'Understory'"
               />
             </Link>
 
@@ -128,7 +128,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1731021732/portArtboard_1_zrfe4a.svg"
                 className="w-100 mt-0 mt-xl-3"
-                alt="logo for an artist"
+                alt="view the website and branding for Windowz by Liberty"
               />
             </Link>
           </div>
@@ -138,7 +138,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1758215437/moleculeArtboard_1_nbco9n.svg"
                 className="d-none d-sm-block w-100 rounded mb-0 mb-lg-4"
-                alt="US Chamber molecule graphic"
+                alt="View prototypes for the US Chamber of Commerce website"
               />
             </Link>
 
@@ -146,7 +146,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1750178099/outer-space-arts/logo-black_q0pr68.png"
                 className="w-100 rounded"
-                alt="thumbnail of the Worlds exhibition logo"
+                alt="view the design of an art exhibition entitled 'Worlds'"
               />
             </Link>
           </div>
@@ -156,7 +156,8 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1727458023/image-2_mkbsso.jpg"
                 className="w-100 rounded mb-4"
-                alt="thumbnail of a website"
+                alt="view the design of a website for Cryptids Cannabis
+                LLC"
               />
             </Link>
 
@@ -164,7 +165,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1747415961/logos/logoArtboard_1_vs32zi.svg"
                 className="w-100 shadow-1-strong rounded mb-4 d-none d-sm-block"
-                alt="branding for an elevator company"
+                alt="view the design of an art exhibition entitled 'Caterpillar'"
               />
             </Link>
 
@@ -172,7 +173,7 @@ const IndexPage = () => (
               <img
                 src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/maavian_d2bnie.jpg"
                 className="d-none d-sm-block w-100 shadow-1-strong rounded"
-                alt="thubnail of the Massachusetts Avian Records website"
+                alt="view the design of a website for the Massachusetts Avian Records Committee"
               />
             </Link>
           </div>

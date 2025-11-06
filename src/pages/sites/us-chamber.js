@@ -24,9 +24,6 @@ const USChamber = () => (
               <strong>Client:</strong> US Chamber of Commerce
             </li>
             <li>
-              <strong>Date:</strong> 2023
-            </li>
-            <li>
               <strong>Software:</strong> Figma
             </li>
             <li>
