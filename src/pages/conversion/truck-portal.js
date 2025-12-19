@@ -33,6 +33,12 @@ const Trucks = () => (
               <li>
                 <strong>Typefaces:</strong> Neuzeit Grotesk
               </li>
+              <a
+                href="https://github.com/jryandoherty/construction/tree/main"
+                target="_blank"
+              >
+                Code on GitHub
+              </a>
 
               <p class="mt-4">
                 A specialized conversion portal and promotional email campaign
