@@ -33,10 +33,7 @@ const Trucks = () => (
               <li>
                 <strong>Typefaces:</strong> Neuzeit Grotesk
               </li>
-              <a
-                href="https://github.com/jryandoherty/construction/tree/main"
-                target="_blank"
-              >
+              <a href="https://github.com/jryandoherty/trucks" target="_blank">
                 Code on GitHub
               </a>
 
